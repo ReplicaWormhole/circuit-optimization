@@ -1,5 +1,14 @@
 # Four-qubit cycle circuit optimization
 
+[![Gate-by-gate circuit animation: the complete 16 by 16 matrices after every gate](docs/media/circuit-matrices-preview.gif)](docs/media/circuit-matrices-3.5x.mp4)
+
+**[Watch or download the 4K video](docs/media/circuit-matrices-3.5x.mp4)** · 18.57 seconds · 3.5× speed
+
+The animation follows the 30-gate, 11-CNOT circuit, showing the full cumulative
+matrix and the conjugated shift after each gate. The active gate is highlighted;
+complex entries are rounded to three decimals. The research records below are
+an earlier published snapshot that predates this animation.
+
 This repository studies exact, ancilla-free diagonalizers of the four-qubit
 right shift
 
@@ -9,7 +18,7 @@ Qubit zero is the most significant bit. Gates are listed in chronological
 order. A valid diagonalizer satisfies `U V4 = D U`, with arbitrary eigenvalue
 order and arbitrary orthonormal bases within degenerate eigenspaces.
 
-## Current result
+## Published research snapshot
 
 For arbitrary one-qubit gates and all-to-all directed CNOTs, the established
 interval is **6 <= C_min <= 13**. The [accepted 13-CNOT circuit](collaboration/work/algebraic13_new/canonical_algebraic_ansatz.json)
