@@ -1,0 +1,459 @@
+{
+  "warm_source": "search13_prefix_delete_fit_p4_s1.json",
+  "seed": 25040,
+  "warm_sigma": 0.05,
+  "random_sigma": 0.4,
+  "maxiter": 300,
+  "rows": [
+    {
+      "initial_loss": 0.8828756235483066,
+      "loss": 0.417766259687288,
+      "nit": 89,
+      "nfev": 162,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "case": 0,
+      "start": "warm",
+      "prefix": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "endpoint": [
+        15,
+        5,
+        14,
+        9
+      ],
+      "tail": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_joint_gauge_five_endpoint_0_warm.json",
+      "off_diagonal_error": 0.9104120009918956,
+      "valid_diagonalizer": false
+    },
+    {
+      "initial_loss": 0.9280478956886331,
+      "loss": 0.3749999999999999,
+      "nit": 69,
+      "nfev": 102,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "case": 0,
+      "start": "random",
+      "prefix": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "endpoint": [
+        15,
+        5,
+        14,
+        9
+      ],
+      "tail": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_joint_gauge_five_endpoint_0_random.json",
+      "off_diagonal_error": 0.7253198770637871,
+      "valid_diagonalizer": false
+    },
+    {
+      "initial_loss": 0.9309454107546352,
+      "loss": 0.4354037860549412,
+      "nit": 295,
+      "nfev": 357,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "case": 1,
+      "start": "warm",
+      "prefix": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "endpoint": [
+        15,
+        12,
+        11,
+        5
+      ],
+      "tail": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_joint_gauge_five_endpoint_1_warm.json",
+      "off_diagonal_error": 0.47772910884229947,
+      "valid_diagonalizer": false
+    },
+    {
+      "initial_loss": 0.9331385222794911,
+      "loss": 0.4063704318517749,
+      "nit": 300,
+      "nfev": 322,
+      "optimizer_success": false,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "case": 1,
+      "start": "random",
+      "prefix": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "endpoint": [
+        15,
+        12,
+        11,
+        5
+      ],
+      "tail": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_joint_gauge_five_endpoint_1_random.json",
+      "off_diagonal_error": 0.463751984942142,
+      "valid_diagonalizer": false
+    }
+  ],
+  "best_loss": {
+    "initial_loss": 0.9280478956886331,
+    "loss": 0.3749999999999999,
+    "nit": 69,
+    "nfev": 102,
+    "optimizer_success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "case": 0,
+    "start": "random",
+    "prefix": [
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "endpoint": [
+      15,
+      5,
+      14,
+      9
+    ],
+    "tail": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "candidate": "search13_joint_gauge_five_endpoint_0_random.json",
+    "off_diagonal_error": 0.7253198770637871,
+    "valid_diagonalizer": false
+  },
+  "best_off_diagonal": {
+    "initial_loss": 0.9331385222794911,
+    "loss": 0.4063704318517749,
+    "nit": 300,
+    "nfev": 322,
+    "optimizer_success": false,
+    "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+    "case": 1,
+    "start": "random",
+    "prefix": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "endpoint": [
+      15,
+      12,
+      11,
+      5
+    ],
+    "tail": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "candidate": "search13_joint_gauge_five_endpoint_1_random.json",
+    "off_diagonal_error": 0.463751984942142,
+    "valid_diagonalizer": false
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "candidates": [
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case0_direct.json",
+      "checker_off_diagonal_error": 0.9999999999999982,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.6250000000000007,
+      "recomputed_process_loss": 0.9210561318090882,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case0_process.json",
+      "checker_off_diagonal_error": 0.6304528836570471,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.88339715277662,
+      "recomputed_process_loss": 0.7425423402143865,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case0_warm_direct.json",
+      "checker_off_diagonal_error": 0.6329577772840987,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.6232422016175512,
+      "recomputed_process_loss": 0.9991519671096336,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case1_direct.json",
+      "checker_off_diagonal_error": 0.6272372643234796,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.3297697503385909,
+      "recomputed_process_loss": 0.995390095527517,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case1_process.json",
+      "checker_off_diagonal_error": 0.530767581955875,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.8854128392147461,
+      "recomputed_process_loss": 0.7950095557749781,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case1_warm_direct.json",
+      "checker_off_diagonal_error": 0.6329596713744912,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.6232422016961963,
+      "recomputed_process_loss": 0.9943731085171456,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case2_direct.json",
+      "checker_off_diagonal_error": 0.6759803022989336,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.5689985411950602,
+      "recomputed_process_loss": 0.9407455082754086,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case2_process.json",
+      "checker_off_diagonal_error": 0.5170955211134584,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.8845774403066886,
+      "recomputed_process_loss": 0.7729627912735146,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case2_warm_direct.json",
+      "checker_off_diagonal_error": 0.9695637034092519,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.6250000000000016,
+      "recomputed_process_loss": 0.9837863118017736,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case3_direct.json",
+      "checker_off_diagonal_error": 0.6593587992300864,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.2429984121348246,
+      "recomputed_process_loss": 0.9703782182111835,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case3_process.json",
+      "checker_off_diagonal_error": 0.5604645741385574,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.8820440818556594,
+      "recomputed_process_loss": 0.7691377566641413,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case3_warm_direct.json",
+      "checker_off_diagonal_error": 0.9999999999999988,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.43750000000000155,
+      "recomputed_process_loss": 0.9912884363597089,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case4_direct.json",
+      "checker_off_diagonal_error": 0.8796928395986604,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.6250000000000033,
+      "recomputed_process_loss": 0.9202489927346796,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_fulltail_rank8_neighborhood_fit_case4_process.json",
+      "checker_off_diagonal_error": 0.5386367088883397,
+      "cnot_count": 13,
+      "recomputed_label_free_loss": 0.9095669692014968,
+      "recomputed_process_loss": 0.7805194007232523,
+      "valid_diagonalizer": false
+    }
+  ],
+  "completed_schedules": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "direct_maxiter": 220,
+  "ledger_run": 285,
+  "partly_completed_schedule": 4,
+  "planned_schedules": 8,
+  "process_maxiter": 140,
+  "scope": "partial numerical screen only; no inference about remaining schedules or arbitrary gauges",
+  "seed": 28500,
+  "source": "search13_rank8_neighborhood_mixedcut_result.json",
+  "status": "superseded by exact direction-aware mincut screen in root run286; interrupted during case4 warm direct"
+}

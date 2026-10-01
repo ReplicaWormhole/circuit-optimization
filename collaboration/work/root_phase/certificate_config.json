@@ -1,0 +1,11 @@
+{
+  "source": "collaboration/work/numerical_label12/joint_simplify/candidate.json",
+  "source_sha256": "99742270d05745155e74379602293bfb7bf2c19782d57def349521a570a000f5",
+  "seed": null,
+  "limits": {
+    "wall_seconds": 180,
+    "threads": 1,
+    "invocations": 1
+  },
+  "scope": "Changed67CXsource exactgate-list verification, not globalimprovement"
+}

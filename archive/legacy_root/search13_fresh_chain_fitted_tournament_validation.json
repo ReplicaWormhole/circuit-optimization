@@ -1,0 +1,538 @@
+{
+  "checked": 58,
+  "all_invalid": true,
+  "ranking_verified": [
+    56,
+    39,
+    49,
+    47,
+    0,
+    30
+  ],
+  "frozen_schedules_verified": true,
+  "max_loss_error": 3.552713678800501e-15,
+  "records": [
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p0_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.36980036704256497,
+      "loss_error": 6.800116025829084e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p2_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.6041971391316943,
+      "loss_error": 2.7755575615628914e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p3_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.4995177102728456,
+      "loss_error": 1.1102230246251565e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p4_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.49435719371233633,
+      "loss_error": 3.885780586188048e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p5_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.9543354544237656,
+      "loss_error": 1.9984014443252818e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p6_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.5509771852788434,
+      "loss_error": 2.220446049250313e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p8_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.7188256942141271,
+      "loss_error": 3.552713678800501e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p9_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.48109932502619995,
+      "loss_error": 8.881784197001252e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p10_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.6904158929536025,
+      "loss_error": 8.881784197001252e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p11_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.5405358062777491,
+      "loss_error": 1.5543122344752192e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p13_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.490998516747165,
+      "loss_error": 7.216449660063518e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p14_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.6764531558678012,
+      "loss_error": 8.326672684688674e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p15_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.5981309982524864,
+      "loss_error": 1.6653345369377348e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p17_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.7071372133036437,
+      "loss_error": 3.3306690738754696e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p18_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.5197606697805889,
+      "loss_error": 1.887379141862766e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p19_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.617811463399359,
+      "loss_error": 1.27675647831893e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p20_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.885420649986395,
+      "loss_error": 1.3877787807814457e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p21_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.499167683077651,
+      "loss_error": 2.220446049250313e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p23_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.9998817384029443,
+      "loss_error": 1.7208456881689926e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p24_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.8364055407476567,
+      "loss_error": 2.4424906541753444e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p25_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.5747906910722379,
+      "loss_error": 9.992007221626409e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p26_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.9974951343339192,
+      "loss_error": 5.551115123125783e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p28_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.4764378152785179,
+      "loss_error": 3.3306690738754696e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p29_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.5615448970387277,
+      "loss_error": 7.771561172376096e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p30_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.7071065096210407,
+      "loss_error": 1.6653345369377348e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p32_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.9698705782488111,
+      "loss_error": 7.216449660063518e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p33_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.5528509960457081,
+      "loss_error": 0.0
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p34_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.6848463249066834,
+      "loss_error": 5.551115123125783e-17
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p35_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.7531550247909816,
+      "loss_error": 1.2212453270876722e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p36_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.5645107781468301,
+      "loss_error": 8.881784197001252e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p38_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.9701346810129258,
+      "loss_error": 1.5543122344752192e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p39_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.36529888305863084,
+      "loss_error": 1.249000902703301e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p40_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.9992712821619247,
+      "loss_error": 3.885780586188048e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p41_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.9426046014576667,
+      "loss_error": 2.220446049250313e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p43_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.7056457993794074,
+      "loss_error": 5.828670879282072e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p44_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.7063443485858847,
+      "loss_error": 1.1102230246251565e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p45_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.6255223935481089,
+      "loss_error": 8.326672684688674e-17
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p47_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.48199884213106425,
+      "loss_error": 3.191891195797325e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p48_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.9429077377599496,
+      "loss_error": 3.885780586188048e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p49_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.4726907033390161,
+      "loss_error": 2.7755575615628914e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p50_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.8187273376695124,
+      "loss_error": 3.3306690738754696e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p51_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.7498406503416257,
+      "loss_error": 7.771561172376096e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p53_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.9546227719468722,
+      "loss_error": 1.3322676295501878e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p54_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.9971485223137316,
+      "loss_error": 1.1102230246251565e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p55_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.6942919868917332,
+      "loss_error": 8.326672684688674e-17
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p56_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.15460112393530598,
+      "loss_error": 3.8163916471489756e-17
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p58_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.9830365362066998,
+      "loss_error": 3.885780586188048e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p59_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.6943073630716341,
+      "loss_error": 1.3877787807814457e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p60_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.7063427375668401,
+      "loss_error": 1.942890293094024e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p62_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.7070927323270259,
+      "loss_error": 9.71445146547012e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p63_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.7058861698887469,
+      "loss_error": 1.3877787807814457e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search13_fresh_chain_fitted_tournament_p64_short.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.7032440486675765,
+      "loss_error": 0.0
+    },
+    {
+      "stage": "deep",
+      "candidate": "search13_fresh_chain_fitted_tournament_p56_deep.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.12483925698533879,
+      "loss_error": 5.0306980803327406e-17
+    },
+    {
+      "stage": "deep",
+      "candidate": "search13_fresh_chain_fitted_tournament_p39_deep.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.3570941449699083,
+      "loss_error": 5.551115123125783e-17
+    },
+    {
+      "stage": "deep",
+      "candidate": "search13_fresh_chain_fitted_tournament_p49_deep.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.4800425336204346,
+      "loss_error": 5.551115123125783e-16
+    },
+    {
+      "stage": "deep",
+      "candidate": "search13_fresh_chain_fitted_tournament_p47_deep.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.4800425341927701,
+      "loss_error": 1.942890293094024e-16
+    },
+    {
+      "stage": "deep",
+      "candidate": "search13_fresh_chain_fitted_tournament_p0_deep.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.03519943733677762,
+      "loss_error": 5.204170427930421e-18
+    },
+    {
+      "stage": "deep",
+      "candidate": "search13_fresh_chain_fitted_tournament_p30_deep.json",
+      "exit_code": 1,
+      "cnot_count": 13,
+      "valid": false,
+      "off_diagonal_error": 0.7071067811865465,
+      "loss_error": 2.498001805406602e-16
+    }
+  ]
+}

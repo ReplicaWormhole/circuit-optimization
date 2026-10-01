@@ -1,0 +1,25 @@
+{
+  "prefix_cx": 8,
+  "tail_cx": 10,
+  "prefix_offdiag": 0.0,
+  "prefix_vs_twist_shift_invariant_error": 4.041272810440265e-16,
+  "tail_vs_periodic_fock_overlap_row_nonzero_counts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tail_vs_periodic_fock_monomial": true
+}

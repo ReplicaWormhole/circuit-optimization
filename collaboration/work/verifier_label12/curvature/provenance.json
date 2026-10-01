@@ -1,0 +1,9 @@
+{
+  "source_sequence_verified": true,
+  "source_sha256": "e8f7cf6193b6e466b6e62a22ab7f63331ebd30b82d72c6bf4dfe63df541dabae",
+  "source_axis_roundtrip_phase_error": 1.186692873213599e-15,
+  "base_saved_axis_roundtrip_phase_error": 9.836601059614787e-16,
+  "config_sha256": "7a3e23b5a7ae5514f35eaf054fb0a72cfe8a7b6397994e3ba24e8a79c7842e7b",
+  "script_sha256": "45c6517ca9a3f8c5453c248a2c1602da25cce26de3b5704e3c6dee80706af835",
+  "source_hash_matches_config": true
+}

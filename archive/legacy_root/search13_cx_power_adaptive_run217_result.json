@@ -1,0 +1,450 @@
+{
+  "base": "topology14_exact_matchgate_rational.json",
+  "removed_cx": 6,
+  "replay_seed": 14202,
+  "replay_sigma": 0.02,
+  "replay_maxiter": 100,
+  "replay": [
+    {
+      "alpha": 0.875,
+      "initial_loss": 0.08533990989704651,
+      "loss": 7.17215038369218e-15,
+      "nit": 88,
+      "nfev": 94,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "alpha": 0.75,
+      "initial_loss": 0.056239229934555005,
+      "loss": 1.059692133516608e-12,
+      "nit": 88,
+      "nfev": 96,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "alpha": 0.5,
+      "initial_loss": 0.20677172398724622,
+      "loss": 2.1984640034184348e-07,
+      "nit": 100,
+      "nfev": 106,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+    }
+  ],
+  "replay_max_loss_difference": 0.0,
+  "continuation_maxiter": 250,
+  "perturb_seed": 14300,
+  "perturb_sigmas": [
+    0.01,
+    0.04
+  ],
+  "continuation": [
+    {
+      "alpha": 0.45,
+      "trials": [
+        {
+          "start": "warm",
+          "alpha": 0.45,
+          "initial_loss": 0.009243054344280376,
+          "loss": 0.002639640379451465,
+          "nit": 131,
+          "nfev": 140,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ],
+      "selected_start": "warm",
+      "selected_loss": 0.002639640379451465,
+      "snapshot": {
+        "path": "search13_cx_power_adaptive_run217_alpha0.450_angles.npy",
+        "sha256": "9dd0b718fc16e969a835f47d6a2dd8e7e69dd39e1c6b944646694972bfd56376",
+        "shape": [
+          15,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "alpha": 0.4,
+      "trials": [
+        {
+          "start": "warm",
+          "alpha": 0.4,
+          "initial_loss": 0.01702364935665848,
+          "loss": 0.010510557909697675,
+          "nit": 59,
+          "nfev": 66,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ],
+      "selected_start": "warm",
+      "selected_loss": 0.010510557909697675,
+      "snapshot": {
+        "path": "search13_cx_power_adaptive_run217_alpha0.400_angles.npy",
+        "sha256": "3d3c4533ea6c2835d894524a85ead9451186f81a84d903b15ce6b51928c7bff1",
+        "shape": [
+          15,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "alpha": 0.35,
+      "trials": [
+        {
+          "start": "warm",
+          "alpha": 0.35,
+          "initial_loss": 0.029901795089599684,
+          "loss": 0.023469018142994687,
+          "nit": 61,
+          "nfev": 71,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "start": "perturb_0.01",
+          "alpha": 0.35,
+          "initial_loss": 0.03972037228392532,
+          "loss": 0.023469018143001057,
+          "nit": 95,
+          "nfev": 103,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "start": "perturb_0.04",
+          "alpha": 0.35,
+          "initial_loss": 0.15870312146819496,
+          "loss": 0.02346901814299504,
+          "nit": 122,
+          "nfev": 129,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ],
+      "selected_start": "warm",
+      "selected_loss": 0.023469018142994687,
+      "snapshot": {
+        "path": "search13_cx_power_adaptive_run217_alpha0.350_angles.npy",
+        "sha256": "bedf7913632206c544a61035d3ac4409c072d45c29189539552e237129dff3cf",
+        "shape": [
+          15,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "alpha": 0.3,
+      "trials": [
+        {
+          "start": "warm",
+          "alpha": 0.3,
+          "initial_loss": 0.04760383065115884,
+          "loss": 0.04127621401174495,
+          "nit": 59,
+          "nfev": 68,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ],
+      "selected_start": "warm",
+      "selected_loss": 0.04127621401174495,
+      "snapshot": {
+        "path": "search13_cx_power_adaptive_run217_alpha0.300_angles.npy",
+        "sha256": "9e78fd2c368590bea182e5399d921b2687e034b0d6650fc7a784327f7b39e2af",
+        "shape": [
+          15,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "alpha": 0.25,
+      "trials": [
+        {
+          "start": "warm",
+          "alpha": 0.25,
+          "initial_loss": 0.0698008495718179,
+          "loss": 0.06359871984772489,
+          "nit": 76,
+          "nfev": 88,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "start": "perturb_0.01",
+          "alpha": 0.25,
+          "initial_loss": 0.07832417786844678,
+          "loss": 0.06359871984772142,
+          "nit": 124,
+          "nfev": 133,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "start": "perturb_0.04",
+          "alpha": 0.25,
+          "initial_loss": 0.197545210133958,
+          "loss": 0.06359871984773495,
+          "nit": 155,
+          "nfev": 165,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ],
+      "selected_start": "perturb_0.01",
+      "selected_loss": 0.06359871984772142,
+      "snapshot": {
+        "path": "search13_cx_power_adaptive_run217_alpha0.250_angles.npy",
+        "sha256": "acd13a5f9b984982053a5f9960263b2d4875126e7b8694f3cb1e8c7746e0f796",
+        "shape": [
+          15,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "alpha": 0.2,
+      "trials": [
+        {
+          "start": "warm",
+          "alpha": 0.2,
+          "initial_loss": 0.09607060390175753,
+          "loss": 0.029416677926472193,
+          "nit": 250,
+          "nfev": 278,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        }
+      ],
+      "selected_start": "warm",
+      "selected_loss": 0.029416677926472193,
+      "snapshot": {
+        "path": "search13_cx_power_adaptive_run217_alpha0.200_angles.npy",
+        "sha256": "20cbf9fc598a7bbce3bd77e4b2cf4d02aac0a69de9b5a6b64eb88822b3e2f094",
+        "shape": [
+          15,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "alpha": 0.15,
+      "trials": [
+        {
+          "start": "warm",
+          "alpha": 0.15,
+          "initial_loss": 0.046654798218367204,
+          "loss": 0.03819268189212201,
+          "nit": 250,
+          "nfev": 265,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        }
+      ],
+      "selected_start": "warm",
+      "selected_loss": 0.03819268189212201,
+      "snapshot": {
+        "path": "search13_cx_power_adaptive_run217_alpha0.150_angles.npy",
+        "sha256": "1540a08f7ce82ced4dc6f476c69404ab76d9e074410c71a2f93497861e2c21b6",
+        "shape": [
+          15,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "alpha": 0.1,
+      "trials": [
+        {
+          "start": "warm",
+          "alpha": 0.1,
+          "initial_loss": 0.056174858288289185,
+          "loss": 0.047750968234121616,
+          "nit": 250,
+          "nfev": 271,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        }
+      ],
+      "selected_start": "warm",
+      "selected_loss": 0.047750968234121616,
+      "snapshot": {
+        "path": "search13_cx_power_adaptive_run217_alpha0.100_angles.npy",
+        "sha256": "4cb511bb955893233995a4e9eea9a8d6ba2a94f6a13ab6e180019eec36b09544",
+        "shape": [
+          15,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "alpha": 0.05,
+      "trials": [
+        {
+          "start": "warm",
+          "alpha": 0.05,
+          "initial_loss": 0.0663690625911057,
+          "loss": 0.05799206500644737,
+          "nit": 250,
+          "nfev": 262,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        }
+      ],
+      "selected_start": "warm",
+      "selected_loss": 0.05799206500644737,
+      "snapshot": {
+        "path": "search13_cx_power_adaptive_run217_alpha0.050_angles.npy",
+        "sha256": "526d56dfa0156192d9ea973f528d82ff88a3fb5847d0bead736a865c489da6bb",
+        "shape": [
+          15,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "alpha": 0.0,
+      "trials": [
+        {
+          "start": "warm",
+          "alpha": 0.0,
+          "initial_loss": 0.0771378294473238,
+          "loss": 0.06881429495788546,
+          "nit": 250,
+          "nfev": 268,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        }
+      ],
+      "selected_start": "warm",
+      "selected_loss": 0.06881429495788546,
+      "snapshot": {
+        "path": "search13_cx_power_adaptive_run217_alpha0.000_angles.npy",
+        "sha256": "cc70921680844d70b85f7db0a09e9cddeebd59e0838b36e98842a9bd8f547c1d",
+        "shape": [
+          15,
+          4,
+          3
+        ]
+      }
+    }
+  ],
+  "snapshots": {
+    "0.500": {
+      "path": "search13_cx_power_adaptive_run217_alpha0.500_angles.npy",
+      "sha256": "2d31e0afa6b90902cbf28697b91eaf260b8feff1499265369f45415ce3f8b8be",
+      "shape": [
+        15,
+        4,
+        3
+      ]
+    },
+    "0.450": {
+      "path": "search13_cx_power_adaptive_run217_alpha0.450_angles.npy",
+      "sha256": "9dd0b718fc16e969a835f47d6a2dd8e7e69dd39e1c6b944646694972bfd56376",
+      "shape": [
+        15,
+        4,
+        3
+      ]
+    },
+    "0.400": {
+      "path": "search13_cx_power_adaptive_run217_alpha0.400_angles.npy",
+      "sha256": "3d3c4533ea6c2835d894524a85ead9451186f81a84d903b15ce6b51928c7bff1",
+      "shape": [
+        15,
+        4,
+        3
+      ]
+    },
+    "0.350": {
+      "path": "search13_cx_power_adaptive_run217_alpha0.350_angles.npy",
+      "sha256": "bedf7913632206c544a61035d3ac4409c072d45c29189539552e237129dff3cf",
+      "shape": [
+        15,
+        4,
+        3
+      ]
+    },
+    "0.300": {
+      "path": "search13_cx_power_adaptive_run217_alpha0.300_angles.npy",
+      "sha256": "9e78fd2c368590bea182e5399d921b2687e034b0d6650fc7a784327f7b39e2af",
+      "shape": [
+        15,
+        4,
+        3
+      ]
+    },
+    "0.250": {
+      "path": "search13_cx_power_adaptive_run217_alpha0.250_angles.npy",
+      "sha256": "acd13a5f9b984982053a5f9960263b2d4875126e7b8694f3cb1e8c7746e0f796",
+      "shape": [
+        15,
+        4,
+        3
+      ]
+    },
+    "0.200": {
+      "path": "search13_cx_power_adaptive_run217_alpha0.200_angles.npy",
+      "sha256": "20cbf9fc598a7bbce3bd77e4b2cf4d02aac0a69de9b5a6b64eb88822b3e2f094",
+      "shape": [
+        15,
+        4,
+        3
+      ]
+    },
+    "0.150": {
+      "path": "search13_cx_power_adaptive_run217_alpha0.150_angles.npy",
+      "sha256": "1540a08f7ce82ced4dc6f476c69404ab76d9e074410c71a2f93497861e2c21b6",
+      "shape": [
+        15,
+        4,
+        3
+      ]
+    },
+    "0.100": {
+      "path": "search13_cx_power_adaptive_run217_alpha0.100_angles.npy",
+      "sha256": "4cb511bb955893233995a4e9eea9a8d6ba2a94f6a13ab6e180019eec36b09544",
+      "shape": [
+        15,
+        4,
+        3
+      ]
+    },
+    "0.050": {
+      "path": "search13_cx_power_adaptive_run217_alpha0.050_angles.npy",
+      "sha256": "526d56dfa0156192d9ea973f528d82ff88a3fb5847d0bead736a865c489da6bb",
+      "shape": [
+        15,
+        4,
+        3
+      ]
+    },
+    "0.000": {
+      "path": "search13_cx_power_adaptive_run217_alpha0.000_angles.npy",
+      "sha256": "cc70921680844d70b85f7db0a09e9cddeebd59e0838b36e98842a9bd8f547c1d",
+      "shape": [
+        15,
+        4,
+        3
+      ]
+    }
+  },
+  "endpoint_candidate": "search13_cx_power_adaptive_run217_endpoint.json",
+  "endpoint_off_diagonal_error": 0.30376252861527553,
+  "endpoint_eigenvalue_root_error": 0.34963768311502585,
+  "endpoint_valid_diagonalizer": false
+}

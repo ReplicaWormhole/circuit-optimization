@@ -1,0 +1,1 @@
+../../global_lower_bound6_adjacent_v_certificate.md

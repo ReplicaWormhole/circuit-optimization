@@ -1,0 +1,24 @@
+{
+  "states_explored": 60317,
+  "six_cnot_endpoints": 1647,
+  "distance_histogram": {
+    ">3": 1481,
+    "3": 142,
+    "2": 24
+  },
+  "tails_evaluated": 166,
+  "best": {
+    "endpoint_rows": [
+      11,
+      4,
+      2,
+      1
+    ],
+    "inverse_cnot_count": 2,
+    "tail_cnot_count": 10,
+    "total_cnot_count": 16,
+    "off_diagonal_error": 1.212461268062109e-15,
+    "valid": true,
+    "candidate": "algebraic16_to15_best.json"
+  }
+}

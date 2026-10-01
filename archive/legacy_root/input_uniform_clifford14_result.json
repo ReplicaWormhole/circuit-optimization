@@ -1,0 +1,155 @@
+{
+  "trials": 24,
+  "best": {
+    "word": "",
+    "cnot_count": 15,
+    "off_diagonal_error": 1.8637482498317134e-15,
+    "valid": true
+  },
+  "rows": [
+    {
+      "word": "",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.8637482498317134e-15,
+      "valid": true
+    },
+    {
+      "word": "h",
+      "cnot_count": 15,
+      "off_diagonal_error": 2.6444109226263425e-15,
+      "valid": true
+    },
+    {
+      "word": "s",
+      "cnot_count": 15,
+      "off_diagonal_error": 2.0761091813414093e-15,
+      "valid": true
+    },
+    {
+      "word": "hs",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.6504928216508561e-15,
+      "valid": true
+    },
+    {
+      "word": "sh",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.797951306972012e-15,
+      "valid": true
+    },
+    {
+      "word": "ss",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.6061619975228017e-15,
+      "valid": true
+    },
+    {
+      "word": "hsh",
+      "cnot_count": 15,
+      "off_diagonal_error": 2.742952624801801e-15,
+      "valid": true
+    },
+    {
+      "word": "hss",
+      "cnot_count": 15,
+      "off_diagonal_error": 2.0180759382125944e-15,
+      "valid": true
+    },
+    {
+      "word": "shs",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.7587938448642787e-15,
+      "valid": true
+    },
+    {
+      "word": "ssh",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.668112712525925e-15,
+      "valid": true
+    },
+    {
+      "word": "sss",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.4385186274083318e-15,
+      "valid": true
+    },
+    {
+      "word": "hshs",
+      "cnot_count": 15,
+      "off_diagonal_error": 2.020823569838314e-15,
+      "valid": true
+    },
+    {
+      "word": "hssh",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.1317445905655672e-15,
+      "valid": true
+    },
+    {
+      "word": "hsss",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.1348383836126248e-15,
+      "valid": true
+    },
+    {
+      "word": "shss",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.5831238211514232e-15,
+      "valid": true
+    },
+    {
+      "word": "sshs",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.4794167725803586e-15,
+      "valid": true
+    },
+    {
+      "word": "hshss",
+      "cnot_count": 15,
+      "off_diagonal_error": 2.7341707467042897e-15,
+      "valid": true
+    },
+    {
+      "word": "hsshs",
+      "cnot_count": 15,
+      "off_diagonal_error": 2.1098345623442183e-15,
+      "valid": true
+    },
+    {
+      "word": "shssh",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.6655658173411746e-15,
+      "valid": true
+    },
+    {
+      "word": "shsss",
+      "cnot_count": 15,
+      "off_diagonal_error": 2.3309332063861485e-15,
+      "valid": true
+    },
+    {
+      "word": "sshss",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.7817254814231992e-15,
+      "valid": true
+    },
+    {
+      "word": "hshssh",
+      "cnot_count": 15,
+      "off_diagonal_error": 1.3567184086094926e-15,
+      "valid": true
+    },
+    {
+      "word": "hshsss",
+      "cnot_count": 15,
+      "off_diagonal_error": 3.327864284888815e-15,
+      "valid": true
+    },
+    {
+      "word": "hsshss",
+      "cnot_count": 15,
+      "off_diagonal_error": 3.1281445160094335e-15,
+      "valid": true
+    }
+  ]
+}

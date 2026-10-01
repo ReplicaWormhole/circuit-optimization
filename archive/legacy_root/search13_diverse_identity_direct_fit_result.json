@@ -1,0 +1,1525 @@
+{
+  "best_checker": {
+    "candidate": "search13_diverse_identity_direct_fit_10.json",
+    "case": 10,
+    "off_diagonal_error": 0.4263651691060205,
+    "valid_diagonalizer": false
+  },
+  "deepen_cases": [
+    9,
+    16,
+    3,
+    13,
+    2,
+    11
+  ],
+  "deepen_maxiter": 350,
+  "rows": [
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        4,
+        4,
+        6
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_00.json",
+      "best_loss": 0.37500000000746525,
+      "best_off_diagonal_error": 0.9999999999973387,
+      "best_start": "random",
+      "best_valid_diagonalizer": false,
+      "case": 0,
+      "distance_to_one_exact8_deletion": 3,
+      "nearest_deleted_cnot": 6,
+      "schedule": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.9999999999999989,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9147039592280182,
+            "iterations": 65,
+            "loss": 0.43750000000000017,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.9999999999973387,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9275461375706701,
+            "iterations": 70,
+            "loss": 0.37500000000746525,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        4,
+        5,
+        5
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_01.json",
+      "best_loss": 0.5668771126552895,
+      "best_off_diagonal_error": 0.8028828757380152,
+      "best_start": "random",
+      "best_valid_diagonalizer": false,
+      "case": 1,
+      "distance_to_one_exact8_deletion": 3,
+      "nearest_deleted_cnot": 0,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.682146421991909,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9062499999999982,
+            "iterations": 70,
+            "loss": 0.6170415624322023,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.8028828757380152,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9389192725775993,
+            "iterations": 70,
+            "loss": 0.5668771126552895,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        4,
+        6,
+        4
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_02.json",
+      "best_loss": 0.36452554190357733,
+      "best_off_diagonal_error": 0.8107556999077109,
+      "best_start": "deepened_structured_deletion",
+      "best_valid_diagonalizer": false,
+      "case": 2,
+      "deepen": {
+        "checker": {
+          "cnot_count": 13,
+          "off_diagonal_error": 0.8107556999077109,
+          "valid_diagonalizer": false
+        },
+        "fit": {
+          "initial_loss": 0.3645255419492356,
+          "iterations": 25,
+          "loss": 0.36452554190357733,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "success": true
+        },
+        "from_start": "structured_deletion"
+      },
+      "distance_to_one_exact8_deletion": 6,
+      "nearest_deleted_cnot": 0,
+      "schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.8107511240495235,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9648437499999981,
+            "iterations": 70,
+            "loss": 0.3645255419492366,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.5496796135840618,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9346509016278838,
+            "iterations": 70,
+            "loss": 0.43902852096638934,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        5,
+        4,
+        5
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_03.json",
+      "best_loss": 0.33243554190618635,
+      "best_off_diagonal_error": 0.6197214378349187,
+      "best_start": "random",
+      "best_valid_diagonalizer": false,
+      "case": 3,
+      "deepen": {
+        "checker": {
+          "cnot_count": 13,
+          "off_diagonal_error": 0.6197214372321235,
+          "valid_diagonalizer": false
+        },
+        "fit": {
+          "initial_loss": 0.33243554190618657,
+          "iterations": 1,
+          "loss": 0.3324355419061865,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "success": true
+        },
+        "from_start": "random"
+      },
+      "distance_to_one_exact8_deletion": 4,
+      "nearest_deleted_cnot": 2,
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.5623098445777046,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9363774463509631,
+            "iterations": 70,
+            "loss": 0.6821641164376238,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.6197214378349187,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9132341283068507,
+            "iterations": 53,
+            "loss": 0.33243554190618635,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        5,
+        5,
+        4
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_04.json",
+      "best_loss": 0.4269142740678292,
+      "best_off_diagonal_error": 0.6225230510530937,
+      "best_start": "random",
+      "best_valid_diagonalizer": false,
+      "case": 4,
+      "distance_to_one_exact8_deletion": 7,
+      "nearest_deleted_cnot": 0,
+      "schedule": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.7774916389924219,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.8976907044670284,
+            "iterations": 69,
+            "loss": 0.5890564453741313,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.6225230510530937,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9059239022062728,
+            "iterations": 69,
+            "loss": 0.4269142740678292,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        6,
+        4,
+        4
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_05.json",
+      "best_loss": 0.477663610222795,
+      "best_off_diagonal_error": 0.9679395519687604,
+      "best_start": "structured_deletion",
+      "best_valid_diagonalizer": false,
+      "case": 5,
+      "distance_to_one_exact8_deletion": 4,
+      "nearest_deleted_cnot": 0,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.9679395519687604,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9481440380240331,
+            "iterations": 70,
+            "loss": 0.477663610222795,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.7071069552838758,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9356125997693386,
+            "iterations": 70,
+            "loss": 0.5156250000001021,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        4,
+        4,
+        6
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_06.json",
+      "best_loss": 0.49183452947188844,
+      "best_off_diagonal_error": 0.9280883796988817,
+      "best_start": "structured_deletion",
+      "best_valid_diagonalizer": false,
+      "case": 6,
+      "distance_to_one_exact8_deletion": 5,
+      "nearest_deleted_cnot": 0,
+      "schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.9280883796988817,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9410711467280184,
+            "iterations": 70,
+            "loss": 0.49183452947188844,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.6328547368186813,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9309191371313551,
+            "iterations": 70,
+            "loss": 0.5206518769491526,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        4,
+        5,
+        5
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_07.json",
+      "best_loss": 0.4024777144381111,
+      "best_off_diagonal_error": 0.6356496029692176,
+      "best_start": "random",
+      "best_valid_diagonalizer": false,
+      "case": 7,
+      "distance_to_one_exact8_deletion": 5,
+      "nearest_deleted_cnot": 6,
+      "schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.5066862436770337,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.958984374999998,
+            "iterations": 58,
+            "loss": 0.48560026556066194,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.6356496029692176,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9562833290060562,
+            "iterations": 70,
+            "loss": 0.4024777144381111,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        4,
+        6,
+        4
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_08.json",
+      "best_loss": 0.3948399293033777,
+      "best_off_diagonal_error": 0.9767284709287445,
+      "best_start": "random",
+      "best_valid_diagonalizer": false,
+      "case": 8,
+      "distance_to_one_exact8_deletion": 4,
+      "nearest_deleted_cnot": 4,
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.426461271795193,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9160156249999984,
+            "iterations": 70,
+            "loss": 0.5331645216794989,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.9767284709287445,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.8945274004403881,
+            "iterations": 53,
+            "loss": 0.3948399293033777,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        5,
+        4,
+        5
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_09.json",
+      "best_loss": 0.29223534962884934,
+      "best_off_diagonal_error": 0.49419584694110685,
+      "best_start": "deepened_random",
+      "best_valid_diagonalizer": false,
+      "case": 9,
+      "deepen": {
+        "checker": {
+          "cnot_count": 13,
+          "off_diagonal_error": 0.49419584694110685,
+          "valid_diagonalizer": false
+        },
+        "fit": {
+          "initial_loss": 0.2922353496833272,
+          "iterations": 15,
+          "loss": 0.29223534962884934,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "success": true
+        },
+        "from_start": "random"
+      },
+      "distance_to_one_exact8_deletion": 5,
+      "nearest_deleted_cnot": 0,
+      "schedule": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.7461129334307867,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.8974609374999982,
+            "iterations": 70,
+            "loss": 0.5812269726947762,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.4941954569158618,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9359422612876539,
+            "iterations": 70,
+            "loss": 0.29223534968332743,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        5,
+        5,
+        4
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_10.json",
+      "best_loss": 0.47102381290238216,
+      "best_off_diagonal_error": 0.4263651691060205,
+      "best_start": "structured_deletion",
+      "best_valid_diagonalizer": false,
+      "case": 10,
+      "distance_to_one_exact8_deletion": 5,
+      "nearest_deleted_cnot": 6,
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.4263651691060205,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9247388787544659,
+            "iterations": 70,
+            "loss": 0.47102381290238216,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.5038976945995571,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9331500907182237,
+            "iterations": 70,
+            "loss": 0.481140115879106,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        6,
+        4,
+        4
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_11.json",
+      "best_loss": 0.37499999999999983,
+      "best_off_diagonal_error": 0.9999999999999996,
+      "best_start": "deepened_random",
+      "best_valid_diagonalizer": false,
+      "case": 11,
+      "deepen": {
+        "checker": {
+          "cnot_count": 13,
+          "off_diagonal_error": 0.9999999999999996,
+          "valid_diagonalizer": false
+        },
+        "fit": {
+          "initial_loss": 0.3750000000000001,
+          "iterations": 1,
+          "loss": 0.37499999999999983,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "success": true
+        },
+        "from_start": "random"
+      },
+      "distance_to_one_exact8_deletion": 6,
+      "nearest_deleted_cnot": 2,
+      "schedule": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.5295471459781028,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9358077496325479,
+            "iterations": 70,
+            "loss": 0.5968224724165644,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.9999999999999993,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9193422779447129,
+            "iterations": 54,
+            "loss": 0.375,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        4,
+        4,
+        6
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_12.json",
+      "best_loss": 0.5088411923549849,
+      "best_off_diagonal_error": 0.8941503649020528,
+      "best_start": "random",
+      "best_valid_diagonalizer": false,
+      "case": 12,
+      "distance_to_one_exact8_deletion": 5,
+      "nearest_deleted_cnot": 0,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.7691920717675604,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9238281249999982,
+            "iterations": 70,
+            "loss": 0.5281496930053303,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.8941503649020528,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9394850888191418,
+            "iterations": 70,
+            "loss": 0.5088411923549849,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        4,
+        5,
+        5
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_13.json",
+      "best_loss": 0.3330267240001918,
+      "best_off_diagonal_error": 0.6415203433015274,
+      "best_start": "deepened_random",
+      "best_valid_diagonalizer": false,
+      "case": 13,
+      "deepen": {
+        "checker": {
+          "cnot_count": 13,
+          "off_diagonal_error": 0.6415203433015274,
+          "valid_diagonalizer": false
+        },
+        "fit": {
+          "initial_loss": 0.3330267240066324,
+          "iterations": 18,
+          "loss": 0.3330267240001918,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "success": true
+        },
+        "from_start": "random"
+      },
+      "distance_to_one_exact8_deletion": 4,
+      "nearest_deleted_cnot": 2,
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.6035534166643564,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9399414062499981,
+            "iterations": 56,
+            "loss": 0.5156250000000004,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.6415193454420501,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9216661107342443,
+            "iterations": 70,
+            "loss": 0.33302672400663264,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        4,
+        6,
+        4
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_14.json",
+      "best_loss": 0.4794110816876525,
+      "best_off_diagonal_error": 0.9782685388485741,
+      "best_start": "random",
+      "best_valid_diagonalizer": false,
+      "case": 14,
+      "distance_to_one_exact8_deletion": 6,
+      "nearest_deleted_cnot": 6,
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.5181242566191713,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.921233540771978,
+            "iterations": 70,
+            "loss": 0.6217323148256166,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.9782685388485741,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9267591637907846,
+            "iterations": 70,
+            "loss": 0.4794110816876525,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        5,
+        4,
+        5
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_15.json",
+      "best_loss": 0.4434323633141341,
+      "best_off_diagonal_error": 0.6130537112212835,
+      "best_start": "random",
+      "best_valid_diagonalizer": false,
+      "case": 15,
+      "distance_to_one_exact8_deletion": 6,
+      "nearest_deleted_cnot": 0,
+      "schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.5183717791820934,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.8828124999999984,
+            "iterations": 70,
+            "loss": 0.4884942257694382,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.6130537112212835,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9351070560546628,
+            "iterations": 70,
+            "loss": 0.4434323633141341,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        5,
+        5,
+        4
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_16.json",
+      "best_loss": 0.3269497812083773,
+      "best_off_diagonal_error": 0.6499808118950501,
+      "best_start": "deepened_structured_deletion",
+      "best_valid_diagonalizer": false,
+      "case": 16,
+      "deepen": {
+        "checker": {
+          "cnot_count": 13,
+          "off_diagonal_error": 0.6499808118950501,
+          "valid_diagonalizer": false
+        },
+        "fit": {
+          "initial_loss": 0.32746804061349466,
+          "iterations": 27,
+          "loss": 0.3269497812083773,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "success": true
+        },
+        "from_start": "structured_deletion"
+      },
+      "distance_to_one_exact8_deletion": 7,
+      "nearest_deleted_cnot": 0,
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.6521833293927658,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9505788739775045,
+            "iterations": 70,
+            "loss": 0.32746804061349527,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.6547679543743216,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9184594481814429,
+            "iterations": 70,
+            "loss": 0.5521286270473165,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    },
+    {
+      "adjacent_repeats": 0,
+      "balanced_crossings": [
+        6,
+        4,
+        4
+      ],
+      "best_candidate": "search13_diverse_identity_direct_fit_17.json",
+      "best_loss": 0.47312621558159146,
+      "best_off_diagonal_error": 0.5568694369217696,
+      "best_start": "structured_deletion",
+      "best_valid_diagonalizer": false,
+      "case": 17,
+      "distance_to_one_exact8_deletion": 6,
+      "nearest_deleted_cnot": 0,
+      "schedule": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "screen_trials": [
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.5568694369217696,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9479070842280182,
+            "iterations": 70,
+            "loss": 0.47312621558159146,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "structured_deletion"
+        },
+        {
+          "checker": {
+            "cnot_count": 13,
+            "off_diagonal_error": 0.7492414186804336,
+            "valid_diagonalizer": false
+          },
+          "fit": {
+            "initial_loss": 0.9208982241699678,
+            "iterations": 70,
+            "loss": 0.5000000000351759,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          },
+          "start": "random"
+        }
+      ]
+    }
+  ],
+  "scope": "bounded gauge-free direct numerical fits; failures are not no-go results",
+  "screen_maxiter": 70,
+  "seed": 32100,
+  "selected_distance_counts": {
+    "3": 2,
+    "4": 4,
+    "5": 5,
+    "6": 5,
+    "7": 2
+  },
+  "selection": "three diverse schedules from each of six balanced crossing profiles, edit distance >=3",
+  "source": "search13_identity_tail_topology_result.json"
+}

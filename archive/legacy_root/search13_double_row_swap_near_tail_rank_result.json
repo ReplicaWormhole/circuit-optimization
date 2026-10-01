@@ -1,0 +1,17 @@
+{
+  "gauges_with_survivors": 0,
+  "masks": 127,
+  "neighborhood_schedules": 124,
+  "primes": [
+    97,
+    193
+  ],
+  "rank_checks_by_prime": {
+    "97": 204504
+  },
+  "row_swap_gauges": 5460,
+  "rows_with_survivors": [],
+  "scope": "restricted exact modular necessary-condition screen; no synthesis or global no-go",
+  "source": "exact14 eight-CNOT tail under two disjoint output-row swaps",
+  "total_survivor_pairs": 0
+}

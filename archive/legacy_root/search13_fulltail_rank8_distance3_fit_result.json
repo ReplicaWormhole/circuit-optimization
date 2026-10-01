@@ -1,0 +1,698 @@
+{
+  "direct_maxiter": 320,
+  "exact_gauge": "search13_fulltail_invariant_exact_witness_result.json",
+  "process_maxiter": 220,
+  "rows": [
+    {
+      "alignment": {
+        "deleted_old_tail_cx": 0,
+        "rewired_retained_indices": [
+          1,
+          3,
+          5
+        ]
+      },
+      "balanced_crossings": [
+        4,
+        4,
+        6
+      ],
+      "case": 0,
+      "direct": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case0_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.8835881595283459,
+        "iterations": 91,
+        "loss": 0.41271132507669595,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.6586745677466083,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "directed_schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "process": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case0_process.json",
+        "cnot_count": 13,
+        "initial_loss": 0.9991917552734979,
+        "loss": 0.7071125379924549,
+        "maxiter": 220,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nfev": 97,
+        "nit": 87,
+        "off_diagonal_error": 0.6087928573922244,
+        "optimizer_success": true,
+        "seed": 29371,
+        "valid_diagonalizer": false
+      },
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "survivor_index": 341,
+      "warm_direct": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case0_warm_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.9480890095219785,
+        "iterations": 108,
+        "loss": 0.37500000000000167,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.999999999999998,
+        "success": true,
+        "valid_diagonalizer": false
+      }
+    },
+    {
+      "alignment": {
+        "deleted_old_tail_cx": 6,
+        "rewired_retained_indices": [
+          0,
+          2,
+          4
+        ]
+      },
+      "balanced_crossings": [
+        4,
+        5,
+        5
+      ],
+      "case": 1,
+      "direct": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case1_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.797075813112982,
+        "iterations": 68,
+        "loss": 0.3432446354171561,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.4998318351790992,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "directed_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "process": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case1_process.json",
+        "cnot_count": 13,
+        "initial_loss": 0.9976161279839978,
+        "loss": 0.6628270952939097,
+        "maxiter": 220,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nfev": 71,
+        "nit": 65,
+        "off_diagonal_error": 0.8168671164071971,
+        "optimizer_success": true,
+        "seed": 29372,
+        "valid_diagonalizer": false
+      },
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "survivor_index": 0,
+      "warm_direct": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case1_warm_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.948883646728018,
+        "iterations": 64,
+        "loss": 0.4422059281222376,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.5391447790544406,
+        "success": true,
+        "valid_diagonalizer": false
+      }
+    },
+    {
+      "alignment": {
+        "deleted_old_tail_cx": 0,
+        "rewired_retained_indices": [
+          2,
+          4,
+          6
+        ]
+      },
+      "balanced_crossings": [
+        5,
+        4,
+        5
+      ],
+      "case": 2,
+      "direct": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case2_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.7674077774881016,
+        "iterations": 54,
+        "loss": 0.6250000000000004,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.9403838048536132,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "directed_schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "process": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case2_process.json",
+        "cnot_count": 13,
+        "initial_loss": 0.9945454296282721,
+        "loss": 0.6671787114515475,
+        "maxiter": 220,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nfev": 81,
+        "nit": 72,
+        "off_diagonal_error": 0.819066491772617,
+        "optimizer_success": true,
+        "seed": 29373,
+        "valid_diagonalizer": false
+      },
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "survivor_index": 295,
+      "warm_direct": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case2_warm_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.9272460937499982,
+        "iterations": 64,
+        "loss": 0.5156250000000009,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.7071067868058735,
+        "success": true,
+        "valid_diagonalizer": false
+      }
+    },
+    {
+      "alignment": {
+        "deleted_old_tail_cx": 2,
+        "rewired_retained_indices": [
+          0,
+          3,
+          6
+        ]
+      },
+      "balanced_crossings": [
+        5,
+        5,
+        4
+      ],
+      "case": 3,
+      "direct": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case3_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.7982623841412781,
+        "iterations": 63,
+        "loss": 0.24432693624117455,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.6642537601016849,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "directed_schedule": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "process": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case3_process.json",
+        "cnot_count": 13,
+        "initial_loss": 0.9910368827806658,
+        "loss": 0.715357853840427,
+        "maxiter": 220,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nfev": 79,
+        "nit": 70,
+        "off_diagonal_error": 0.6371245545446347,
+        "optimizer_success": true,
+        "seed": 29374,
+        "valid_diagonalizer": false
+      },
+      "schedule": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "survivor_index": 446,
+      "warm_direct": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case3_warm_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.9267578124999982,
+        "iterations": 123,
+        "loss": 0.5133350271278875,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.7219752181237988,
+        "success": true,
+        "valid_diagonalizer": false
+      }
+    },
+    {
+      "alignment": {
+        "deleted_old_tail_cx": 4,
+        "rewired_retained_indices": [
+          1,
+          2,
+          6
+        ]
+      },
+      "balanced_crossings": [
+        5,
+        4,
+        5
+      ],
+      "case": 4,
+      "direct": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case4_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.8661070011604097,
+        "iterations": 91,
+        "loss": 0.6250000000000019,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.999999999999997,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "directed_schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "process": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case4_process.json",
+        "cnot_count": 13,
+        "initial_loss": 0.9970053187898593,
+        "loss": 0.7298032607370617,
+        "maxiter": 220,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nfev": 120,
+        "nit": 108,
+        "off_diagonal_error": 0.6485385473863364,
+        "optimizer_success": true,
+        "seed": 29375,
+        "valid_diagonalizer": false
+      },
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "survivor_index": 248,
+      "warm_direct": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case4_warm_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.8789062499999983,
+        "iterations": 80,
+        "loss": 0.5087382385980957,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.7411045027758401,
+        "success": true,
+        "valid_diagonalizer": false
+      }
+    },
+    {
+      "alignment": {
+        "deleted_old_tail_cx": 2,
+        "rewired_retained_indices": [
+          0,
+          4,
+          5
+        ]
+      },
+      "balanced_crossings": [
+        4,
+        5,
+        5
+      ],
+      "case": 5,
+      "direct": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case5_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.7607030976721851,
+        "iterations": 31,
+        "loss": 0.6250000000000008,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.9999999999999976,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "directed_schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "process": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case5_process.json",
+        "cnot_count": 13,
+        "initial_loss": 0.9980071397351442,
+        "loss": 0.6475242679717386,
+        "maxiter": 220,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nfev": 90,
+        "nit": 76,
+        "off_diagonal_error": 0.8835806464502532,
+        "optimizer_success": true,
+        "seed": 29376,
+        "valid_diagonalizer": false
+      },
+      "schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "survivor_index": 1459,
+      "warm_direct": {
+        "candidate": "search13_fulltail_rank8_distance3_fit_case5_warm_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.9150390624999983,
+        "iterations": 63,
+        "loss": 0.6250000000000002,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.9999999999999979,
+        "success": true,
+        "valid_diagonalizer": false
+      }
+    }
+  ],
+  "scope": "six fixed seven-CNOT tail orders and one direction assignment each; one random process start and two direct starts; numerical screen, not a no-go",
+  "screen": "search13_rank8_global_allcuts_result.json",
+  "seed": 29371,
+  "selected_indices": [
+    341,
+    0,
+    295,
+    446,
+    248,
+    1459
+  ],
+  "selection": "cover all four balanced crossing profiles, zero adjacent pair repeats, pairwise Hamming distance >=5",
+  "source": "topology14_exact_matchgate_rational.json"
+}

@@ -1,0 +1,45 @@
+"""Rank-one certificate for the general adjacent-pair spectral-path Gram."""
+
+import json
+from pathlib import Path
+
+import sympy as sp
+
+ROOT = Path(__file__).resolve().parent
+
+
+def main():
+    data = json.loads((ROOT / 'global_lower_bound7_adjacent_pair_general_gram_result.json').read_text())
+    gram = sp.Matrix(data['gram'])
+    labels = data['labels']
+    monomials = [tuple(m) for m in data['monomials']]
+    null = gram.nullspace()
+    assert len(null) == 9 and gram.rank() == 111
+    eliminated = [i for i in range(15) if all(v[monomials.index((i,i))] == 0 for v in null)]
+    assert eliminated == [0,1,2,3,7,11]
+    remaining = [i for i in range(15) if i not in eliminated]
+    vars_ = sp.symbols('x:' + str(len(remaining)))
+    x = [sp.Integer(0)] * 15
+    for i, symbol in zip(remaining, vars_):
+        x[i] = symbol
+    m = sp.Matrix([x[i]*x[j] for i,j in monomials])
+    equations = list(set(gram*m))
+    equations = [sp.factor(eq) for eq in equations if eq != 0]
+    equations.append(sum(symbol**2 for symbol in vars_) - 1)
+    gb = sp.groebner(equations, *vars_, order='grevlex', domain=sp.QQ)
+    result = {
+        'initial_basis_labels': labels,
+        'gram_rank': gram.rank(),
+        'forced_zero_one_body_labels': [labels[i] for i in eliminated],
+        'remaining_two_body_labels': [labels[i] for i in remaining],
+        'equation_count': len(equations),
+        'groebner_basis': [str(p.as_expr()) for p in gb.polys],
+        'normalized_real_nonzero_solution_exists': list(gb.polys) != [sp.Poly(1,*vars_)],
+    }
+    (ROOT / 'global_lower_bound7_adjacent_pair_general_certificate_result.json').write_text(
+        json.dumps(result, indent=2, sort_keys=True) + '\n')
+    print(json.dumps({k:v for k,v in result.items() if k != 'initial_basis_labels'}, sort_keys=True))
+
+
+if __name__ == '__main__':
+    main()

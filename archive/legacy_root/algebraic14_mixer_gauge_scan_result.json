@@ -1,0 +1,46 @@
+{
+  "trials": [
+    {
+      "target_mix_probability": 0.25,
+      "achieved_mix_probability": [
+        0.25000000569756026,
+        0.25000000569756015
+      ],
+      "cnot_count": 14,
+      "offdiag_error": 1.372671731667738e-09,
+      "valid": false,
+      "iterations": 98,
+      "evaluations": 107,
+      "objective": 4.710500828132567e-11,
+      "candidate": "/home/lev/Projects/current/circuit-optimization/algebraic14_mixer_p25.json"
+    },
+    {
+      "target_mix_probability": 0.5,
+      "achieved_mix_probability": [
+        0.49999998844540194,
+        0.4999999884454018
+      ],
+      "cnot_count": 14,
+      "offdiag_error": 9.41659920541395e-09,
+      "valid": false,
+      "iterations": 112,
+      "evaluations": 124,
+      "objective": 2.216807438488767e-09,
+      "candidate": "/home/lev/Projects/current/circuit-optimization/algebraic14_mixer_p50.json"
+    },
+    {
+      "target_mix_probability": 0.75,
+      "achieved_mix_probability": [
+        0.7499999388632673,
+        0.7499999388632675
+      ],
+      "cnot_count": 14,
+      "offdiag_error": 1.7227362996308536e-11,
+      "valid": true,
+      "iterations": 399,
+      "evaluations": 418,
+      "objective": 1.5287058511855475e-14,
+      "candidate": "/home/lev/Projects/current/circuit-optimization/algebraic14_mixer_p75.json"
+    }
+  ]
+}

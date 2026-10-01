@@ -1,0 +1,388 @@
+{
+  "best_candidate": "search13_procrustes_case5_deletion_warm_direct.json",
+  "best_off_diagonal_error": 0.5336726945493274,
+  "case_indices": [
+    0,
+    5
+  ],
+  "direct_maxiter": 120,
+  "gauge_sector_dimensions": [
+    6,
+    3,
+    4,
+    3
+  ],
+  "outer": 3,
+  "process_maxiter": 60,
+  "rows": [
+    {
+      "case": 0,
+      "deleted_exact_tail_cnot": 0,
+      "direct": {
+        "candidate": "search13_procrustes_case0_deletion_warm_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.8747833200936014,
+        "iterations": 56,
+        "loss": 0.43750000000000044,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.9999999999999989,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "distance_to_deletion": 2,
+      "process_check": {
+        "candidate": "search13_procrustes_case0_deletion_warm_process.json",
+        "cnot_count": 13,
+        "off_diagonal_error": 0.569644346910983,
+        "valid_diagonalizer": false
+      },
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "stages": [
+        {
+          "orbit_loss_after": 0.8191239450070081,
+          "orbit_loss_before": 1.0335894072454783,
+          "outer": 0,
+          "process": {
+            "initial_loss": 0.7665126415529637,
+            "iterations": 60,
+            "loss": 0.6843910136021625,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          }
+        },
+        {
+          "orbit_loss_after": 0.7616576444534983,
+          "orbit_loss_before": 0.8191239450070081,
+          "outer": 1,
+          "process": {
+            "initial_loss": 0.6513829356860474,
+            "iterations": 60,
+            "loss": 0.6311786393910537,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          }
+        },
+        {
+          "orbit_loss_after": 0.7342962543372988,
+          "orbit_loss_before": 0.7616576444534983,
+          "outer": 2,
+          "process": {
+            "initial_loss": 0.6166270526148858,
+            "iterations": 60,
+            "loss": 0.6064209608730992,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          }
+        }
+      ],
+      "start": "deletion_warm"
+    },
+    {
+      "case": 0,
+      "deleted_exact_tail_cnot": 0,
+      "direct": {
+        "candidate": "search13_procrustes_case0_random_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.8585049480125356,
+        "iterations": 62,
+        "loss": 0.4375,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.999999999999998,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "distance_to_deletion": 2,
+      "process_check": {
+        "candidate": "search13_procrustes_case0_random_process.json",
+        "cnot_count": 13,
+        "off_diagonal_error": 0.5007786971747558,
+        "valid_diagonalizer": false
+      },
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "stages": [
+        {
+          "orbit_loss_after": 0.8235637212835282,
+          "orbit_loss_before": 1.1486768171388042,
+          "outer": 0,
+          "process": {
+            "initial_loss": 0.8188122095807712,
+            "iterations": 60,
+            "loss": 0.740369186916529,
+            "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+            "success": false
+          }
+        },
+        {
+          "orbit_loss_after": 0.7358835055355942,
+          "orbit_loss_before": 0.8235637212835282,
+          "outer": 1,
+          "process": {
+            "initial_loss": 0.6539994205299351,
+            "iterations": 55,
+            "loss": 0.6202116022667775,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          }
+        },
+        {
+          "orbit_loss_after": 0.7014537868683314,
+          "orbit_loss_before": 0.7358835055355942,
+          "outer": 2,
+          "process": {
+            "initial_loss": 0.6005023721057561,
+            "iterations": 52,
+            "loss": 0.5878749337106185,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          }
+        }
+      ],
+      "start": "random"
+    },
+    {
+      "case": 5,
+      "deleted_exact_tail_cnot": 0,
+      "direct": {
+        "candidate": "search13_procrustes_case5_deletion_warm_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.8777091363391294,
+        "iterations": 108,
+        "loss": 0.37369498120567834,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.5336726945493274,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "distance_to_deletion": 3,
+      "process_check": {
+        "candidate": "search13_procrustes_case5_deletion_warm_process.json",
+        "cnot_count": 13,
+        "off_diagonal_error": 0.5722931172284812,
+        "valid_diagonalizer": false
+      },
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "stages": [
+        {
+          "orbit_loss_after": 0.8166615363864375,
+          "orbit_loss_before": 1.0349857763959367,
+          "outer": 0,
+          "process": {
+            "initial_loss": 0.767186887060462,
+            "iterations": 42,
+            "loss": 0.6807674534411643,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          }
+        },
+        {
+          "orbit_loss_after": 0.7634730968251201,
+          "orbit_loss_before": 0.8166615363864375,
+          "outer": 1,
+          "process": {
+            "initial_loss": 0.6499275201331739,
+            "iterations": 35,
+            "loss": 0.6323218932185173,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          }
+        },
+        {
+          "orbit_loss_after": 0.7323500286670971,
+          "orbit_loss_before": 0.7634730968251201,
+          "outer": 2,
+          "process": {
+            "initial_loss": 0.6177503044311858,
+            "iterations": 36,
+            "loss": 0.6064903281020173,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          }
+        }
+      ],
+      "start": "deletion_warm"
+    },
+    {
+      "case": 5,
+      "deleted_exact_tail_cnot": 0,
+      "direct": {
+        "candidate": "search13_procrustes_case5_random_direct.json",
+        "cnot_count": 13,
+        "initial_loss": 0.6703666520333119,
+        "iterations": 84,
+        "loss": 0.43749999999999967,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.9999999999999988,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "distance_to_deletion": 3,
+      "process_check": {
+        "candidate": "search13_procrustes_case5_random_process.json",
+        "cnot_count": 13,
+        "off_diagonal_error": 0.7809354282895601,
+        "valid_diagonalizer": false
+      },
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "stages": [
+        {
+          "orbit_loss_after": 0.66132494198658,
+          "orbit_loss_before": 0.9854771785369213,
+          "outer": 0,
+          "process": {
+            "initial_loss": 0.742685861182649,
+            "iterations": 54,
+            "loss": 0.646452922367557,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          }
+        },
+        {
+          "orbit_loss_after": 0.544407625369578,
+          "orbit_loss_before": 0.66132494198658,
+          "outer": 1,
+          "process": {
+            "initial_loss": 0.551987272263192,
+            "iterations": 35,
+            "loss": 0.5064257497778707,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          }
+        },
+        {
+          "orbit_loss_after": 0.48718433642760317,
+          "orbit_loss_before": 0.544407625369578,
+          "outer": 2,
+          "process": {
+            "initial_loss": 0.4703127097294427,
+            "iterations": 37,
+            "loss": 0.44516522319355933,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          }
+        }
+      ],
+      "start": "random"
+    }
+  ],
+  "scope": "four bounded numerical fits with the exact six-CNOT prefix fixed; failure does not exclude other gauges or circuits",
+  "seed": 32600,
+  "source": "topology14_exact_matchgate_rational.json",
+  "strategy": "alternating block-Procrustes output eigenspace gauge and fixed-target process fit, followed by label-free direct fit",
+  "topology_source": "search13_identity_tail_topology_result.json"
+}

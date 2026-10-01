@@ -1,0 +1,174 @@
+{
+  "classified_examples": [
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "selected_chain": [
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "selected_chain": [
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "selected_chain": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "selected_chain": [
+        0,
+        2,
+        1
+      ]
+    }
+  ],
+  "classified_schedules": {
+    "3322:11111": 24,
+    "3322:1112": 24
+  },
+  "classified_terminal_opposite_axis_counts": {
+    "0": 48
+  },
+  "exact_surviving_image": "X0 X2",
+  "forced_zero_stages": [
+    {
+      "monomials": 231,
+      "new_forced_zero_axes": [
+        0,
+        6,
+        7,
+        13,
+        14,
+        18,
+        19,
+        20
+      ],
+      "rank": 189
+    },
+    {
+      "monomials": 91,
+      "new_forced_zero_axes": [],
+      "rank": 58
+    }
+  ],
+  "gram_rank_exact": 189,
+  "opposite_pair_coefficient_equalities": [
+    [
+      "XIYI",
+      "YIXI"
+    ],
+    [
+      "XIZI",
+      "ZIXI"
+    ],
+    [
+      "YIZI",
+      "ZIYI"
+    ]
+  ],
+  "prior_survivors": {
+    "3322:11111": 48,
+    "3322:1112": 40
+  },
+  "three_body_coefficients_forced_zero": [
+    "XZXI",
+    "XZYI",
+    "YZXI",
+    "YZYI"
+  ]
+}

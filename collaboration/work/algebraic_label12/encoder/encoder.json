@@ -1,0 +1,991 @@
+{
+  "fixed_mapping": [
+    0,
+    4,
+    7,
+    8,
+    6,
+    2,
+    11,
+    12,
+    5,
+    9,
+    3,
+    13,
+    10,
+    14,
+    15,
+    1
+  ],
+  "cycles": [
+    [
+      0
+    ],
+    [
+      1,
+      4,
+      6,
+      11,
+      13,
+      14,
+      15
+    ],
+    [
+      2,
+      7,
+      12,
+      10,
+      3,
+      8,
+      5
+    ],
+    [
+      9
+    ]
+  ],
+  "anf_masks_q0_through_q3": [
+    [
+      3,
+      6,
+      7,
+      9,
+      11,
+      12,
+      13,
+      14
+    ],
+    [
+      1,
+      2,
+      4,
+      8
+    ],
+    [
+      2,
+      3,
+      4,
+      6
+    ],
+    [
+      2,
+      3,
+      8,
+      10,
+      11,
+      12,
+      14
+    ]
+  ],
+  "transpositions": [
+    {
+      "a": 1,
+      "b": 4,
+      "gray_path": [
+        1,
+        5,
+        4
+      ]
+    },
+    {
+      "a": 1,
+      "b": 6,
+      "gray_path": [
+        1,
+        5,
+        7,
+        6
+      ]
+    },
+    {
+      "a": 1,
+      "b": 11,
+      "gray_path": [
+        1,
+        9,
+        11
+      ]
+    },
+    {
+      "a": 1,
+      "b": 13,
+      "gray_path": [
+        1,
+        9,
+        13
+      ]
+    },
+    {
+      "a": 1,
+      "b": 14,
+      "gray_path": [
+        1,
+        9,
+        13,
+        15,
+        14
+      ]
+    },
+    {
+      "a": 1,
+      "b": 15,
+      "gray_path": [
+        1,
+        9,
+        13,
+        15
+      ]
+    },
+    {
+      "a": 2,
+      "b": 7,
+      "gray_path": [
+        2,
+        6,
+        7
+      ]
+    },
+    {
+      "a": 2,
+      "b": 12,
+      "gray_path": [
+        2,
+        10,
+        14,
+        12
+      ]
+    },
+    {
+      "a": 2,
+      "b": 10,
+      "gray_path": [
+        2,
+        10
+      ]
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "gray_path": [
+        2,
+        3
+      ]
+    },
+    {
+      "a": 2,
+      "b": 8,
+      "gray_path": [
+        2,
+        10,
+        8
+      ]
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "gray_path": [
+        2,
+        6,
+        4,
+        5
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 3,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 2,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 3,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 2,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 2,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 2,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 3,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 2,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 2,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 3,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 2,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 3,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 2,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 1
+        },
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 0,
+      "controls": [
+        {
+          "qubit": 1,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 2,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 3,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 2,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 2,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 1,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "gate": "mcx",
+      "target": 1,
+      "controls": [
+        {
+          "qubit": 0,
+          "value": 0
+        },
+        {
+          "qubit": 2,
+          "value": 1
+        },
+        {
+          "qubit": 3,
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "native_three_control_x_count": 44,
+  "compiled_cx_upper_bound": 1496,
+  "verification": "All16 direct gate evaluations equal fixed mapping; all64 output bits equal ANF",
+  "scope": "One deterministic construction, no search or optimized cost claim"
+}

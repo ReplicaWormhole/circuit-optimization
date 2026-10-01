@@ -1,0 +1,139 @@
+{
+  "base14": "delete14_raw_top.json",
+  "seed15": "topology16_15_exact_candidate.json",
+  "target": "algebraic14_parity_fermion_fourier_matrix.npy",
+  "topology": [
+    [
+      3,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "permutation": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13,
+    10,
+    11,
+    14,
+    15
+  ],
+  "seed_row_overlap_average": 0.9999999999999987,
+  "seed": 17,
+  "adam_steps_cap": 200,
+  "bfgs_maxiter": 100,
+  "bfgs_nit": 22,
+  "bfgs_nfev": 78,
+  "best_target_loss": 0.15397796356506432,
+  "emitted_internal_target_loss": 0.15397796356506432,
+  "emitted_gate_list_target_loss": 0.153977963565064,
+  "off_diagonal_error": 0.7541410414158716,
+  "valid_diagonalizer": false,
+  "history": [
+    {
+      "adam_step": 0,
+      "loss": 0.5420327351246964,
+      "best_loss": 0.5420327351246964
+    },
+    {
+      "adam_step": 25,
+      "loss": 0.16467463440025654,
+      "best_loss": 0.16427119187550066
+    },
+    {
+      "adam_step": 50,
+      "loss": 0.15478055195767193,
+      "best_loss": 0.15475706836643732
+    },
+    {
+      "adam_step": 75,
+      "loss": 0.15413957737704087,
+      "best_loss": 0.15406372870166973
+    },
+    {
+      "adam_step": 100,
+      "loss": 0.1539834761687897,
+      "best_loss": 0.1539826522929887
+    },
+    {
+      "adam_step": 125,
+      "loss": 0.1539787731642882,
+      "best_loss": 0.15397850542239078
+    },
+    {
+      "adam_step": 150,
+      "loss": 0.15398186702184913,
+      "best_loss": 0.15397821243872634
+    },
+    {
+      "adam_step": 175,
+      "loss": 0.15397798838977084,
+      "best_loss": 0.15397798362575554
+    },
+    {
+      "adam_step": 200,
+      "loss": 0.15397796828609756,
+      "best_loss": 0.15397796403690966
+    }
+  ]
+}

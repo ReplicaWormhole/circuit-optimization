@@ -1,0 +1,65 @@
+{
+  "normalization": "Mk=4Pk",
+  "pairs": {
+    "01": {
+      "failing_count": 9,
+      "minimum_nonzero_defect": 4,
+      "passing": []
+    },
+    "02": {
+      "failing_count": 6,
+      "minimum_nonzero_defect": 8,
+      "passing": [
+        "X0X2",
+        "Y0Y2",
+        "Z0Z2"
+      ]
+    },
+    "03": {
+      "failing_count": 9,
+      "minimum_nonzero_defect": 4,
+      "passing": []
+    },
+    "12": {
+      "failing_count": 9,
+      "minimum_nonzero_defect": 4,
+      "passing": []
+    },
+    "13": {
+      "failing_count": 6,
+      "minimum_nonzero_defect": 8,
+      "passing": [
+        "X1X3",
+        "Y1Y3",
+        "Z1Z3"
+      ]
+    },
+    "23": {
+      "failing_count": 9,
+      "minimum_nonzero_defect": 4,
+      "passing": []
+    }
+  },
+  "single": {
+    "0": {
+      "failing_count": 3,
+      "minimum_nonzero_defect": 8,
+      "passing": []
+    },
+    "1": {
+      "failing_count": 3,
+      "minimum_nonzero_defect": 8,
+      "passing": []
+    },
+    "2": {
+      "failing_count": 3,
+      "minimum_nonzero_defect": 8,
+      "passing": []
+    },
+    "3": {
+      "failing_count": 3,
+      "minimum_nonzero_defect": 8,
+      "passing": []
+    }
+  }
+}

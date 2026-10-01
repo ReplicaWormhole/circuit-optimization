@@ -1,0 +1,409 @@
+{
+  "field": "Q(zeta_96)",
+  "pair_relation": [
+    2,
+    1,
+    "i"
+  ],
+  "rows": [
+    {
+      "allowed_columns": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "basis": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 0,
+      "equation_count": 8,
+      "exact_nullity": 3,
+      "row": 0
+    },
+    {
+      "allowed_columns": [
+        1,
+        14
+      ],
+      "basis": [
+        [
+          "zeta**24",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 3,
+      "equation_count": 8,
+      "exact_nullity": 1,
+      "row": 1
+    },
+    {
+      "allowed_columns": [
+        2,
+        13
+      ],
+      "basis": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 1,
+      "equation_count": 4,
+      "exact_nullity": 2,
+      "row": 2
+    },
+    {
+      "allowed_columns": [
+        2,
+        13
+      ],
+      "basis": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 1,
+      "equation_count": 4,
+      "exact_nullity": 2,
+      "row": 3
+    },
+    {
+      "allowed_columns": [
+        6,
+        9
+      ],
+      "basis": [
+        [
+          "-1",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 2,
+      "equation_count": 12,
+      "exact_nullity": 1,
+      "row": 4
+    },
+    {
+      "allowed_columns": [
+        5,
+        10
+      ],
+      "basis": [
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 0,
+      "equation_count": 12,
+      "exact_nullity": 1,
+      "row": 5
+    },
+    {
+      "allowed_columns": [
+        4,
+        7
+      ],
+      "basis": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 2,
+      "equation_count": 8,
+      "exact_nullity": 2,
+      "row": 6
+    },
+    {
+      "allowed_columns": [
+        4,
+        7
+      ],
+      "basis": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 2,
+      "equation_count": 8,
+      "exact_nullity": 2,
+      "row": 7
+    },
+    {
+      "allowed_columns": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "basis": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 0,
+      "equation_count": 8,
+      "exact_nullity": 3,
+      "row": 8
+    },
+    {
+      "allowed_columns": [
+        6,
+        9
+      ],
+      "basis": [
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 2,
+      "equation_count": 8,
+      "exact_nullity": 1,
+      "row": 9
+    },
+    {
+      "allowed_columns": [
+        0,
+        5,
+        8,
+        10,
+        11,
+        15
+      ],
+      "basis": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 0,
+      "equation_count": 4,
+      "exact_nullity": 5,
+      "row": 10
+    },
+    {
+      "allowed_columns": [
+        0,
+        5,
+        8,
+        10,
+        11,
+        15
+      ],
+      "basis": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 0,
+      "equation_count": 4,
+      "exact_nullity": 5,
+      "row": 11
+    },
+    {
+      "allowed_columns": [
+        12
+      ],
+      "basis": [
+        [
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 3,
+      "equation_count": 12,
+      "exact_nullity": 1,
+      "row": 12
+    },
+    {
+      "allowed_columns": [
+        3
+      ],
+      "basis": [
+        [
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 1,
+      "equation_count": 12,
+      "exact_nullity": 1,
+      "row": 13
+    },
+    {
+      "allowed_columns": [
+        1,
+        14
+      ],
+      "basis": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 3,
+      "equation_count": 8,
+      "exact_nullity": 2,
+      "row": 14
+    },
+    {
+      "allowed_columns": [
+        8,
+        11
+      ],
+      "basis": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "eigenvalue_power": 0,
+      "equation_count": 8,
+      "exact_nullity": 2,
+      "row": 15
+    }
+  ],
+  "scope": "exact linear ansatz feasibility only; row unitarity not yet solved",
+  "source": "topology14_exact_matchgate_rational.json",
+  "zero_realign_columns": [
+    3,
+    7,
+    8,
+    9,
+    10,
+    12,
+    15
+  ]
+}

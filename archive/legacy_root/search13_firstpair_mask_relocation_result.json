@@ -1,0 +1,11 @@
+{
+  "models": 62,
+  "ordered_five_cnot_paths": 248832,
+  "pair_local_endpoints": 11,
+  "counts": {
+    "pair_local_paths": 3574,
+    "identity_endpoint_paths": 272,
+    "exactly_one_missing": 196
+  },
+  "hits": []
+}

@@ -1,0 +1,1143 @@
+{
+  "case_count": 196,
+  "distinct_phase_operators": 51,
+  "coefficient_histogram": {
+    "1": 23,
+    "2": 45,
+    "3": 7,
+    "5": 11,
+    "6": 31,
+    "7": 5,
+    "9": 6,
+    "10": 13,
+    "11": 10,
+    "14": 27,
+    "15": 18
+  },
+  "schmidt_rank_at_least_two": 51,
+  "rank_one_cases": [],
+  "results": [
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 11,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 6,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 1,
+      "multiplicity": 9,
+      "post_prefix_wire_mask": 11,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 2,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 9,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 14,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 13,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 10,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 9,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 6,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 13,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 15,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 11,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 1,
+      "multiplicity": 5,
+      "post_prefix_wire_mask": 12,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 3,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 11,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 9,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 12,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 11,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 11,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 5,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 12,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 7,
+      "multiplicity": 1,
+      "post_prefix_wire_mask": 11,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 2,
+      "multiplicity": 3,
+      "post_prefix_wire_mask": 11,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 14,
+      "multiplicity": 3,
+      "post_prefix_wire_mask": 15,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 14,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 6,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 2,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 14,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 6,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 6,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 10,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 14,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 6,
+      "multiplicity": 3,
+      "post_prefix_wire_mask": 15,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 2,
+      "multiplicity": 3,
+      "post_prefix_wire_mask": 13,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 14,
+      "multiplicity": 3,
+      "post_prefix_wire_mask": 15,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 10,
+      "multiplicity": 3,
+      "post_prefix_wire_mask": 13,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        10,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 6,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 14,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 2,
+      "multiplicity": 8,
+      "post_prefix_wire_mask": 12,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        10,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 14,
+      "multiplicity": 8,
+      "post_prefix_wire_mask": 14,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 10,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 12,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 15,
+      "multiplicity": 9,
+      "post_prefix_wire_mask": 3,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 1,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 13,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 5,
+      "multiplicity": 5,
+      "post_prefix_wire_mask": 13,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 15,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 13,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 1,
+      "multiplicity": 5,
+      "post_prefix_wire_mask": 6,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 3,
+      "multiplicity": 1,
+      "post_prefix_wire_mask": 13,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 11,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 13,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 5,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 6,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 7,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 6,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 15,
+      "multiplicity": 1,
+      "post_prefix_wire_mask": 6,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        10,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 6,
+      "multiplicity": 12,
+      "post_prefix_wire_mask": 3,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        10,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 2,
+      "multiplicity": 12,
+      "post_prefix_wire_mask": 7,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 6,
+      "multiplicity": 6,
+      "post_prefix_wire_mask": 11,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 2,
+      "multiplicity": 6,
+      "post_prefix_wire_mask": 15,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        5
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 14,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 7,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        5
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 10,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 6,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        5
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 2,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 6,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 2,
+      "multiplicity": 3,
+      "post_prefix_wire_mask": 15,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 14,
+      "multiplicity": 3,
+      "post_prefix_wire_mask": 13,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        5
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 2,
+      "multiplicity": 4,
+      "post_prefix_wire_mask": 11,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        5
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 6,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 9,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        5
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 14,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 9,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 3,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 3,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 9,
+      "multiplicity": 2,
+      "post_prefix_wire_mask": 13,
+      "nonzero_minor_rows_columns": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  ]
+}

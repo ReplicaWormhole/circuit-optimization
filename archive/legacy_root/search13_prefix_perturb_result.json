@@ -1,0 +1,193 @@
+{
+  "source": "search13_prefix_delete_fit_p4_s1.json",
+  "seed": 134300,
+  "maxiter": 500,
+  "perturb_sigmas": [
+    0,
+    0.01,
+    0.04,
+    0.1
+  ],
+  "rows": [
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134300,
+      "sigma": 0.0,
+      "maxiter": 500,
+      "initial_loss": 0.1417625585277496,
+      "loss": 0.14176255852774933,
+      "nit": 1,
+      "nfev": 3,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.2665569721056045,
+      "eigenvalue_root_error": 0.5288987675058099,
+      "valid_diagonalizer": false,
+      "start": 0,
+      "candidate": "search13_prefix_perturb_s0.json",
+      "source_off_diagonal_error": 0.2665569736520387
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134301,
+      "sigma": 0.01,
+      "maxiter": 500,
+      "initial_loss": 0.14863007381757815,
+      "loss": 0.1417625585277501,
+      "nit": 61,
+      "nfev": 66,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.26655697018002283,
+      "eigenvalue_root_error": 0.5288987582280653,
+      "valid_diagonalizer": false,
+      "start": 1,
+      "candidate": "search13_prefix_perturb_s1.json",
+      "source_off_diagonal_error": 0.2665569736520387
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134302,
+      "sigma": 0.04,
+      "maxiter": 500,
+      "initial_loss": 0.24360028705193185,
+      "loss": 0.1417625585277502,
+      "nit": 72,
+      "nfev": 81,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.2665569701584357,
+      "eigenvalue_root_error": 0.5288987610753102,
+      "valid_diagonalizer": false,
+      "start": 2,
+      "candidate": "search13_prefix_perturb_s2.json",
+      "source_off_diagonal_error": 0.2665569736520387
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134303,
+      "sigma": 0.1,
+      "maxiter": 500,
+      "initial_loss": 0.6977753410295142,
+      "loss": 0.14176255852774952,
+      "nit": 73,
+      "nfev": 80,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.26655696794119266,
+      "eigenvalue_root_error": 0.5288987519863934,
+      "valid_diagonalizer": false,
+      "start": 3,
+      "candidate": "search13_prefix_perturb_s3.json",
+      "source_off_diagonal_error": 0.2665569736520387
+    }
+  ],
+  "best": {
+    "deleted": 4,
+    "block_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "seed": 134300,
+    "sigma": 0.0,
+    "maxiter": 500,
+    "initial_loss": 0.1417625585277496,
+    "loss": 0.14176255852774933,
+    "nit": 1,
+    "nfev": 3,
+    "optimizer_success": true,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "off_diagonal_error": 0.2665569721056045,
+    "eigenvalue_root_error": 0.5288987675058099,
+    "valid_diagonalizer": false,
+    "start": 0,
+    "candidate": "search13_prefix_perturb_s0.json",
+    "source_off_diagonal_error": 0.2665569736520387
+  }
+}

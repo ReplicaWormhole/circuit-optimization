@@ -1,0 +1,84 @@
+"""Exact two-bit eigenbases for the four run108 orbit-label branches.
+
+Find a two-CNOT QFT-like circuit from H, CP(pi/2), H that diagonalizes
+both increment and decrement. Check a one-CNOT Bell basis for SWAP and a
+one-CNOT Gray correction for the last length-four orbit. All calculations
+are exact over Q(i,sqrt(2)). A controlled four-branch multiplexor is not
+synthesized here.
+"""
+
+import json
+
+import sympy as sp
+
+
+I = sp.I
+S = sp.sqrt(2) / 2
+IDENTITY = sp.eye(4)
+H = sp.Matrix([[S, S], [S, -S]])
+H0 = sp.kronecker_product(H, sp.eye(2))
+H1 = sp.kronecker_product(sp.eye(2), H)
+CP_PLUS = sp.diag(1, 1, 1, I)
+CP_MINUS = sp.diag(1, 1, 1, -I)
+CX01 = sp.Matrix([[1, 0, 0, 0], [0, 1, 0, 0],
+                  [0, 0, 0, 1], [0, 0, 1, 0]])
+SWAP = sp.Matrix([[1, 0, 0, 0], [0, 0, 1, 0],
+                  [0, 1, 0, 0], [0, 0, 0, 1]])
+
+
+def permutation(indices):
+    result = sp.zeros(4)
+    for initial, final in enumerate(indices):
+        result[final, initial] = 1
+    return result
+
+
+def diagonal_entries(transform, action):
+    conjugated = sp.simplify(transform * action * transform.conjugate().T)
+    if any(conjugated[row, col] != 0
+           for row in range(4) for col in range(4) if row != col):
+        return None
+    return [str(sp.simplify(conjugated[j, j])) for j in range(4)]
+
+
+def main():
+    increment = permutation([1, 2, 3, 0])
+    decrement = permutation([3, 0, 1, 2])
+    gray_increment = permutation([1, 3, 0, 2])
+    assert gray_increment == CX01 * increment * CX01
+    candidates = []
+    for first_h, second_h, first_label, second_label in (
+            (H0, H1, "H0", "H1"), (H1, H0, "H1", "H0")):
+        for cp, sign in ((CP_PLUS, "+"), (CP_MINUS, "-")):
+            transform = second_h * cp * first_h
+            eigenvalues = diagonal_entries(transform, increment)
+            candidates.append({"chronological": [first_label, f"CP({sign}pi/2)",
+                                                  second_label],
+                               "increment_eigenvalues": eigenvalues})
+    passing = [candidate for candidate in candidates
+               if candidate["increment_eigenvalues"] is not None]
+    assert passing
+    selected = passing[0]
+    first_h = H0 if selected["chronological"][0] == "H0" else H1
+    second_h = H0 if selected["chronological"][2] == "H0" else H1
+    cp = CP_PLUS if "+" in selected["chronological"][1] else CP_MINUS
+    fourier = second_h * cp * first_h
+    bell = H0 * CX01  # chronological CX01, H0
+    result = {
+        "qft_candidates": candidates,
+        "selected_qft_chronological": selected["chronological"],
+        "increment_eigenvalues": diagonal_entries(fourier, increment),
+        "decrement_eigenvalues": diagonal_entries(fourier, decrement),
+        "gray_eigenvalues": diagonal_entries(fourier * CX01, gray_increment),
+        "swap_eigenvalues": diagonal_entries(bell, SWAP),
+        "uncontrolled_cnot_upper_bounds": {
+            "increment_or_decrement": 2, "gray_increment": 3, "swap": 1},
+        "cp_decomposition_chronological": ["CX01", "Rz1(-theta/2)", "CX01",
+                                           "Rz0(theta/2)", "Rz1(theta/2)"],
+        "scope": "per-label two-qubit branch bases; no controlled multiplexor",
+    }
+    print(json.dumps(result, indent=2))
+
+
+if __name__ == "__main__":
+    main()

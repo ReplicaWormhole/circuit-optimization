@@ -1,0 +1,1 @@
+../../global_lower_bound7_degree3_centered_gram.md

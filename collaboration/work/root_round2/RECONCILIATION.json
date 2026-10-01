@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-09-26T20:18:28.106371+00:00",
+  "starting_commit": "f1dcda6",
+  "starting_git_status": "clean",
+  "agent_registry": [
+    "/root"
+  ],
+  "historical_handles_inherited": false,
+  "ledger_before": {
+    "attempts": 371,
+    "running": 0,
+    "audited_candidates": 186,
+    "audit_problems": []
+  },
+  "board_before": {
+    "hypotheses": 16,
+    "all_terminal": true,
+    "audited_submissions": 4
+  },
+  "process_inventory": "ps command inventory and /proc cwd/cmdline inspection found MCP services but no circuit optimizer or certificate process before dispatch",
+  "exact13_status": "runs370 and371 terminal; same-verifier reproduction plus separate sign/normalization/tower audits; formal acceptance pending, exclusively assigned verifier_round2",
+  "assignments": {
+    "algebraic_round2": "structural exact13 block/cancellation investigation; no optimizer, optional one60s exact identity check",
+    "numerical_round2": "one distinct12CX topology changing at least2 retained pairs;2 seeded starts max200iterations each total120s one thread",
+    "verifier_round2": "exclusive exact13 evidence acceptance review and separately defined native gate costs; no repeat same-verifier certificate"
+  },
+  "ownership": "per-agent work dirs; root owns records and local commit; no push",
+  "round_policy": "one bounded round only; recommended next round is not dispatched",
+  "interruption_recovery": {
+    "new_agent_statuses": "three interrupted, resumed same handles via followup_task",
+    "ledger": "371 runs, zero running after interruption",
+    "board": "hypothesis17 claimed by algebraic; no duplicate new claims created by root",
+    "process_check": "no round2 optimizer/certificate/unit test remained live; unittest session40008 collected exit0",
+    "permissions": "full access after user continue"
+  },
+  "coordinator_checks": {
+    "focused_tests": "15 passed",
+    "native_tests": "7 passed",
+    "canonical13_numerical": {
+      "cnot_count": 13,
+      "off_diagonal_error": 5.65198076432888e-16,
+      "unitarity_error": 4.440892098500626e-16,
+      "scope": "floating diagnostic, exact acceptance reviewed separately"
+    }
+  },
+  "round_closeout": {
+    "run": 372,
+    "status": "inconclusive",
+    "elapsed_seconds": 8.05216614692472,
+    "hypotheses": {
+      "17": "completed",
+      "18": "completed",
+      "19": "inconclusive"
+    },
+    "ledger": {
+      "attempts": 372,
+      "running": 0,
+      "audited_candidates": 187,
+      "audit_problems": []
+    },
+    "agents": "all3researchers completed; root records/commit only",
+    "incumbent": "exact13 accepted from preserved370371 evidence, no duplicate certification",
+    "independent_exact_matrix_implementations": 1,
+    "handoff": "collaboration/HANDOFF.md current section; historical section preserved",
+    "next_round": "recommended only, not dispatched"
+  }
+}

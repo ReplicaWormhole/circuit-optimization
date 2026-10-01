@@ -1,0 +1,57 @@
+{
+  "input": "delete14_nullspace_pi16_candidate.json",
+  "grid_denominator": 16,
+  "maxiter": 50,
+  "step_norm": 0.03,
+  "difference_step": 1e-05,
+  "rcond": 1e-09,
+  "initial_penalty": 2.7589121107164067,
+  "final_penalty": 2.750104323523504,
+  "initial_grid_counts": {
+    "1e-06": 64,
+    "0.0001": 79,
+    "0.001": 85,
+    "0.01": 89
+  },
+  "final_grid_counts": {
+    "1e-06": 68,
+    "0.0001": 83,
+    "0.001": 85,
+    "0.01": 89
+  },
+  "initial_mixer_magnitudes": {
+    "5_5": 1.2881169751204493e-15,
+    "5_9": 0.9808757711884027,
+    "6_6": 2.770747591185276e-16,
+    "6_10": 0.9808757711884026
+  },
+  "final_mixer_magnitudes": {
+    "5_5": 1.273190874271539e-16,
+    "5_9": 0.9807528961825036,
+    "6_6": 2.2541936539972636e-16,
+    "6_10": 0.9807528961825037
+  },
+  "final_offdiag": 1.2499580102674024e-15,
+  "valid_diagonalizer": true,
+  "cnot_count": 14,
+  "history": [
+    {
+      "iteration": 0,
+      "jacobian_rank": 37,
+      "null_dimension": 71,
+      "old_penalty": 2.7589121107164067,
+      "new_penalty": 2.750104323523504,
+      "accepted_factor": 0.25,
+      "residual_norm": 5.335124227020713e-15
+    },
+    {
+      "iteration": 1,
+      "jacobian_rank": 37,
+      "null_dimension": 71,
+      "old_penalty": 2.750104323523504,
+      "new_penalty": null,
+      "accepted_factor": null,
+      "residual_norm": null
+    }
+  ]
+}

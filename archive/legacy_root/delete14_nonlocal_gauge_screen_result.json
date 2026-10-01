@@ -1,0 +1,3009 @@
+{
+  "source": "topology16_15_exact_candidate.json",
+  "split_gate": 49,
+  "prefix_cnot": 10,
+  "suffix_cnot": 5,
+  "cut_order": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "baseline_suffix_ranks": [
+    4,
+    4,
+    4,
+    4,
+    2,
+    16,
+    16
+  ],
+  "gauge_trials": 76,
+  "rank_compatible_trials": 0,
+  "records": [
+    {
+      "row_pair": [
+        0,
+        6
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377887,
+        1.4398691970812358,
+        1.4398691970812358,
+        0.6714136936377888,
+        0.017835415842780575,
+        0.08208066693101901,
+        0.0874708064852983
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        6
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377887,
+        1.4398691970812358,
+        1.4398691970812354,
+        0.6714136936377888,
+        0.017835415842780578,
+        0.08208066693101902,
+        0.0874708064852983
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        6
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.8702639328851417,
+        1.4999999999999991,
+        1.4999999999999991,
+        0.8702639328851416,
+        0.07146884120351228,
+        0.02568945955078683,
+        0.09891122258942932
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        6
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.8702639328851417,
+        1.5000000000000002,
+        1.4999999999999998,
+        0.8702639328851416,
+        0.07146884120351228,
+        0.02568945955078684,
+        0.09891122258942937
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        9
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6144697252924471,
+        1.414213562373095,
+        1.4142135623730945,
+        0.6144697252924471,
+        0.017835415842780557,
+        0.06499019599556229,
+        0.08747080648529816
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        9
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6144697252924471,
+        1.414213562373095,
+        1.4142135623730943,
+        0.6144697252924471,
+        0.017835415842780554,
+        0.0649901959955623,
+        0.08747080648529817
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        9
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.712291592594434,
+        1.4142135623730951,
+        1.4142135623730951,
+        0.712291592594434,
+        0.07146884120351239,
+        0.028576385602442037,
+        0.09891122258942939
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        9
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.712291592594434,
+        1.4142135623730947,
+        1.4142135623730947,
+        0.712291592594434,
+        0.0714688412035124,
+        0.02857638560244189,
+        0.09891122258942942
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        11
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6144697252924471,
+        1.414213562373095,
+        1.4650756326574834,
+        0.5516790177246296,
+        0.032072575107717445,
+        0.08500810240447693,
+        0.07113340573807649
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        11
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6144697252924471,
+        1.4142135623730951,
+        1.4650756326574834,
+        0.5516790177246296,
+        0.03207257510771737,
+        0.08500810240447694,
+        0.07113340573807661
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        11
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.712291592594434,
+        1.4142135623730947,
+        1.581138830084189,
+        0.5073059361772883,
+        0.12811341870570275,
+        0.005044471646243758,
+        0.007660432570514955
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        11
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.712291592594434,
+        1.4142135623730947,
+        1.5811388300841893,
+        0.5073059361772883,
+        0.12811341870570273,
+        0.00504447164624385,
+        0.00766043257051495
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5516790177246295,
+        1.4650756326574832,
+        1.465075632657483,
+        0.5516790177246296,
+        0.03841706260826498,
+        0.08537935504982748,
+        0.04721414572257526
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5516790177246295,
+        1.4650756326574834,
+        1.465075632657483,
+        0.5516790177246296,
+        0.03841706260826498,
+        0.08537935504982763,
+        0.047214145722575276
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5073059361772884,
+        1.5811388300841895,
+        1.5811388300841887,
+        0.5073059361772883,
+        0.15148131731815553,
+        0.07635513698153712,
+        0.06822247409381747
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        0,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5073059361772884,
+        1.5811388300841895,
+        1.5811388300841884,
+        0.5073059361772883,
+        0.15148131731815556,
+        0.07635513698153704,
+        0.06822247409381747
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        1,
+        12
+      ],
+      "eigenvalue_label": 3,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5516790177246296,
+        1.4650756326574836,
+        1.4142135623730943,
+        0.6144697252924471,
+        0.032072575107717285,
+        0.08500810240447687,
+        0.07113340573807653
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        1,
+        12
+      ],
+      "eigenvalue_label": 3,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5516790177246296,
+        1.4650756326574836,
+        1.4142135623730943,
+        0.6144697252924471,
+        0.03207257510771729,
+        0.08500810240447683,
+        0.07113340573807649
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        1,
+        12
+      ],
+      "eigenvalue_label": 3,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5073059361772888,
+        1.5811388300841893,
+        1.4142135623730945,
+        0.7122915925944338,
+        0.12811341870570267,
+        0.0050444716462438475,
+        0.007660432570514905
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        1,
+        12
+      ],
+      "eigenvalue_label": 3,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5073059361772888,
+        1.5811388300841893,
+        1.4142135623730945,
+        0.7122915925944338,
+        0.12811341870570264,
+        0.005044471646243879,
+        0.0076604325705149036
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        1,
+        14
+      ],
+      "eigenvalue_label": 3,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5516790177246296,
+        1.2669848101932903,
+        1.4142135623730945,
+        0.6714136936377887,
+        0.3370779754748081,
+        0.05382529874835931,
+        0.11294049780680487
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        1,
+        14
+      ],
+      "eigenvalue_label": 3,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5516790177246296,
+        1.2669848101932908,
+        1.4142135623730945,
+        0.6714136936377887,
+        0.337077975474808,
+        0.05382529874835934,
+        0.11294049780680486
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        1,
+        14
+      ],
+      "eigenvalue_label": 3,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5073059361772884,
+        1.224744871391589,
+        1.4142135623730943,
+        0.8702639328851418,
+        0.6559850946479258,
+        0.09294267321323,
+        0.09294267321323002
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        1,
+        14
+      ],
+      "eigenvalue_label": 3,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5073059361772884,
+        1.2247448713915892,
+        1.414213562373094,
+        0.8702639328851418,
+        0.6559850946479258,
+        0.09294267321322999,
+        0.09294267321322992
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        2,
+        13
+      ],
+      "eigenvalue_label": 1,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5516790177246298,
+        1.2669848101932908,
+        1.4142135623730945,
+        0.6714136936377885,
+        0.33707797547480806,
+        0.05382529874835939,
+        0.11294049780680489
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        2,
+        13
+      ],
+      "eigenvalue_label": 1,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5516790177246297,
+        1.2669848101932912,
+        1.4142135623730943,
+        0.6714136936377885,
+        0.33707797547480806,
+        0.05382529874835936,
+        0.11294049780680492
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        2,
+        13
+      ],
+      "eigenvalue_label": 1,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5073059361772884,
+        1.224744871391589,
+        1.4142135623730945,
+        0.8702639328851418,
+        0.6559850946479256,
+        0.09294267321322994,
+        0.09294267321322994
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        2,
+        13
+      ],
+      "eigenvalue_label": 1,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5073059361772888,
+        1.224744871391589,
+        1.414213562373095,
+        0.8702639328851418,
+        0.6559850946479258,
+        0.09294267321322991,
+        0.09294267321322996
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        3,
+        13
+      ],
+      "eigenvalue_label": 1,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5516790177246296,
+        1.4650756326574834,
+        1.4398691970812358,
+        0.6714136936377885,
+        0.032072575107717376,
+        0.0711334057380764,
+        0.07113340573807637
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        3,
+        13
+      ],
+      "eigenvalue_label": 1,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5516790177246296,
+        1.4650756326574834,
+        1.4398691970812352,
+        0.6714136936377885,
+        0.032072575107717376,
+        0.07113340573807644,
+        0.07113340573807646
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        3,
+        13
+      ],
+      "eigenvalue_label": 1,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5073059361772884,
+        1.5811388300841898,
+        1.499999999999999,
+        0.8702639328851418,
+        0.12811341870570264,
+        0.04351281203680502,
+        0.007660432570515028
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        3,
+        13
+      ],
+      "eigenvalue_label": 1,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.5073059361772884,
+        1.5811388300841893,
+        1.4999999999999998,
+        0.8702639328851418,
+        0.12811341870570261,
+        0.04351281203680498,
+        0.007660432570515022
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        4,
+        7
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377888,
+        1.4142135623730951,
+        1.4650756326574839,
+        0.5516790177246296,
+        0.33707797547480806,
+        0.08463557350406894,
+        0.08463557350406893
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        4,
+        7
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377888,
+        1.4142135623730945,
+        1.4650756326574832,
+        0.5516790177246296,
+        0.33707797547480794,
+        0.084635573504069,
+        0.08463557350406888
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        4,
+        7
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        13,
+        13
+      ],
+      "smallest_nonzero_singular": [
+        0.870263932885142,
+        1.4142135623730945,
+        1.5811388300841889,
+        0.5073059361772888,
+        0.6559850946479256,
+        0.146053495159848,
+        0.20710678118654752
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        4,
+        7
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        13,
+        13
+      ],
+      "smallest_nonzero_singular": [
+        0.870263932885142,
+        1.4142135623730945,
+        1.5811388300841895,
+        0.5073059361772888,
+        0.6559850946479258,
+        0.14605349515984803,
+        0.20710678118654735
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        4,
+        10
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377887,
+        1.414213562373095,
+        1.4342496995421765,
+        0.6714136936377887,
+        0.03775983459216193,
+        0.04140248971185582,
+        0.04101522081997089
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        4,
+        10
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377887,
+        1.4142135623730947,
+        1.4342496995421765,
+        0.6714136936377888,
+        0.03775983459216193,
+        0.041402489711855714,
+        0.04101522081997083
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        4,
+        10
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.870263932885142,
+        1.4142135623730954,
+        1.4881676292892163,
+        0.8702639328851417,
+        0.142071204931134,
+        0.040167072276451186,
+        0.005267385264910886
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        4,
+        10
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.870263932885142,
+        1.4142135623730947,
+        1.4881676292892163,
+        0.8702639328851417,
+        0.14207120493113393,
+        0.04016707227645123,
+        0.005267385264910893
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        5,
+        10
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377887,
+        1.4142135623730947,
+        1.4142135623730947,
+        0.6714136936377887,
+        0.1888852668950884,
+        0.009977290510485686,
+        0.09561050560571328
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        5,
+        10
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377887,
+        1.4142135623730947,
+        1.4142135623730943,
+        0.6714136936377887,
+        0.10423905080357805,
+        0.03446531320634698,
+        0.11925013465915635
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        5,
+        10
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        15,
+        15
+      ],
+      "smallest_nonzero_singular": [
+        0.8702639328851418,
+        1.4142135623730947,
+        1.4142135623730947,
+        0.8702639328851418,
+        0.3604093371313939,
+        0.08430998431051781,
+        0.09663089767442157
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        5,
+        10
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.870263932885142,
+        1.4142135623730947,
+        1.4142135623730945,
+        0.8702639328851417,
+        0.13888430709272978,
+        0.09219913826761093,
+        0.18581285361544328
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        8
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377888,
+        1.4142135623730954,
+        1.4342496995421765,
+        0.6714136936377885,
+        0.0377598345921619,
+        0.0414024897118556,
+        0.041015220819970624
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        8
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377888,
+        1.414213562373095,
+        1.4342496995421765,
+        0.6714136936377885,
+        0.0377598345921619,
+        0.041402489711855756,
+        0.041015220819970666
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        8
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.870263932885142,
+        1.414213562373095,
+        1.4881676292892163,
+        0.8702639328851417,
+        0.14207120493113387,
+        0.04016707227645124,
+        0.005267385264911007
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        8
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.8702639328851418,
+        1.414213562373095,
+        1.4881676292892159,
+        0.8702639328851417,
+        0.1420712049311339,
+        0.040167072276451214,
+        0.0052673852649109286
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        9
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377887,
+        1.4142135623730947,
+        1.4142135623730945,
+        0.6714136936377887,
+        0.18888526689508828,
+        0.00997729051048577,
+        0.09561050560571323
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        9
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377887,
+        1.414213562373095,
+        1.4142135623730947,
+        0.6714136936377887,
+        0.10423905080357802,
+        0.034465313206347,
+        0.11925013465915642
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        9
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        15,
+        15
+      ],
+      "smallest_nonzero_singular": [
+        0.870263932885142,
+        1.414213562373095,
+        1.4142135623730943,
+        0.8702639328851417,
+        0.360409337131394,
+        0.08430998431051791,
+        0.09663089767442133
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        9
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 4,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.8702639328851418,
+        1.4142135623730947,
+        1.414213562373095,
+        0.8702639328851417,
+        0.1388843070927298,
+        0.09219913826761081,
+        0.18581285361544347
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        11
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377887,
+        1.4142135623730945,
+        1.414213562373095,
+        0.614469725292447,
+        0.03775983459216162,
+        0.10527028892632383,
+        0.041015220819970805
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        11
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377887,
+        1.4142135623730945,
+        1.414213562373095,
+        0.614469725292447,
+        0.03775983459216173,
+        0.1052702889263239,
+        0.04101522081997084
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        11
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.8702639328851418,
+        1.4142135623730945,
+        1.4142135623730943,
+        0.7122915925944335,
+        0.1420712049311338,
+        0.07088537389787378,
+        0.005267385264910959
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        11
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.870263932885142,
+        1.4142135623730947,
+        1.4142135623730943,
+        0.7122915925944335,
+        0.1420712049311338,
+        0.07088537389787378,
+        0.005267385264910956
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6144697252924473,
+        1.414213562373095,
+        1.4142135623730947,
+        0.6144697252924471,
+        0.017835415842780648,
+        0.06499019599556233,
+        0.08747080648529815
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6144697252924473,
+        1.4142135623730945,
+        1.4142135623730945,
+        0.6144697252924471,
+        0.017835415842780648,
+        0.06499019599556229,
+        0.08747080648529817
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.7122915925944338,
+        1.4142135623730947,
+        1.4142135623730945,
+        0.7122915925944335,
+        0.07146884120351245,
+        0.028576385602442043,
+        0.09891122258942935
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        6,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.7122915925944338,
+        1.4142135623730947,
+        1.4142135623730945,
+        0.7122915925944335,
+        0.07146884120351243,
+        0.02857638560244192,
+        0.09891122258942937
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        7,
+        10
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377887,
+        1.414213562373095,
+        1.4142135623730945,
+        0.614469725292447,
+        0.037759834592161826,
+        0.10527028892632385,
+        0.04101522081997085
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        7,
+        10
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377887,
+        1.414213562373095,
+        1.4142135623730945,
+        0.614469725292447,
+        0.0377598345921617,
+        0.10527028892632401,
+        0.04101522081997081
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        7,
+        10
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.8702639328851418,
+        1.4142135623730945,
+        1.4142135623730938,
+        0.7122915925944335,
+        0.14207120493113387,
+        0.07088537389787378,
+        0.005267385264910829
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        7,
+        10
+      ],
+      "eigenvalue_label": 2,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.8702639328851418,
+        1.4142135623730945,
+        1.4142135623730943,
+        0.7122915925944335,
+        0.14207120493113382,
+        0.07088537389787382,
+        0.005267385264910864
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        8,
+        11
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377888,
+        1.414213562373095,
+        1.4650756326574832,
+        0.5516790177246295,
+        0.3370779754748081,
+        0.08463557350406897,
+        0.08463557350406883
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        8,
+        11
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377888,
+        1.414213562373095,
+        1.4650756326574832,
+        0.5516790177246295,
+        0.33707797547480806,
+        0.0846355735040689,
+        0.08463557350406885
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        8,
+        11
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        13,
+        13
+      ],
+      "smallest_nonzero_singular": [
+        0.870263932885142,
+        1.4142135623730945,
+        1.581138830084189,
+        0.5073059361772885,
+        0.6559850946479258,
+        0.14605349515984795,
+        0.20710678118654752
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        8,
+        11
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        13,
+        13
+      ],
+      "smallest_nonzero_singular": [
+        0.870263932885142,
+        1.4142135623730945,
+        1.581138830084189,
+        0.5073059361772888,
+        0.6559850946479258,
+        0.146053495159848,
+        0.2071067811865475
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        8,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377885,
+        1.4398691970812354,
+        1.4650756326574832,
+        0.5516790177246296,
+        0.032072575107717424,
+        0.07113340573807655,
+        0.07113340573807654
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        8,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377885,
+        1.4398691970812363,
+        1.4650756326574832,
+        0.5516790177246296,
+        0.032072575107717424,
+        0.07113340573807661,
+        0.07113340573807651
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        8,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.8702639328851418,
+        1.4999999999999996,
+        1.5811388300841893,
+        0.5073059361772885,
+        0.12811341870570286,
+        0.04351281203680512,
+        0.007660432570514939
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        8,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 3,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        6,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.870263932885142,
+        1.499999999999999,
+        1.5811388300841893,
+        0.5073059361772885,
+        0.1281134187057028,
+        0.04351281203680509,
+        0.007660432570514947
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        9,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377888,
+        1.4398691970812354,
+        1.4398691970812358,
+        0.6714136936377887,
+        0.017835415842780655,
+        0.08208066693101906,
+        0.08747080648529806
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        9,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.25,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.6714136936377888,
+        1.4398691970812354,
+        1.4398691970812354,
+        0.6714136936377887,
+        0.017835415842780655,
+        0.08208066693101917,
+        0.08747080648529804
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        9,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.0,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.8702639328851418,
+        1.4999999999999993,
+        1.5,
+        0.8702639328851418,
+        0.07146884120351239,
+        0.025689459550786966,
+        0.09891122258942933
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    },
+    {
+      "row_pair": [
+        9,
+        15
+      ],
+      "eigenvalue_label": 0,
+      "hamming_distance": 2,
+      "angle_over_pi": 0.5,
+      "phase_over_pi": 0.5,
+      "ranks": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        16,
+        16
+      ],
+      "smallest_nonzero_singular": [
+        0.8702639328851418,
+        1.5,
+        1.4999999999999991,
+        0.8702639328851418,
+        0.0714688412035124,
+        0.025689459550786952,
+        0.09891122258942935
+      ],
+      "cut_cnot_bounds": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        4,
+        4
+      ],
+      "feasible_graph_count": 0,
+      "example_graphs": []
+    }
+  ]
+}

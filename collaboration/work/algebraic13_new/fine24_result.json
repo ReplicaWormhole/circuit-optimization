@@ -1,0 +1,868 @@
+{
+  "rows": [
+    {
+      "stage": 0,
+      "rank": 56,
+      "added": [
+        31,
+        124,
+        7,
+        3,
+        142,
+        106,
+        148,
+        130,
+        164
+      ],
+      "fixed": 9,
+      "nfev": 38,
+      "loss": 1.9022408740318593e-26,
+      "accepted": true
+    },
+    {
+      "stage": 1,
+      "rank": 56,
+      "added": [
+        87,
+        82,
+        91,
+        38,
+        133,
+        15,
+        28,
+        139,
+        113
+      ],
+      "fixed": 18,
+      "nfev": 35,
+      "loss": 1.0328780176123966e-26,
+      "accepted": true
+    },
+    {
+      "stage": 2,
+      "rank": 56,
+      "added": [
+        89,
+        166,
+        81,
+        83,
+        21,
+        22,
+        143,
+        117,
+        8
+      ],
+      "fixed": 27,
+      "nfev": 40,
+      "loss": 1.4019203916420108e-26,
+      "accepted": true
+    },
+    {
+      "stage": 3,
+      "rank": 56,
+      "added": [
+        51,
+        17,
+        88,
+        134,
+        135,
+        74,
+        54,
+        120,
+        13
+      ],
+      "fixed": 36,
+      "nfev": 38,
+      "loss": 1.0825601646372967e-26,
+      "accepted": true
+    },
+    {
+      "stage": 4,
+      "rank": 56,
+      "added": [
+        44,
+        84,
+        68,
+        146,
+        144,
+        18,
+        25,
+        152,
+        128
+      ],
+      "fixed": 45,
+      "nfev": 35,
+      "loss": 1.293232980444417e-26,
+      "accepted": true
+    },
+    {
+      "stage": 5,
+      "rank": 56,
+      "added": [
+        40,
+        131,
+        36,
+        79,
+        129,
+        65,
+        60,
+        110,
+        158
+      ],
+      "fixed": 54,
+      "nfev": 34,
+      "loss": 8.48355651160797e-27,
+      "accepted": true
+    },
+    {
+      "stage": 6,
+      "rank": 56,
+      "added": [
+        97,
+        14,
+        140,
+        94,
+        85,
+        46,
+        64,
+        6,
+        121
+      ],
+      "fixed": 63,
+      "nfev": 36,
+      "loss": 5.938373134490138e-27,
+      "accepted": true
+    },
+    {
+      "stage": 7,
+      "rank": 56,
+      "added": [
+        160,
+        150,
+        34,
+        104,
+        62,
+        47,
+        96,
+        45,
+        126
+      ],
+      "fixed": 72,
+      "nfev": 41,
+      "loss": 4.817504964189854e-27,
+      "accepted": true
+    },
+    {
+      "stage": 8,
+      "rank": 56,
+      "added": [
+        69,
+        167,
+        165,
+        76,
+        78,
+        127,
+        86,
+        115,
+        161
+      ],
+      "fixed": 81,
+      "nfev": 36,
+      "loss": 6.268849056734793e-27,
+      "accepted": true
+    },
+    {
+      "stage": 9,
+      "rank": 56,
+      "added": [
+        70,
+        137,
+        132,
+        61,
+        37,
+        90,
+        49,
+        19,
+        153
+      ],
+      "fixed": 90,
+      "nfev": 41,
+      "loss": 4.780401309179746e-28,
+      "accepted": true
+    },
+    {
+      "stage": 10,
+      "rank": 56,
+      "added": [
+        35,
+        154,
+        23,
+        118,
+        80,
+        53,
+        59,
+        57,
+        155
+      ],
+      "fixed": 99,
+      "nfev": 31,
+      "loss": 4.861735647664487e-27,
+      "accepted": true
+    },
+    {
+      "stage": 11,
+      "rank": 56,
+      "added": [
+        10,
+        26,
+        73,
+        58,
+        50,
+        98,
+        157,
+        107,
+        56
+      ],
+      "fixed": 108,
+      "nfev": 25,
+      "loss": 1.0013435885455296e-26,
+      "accepted": true
+    }
+  ],
+  "fixed_count": 108,
+  "labels": [
+    2,
+    0,
+    0,
+    1,
+    3,
+    1,
+    2,
+    3,
+    0,
+    2,
+    0,
+    0,
+    1,
+    3,
+    2,
+    0
+  ],
+  "numeric_check": {
+    "n": 4,
+    "cnot_count": 13,
+    "valid_diagonalizer": true,
+    "beats_18_cnot_reference": true,
+    "unitarity_error": 3.109711620849217e-15,
+    "off_diagonal_error": 8.080564402840028e-14,
+    "eigenvalue_root_error": 1.1546413879888199e-14,
+    "total_spin_off_diagonal_error": 2.8284271247461867,
+    "diagonalizes_total_spin": false,
+    "diagonal_eigenvalues": [
+      [
+        -0.9999999999999982,
+        1.3877787807814457e-17
+      ],
+      [
+        0.9999999999999994,
+        2.7755575615628914e-17
+      ],
+      [
+        0.9999999999999991,
+        -2.7755575615628914e-17
+      ],
+      [
+        -7.330323305535267e-20,
+        0.9999999999999991
+      ],
+      [
+        -1.1517710531113925e-17,
+        -1.0000000000000013
+      ],
+      [
+        -3.1390168614391633e-18,
+        0.9999999999999984
+      ],
+      [
+        -0.9999999999999993,
+        0.0
+      ],
+      [
+        -4.153474948311311e-18,
+        -0.9999999999999989
+      ],
+      [
+        0.9999999999999984,
+        0.0
+      ],
+      [
+        -1.0000000000000002,
+        0.0
+      ],
+      [
+        0.9999999999999998,
+        5.551115123125783e-17
+      ],
+      [
+        0.9999999999999991,
+        2.7755575615628914e-17
+      ],
+      [
+        -3.677680927779156e-18,
+        0.9999999999999998
+      ],
+      [
+        1.1673964953628748e-17,
+        -0.9999999999999971
+      ],
+      [
+        -0.9999999999999989,
+        2.7755575615628914e-17
+      ],
+      [
+        0.9999999999999989,
+        -5.551115123125783e-17
+      ]
+    ]
+  },
+  "rounded_check": {
+    "n": 4,
+    "cnot_count": 13,
+    "valid_diagonalizer": false,
+    "beats_18_cnot_reference": false,
+    "unitarity_error": 2.8416806486688374e-15,
+    "off_diagonal_error": 0.2547759038326714,
+    "eigenvalue_root_error": 0.16704891316904447,
+    "total_spin_off_diagonal_error": 2.778293903140766,
+    "diagonalizes_total_spin": false,
+    "diagonal_eigenvalues": [
+      [
+        -0.978137693647221,
+        0.0024823398272804525
+      ],
+      [
+        0.9742920090934145,
+        -0.0031379599538846753
+      ],
+      [
+        0.9554836177399927,
+        0.0035358639362774724
+      ],
+      [
+        0.005328762820705709,
+        0.9736247966683357
+      ],
+      [
+        0.006841047265751548,
+        -0.9793890746958827
+      ],
+      [
+        0.0011227229502881364,
+        0.9730034704061381
+      ],
+      [
+        -0.9593003159867262,
+        0.0011283994154351745
+      ],
+      [
+        -0.0005932576723205021,
+        -0.9794618439233412
+      ],
+      [
+        0.9858076904070241,
+        -0.0073523349515902114
+      ],
+      [
+        -0.9807465544682292,
+        0.011345843622703633
+      ],
+      [
+        0.9862662954776138,
+        0.0009180086726834902
+      ],
+      [
+        0.9925078377616416,
+        -0.00011537257519939059
+      ],
+      [
+        -0.006155806650891471,
+        0.9856100277979021
+      ],
+      [
+        0.012851366616129494,
+        -0.9830628315495036
+      ],
+      [
+        -0.9842178600222582,
+        -9.02881756538465e-05
+      ],
+      [
+        0.9886501383150827,
+        0.0009609554782994967
+      ]
+    ]
+  },
+  "limitations": "Gauge snap search; numerical fit does not certify exactness.",
+  "low_denominator_recognition": [
+    {
+      "coordinate": 3,
+      "fraction": "17/24"
+    },
+    {
+      "coordinate": 6,
+      "fraction": "5/8"
+    },
+    {
+      "coordinate": 7,
+      "fraction": "3/8"
+    },
+    {
+      "coordinate": 8,
+      "fraction": "13/12"
+    },
+    {
+      "coordinate": 10,
+      "fraction": "23/24"
+    },
+    {
+      "coordinate": 13,
+      "fraction": "37/24"
+    },
+    {
+      "coordinate": 14,
+      "fraction": "3/8"
+    },
+    {
+      "coordinate": 15,
+      "fraction": "1/2"
+    },
+    {
+      "coordinate": 17,
+      "fraction": "-11/24"
+    },
+    {
+      "coordinate": 18,
+      "fraction": "5/8"
+    },
+    {
+      "coordinate": 19,
+      "fraction": "3/8"
+    },
+    {
+      "coordinate": 21,
+      "fraction": "3/8"
+    },
+    {
+      "coordinate": 22,
+      "fraction": "7/8"
+    },
+    {
+      "coordinate": 23,
+      "fraction": "-11/12"
+    },
+    {
+      "coordinate": 25,
+      "fraction": "-1/3"
+    },
+    {
+      "coordinate": 26,
+      "fraction": "-11/24"
+    },
+    {
+      "coordinate": 28,
+      "fraction": "-1/6"
+    },
+    {
+      "coordinate": 30,
+      "fraction": "0"
+    },
+    {
+      "coordinate": 31,
+      "fraction": "0"
+    },
+    {
+      "coordinate": 32,
+      "fraction": "2"
+    },
+    {
+      "coordinate": 34,
+      "fraction": "-1/2"
+    },
+    {
+      "coordinate": 35,
+      "fraction": "0"
+    },
+    {
+      "coordinate": 36,
+      "fraction": "5/8"
+    },
+    {
+      "coordinate": 37,
+      "fraction": "25/24"
+    },
+    {
+      "coordinate": 38,
+      "fraction": "13/24"
+    },
+    {
+      "coordinate": 40,
+      "fraction": "-5/6"
+    },
+    {
+      "coordinate": 44,
+      "fraction": "-7/12"
+    },
+    {
+      "coordinate": 45,
+      "fraction": "1/6"
+    },
+    {
+      "coordinate": 46,
+      "fraction": "-1"
+    },
+    {
+      "coordinate": 47,
+      "fraction": "-19/24"
+    },
+    {
+      "coordinate": 49,
+      "fraction": "7/8"
+    },
+    {
+      "coordinate": 50,
+      "fraction": "3/4"
+    },
+    {
+      "coordinate": 51,
+      "fraction": "1/12"
+    },
+    {
+      "coordinate": 53,
+      "fraction": "31/24"
+    },
+    {
+      "coordinate": 54,
+      "fraction": "1/12"
+    },
+    {
+      "coordinate": 56,
+      "fraction": "-7/24"
+    },
+    {
+      "coordinate": 57,
+      "fraction": "2/3"
+    },
+    {
+      "coordinate": 58,
+      "fraction": "-1/12"
+    },
+    {
+      "coordinate": 59,
+      "fraction": "-5/12"
+    },
+    {
+      "coordinate": 60,
+      "fraction": "2/3"
+    },
+    {
+      "coordinate": 61,
+      "fraction": "11/12"
+    },
+    {
+      "coordinate": 62,
+      "fraction": "17/24"
+    },
+    {
+      "coordinate": 64,
+      "fraction": "-7/4"
+    },
+    {
+      "coordinate": 65,
+      "fraction": "-1/6"
+    },
+    {
+      "coordinate": 66,
+      "fraction": "1/2"
+    },
+    {
+      "coordinate": 68,
+      "fraction": "13/24"
+    },
+    {
+      "coordinate": 69,
+      "fraction": "3/4"
+    },
+    {
+      "coordinate": 70,
+      "fraction": "5/6"
+    },
+    {
+      "coordinate": 73,
+      "fraction": "1/6"
+    },
+    {
+      "coordinate": 74,
+      "fraction": "-5/8"
+    },
+    {
+      "coordinate": 76,
+      "fraction": "43/24"
+    },
+    {
+      "coordinate": 78,
+      "fraction": "13/24"
+    },
+    {
+      "coordinate": 79,
+      "fraction": "-1/3"
+    },
+    {
+      "coordinate": 80,
+      "fraction": "-1/12"
+    },
+    {
+      "coordinate": 81,
+      "fraction": "13/24"
+    },
+    {
+      "coordinate": 82,
+      "fraction": "-5/12"
+    },
+    {
+      "coordinate": 83,
+      "fraction": "11/24"
+    },
+    {
+      "coordinate": 84,
+      "fraction": "19/24"
+    },
+    {
+      "coordinate": 85,
+      "fraction": "17/24"
+    },
+    {
+      "coordinate": 86,
+      "fraction": "5/8"
+    },
+    {
+      "coordinate": 87,
+      "fraction": "2/3"
+    },
+    {
+      "coordinate": 88,
+      "fraction": "-5/4"
+    },
+    {
+      "coordinate": 89,
+      "fraction": "7/24"
+    },
+    {
+      "coordinate": 90,
+      "fraction": "1/2"
+    },
+    {
+      "coordinate": 91,
+      "fraction": "-7/12"
+    },
+    {
+      "coordinate": 94,
+      "fraction": "3/8"
+    },
+    {
+      "coordinate": 96,
+      "fraction": "7/12"
+    },
+    {
+      "coordinate": 97,
+      "fraction": "1/8"
+    },
+    {
+      "coordinate": 98,
+      "fraction": "-7/12"
+    },
+    {
+      "coordinate": 104,
+      "fraction": "-15/8"
+    },
+    {
+      "coordinate": 106,
+      "fraction": "5/24"
+    },
+    {
+      "coordinate": 107,
+      "fraction": "-1"
+    },
+    {
+      "coordinate": 110,
+      "fraction": "-5/8"
+    },
+    {
+      "coordinate": 113,
+      "fraction": "-7/12"
+    },
+    {
+      "coordinate": 115,
+      "fraction": "1/4"
+    },
+    {
+      "coordinate": 117,
+      "fraction": "5/6"
+    },
+    {
+      "coordinate": 118,
+      "fraction": "43/24"
+    },
+    {
+      "coordinate": 120,
+      "fraction": "1/6"
+    },
+    {
+      "coordinate": 121,
+      "fraction": "1/8"
+    },
+    {
+      "coordinate": 124,
+      "fraction": "3/2"
+    },
+    {
+      "coordinate": 126,
+      "fraction": "7/8"
+    },
+    {
+      "coordinate": 127,
+      "fraction": "2/3"
+    },
+    {
+      "coordinate": 128,
+      "fraction": "-7/6"
+    },
+    {
+      "coordinate": 129,
+      "fraction": "3/8"
+    },
+    {
+      "coordinate": 130,
+      "fraction": "-3/8"
+    },
+    {
+      "coordinate": 131,
+      "fraction": "-29/24"
+    },
+    {
+      "coordinate": 132,
+      "fraction": "5/24"
+    },
+    {
+      "coordinate": 133,
+      "fraction": "-5/24"
+    },
+    {
+      "coordinate": 134,
+      "fraction": "5/3"
+    },
+    {
+      "coordinate": 135,
+      "fraction": "11/24"
+    },
+    {
+      "coordinate": 137,
+      "fraction": "-31/24"
+    },
+    {
+      "coordinate": 138,
+      "fraction": "1"
+    },
+    {
+      "coordinate": 139,
+      "fraction": "9/8"
+    },
+    {
+      "coordinate": 140,
+      "fraction": "-5/6"
+    },
+    {
+      "coordinate": 142,
+      "fraction": "-7/4"
+    },
+    {
+      "coordinate": 143,
+      "fraction": "-5/24"
+    },
+    {
+      "coordinate": 144,
+      "fraction": "1/12"
+    },
+    {
+      "coordinate": 146,
+      "fraction": "5/8"
+    },
+    {
+      "coordinate": 148,
+      "fraction": "41/24"
+    },
+    {
+      "coordinate": 150,
+      "fraction": "1/4"
+    },
+    {
+      "coordinate": 151,
+      "fraction": "-1/6"
+    },
+    {
+      "coordinate": 152,
+      "fraction": "19/12"
+    },
+    {
+      "coordinate": 153,
+      "fraction": "7/12"
+    },
+    {
+      "coordinate": 154,
+      "fraction": "7/24"
+    },
+    {
+      "coordinate": 155,
+      "fraction": "11/12"
+    },
+    {
+      "coordinate": 156,
+      "fraction": "3/4"
+    },
+    {
+      "coordinate": 157,
+      "fraction": "-7/12"
+    },
+    {
+      "coordinate": 158,
+      "fraction": "11/24"
+    },
+    {
+      "coordinate": 160,
+      "fraction": "3/4"
+    },
+    {
+      "coordinate": 161,
+      "fraction": "-7/6"
+    },
+    {
+      "coordinate": 162,
+      "fraction": "1/4"
+    },
+    {
+      "coordinate": 164,
+      "fraction": "-5/6"
+    },
+    {
+      "coordinate": 165,
+      "fraction": "1/2"
+    },
+    {
+      "coordinate": 166,
+      "fraction": "-1/3"
+    },
+    {
+      "coordinate": 167,
+      "fraction": "-7/8"
+    }
+  ]
+}

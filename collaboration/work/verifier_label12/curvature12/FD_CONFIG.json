@@ -1,0 +1,25 @@
+{
+  "seed": null,
+  "source": "collaboration/work/numerical_label12/curvature12/audit_result.json",
+  "source_sha256": "061d96ed272818676fb871e6ce5d70b213b90da5e88f943dd858c1844c204cc3",
+  "h": [
+    0.001,
+    0.0005
+  ],
+  "slice": [
+    12,
+    36
+  ],
+  "threshold": -1e-06,
+  "limits": {
+    "threads": 1,
+    "wall_seconds": 120,
+    "objectives": 5
+  },
+  "dependencies": {
+    "collaboration/work/verifier_label12/curvature12/finite_difference.py": "e16dae7d5edc48254a88988f2722a769b52da7096b246aa1a1cb1c94ea00e766",
+    "collaboration/work/verifier_label12/parity12/check_candidates.py": "f2b0e6e78507243f00560b2a2892d56fd284050f3890a315db6308b5941c1d7a",
+    "collaboration/work/verifier_label12/verify.py": "84a93c93b966fb6dc879cbac3150997812dbdc57a80145350956ff11d137046f"
+  },
+  "scope": "IndependenttwofixedFDdiagnostics atchosenADdirection, nooptimizer/exactcertificate; parentADthresholdfails so noescape fits"
+}

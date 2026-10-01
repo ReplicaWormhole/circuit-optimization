@@ -1,0 +1,6 @@
+{
+  "gaussian_integer_gram_matches": true,
+  "max_block_coordinate": 16,
+  "summation_length": 12288,
+  "bound_on_dot_product": 3145728
+}

@@ -1,0 +1,18 @@
+{
+  "source_matrix_off_diagonal_error": 4.266421588589642e-17,
+  "trials": [
+    {
+      "seed": 0,
+      "cnot_count": 92,
+      "off_diagonal_error": 8.600467185921585e-15,
+      "valid_diagonalizer": true
+    },
+    {
+      "seed": 42,
+      "cnot_count": 92,
+      "off_diagonal_error": 8.600467185921585e-15,
+      "valid_diagonalizer": true
+    }
+  ],
+  "best_cnot_count": 92
+}

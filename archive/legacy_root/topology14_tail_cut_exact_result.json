@@ -1,0 +1,10 @@
+{
+  "field": "Q(zeta_16)",
+  "effective_operator": "(F01 tensor F23) CZ12; omitted input-side one-qubit gates",
+  "realignment_determinants": {
+    "02": "1",
+    "03": "1"
+  },
+  "rank_01_upper_bound": 2,
+  "conclusion": "fixed suffix requires at least five CNOTs"
+}

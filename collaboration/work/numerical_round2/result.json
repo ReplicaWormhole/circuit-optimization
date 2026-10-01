@@ -1,0 +1,338 @@
+{
+  "plan": {
+    "source": "collaboration/work/algebraic13_new/canonical_algebraic_ansatz.json",
+    "source_sha256": "d500ff2a79c4717ff38d935d71b67bd798b06a7c6899a275fec25570b86b8d13",
+    "schedule_with_identity_slot": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      null,
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "native_schedule": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "deleted_original_slot": 6,
+    "rewired_original_slots": {
+      "7": [
+        0,
+        2
+      ],
+      "8": [
+        0,
+        3
+      ]
+    },
+    "minimum_undirected_hamming_distance_from_single_deletions": 2,
+    "novelty_scope": "all13 canonical-source single-deletion unordered pair orders; not exhaustive historical or equivalence-class novelty",
+    "seeds": [
+      926201,
+      926202
+    ],
+    "perturbation_stds": [
+      0.0,
+      0.15
+    ],
+    "optimizer": "SciPy L-BFGS-B analytic Torch gradient",
+    "maxiter_per_start": 200,
+    "per_start_wall_cap_seconds": 60,
+    "total_compute_wall_cap_seconds": 120,
+    "threads": 1,
+    "local_parameter_count": 168,
+    "code_sha256": "9d060f456f6e3f6a17daa18bbafe8b4dbc0bc89b6d5847903437b7b3ac755af4",
+    "dependency_hashes": {
+      "delete14_search.py": "b12320ef0491d0fc953d76aa92c39025f5ea9c40dddfa1458894d18eef5fd044",
+      "search13_adaptive_topology.py": "14973daa02e3f0e97a8a8c8cc4d2c05f906bc1f2dedec4b2893f2cf39cceb471",
+      "search13_fresh_chain_dynamic_rows.py": "be937d249d245f686a85fda2536a1527bdf6e1c4d77840603c37b4758b974752",
+      "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0"
+    }
+  },
+  "results": [
+    {
+      "seed": 926201,
+      "std": 0.0,
+      "best_evaluated_loss": 0.3352359084631581,
+      "candidate": "collaboration/work/numerical_round2/case0.json",
+      "optimizer": {
+        "success": false,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "nit": 200,
+        "nfev": 213,
+        "timed_out": false
+      },
+      "checker": {
+        "n": 4,
+        "cnot_count": 12,
+        "valid_diagonalizer": false,
+        "beats_18_cnot_reference": false,
+        "unitarity_error": 6.661338147750939e-16,
+        "off_diagonal_error": 0.7561025755556912,
+        "eigenvalue_root_error": 0.9996066380800562,
+        "total_spin_off_diagonal_error": 2.1465759907591835,
+        "diagonalizes_total_spin": false,
+        "diagonal_eigenvalues": [
+          [
+            0.5507401023424386,
+            0.049920380087528846
+          ],
+          [
+            0.0030202923569552223,
+            -0.1409281781960794
+          ],
+          [
+            -0.13156374796740158,
+            -0.5712925999273555
+          ],
+          [
+            0.41633086732186597,
+            0.1413962298203879
+          ],
+          [
+            -0.553357700516979,
+            -0.03030457556430316
+          ],
+          [
+            -0.9855664436371535,
+            0.0033758475758363105
+          ],
+          [
+            0.13418134614181698,
+            0.5516767954041139
+          ],
+          [
+            0.5662152839587218,
+            -0.003843899200212164
+          ],
+          [
+            0.9901321577779948,
+            -0.008628388070401366
+          ],
+          [
+            0.9999840396519606,
+            2.220446049250313e-15
+          ],
+          [
+            0.008632954669892424,
+            -0.9898369775471588
+          ],
+          [
+            0.9999374447058211,
+            2.9726221484338566e-14
+          ],
+          [
+            -0.990153323884846,
+            0.008604684194371326
+          ],
+          [
+            -0.982709773797533,
+            -1.0436096431476471e-14
+          ],
+          [
+            -0.008611788562964594,
+            0.9898606814232334
+          ],
+          [
+            0.9827882894394101,
+            1.7409684804903236e-14
+          ]
+        ]
+      },
+      "independent": {
+        "off_diagonal_error": 0.7561025755556912,
+        "unitarity_error": 6.661338147750939e-16,
+        "cnot_count": 12
+      },
+      "elapsed_seconds": 5.5713954960228875
+    },
+    {
+      "seed": 926202,
+      "std": 0.15,
+      "best_evaluated_loss": 0.3125000000000019,
+      "candidate": "collaboration/work/numerical_round2/case1.json",
+      "optimizer": {
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "nit": 110,
+        "nfev": 118,
+        "timed_out": false
+      },
+      "checker": {
+        "n": 4,
+        "cnot_count": 12,
+        "valid_diagonalizer": false,
+        "beats_18_cnot_reference": false,
+        "unitarity_error": 8.881784197001252e-16,
+        "off_diagonal_error": 0.999999999999997,
+        "eigenvalue_root_error": 1.0,
+        "total_spin_off_diagonal_error": 2.828427133830734,
+        "diagonalizes_total_spin": false,
+        "diagonal_eigenvalues": [
+          [
+            9.760746405573784e-09,
+            0.49999999517880345
+          ],
+          [
+            1.0000000000000004,
+            0.0
+          ],
+          [
+            8.455697947384877e-09,
+            -0.5000000080262919
+          ],
+          [
+            0.9999999999999988,
+            2.7755575615628914e-16
+          ],
+          [
+            -0.9999999999999984,
+            1.6653345369377348e-16
+          ],
+          [
+            5.1979494236631396e-08,
+            -0.4999999919737031
+          ],
+          [
+            0.9999999999999994,
+            -1.1102230246251565e-16
+          ],
+          [
+            -7.019593764590049e-08,
+            0.5000000048211912
+          ],
+          [
+            0.9999999999999984,
+            3.0531133177191805e-16
+          ],
+          [
+            8.811457227805898e-16,
+            -0.9999999999999956
+          ],
+          [
+            -0.9999999999999984,
+            1.6653345369377348e-16
+          ],
+          [
+            -4.440892098500626e-16,
+            -3.635980405647388e-15
+          ],
+          [
+            -7.771561172376096e-16,
+            9.992007221626409e-16
+          ],
+          [
+            -7.407677799233024e-17,
+            -0.9999999999999991
+          ],
+          [
+            5.322608176892771e-16,
+            0.9999999999999982
+          ],
+          [
+            1.8322013447181426e-16,
+            0.9999999999999991
+          ]
+        ]
+      },
+      "independent": {
+        "off_diagonal_error": 0.999999999999997,
+        "unitarity_error": 8.881784197001252e-16,
+        "cnot_count": 12
+      },
+      "elapsed_seconds": 2.4803426370490342
+    }
+  ],
+  "elapsed_seconds": 8.051910597016104,
+  "complete": true,
+  "limitations": "two bounded starts only; failed candidates do not exclude topology or establish lower bound"
+}

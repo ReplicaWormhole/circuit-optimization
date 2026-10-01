@@ -1,0 +1,27 @@
+{
+  "source": "topology14_exact_matchgate_rational.json",
+  "rows": [
+    {
+      "mode": "basic",
+      "cnot_count": 14,
+      "off_diagonal_error": 5.557609263327638e-16,
+      "valid_diagonalizer": true
+    },
+    {
+      "mode": "full",
+      "error": "TypeError('This method only works on Clifford+T circuits. This circuit contains a ZPhase(1,phase=5/8). For these circuits, stick to basic_optimization().')"
+    },
+    {
+      "mode": "zx",
+      "cnot_count": 45,
+      "off_diagonal_error": 6.081586886426538e-16,
+      "valid_diagonalizer": true
+    }
+  ],
+  "best": {
+    "mode": "basic",
+    "cnot_count": 14,
+    "off_diagonal_error": 5.557609263327638e-16,
+    "valid_diagonalizer": true
+  }
+}

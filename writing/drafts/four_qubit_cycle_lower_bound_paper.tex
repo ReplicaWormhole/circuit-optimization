@@ -1,0 +1,456 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=27mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,array}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newcommand{\CNOT}{\mathrm{CNOT}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\Span}{\operatorname{span}}
+\newcommand{\Frob}{\mathrm F}
+
+\title{A Six-CNOT Lower Bound for Exact Diagonalization of the Four-Qubit Cycle}
+\author{Research draft --- authorship to be determined}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We consider exact, ancilla-free diagonalization of the cyclic permutation of
+four qubits by arbitrary one-qubit unitaries and all-to-all CNOTs.  We prove
+that at least six CNOTs are required, irrespective of CNOT orientation,
+eigenvalue ordering, and the choice of basis in degenerate eigenspaces.  The
+proof combines a spectral-path identity, exact finite Gram and Gr\"obner
+certificates, a half-shift trace obstruction, and an exhaustive classification
+of the $6^5$ ordered five-CNOT interaction schedules.  A separately verified
+fourteen-CNOT construction gives the present interval $6\leq c_4\leq14$;
+we do not claim optimality.
+\end{abstract}
+
+\section{Model and result}
+
+Label the qubits $0,1,2,3$, with the leftmost bit most significant, and let
+\begin{equation}\label{eq:shift}
+V\lvert x_0x_1x_2x_3\rangle
+ =\lvert x_3x_0x_1x_2\rangle .
+\end{equation}
+Thus $V^4=I$.  A diagonalizer is a four-qubit unitary $T$ for which
+$TVT^\dagger$ is diagonal in the computational basis.  We count CNOTs in an
+exact, ancilla-free circuit for $T$; between CNOTs we permit arbitrary
+one-qubit unitaries, and each CNOT can have either direction on any physical
+pair.  There are no measurements, postselection, or implicit wire
+permutations.  The diagonal entries may be ordered arbitrarily, and no basis
+is prescribed within an eigenspace of $V$.
+
+\begin{theorem}\label{thm:main}
+Let $T$ be any such exact diagonalizer of $V$.  If a circuit for $T$ contains
+$m$ CNOTs, then $m\geq6$.
+\end{theorem}
+
+Equivalently, if $c_4$ is the minimum in this gate model, then
+$c_4\geq6$.  The supplied cyclic-shift draft proves the general bound
+$c_n\geq n-1$, which gives three at $n=4$ \cite[Theorem~2]{cycle-draft}.
+The proof below is a stronger four-qubit statement.  A checked construction
+with fourteen CNOTs is described by the companion gate list
+\path{topology14_exact_matchgate_rational.json} and checked over
+$\mathbb Q(\zeta_{96})$ by \path{exact_check.py}; hence
+$6\leq c_4\leq14$.  These claims concern diagonalization of $V$, not a
+simultaneous diagonalization of total spin.
+
+For the proof it is convenient to set $U=T^\dagger$.  Inverting a circuit
+preserves its CNOT count, and
+\begin{equation}\label{eq:diagonal}
+U^\dagger VU=D
+\end{equation}
+for some diagonal $D$.  We read the CNOTs of $U$ in chronological order.
+Let $P_a$ be the spectral projector of $V$ for eigenvalue $i^a$,
+$a\in\{0,1,2,3\}$.  Write
+\begin{equation}\label{eq:projector}
+M_a=4P_a=\sum_{r=0}^{3}i^{-ar}V^r.
+\end{equation}
+
+\section{Two constraints on a selected input axis}
+
+An \emph{input Pauli axis} on wire $j$ is
+$p_j=\mathbf n\cdot\boldsymbol\sigma_j$, where
+$\mathbf n\in\mathbb R^3$ has unit norm.  Its physical image is
+$A=Up_jU^\dagger$.  It is a traceless Hermitian involution.
+
+\begin{lemma}[Spectral-path identity]\label{lem:path}
+For every input Pauli axis $p_j$ and pairwise distinct $a,b,c$,
+\begin{equation}\label{eq:path}
+P_a A P_b A P_c=0.
+\end{equation}
+No nonzero Pauli axis supported on one physical qubit satisfies all these
+identities.
+\end{lemma}
+
+\begin{proof}
+Conjugate the first identity by $U^\dagger$.  Each $U^\dagger P_aU$ is a
+diagonal spectral projector of $D$.  An input Pauli axis connects a basis
+string only to itself or to the string obtained by flipping bit $j$.
+Traversing two distinct spectral labels requires the flip twice, so the
+third label equals the first.  This contradicts pairwise distinctness.
+
+For the second assertion, consider $Z_0$ on the one-excitation subspace.
+Let $e_r$ have its excitation at wire $r$, and set
+\begin{equation}\label{eq:fourier}
+\phi_a=\frac12\sum_{r=0}^{3}i^{-ar}e_r.
+\end{equation}
+Then $V\phi_a=i^a\phi_a$ and, for $a\ne b$,
+$\langle\phi_a,Z_0\phi_b\rangle=-1/2$.  As $Z_0$ preserves excitation
+number, the matrix element of $P_0Z_0P_1Z_0P_2$ between $\phi_0$ and
+$\phi_2$ is $1/4$.  It is nonzero.  A cyclic translation takes this result
+to any physical wire.  A collective one-qubit rotation $R^{\otimes4}$
+commutes with $V$ and takes $Z$ to any Pauli axis, proving the claim.
+\end{proof}
+
+\begin{lemma}[Full support of a commuting observable]\label{lem:support}
+Every non-scalar physical operator commuting with $V$ has support on all
+four wires.  In particular, $UZ_jU^\dagger$ has full support for every
+input wire $j$.
+\end{lemma}
+
+\begin{proof}
+The minimal physical support of an operator is unique.  Conjugation by
+$V$ cyclically translates that support.  If the operator commutes with
+$V$, its support must be invariant under this transitive four-cycle; hence
+it is empty or all four wires.  Empty support means a scalar.  Finally,
+$Z_j$ commutes with diagonal $D$, so $UZ_jU^\dagger$ commutes with $V$ by
+Eq.~\eqref{eq:diagonal}, and it is not scalar.
+\end{proof}
+
+\begin{lemma}[Minimum incidence]\label{lem:degree}
+Every input wire meets at least two CNOTs in a circuit for $U$.
+Moreover, the forward support cone of each input wire, formed by adding
+both endpoints whenever its current support touches a CNOT pair, reaches
+all four wires.
+\end{lemma}
+
+\begin{proof}
+If wire $j$ meets no CNOT, an input Pauli axis stays one-body, contrary
+to Lemma~\ref{lem:path}.  If it meets exactly one CNOT, choose the input
+axis so that immediately before this gate it is $Z$ on a control or $X$
+on a target.  It commutes through the gate and remains one-body, giving
+the same contradiction.  One-qubit gates before or after the CNOT merely
+rotate the axis.  The support-cone claim follows from
+Lemma~\ref{lem:support}: a CNOT can enlarge physical support only across
+its incident pair.  The stated symmetric update is an overapproximation
+that permits either CNOT direction.
+\end{proof}
+
+The second constraint uses the half-shift $V^2$, which swaps the opposite
+pairs $(0,2)$ and $(1,3)$.
+
+\begin{lemma}[Half-shift trace obstruction]\label{lem:trace}
+Suppose $A=Up_jU^\dagger$ has proper physical support and commutes with
+$V^2$.  Then $\tr(V^2A)=0$.  For opposite physical wires $r,s$ and any
+unit Bloch vector $\mathbf n$,
+\begin{equation}\label{eq:trace-product}
+\tr\!\left(V^2\sigma(\mathbf n)_r\sigma(\mathbf n)_s\right)=4.
+\end{equation}
+Consequently $A$ cannot equal
+$\pm\sigma(\mathbf n)_r\sigma(\mathbf n)_s$ on an opposite pair.
+\end{lemma}
+
+\begin{proof}
+If $p_j=\pm Z_j$, then $A$ commutes with $V$ by
+Eq.~\eqref{eq:diagonal}, contradicting its proper support and
+Lemma~\ref{lem:support}.  Thus $p_j$ has a nonzero off-diagonal entry
+between the two states of bit $j$.  The commutator $[A,V^2]=0$ implies
+$[p_j,D^2]=0$.  Since $D^2$ is diagonal, its entries agree across every
+edge of the computational hypercube that flips bit $j$.  The diagonal
+entries of $p_j$ on the two ends of such an edge are opposite; pairing
+terms in $\tr(D^2p_j)$ gives
+\begin{equation}\label{eq:trace-zero}
+\tr(V^2A)=\tr(D^2p_j)=0.
+\end{equation}
+For Eq.~\eqref{eq:trace-product}, write $V^2$ as the product of SWAPs
+on the two opposite pairs.  The identity
+$\tr(\mathrm{SWAP}\, B\otimes C)=\tr(BC)$ gives $2$ for the pair
+carrying the two equal Pauli axes and $2$ for the identity pair.
+\end{proof}
+
+\section{Exact finite spectral-path certificates}
+
+This section records the finite algebraic facts needed to classify short
+circuits.  The defining matrix formula, ranks, and algebraic tests are
+specified here; the scripts named below reproduce the certificates.
+All spans are over $\mathbb R$, and $\sigma_\mu$ ranges over $X,Y,Z$.
+
+For a Pauli basis $E_1,\ldots,E_d$, write
+$A(x)=\sum_i x_iE_i$ and let $m(x)$ contain the
+$d(d+1)/2$ monomials $x_ix_j$ with $i\leq j$.  Define the nonnegative
+spectral-path quartic
+\begin{equation}\label{eq:quartic}
+F(A)=\sum_{a,b,c\ \mathrm{distinct}}
+ \bigl\|M_aAM_bAM_c\bigr\|_{\Frob}^{2}.
+\end{equation}
+Expand each quadratic matrix $M_aA(x)M_bA(x)M_c$ in the coordinates
+$m(x)$ and stack its real and imaginary entries over all $24$ ordered
+triples.  If $K$ is the resulting integer matrix, the exact real Gram
+matrix is $G=K^{\mathsf T}K$ and
+\begin{equation}\label{eq:gram}
+F(A(x))=m(x)^{\mathsf T}Gm(x),\qquad
+F(A(x))=0\ \Longleftrightarrow\ Gm(x)=0.
+\end{equation}
+The entries are Gaussian integers before realification.  The Pauli
+strings and powers of $V$ have entries in $\{0,\pm1,\pm i\}$, whereas
+the projector numerators $M_a$ can have larger entries; each row of
+$M_a$ has absolute row sum at most four.  Each quadratic spectral image
+in the expansion has absolute row sum at most $128$, and the absolute
+value of each Gram entry is bounded by
+$24\cdot16^2\cdot128^2<2^{27}$.  The generators use
+\texttt{complex128} and check integer-valued output.  These bounds keep
+all integer-valued sums in the exact-integer range of binary64.
+Nullspaces and Gr\"obner bases are subsequently computed over $\mathbb Q$.
+
+\begin{proposition}[One-CNOT image]\label{prop:terminal}
+Suppose a selected input Pauli axis commutes through its first incident
+CNOT and encounters exactly one later CNOT, on physical pair $(j,k)$.
+Up to a collective one-qubit rotation, its final image belongs to
+\begin{equation}\label{eq:pair-space}
+\mathcal L_{jk}=\Span_{\mathbb R}
+ \{\sigma_\mu^{(j)},\ \sigma_\mu^{(j)}Z_k:
+   \mu\in\{X,Y,Z\}\}.
+\end{equation}
+If $(j,k)$ is adjacent on the physical cycle, no nonzero member of this
+space satisfies Eq.~\eqref{eq:path}.  If $(j,k)$ is opposite, every
+nonzero member satisfying Eq.~\eqref{eq:path} is, after undoing the
+collective rotation, proportional to a same-axis product
+$\sigma(\mathbf n)_j\sigma(\mathbf n)_k$.
+\end{proposition}
+
+\begin{proof}
+Conjugating a local Pauli axis through a CNOT and arbitrary surrounding
+local gates yields a combination of a one-body term on the originating
+wire and a two-body term with one fixed Pauli axis on the other wire.
+The collective rotation fixes that other axis to $Z$, giving the
+overapproximation \eqref{eq:pair-space}.  For the adjacent representative
+$(0,1)$, the $21\times21$ Gram matrix from Eqs.~\eqref{eq:projector}--
+\eqref{eq:gram} has exact rank $21$; it is positive definite.  For the
+opposite representative $(0,2)$, its rank is $20$, and its kernel is
+spanned by the coordinate $x_{Z_0Z_2}^{2}$.  Because $m(x)$ is made of
+actual monomials, every solution in the latter case has only its
+$Z_0Z_2$ coefficient nonzero.  Cyclic translations and reflections
+transport these facts to every physical pair; reflection exchanges
+$V$ with $V^{-1}$ and permutes the labels summed in $F$.
+The exact matrices and rank checks are in
+\texttt{spectral\_path4\_adjacent\_gram.py} and
+\texttt{spectral\_path4\_opposite\_gram.py}.
+\end{proof}
+
+The remaining selected-axis shape has two later CNOTs.  Let wire $j$
+meet its second CNOT in chronological position four, on $(j,k)$, and
+let the fifth CNOT be $(k,\ell)$ with $j\ne\ell$.  Select an axis on $j$
+that commutes through its first incident CNOT.  A collective rotation
+can put the fixed final Pauli axis on $\ell$ along $Z_\ell$.  Every such
+image lies in the following \emph{overapproximate} space:
+\begin{equation}\label{eq:chain-space}
+\mathcal L_{jk\ell}=\Span_{\mathbb R}
+ \left\{\sigma_\mu^{(j)},\
+ \sigma_\mu^{(j)}\sigma_\nu^{(k)},\
+ \sigma_\mu^{(j)}\sigma_\nu^{(k)} Z_\ell:
+ \mu,\nu\in\{X,Y,Z\}\right\}.
+\end{equation}
+This space has dimension $3+9+9=21$ and includes either CNOT
+orientation and arbitrary intervening local gates.  It is larger than
+the actual two-CNOT image family; excluding it is therefore sufficient.
+
+\begin{proposition}[Three-wire certificates]\label{prop:chain}
+For the three representatives
+\begin{equation}\label{eq:representatives}
+(j,k,\ell)=(0,1,2),\quad(0,1,3),\quad(0,2,1),
+\end{equation}
+the exact Gram matrices of $F$ on \eqref{eq:chain-space} have respective
+ranks $207$, $210$, and $189$ among the $231$ quadratic monomials.
+The following conclusions hold.
+\begin{enumerate}
+\item For $(0,1,2)$ and $(0,1,3)$, no nonzero real image in
+      $\mathcal L_{jk\ell}$ obeys the spectral-path identity.
+\item For $(0,2,1)$, every real image in
+      $\mathcal L_{021}$ obeying the identity is supported only on the
+      opposite pair $(0,2)$, and its $3\times3$ matrix of pair-Pauli
+      coefficients is symmetric.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+In each case, form the basis in Eq.~\eqref{eq:chain-space}, construct
+$G$ by \eqref{eq:gram}, and impose $Gm(x)=0$.  A positive-semidefinite
+Gram matrix permits exact nullspace elimination of coefficient squares.
+For $(0,1,2)$, this forces eight of the $21$ real coefficients to vanish;
+for $(0,1,3)$, it likewise forces eight.  With the remaining $13$
+variables, append $\sum_i x_i^2-1=0$, permissible by homogeneity for
+any nonzero real solution.  In both cases the exact Gr\"obner basis over
+$\mathbb Q$ is $\{1\}$, proving item~1.
+
+For $(0,2,1)$, the exact nullspace first forces the three one-body
+coefficients and five three-body coefficients to zero.  In the remaining
+normalized polynomial ideal, the squares of the four other three-body
+coefficients reduce to zero.  Real coefficients therefore make all
+three-body terms vanish.  The squares of the antisymmetric differences
+of the opposite-pair coefficients also reduce to zero, giving
+\begin{equation}\label{eq:symmetric}
+x_{X_0Y_2}=x_{Y_0X_2},\qquad
+x_{X_0Z_2}=x_{Z_0X_2},\qquad
+x_{Y_0Z_2}=x_{Z_0Y_2}.
+\end{equation}
+These are precisely symmetry of the real pair coefficient matrix.
+The stored Gram matrices and rational reductions are generated and
+checked by three pairs of scripts with the filename patterns
+\path{global_lower_bound6_<case>_gram.py} and
+\path{global_lower_bound6_<case>_certificate.py}.
+The cases are \path{chain}, \path{adjacent_v}, and
+\path{opposite_chain}.
+\end{proof}
+
+\begin{lemma}[Opposite-first chain excluded]\label{lem:opposite-chain}
+The $(0,2,1)$ selected-axis chain of Proposition~\ref{prop:chain}
+cannot occur in an exact diagonalizer with five CNOTs.
+\end{lemma}
+
+\begin{proof}
+The selected image $A$ is a traceless Hermitian involution.  By
+Proposition~\ref{prop:chain}, it has a real symmetric pair-Pauli
+coefficient matrix $H$.  A collective one-qubit rotation, which
+commutes with $V$, diagonalizes $H$ by a proper three-dimensional
+rotation.  The transformed image is
+\begin{equation}\label{eq:diagonal-pair}
+A'=\lambda_X X_0X_2+\lambda_Y Y_0Y_2+\lambda_Z Z_0Z_2.
+\end{equation}
+The products of distinct terms in \eqref{eq:diagonal-pair} are
+$-Z_0Z_2$, $-Y_0Y_2$, or $-X_0X_2$, respectively.  Thus $(A')^2=I$
+forces $\lambda_\mu\lambda_\nu=0$ for $\mu\ne\nu$ and
+$\sum_\mu\lambda_\mu^2=1$.  Exactly one coefficient is $\pm1$.
+Undoing the collective rotation makes
+$A=\pm\sigma(\mathbf n)_0\sigma(\mathbf n)_2$.
+It commutes with $V^2$, has proper support, and contradicts
+Lemma~\ref{lem:trace}.  Dihedral symmetry covers the other
+opposite-first representatives.
+\end{proof}
+
+\section{Exhaustion of five-CNOT schedules}
+
+There are six unoriented physical pairs.  We enumerate all $6^5=7776$
+ordered pair schedules of length five.  This enumeration does not fix
+CNOT direction; every test below is necessary for both directions.
+For a pair schedule $e_1,\ldots,e_5$, let $d_j$ be the number of
+incidences of wire $j$.  A wire's second incident edge is
+\emph{terminal} if no later edge meets either endpoint of that edge.
+
+\begin{lemma}[Schedule classification]\label{lem:enumeration}
+Every length-five schedule belongs to one of the seven exclusive rows of
+Table~\ref{tab:schedules}.  The last three rows each admit a degree-two
+wire $j$ whose second incidence is $e_4=(j,k)$ and for which
+$e_5=(k,\ell)$ with $j\ne\ell$.  The three rows distinguish the
+physical relations among $j,k,\ell$.
+\end{lemma}
+
+\begin{table}[ht]
+\centering
+\caption{Exhaustive ordered, unoriented five-CNOT pair schedules.  Each
+row is counted only after the preceding tests fail.}
+\label{tab:schedules}
+\begin{tabular}{p{0.68\linewidth}r}
+\toprule
+First necessary obstruction or remaining shape & Count\\
+\midrule
+Some $d_j<2$ & 5196\\
+An input support cone does not reach all four wires & 1572\\
+Terminal degree-two edge joins adjacent wires & 576\\
+Terminal degree-two edge joins opposite wires & 288\\
+$j,k$ adjacent; $j,\ell$ opposite & 48\\
+$j,k$ and $j,\ell$ both adjacent & 48\\
+$j,k$ opposite & 48\\
+\midrule
+Total & 7776\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{proof}
+The deterministic classifier in
+\texttt{global\_lower\_bound6\_complete\_filter.py} iterates over
+the Cartesian product of the six pairs five times.  It first tests
+$\min_j d_j<2$, then updates each input support set by adjoining the
+endpoints of every edge it touches, then searches for terminal
+degree-two edges.  For a schedule passing those tests, it loops over
+degree-two wires $j$ in $e_4\setminus e_5$, checks that the other
+endpoint $k$ of $e_4$ belongs to $e_5$, and records the third wire
+$\ell\in e_5\setminus\{k\}$.  Explicit assertions check that every
+schedule reaches exactly one row and that the counts are those shown.
+This is a finite exhaustive lemma, independently checkable with integer
+and set operations; it imposes no parametrization of local gates.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+Suppose first that a circuit has exactly five CNOTs.  Its unoriented
+pair schedule occurs in Table~\ref{tab:schedules}.  The first row
+contradicts Lemma~\ref{lem:degree}, and the second contradicts its
+support-cone assertion.  For either terminal-edge row, choose an axis on
+the degree-two wire that commutes through its first CNOT.  Because no
+later CNOT touches either endpoint of its second edge, its physical
+image is a one-CNOT image on that edge.  The adjacent case contradicts
+Proposition~\ref{prop:terminal}.  The opposite case is forced by that
+proposition to a same-axis opposite-pair product, contradicting
+Lemma~\ref{lem:trace}.
+
+In each of the last three rows, select the analogous axis on the
+degree-two wire $j$.  Its image belongs to the overapproximate space
+\eqref{eq:chain-space}.  The first two chain shapes contradict
+Proposition~\ref{prop:chain}; the opposite-first shape contradicts
+Lemma~\ref{lem:opposite-chain}.  Therefore no five-CNOT diagonalizer
+exists.
+
+Fewer than five CNOTs are also excluded.  Lemma~\ref{lem:degree}
+already requires at least four.  The following argument handles four.
+
+For completeness, if $m=4$, Lemma~\ref{lem:degree} forces degree two
+on every wire.  Choose either endpoint $j$ of the chronological last
+CNOT, and select an input axis on $j$ that commutes through its first
+incident CNOT.  Its only later CNOT is the last one, which is terminal.
+If the last pair is adjacent, its one-CNOT image contradicts
+Proposition~\ref{prop:terminal}.  If the pair is opposite, that
+proposition forces a same-axis opposite-pair product, contradicting
+Lemma~\ref{lem:trace}.  Hence every exact diagonalizer uses at least
+six CNOTs.
+\end{proof}
+
+\section{Reproducibility and limits}
+
+The companion directory contains the deterministic Python scripts and
+their saved JSON results.  In particular, run
+\texttt{global\_lower\_bound6\_complete\_filter.py} to reproduce
+the seven schedule counts and the exact $3\times3$ half-shift trace
+tensors $4I_3$ for each opposite pair.  The two
+\texttt{spectral\_path4\_*\_gram.py} scripts reproduce the terminal
+pair ranks; the six three-wire Gram and certificate scripts reproduce
+the three ranks, eliminations, and Gr\"obner reductions.  The main
+proof uses exact matrix entries and rational polynomial arithmetic,
+not numerical optimization.  Compiling this document confirms only
+typesetting; it is separate from checking the mathematical claims and
+from independently reviewing the certificate-generating code.
+The recorded local verification environment is Python~3.13.9,
+NumPy~2.3.5, and SymPy~1.14.0.  The fourteen-CNOT upper bound can be
+rechecked with \path{python3 exact_check.py topology14_exact_matchgate_rational.json}.
+
+Theorem~\ref{thm:main} is a lower bound for exact diagonalization in
+the specified CNOT plus one-qubit gate model.  It does not assert that
+six CNOTs suffice, nor does it give a lower bound for circuits using
+ancillas, measurements, other entangling gates, or approximation.
+
+\begin{thebibliography}{9}
+\bibitem{cycle-draft}
+D.~Miller and A.~A.~Mele, \emph{Exact ancilla-free diagonalization of
+qubit cycles}, supplied research draft, September 9, 2026,
+Theorem~2 and Sec.~7.
+\end{thebibliography}
+
+\end{document}

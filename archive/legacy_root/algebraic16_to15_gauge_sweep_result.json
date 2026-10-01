@@ -1,0 +1,97 @@
+{
+  "results": [
+    {
+      "cancelled_triple_mask": 11,
+      "required_masks": [
+        13,
+        14,
+        7,
+        6
+      ],
+      "states_explored": 61382,
+      "six_cnot_endpoints": 1602,
+      "tails_evaluated": 209,
+      "best": {
+        "endpoint_rows": [
+          8,
+          5,
+          10,
+          1
+        ],
+        "inverse_cnot_count": 2,
+        "tail_cnot_count": 9,
+        "total_cnot_count": 15,
+        "off_diagonal_error": 1.13605304567915e-15,
+        "valid": true,
+        "candidate": "algebraic16_to15_gauge_0_best.json"
+      }
+    },
+    {
+      "cancelled_triple_mask": 13,
+      "required_masks": [
+        11,
+        14,
+        7,
+        6
+      ],
+      "states_explored": 61382,
+      "six_cnot_endpoints": 1602,
+      "tails_evaluated": 209,
+      "best": {
+        "endpoint_rows": [
+          8,
+          5,
+          10,
+          1
+        ],
+        "inverse_cnot_count": 2,
+        "tail_cnot_count": 9,
+        "total_cnot_count": 15,
+        "off_diagonal_error": 1.1246301919954391e-15,
+        "valid": true,
+        "candidate": "algebraic16_to15_gauge_1_best.json"
+      }
+    },
+    {
+      "cancelled_triple_mask": 14,
+      "required_masks": [
+        11,
+        13,
+        7,
+        6
+      ],
+      "states_explored": 60317,
+      "six_cnot_endpoints": 1647,
+      "tails_evaluated": 166,
+      "best": {
+        "endpoint_rows": [
+          8,
+          5,
+          11,
+          1
+        ],
+        "inverse_cnot_count": 3,
+        "tail_cnot_count": 10,
+        "total_cnot_count": 16,
+        "off_diagonal_error": 1.1595071140409367e-15,
+        "valid": true,
+        "candidate": "algebraic16_to15_gauge_2_best.json"
+      }
+    }
+  ],
+  "overall_best": {
+    "endpoint_rows": [
+      8,
+      5,
+      10,
+      1
+    ],
+    "inverse_cnot_count": 2,
+    "tail_cnot_count": 9,
+    "total_cnot_count": 15,
+    "off_diagonal_error": 1.1246301919954391e-15,
+    "valid": true,
+    "candidate": "algebraic16_to15_gauge_1_best.json"
+  },
+  "overall_candidate": "algebraic16_to15_gauge_1_best.json"
+}

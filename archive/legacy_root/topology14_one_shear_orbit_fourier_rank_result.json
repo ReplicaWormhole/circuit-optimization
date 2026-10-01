@@ -1,0 +1,62 @@
+{
+  "orbits": [
+    [
+      0
+    ],
+    [
+      1,
+      5,
+      9,
+      13
+    ],
+    [
+      2,
+      14,
+      10,
+      6
+    ],
+    [
+      3,
+      4,
+      12,
+      11
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      15
+    ]
+  ],
+  "exact_diagonalization": true,
+  "output_eigenvalues": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "I",
+    "I",
+    "-I",
+    "1",
+    "-1",
+    "-1",
+    "-1",
+    "-I",
+    "-1",
+    "-I",
+    "I",
+    "1"
+  ],
+  "cut_ranks": {
+    "0": 4,
+    "1": 4,
+    "2": 4,
+    "3": 4,
+    "01": 5,
+    "02": 12,
+    "03": 12
+  },
+  "cut_based_cnot_lower_bound": 6,
+  "scope": "canonical orbit-wise Fourier basis; no eigenbasis optimization"
+}

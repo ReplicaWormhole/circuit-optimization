@@ -1,0 +1,46 @@
+{
+  "complex_feasible_supports": [
+    {
+      "labels": [
+        "XIIZ",
+        "YXIZ",
+        "ZXII"
+      ],
+      "nullity": 2,
+      "projective_groebner_basis": [
+        "u0**2 - 1",
+        "u1 - 1"
+      ]
+    },
+    {
+      "labels": [
+        "XYIZ",
+        "YIIZ",
+        "ZYII"
+      ],
+      "nullity": 2,
+      "projective_groebner_basis": [
+        "u0 - u1",
+        "u1**2 - 1"
+      ]
+    }
+  ],
+  "counts": {
+    "1_anticommuting_supports": 24,
+    "1_full_rank_mod_prime": 24,
+    "2_anticommuting_supports": 156,
+    "2_full_rank_mod_prime": 154,
+    "2_nullity_1": 2,
+    "2_singular_but_infeasible": 2,
+    "2_singular_exact": 2,
+    "3_anticommuting_supports": 344,
+    "3_complex_feasible_supports": 2,
+    "3_full_rank_mod_prime": 330,
+    "3_nullity_1": 12,
+    "3_nullity_2": 2,
+    "3_singular_but_infeasible": 12,
+    "3_singular_exact": 14
+  },
+  "normalization": "first nonzero coefficient fixed to 1; real solutions need later real-root check",
+  "scope": "all <=3 distinct nonzero Pauli coefficients, pairwise anticommuting, in 24D AA span"
+}

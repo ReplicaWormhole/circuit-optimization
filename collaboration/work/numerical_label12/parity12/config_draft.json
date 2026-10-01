@@ -1,0 +1,67 @@
+{
+  "source": "collaboration/work/algebraic_label12/joint_simplify/REPORT.md",
+  "source_sha256": "eb16e63091258386f7d7437890119e27a85dc132b922cdd7aae3429582114ca7",
+  "seeds": [
+    9261101,
+    9261102
+  ],
+  "seed": 9261101,
+  "local_sigma": 0.3,
+  "f_sigma": 0.3,
+  "parameter_order": "locals84 Corder(7,4,3),thenFangles Corder(4,2); perseed numpydefault_rng normal(0,.3,size92)",
+  "schedule": [
+    [
+      "cx",
+      0,
+      1
+    ],
+    [
+      "cx",
+      2,
+      1
+    ],
+    [
+      "cx",
+      3,
+      1
+    ],
+    [
+      "F",
+      0,
+      2
+    ],
+    [
+      "F",
+      1,
+      3
+    ],
+    [
+      "cx",
+      1,
+      2
+    ],
+    [
+      "F",
+      0,
+      1
+    ],
+    [
+      "F",
+      2,
+      3
+    ]
+  ],
+  "local_layers": "L0;CX01,CX21,CX31;L1;F02;L2;F13;L3;CX12;L4;F01;L5;F23;L6",
+  "parameters": 92,
+  "maxiter": 500,
+  "maxfun": 10000,
+  "maxls": 30,
+  "wall_seconds": 240,
+  "threads": 1,
+  "objective": "||offdiag(UV4Udagger)||F\u00b2/16",
+  "gate_set_native": "arbitrarylocals+CX+F=exp(i aXX+i bYY)",
+  "native_entanglers": 8,
+  "compiled_cx": 12,
+  "extra_starts": 0,
+  "svd": false
+}

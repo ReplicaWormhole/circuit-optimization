@@ -1,0 +1,378 @@
+{
+  "complete_support_enumeration": true,
+  "complex_feasible_nonzero_supports": [
+    {
+      "commuting_cross_groups": {
+        "ZZII": [
+          [
+            0,
+            3,
+            -1
+          ],
+          [
+            1,
+            2,
+            1
+          ]
+        ]
+      },
+      "exact_gram_nullity": 2,
+      "labels": [
+        "XXII",
+        "XYII",
+        "YXII",
+        "YYII"
+      ],
+      "nonzero_saturated_groebner_basis": [
+        "u1 - u2",
+        "u2**2 + 1",
+        "u3 + 1",
+        "w - 1"
+      ],
+      "projective_groebner_basis": [
+        "u1 - u2",
+        "u2**2 + 1",
+        "u3 + 1"
+      ],
+      "trace_rows_real_imag": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "commuting_cross_groups": {
+        "YYII": [
+          [
+            0,
+            3,
+            -1
+          ],
+          [
+            1,
+            2,
+            1
+          ]
+        ]
+      },
+      "exact_gram_nullity": 2,
+      "labels": [
+        "XXII",
+        "XZII",
+        "ZXII",
+        "ZZII"
+      ],
+      "nonzero_saturated_groebner_basis": [
+        "u1 - u2",
+        "u2**2 + 1",
+        "u3 + 1",
+        "w - 1"
+      ],
+      "projective_groebner_basis": [
+        "u1 - u2",
+        "u2**2 + 1",
+        "u3 + 1"
+      ],
+      "trace_rows_real_imag": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "commuting_cross_groups": {
+        "ZZII": [
+          [
+            0,
+            3,
+            -1
+          ],
+          [
+            1,
+            2,
+            1
+          ]
+        ]
+      },
+      "exact_gram_nullity": 2,
+      "labels": [
+        "XXIZ",
+        "XYIZ",
+        "YXIZ",
+        "YYIZ"
+      ],
+      "nonzero_saturated_groebner_basis": [
+        "u1 - u2",
+        "u2**2 + 1",
+        "u3 + 1",
+        "w - 1"
+      ],
+      "projective_groebner_basis": [
+        "u1 - u2",
+        "u2**2 + 1",
+        "u3 + 1"
+      ],
+      "trace_rows_real_imag": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "commuting_cross_groups": {
+        "XXII": [
+          [
+            0,
+            3,
+            -1
+          ],
+          [
+            1,
+            2,
+            1
+          ]
+        ]
+      },
+      "exact_gram_nullity": 2,
+      "labels": [
+        "YYII",
+        "YZII",
+        "ZYII",
+        "ZZII"
+      ],
+      "nonzero_saturated_groebner_basis": [
+        "u1 - u2",
+        "u2**2 + 1",
+        "u3 + 1",
+        "w - 1"
+      ],
+      "projective_groebner_basis": [
+        "u1 - u2",
+        "u2**2 + 1",
+        "u3 + 1"
+      ],
+      "trace_rows_real_imag": [
+        [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      ]
+    }
+  ],
+  "counts": {
+    "all_four_string_supports": 10626,
+    "complex_feasible_nonzero_supports": 4,
+    "exact_nullity_1": 36,
+    "exact_nullity_2": 7,
+    "involution_combinatorially_possible": 450,
+    "joint_ideal_unit": 39,
+    "spectral_full_rank_mod_prime": 407,
+    "spectral_modular_singular": 43,
+    "unique_uncancellable_cross_term": 10176
+  },
+  "max_modular_singular_supports_to_solve": 250,
+  "scope": "all exactly-four nonzero real-Pauli-coefficient supports in fixed-gauge 24D AA span; complex feasibility is not real feasibility"
+}

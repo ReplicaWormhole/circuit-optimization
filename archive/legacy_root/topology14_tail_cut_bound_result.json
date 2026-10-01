@@ -1,0 +1,64 @@
+{
+  "original_directed_cnot_edges": [
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "cut_ranks": {
+    "0": {
+      "rank": 4,
+      "min_crossing_cnot": 2,
+      "smallest_nonzero_singular": 0.5857864376269051
+    },
+    "1": {
+      "rank": 4,
+      "min_crossing_cnot": 2,
+      "smallest_nonzero_singular": 1.4142135623730945
+    },
+    "2": {
+      "rank": 4,
+      "min_crossing_cnot": 2,
+      "smallest_nonzero_singular": 1.4142135623730945
+    },
+    "3": {
+      "rank": 4,
+      "min_crossing_cnot": 2,
+      "smallest_nonzero_singular": 0.5857864376269051
+    },
+    "01": {
+      "rank": 2,
+      "min_crossing_cnot": 1,
+      "smallest_nonzero_singular": 2.8284271247461894
+    },
+    "02": {
+      "rank": 16,
+      "min_crossing_cnot": 4,
+      "smallest_nonzero_singular": 0.11803398874989494
+    },
+    "03": {
+      "rank": 16,
+      "min_crossing_cnot": 4,
+      "smallest_nonzero_singular": 0.08578643762690506
+    }
+  },
+  "four_edge_graphs_total": 126,
+  "passing_four_edge_graphs": [],
+  "passing_count": 0
+}

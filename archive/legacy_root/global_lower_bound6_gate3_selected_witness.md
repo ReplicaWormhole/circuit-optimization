@@ -1,0 +1,1 @@
+../../global_lower_bound6_gate3_selected_witness.md

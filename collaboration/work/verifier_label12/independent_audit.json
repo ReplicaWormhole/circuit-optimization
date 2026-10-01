@@ -1,0 +1,35 @@
+{
+  "source_layout_verified": true,
+  "source_sha256": "9a9dd0e0b430e935f99f4d998fb25d5e1b48160ad16a6c46a27e2574c59c2398",
+  "optimizer_source_max_error_up_to_phase": 1.4488835837920476e-15,
+  "frozen_target_selection_verified": true,
+  "targets_sha256": "9b7a3db8575f8d7ab7baaf6e65ccb2727ffc276159326f84491b69101441563e",
+  "config_sha256": "566692348ae33406dc498b3175b75666e1fea6c81f3fa1302570a2e5caf3c5b3",
+  "script_sha256": "767a25cad0cb5ec6320ac35e2383e5b59599c693acd0fca2885f2658fc62c0b3",
+  "final_fixed_target_checks": [
+    {
+      "path": "collaboration/work/numerical_label12/target0.json",
+      "sha256": "fd9f1aa69405bd23a9fd4ed0a26099b165c09c1013c72b3c97a4211d33099e7a",
+      "fixed_target_loss": 0.05111126056639771,
+      "fixed_target_max_residual": 0.14811248316413986
+    },
+    {
+      "path": "collaboration/work/numerical_label12/target1.json",
+      "sha256": "852ad9d718da7d68e17e5a0c805e520afb07a71c1f76b26ef1f0a8d4d9bef1b1",
+      "fixed_target_loss": 0.05111126056641396,
+      "fixed_target_max_residual": 0.14809467471404003
+    },
+    {
+      "path": "collaboration/work/numerical_label12/target2.json",
+      "sha256": "9e31d1e60e08df8c280fd58efbfe3eee7fc073241c79bda0f7940e35859edb10",
+      "fixed_target_loss": 0.2883009523150334,
+      "fixed_target_max_residual": 0.9309878149949826
+    },
+    {
+      "path": "collaboration/work/numerical_label12/target3.json",
+      "sha256": "c704d3d7757d688f8dae2d645e790fcbe7da0536428dec61eecab65a77be20d3",
+      "fixed_target_loss": 0.28830095231503283,
+      "fixed_target_max_residual": 0.6226037505519498
+    }
+  ]
+}

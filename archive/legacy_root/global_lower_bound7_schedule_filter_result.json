@@ -1,0 +1,410 @@
+{
+  "five_cnot_regression": {
+    "cnot_count": 5,
+    "examples": {
+      "degree_rejected": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "forward_support_rejected": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "one_active_adjacent_chain": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "one_active_adjacent_v": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "one_active_opposite_first_trace": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "terminal_adjacent_gram": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "terminal_opposite_trace": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    "exclusive_partition": {
+      "degree_rejected": 5196,
+      "forward_support_rejected": 1572,
+      "one_active_adjacent_chain": 84,
+      "one_active_adjacent_v": 84,
+      "one_active_opposite_first_trace": 84,
+      "terminal_adjacent_gram": 504,
+      "terminal_opposite_trace": 252
+    },
+    "ordered_unoriented_pair_schedules": 7776,
+    "survivor_active_tail_profiles": {},
+    "survivor_degree_sequences": {}
+  },
+  "six_cnot_screen": {
+    "cnot_count": 6,
+    "examples": {
+      "degree_rejected": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "forward_support_rejected": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "one_active_adjacent_chain": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "one_active_adjacent_v": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "one_active_opposite_first_trace": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "survives_known_tests": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "terminal_adjacent_gram": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "terminal_opposite_trace": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    "exclusive_partition": {
+      "degree_rejected": 19506,
+      "forward_support_rejected": 12198,
+      "one_active_adjacent_chain": 1260,
+      "one_active_adjacent_v": 1260,
+      "one_active_opposite_first_trace": 1260,
+      "survives_known_tests": 3576,
+      "terminal_adjacent_gram": 5064,
+      "terminal_opposite_trace": 2532
+    },
+    "ordered_unoriented_pair_schedules": 46656,
+    "survivor_active_tail_profiles": {
+      "2": 1392,
+      "2,2": 96,
+      "2,3": 168,
+      "3": 504,
+      "none": 1416
+    },
+    "survivor_degree_sequences": {
+      "3333": 1416,
+      "4332": 1896,
+      "4422": 144,
+      "5322": 120
+    }
+  }
+}

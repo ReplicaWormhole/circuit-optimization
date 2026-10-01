@@ -1,0 +1,17 @@
+{
+  "source_layout_verified": true,
+  "source_sha256": "ec62eafb433b500a6d3553f339a4682bb32281f58de091415bd6ef5ee0f33bc4",
+  "optimizer_source_max_error_up_to_phase": 9.682678848994767e-16,
+  "frozen_target_selection_verified": true,
+  "targets_sha256": "36dcd5f76287fd74f1f2bb6a9139415c413e41d79d01e232e34a9c8bd310c5cb",
+  "config_sha256": "5a648ff6273e218f49c793d6569f093bf32207ba86c616bfb6091e7f481046ce",
+  "script_sha256": "8d8be347a971c8261ad21db0a5320c4c00b972c001d0eab99f21db8552946ae5",
+  "final_fixed_target_checks": [
+    {
+      "path": "collaboration/work/numerical_label12/residual_swap/target0.json",
+      "sha256": "281e296f30bd7796d6805141d8303932a2de8b42e484ef12156d9ee22422f7ff",
+      "fixed_target_loss": 0.018175553524735204,
+      "fixed_target_max_residual": 0.08808977407679722
+    }
+  ]
+}

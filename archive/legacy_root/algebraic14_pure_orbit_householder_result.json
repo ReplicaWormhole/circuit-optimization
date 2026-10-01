@@ -1,0 +1,631 @@
+{
+  "assignments": [
+    {
+      "output_row": 0,
+      "label": 0,
+      "kind": "fixed",
+      "orbit_index": null,
+      "overlap_squared": 0.9999999999999987
+    },
+    {
+      "output_row": 6,
+      "label": 0,
+      "kind": "length2",
+      "orbit_index": null,
+      "overlap_squared": 0.4999999999999993
+    },
+    {
+      "output_row": 8,
+      "label": 0,
+      "kind": "length4",
+      "orbit_index": 0,
+      "overlap_squared": 0.9999999999999989
+    },
+    {
+      "output_row": 9,
+      "label": 0,
+      "kind": "length4",
+      "orbit_index": 1,
+      "overlap_squared": 0.4999999999999991
+    },
+    {
+      "output_row": 11,
+      "label": 0,
+      "kind": "length4",
+      "orbit_index": 2,
+      "overlap_squared": 0.9999999999999987
+    },
+    {
+      "output_row": 15,
+      "label": 0,
+      "kind": "fixed",
+      "orbit_index": null,
+      "overlap_squared": 0.9999999999999984
+    },
+    {
+      "output_row": 2,
+      "label": 1,
+      "kind": "length4",
+      "orbit_index": 0,
+      "overlap_squared": 0.9999999999999989
+    },
+    {
+      "output_row": 3,
+      "label": 1,
+      "kind": "length4",
+      "orbit_index": 1,
+      "overlap_squared": 0.9999999999999984
+    },
+    {
+      "output_row": 13,
+      "label": 1,
+      "kind": "length4",
+      "orbit_index": 2,
+      "overlap_squared": 0.9999999999999987
+    },
+    {
+      "output_row": 4,
+      "label": 2,
+      "kind": "length4",
+      "orbit_index": 0,
+      "overlap_squared": 0.9999999999999989
+    },
+    {
+      "output_row": 5,
+      "label": 2,
+      "kind": "length2",
+      "orbit_index": null,
+      "overlap_squared": 0.4999999999999993
+    },
+    {
+      "output_row": 7,
+      "label": 2,
+      "kind": "length4",
+      "orbit_index": 2,
+      "overlap_squared": 0.9999999999999982
+    },
+    {
+      "output_row": 10,
+      "label": 2,
+      "kind": "length4",
+      "orbit_index": 1,
+      "overlap_squared": 0.4999999999999993
+    },
+    {
+      "output_row": 1,
+      "label": 3,
+      "kind": "length4",
+      "orbit_index": 0,
+      "overlap_squared": 0.9999999999999991
+    },
+    {
+      "output_row": 12,
+      "label": 3,
+      "kind": "length4",
+      "orbit_index": 1,
+      "overlap_squared": 0.9999999999999987
+    },
+    {
+      "output_row": 14,
+      "label": 3,
+      "kind": "length4",
+      "orbit_index": 2,
+      "overlap_squared": 0.9999999999999987
+    }
+  ],
+  "rows_by_label": {
+    "0": [
+      8,
+      9,
+      11
+    ],
+    "1": [
+      2,
+      3,
+      13
+    ],
+    "2": [
+      4,
+      10,
+      7
+    ],
+    "3": [
+      1,
+      12,
+      14
+    ]
+  },
+  "pure_orbit_tail_ranks": {
+    "0": 4,
+    "1": 4,
+    "2": 4,
+    "3": 4,
+    "01": 15,
+    "02": 13,
+    "03": 14
+  },
+  "pure_orbit_tail_graph_bound": 6,
+  "cases": 15,
+  "records": [
+    {
+      "vector": [
+        1,
+        1,
+        1
+      ],
+      "scope": [
+        0
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 16,
+        "03": 15
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 15,
+        "03": 14
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 8.24957386353415e-17,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        1,
+        2
+      ],
+      "scope": [
+        0
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 16,
+        "03": 15
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 15,
+        "03": 14
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 1.0948032603942516e-16,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        2,
+        2
+      ],
+      "scope": [
+        0
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 16,
+        "03": 15
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 15,
+        "03": 14
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 1.0464023337805777e-16,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        1,
+        1
+      ],
+      "scope": [
+        0,
+        2
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 15,
+        "02": 16,
+        "03": 16
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 15,
+        "02": 16,
+        "03": 15
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 8.24957386353415e-17,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        1,
+        1
+      ],
+      "scope": [
+        2
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 15,
+        "03": 16
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 15,
+        "03": 15
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 8.24957386353415e-17,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        1,
+        2
+      ],
+      "scope": [
+        0,
+        2
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 15,
+        "02": 16,
+        "03": 16
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 15,
+        "02": 16,
+        "03": 15
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 1.0948032603942516e-16,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        1,
+        2
+      ],
+      "scope": [
+        2
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 15,
+        "03": 16
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 15,
+        "03": 15
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 1.0948032603942516e-16,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        2,
+        2
+      ],
+      "scope": [
+        0,
+        2
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 15,
+        "02": 16,
+        "03": 16
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 15,
+        "02": 16,
+        "03": 15
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 1.0464023337805777e-16,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        2,
+        2
+      ],
+      "scope": [
+        2
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 15,
+        "03": 16
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 15,
+        "03": 15
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 1.0464023337805777e-16,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        1,
+        1
+      ],
+      "scope": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 15,
+        "02": 16,
+        "03": 16
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 16,
+        "03": 15
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 8.24957386353415e-17,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        1,
+        1
+      ],
+      "scope": [
+        1,
+        3
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 15,
+        "02": 16,
+        "03": 16
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 16,
+        "03": 15
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 8.172475042379625e-17,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        1,
+        2
+      ],
+      "scope": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 15,
+        "02": 16,
+        "03": 16
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 16,
+        "03": 15
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 1.0948032603942516e-16,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        1,
+        2
+      ],
+      "scope": [
+        1,
+        3
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 15,
+        "02": 16,
+        "03": 16
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 16,
+        "03": 15
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 1.0793834961633466e-16,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        2,
+        2
+      ],
+      "scope": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 15,
+        "02": 16,
+        "03": 16
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 16,
+        "03": 15
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 1.0464023337805777e-16,
+      "rank_improvement_vs_pure_orbit": 0
+    },
+    {
+      "vector": [
+        1,
+        2,
+        2
+      ],
+      "scope": [
+        1,
+        3
+      ],
+      "full_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 15,
+        "02": 16,
+        "03": 16
+      },
+      "tail_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 16,
+        "02": 16,
+        "03": 15
+      },
+      "tail_cut_graph_bound": 6,
+      "offdiag_error": 9.825816429359989e-17,
+      "rank_improvement_vs_pure_orbit": 0
+    }
+  ]
+}

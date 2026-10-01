@@ -1,0 +1,101 @@
+"""Find symbolic nonzero Schmidt minors for all cross-output ZZ gauges.
+
+For each cross pair and each one-wire cut, form the 4x64 realignment of
+RZZ_pair(delta) [H_lift(0,1) tensor H_lift(2,3)]. Let t=exp(-i delta/2).
+Pick four columns independent at t=1, compute their 4x4 determinant exactly,
+and test whether it is a nonzero monomial in t. A monomial certificate proves
+rank 4 for every real delta, hence at least four CNOTs for this fixed block.
+"""
+
+import json
+from pathlib import Path
+
+import numpy as np
+import scipy.linalg
+import sympy as sp
+
+from algebraic16_exact import exact_two_wire
+
+
+ROOT = Path(__file__).parent
+PAIRS = ((0, 2), (0, 3), (1, 2), (1, 3))
+T = sp.symbols("t", nonzero=True)
+
+
+def remap(gates, wire_map):
+    result = []
+    for gate in gates:
+        item = gate.copy()
+        if item["gate"] == "cx":
+            item["control"] = wire_map[item["control"]]
+            item["target"] = wire_map[item["target"]]
+        else:
+            item["qubit"] = wire_map[item["qubit"]]
+        result.append(item)
+    return result
+
+
+def matrix_index(output_bit, input_bit, output_rest, input_rest, qubit):
+    out = [0] * 4
+    inp = [0] * 4
+    out[qubit], inp[qubit] = output_bit, input_bit
+    other = [j for j in range(4) if j != qubit]
+    for position, wire in enumerate(other):
+        out[wire] = (output_rest >> (2 - position)) & 1
+        inp[wire] = (input_rest >> (2 - position)) & 1
+    return (sum(bit << (3 - j) for j, bit in enumerate(out)),
+            sum(bit << (3 - j) for j, bit in enumerate(inp)))
+
+
+def realignment(unitary, pair, qubit):
+    mask = (8 >> pair[0]) | (8 >> pair[1])
+    result = sp.zeros(4, 64)
+    for output_bit in range(2):
+        for input_bit in range(2):
+            row = 2 * output_bit + input_bit
+            for output_rest in range(8):
+                for input_rest in range(8):
+                    column = 8 * output_rest + input_rest
+                    output, source = matrix_index(output_bit, input_bit,
+                                                  output_rest, input_rest,
+                                                  qubit)
+                    sign = (-1) ** ((mask & output).bit_count() % 2)
+                    result[row, column] = T ** sign * unitary[output, source]
+    return result
+
+
+def monomial_certificate(determinant):
+    together = sp.cancel(sp.expand(determinant))
+    numerator, denominator = sp.fraction(together)
+    num_poly = sp.Poly(numerator, T)
+    den_poly = sp.Poly(denominator, T)
+    return (len(num_poly.terms()) == 1 and len(den_poly.terms()) == 1
+            and num_poly.terms()[0][1] != 0 and den_poly.terms()[0][1] != 0)
+
+
+def main():
+    baseline = json.loads((ROOT / "baseline_18.json").read_text())
+    h01 = exact_two_wire(remap(baseline["gates"][42:52], {0: 0, 1: 2}))
+    h23 = exact_two_wire(remap(baseline["gates"][52:62], {2: 0, 3: 2}))
+    unitary = sp.kronecker_product(h01, h23)
+    results = []
+    for pair in PAIRS:
+        for qubit in range(4):
+            matrix = realignment(unitary, pair, qubit)
+            numerical = np.array(matrix.subs(T, 1).evalf(), dtype=complex)
+            _, _, pivots = scipy.linalg.qr(numerical, pivoting=True)
+            columns = [int(value) for value in pivots[:4]]
+            determinant = sp.factor(matrix[:, columns].det(method="domain-ge"))
+            certificate = monomial_certificate(determinant)
+            results.append({"pair": pair, "qubit": qubit,
+                            "columns": columns,
+                            "determinant": str(determinant),
+                            "nonzero_monomial": certificate})
+    print(json.dumps({"cases": len(results),
+                      "all_monomial_certificates": all(
+                          result["nonzero_monomial"] for result in results),
+                      "results": results}, indent=2))
+
+
+if __name__ == "__main__":
+    main()

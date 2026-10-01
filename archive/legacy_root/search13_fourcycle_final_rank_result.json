@@ -1,0 +1,1278 @@
+{
+  "near_cases": 196,
+  "distinct_targets": 51,
+  "distinct_transported_generators": 20,
+  "cycle_count": 3,
+  "directed_chronological_schedule_count": 1152,
+  "cycles": [
+    {
+      "missing_matching": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "crossings": {
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "01": 4,
+        "02": 2,
+        "03": 2
+      },
+      "directed_chronological_schedule_count": 384
+    },
+    {
+      "missing_matching": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "crossings": {
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "01": 2,
+        "02": 4,
+        "03": 2
+      },
+      "directed_chronological_schedule_count": 384
+    },
+    {
+      "missing_matching": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "crossings": {
+        "0": 2,
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "01": 2,
+        "02": 2,
+        "03": 4
+      },
+      "directed_chronological_schedule_count": 384
+    }
+  ],
+  "rank_histogram": {
+    "0": {
+      "4": 51
+    },
+    "1": {
+      "4": 51
+    },
+    "2": {
+      "4": 51
+    },
+    "3": {
+      "4": 51
+    },
+    "01": {
+      "5": 51
+    },
+    "02": {
+      "16": 51
+    },
+    "03": {
+      "16": 51
+    }
+  },
+  "compatible_target_cycle_count": 0,
+  "compatible_target_cycles": [],
+  "targets": [
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 11,
+      "post_prefix_wire_mask": 6,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 1,
+      "post_prefix_wire_mask": 11,
+      "path_multiplicity": 9,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 2,
+      "post_prefix_wire_mask": 9,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 14,
+      "post_prefix_wire_mask": 13,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 10,
+      "post_prefix_wire_mask": 9,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 6,
+      "post_prefix_wire_mask": 13,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 15,
+      "post_prefix_wire_mask": 11,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 1,
+      "post_prefix_wire_mask": 12,
+      "path_multiplicity": 5,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 3,
+      "post_prefix_wire_mask": 11,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 9,
+      "post_prefix_wire_mask": 12,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 11,
+      "post_prefix_wire_mask": 11,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 5,
+      "post_prefix_wire_mask": 12,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 7,
+      "post_prefix_wire_mask": 11,
+      "path_multiplicity": 1,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 2,
+      "post_prefix_wire_mask": 11,
+      "path_multiplicity": 3,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 14,
+      "post_prefix_wire_mask": 15,
+      "path_multiplicity": 3,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 14,
+      "post_prefix_wire_mask": 6,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 2,
+      "post_prefix_wire_mask": 14,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 6,
+      "post_prefix_wire_mask": 6,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        10,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 10,
+      "post_prefix_wire_mask": 14,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 6,
+      "post_prefix_wire_mask": 15,
+      "path_multiplicity": 3,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 2,
+      "post_prefix_wire_mask": 13,
+      "path_multiplicity": 3,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 14,
+      "post_prefix_wire_mask": 15,
+      "path_multiplicity": 3,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 10,
+      "post_prefix_wire_mask": 13,
+      "path_multiplicity": 3,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        10,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 6,
+      "post_prefix_wire_mask": 14,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 2,
+      "post_prefix_wire_mask": 12,
+      "path_multiplicity": 8,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        10,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 14,
+      "post_prefix_wire_mask": 14,
+      "path_multiplicity": 8,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 10,
+      "post_prefix_wire_mask": 12,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 15,
+      "post_prefix_wire_mask": 3,
+      "path_multiplicity": 9,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 1,
+      "post_prefix_wire_mask": 13,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 5,
+      "post_prefix_wire_mask": 13,
+      "path_multiplicity": 5,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 15,
+      "post_prefix_wire_mask": 13,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 1,
+      "post_prefix_wire_mask": 6,
+      "path_multiplicity": 5,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 3,
+      "post_prefix_wire_mask": 13,
+      "path_multiplicity": 1,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 11,
+      "post_prefix_wire_mask": 13,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 5,
+      "post_prefix_wire_mask": 6,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 7,
+      "post_prefix_wire_mask": 6,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 15,
+      "post_prefix_wire_mask": 6,
+      "path_multiplicity": 1,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        10,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 6,
+      "post_prefix_wire_mask": 3,
+      "path_multiplicity": 12,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        10,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 2,
+      "post_prefix_wire_mask": 7,
+      "path_multiplicity": 12,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 6,
+      "post_prefix_wire_mask": 11,
+      "path_multiplicity": 6,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 2,
+      "post_prefix_wire_mask": 15,
+      "path_multiplicity": 6,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        5
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 14,
+      "post_prefix_wire_mask": 7,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        5
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 10,
+      "post_prefix_wire_mask": 6,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        5
+      ],
+      "missing_mask": 14,
+      "coefficient_pi_over_8_mod16": 2,
+      "post_prefix_wire_mask": 6,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 2,
+      "post_prefix_wire_mask": 15,
+      "path_multiplicity": 3,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 14,
+      "post_prefix_wire_mask": 13,
+      "path_multiplicity": 3,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        5
+      ],
+      "missing_mask": 7,
+      "coefficient_pi_over_8_mod16": 2,
+      "post_prefix_wire_mask": 11,
+      "path_multiplicity": 4,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        5
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 6,
+      "post_prefix_wire_mask": 9,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        5
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 14,
+      "post_prefix_wire_mask": 9,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 11,
+      "coefficient_pi_over_8_mod16": 3,
+      "post_prefix_wire_mask": 3,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    },
+    {
+      "endpoint": [
+        8,
+        4,
+        10,
+        1
+      ],
+      "missing_mask": 13,
+      "coefficient_pi_over_8_mod16": 9,
+      "post_prefix_wire_mask": 13,
+      "path_multiplicity": 2,
+      "target_schmidt_ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_cycle_indices": []
+    }
+  ]
+}

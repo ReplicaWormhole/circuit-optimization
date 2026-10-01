@@ -1,0 +1,5079 @@
+{
+  "short_rows": [
+    {
+      "proposal": 5,
+      "slot": 1,
+      "old": [
+        3,
+        2
+      ],
+      "replacement": [
+        1,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "candidate": "search13_opening02_fitted_tournament_p5_short.json",
+      "loss": 0.38350451875774033,
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5579377429961762,
+      "valid_diagonalizer": false,
+      "recovered_from_run": 351,
+      "candidate_sha256": "afc8bc2b517be1fc97012d20aaf20d58e2618cfe2adebd260ba249201e9d6c23",
+      "optimizer_metadata": "unavailable; loss reconstructed from saved gate list; not a new fit"
+    },
+    {
+      "proposal": 6,
+      "slot": 1,
+      "old": [
+        3,
+        2
+      ],
+      "replacement": [
+        2,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "candidate": "search13_opening02_fitted_tournament_p6_short.json",
+      "loss": 0.3770765548339752,
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7361700626520626,
+      "valid_diagonalizer": false,
+      "recovered_from_run": 351,
+      "candidate_sha256": "3cd27865a114591d9baa9a461bf96296a3a5f2becdbc6984a5a372b0c277e511",
+      "optimizer_metadata": "unavailable; loss reconstructed from saved gate list; not a new fit"
+    },
+    {
+      "proposal": 7,
+      "slot": 1,
+      "old": [
+        3,
+        2
+      ],
+      "replacement": [
+        3,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "candidate": "search13_opening02_fitted_tournament_p7_short.json",
+      "loss": 0.014839314687471917,
+      "cnot_count": 13,
+      "off_diagonal_error": 0.16489445225373636,
+      "valid_diagonalizer": false,
+      "recovered_from_run": 351,
+      "candidate_sha256": "4ecd49db863395fc84473fd37c4130dff90a929975e43d2b76b8a24b20c3209e",
+      "optimizer_metadata": "unavailable; loss reconstructed from saved gate list; not a new fit"
+    },
+    {
+      "proposal": 8,
+      "slot": 1,
+      "old": [
+        3,
+        2
+      ],
+      "replacement": [
+        2,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "candidate": "search13_opening02_fitted_tournament_p8_short.json",
+      "loss": 0.22567656405869008,
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6806802020032097,
+      "valid_diagonalizer": false,
+      "recovered_from_run": 351,
+      "candidate_sha256": "6c0bf424f8922c9502fea557b56bce753cfdb000593aef7d17a06e9fa7b9fc04",
+      "optimizer_metadata": "unavailable; loss reconstructed from saved gate list; not a new fit"
+    },
+    {
+      "proposal": 9,
+      "slot": 1,
+      "old": [
+        3,
+        2
+      ],
+      "replacement": [
+        3,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "candidate": "search13_opening02_fitted_tournament_p9_short.json",
+      "loss": 0.5284885204400637,
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6299836419064453,
+      "valid_diagonalizer": false,
+      "recovered_from_run": 351,
+      "candidate_sha256": "5f723ba2062ea89f63a5ab7670aedd58535c5576d05b44f02e23d54dd1b8cd96",
+      "optimizer_metadata": "unavailable; loss reconstructed from saved gate list; not a new fit"
+    },
+    {
+      "proposal": 10,
+      "slot": 2,
+      "old": [
+        1,
+        2
+      ],
+      "replacement": [
+        0,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "candidate": "search13_opening02_fitted_tournament_p10_short.json",
+      "loss": 0.4665143638196946,
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6644203301998926,
+      "valid_diagonalizer": false,
+      "recovered_from_run": 351,
+      "candidate_sha256": "f4da9ae72769ea8dd2790eaa98834cf8e2e1754f408c051b25153497bc31c8ef",
+      "optimizer_metadata": "unavailable; loss reconstructed from saved gate list; not a new fit"
+    },
+    {
+      "proposal": 11,
+      "slot": 2,
+      "old": [
+        1,
+        2
+      ],
+      "replacement": [
+        0,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "candidate": "search13_opening02_fitted_tournament_p11_short.json",
+      "loss": 0.5232933359894028,
+      "cnot_count": 13,
+      "off_diagonal_error": 0.608309929365127,
+      "valid_diagonalizer": false,
+      "recovered_from_run": 351,
+      "candidate_sha256": "7c7ee1a4daae1c20ef881b15504d26f132fdd16889896e754591ab0a43608d5d",
+      "optimizer_metadata": "unavailable; loss reconstructed from saved gate list; not a new fit"
+    },
+    {
+      "proposal": 12,
+      "slot": 2,
+      "old": [
+        1,
+        2
+      ],
+      "replacement": [
+        0,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8870427351944958,
+      "loss": 0.2224281658760026,
+      "nit": 40,
+      "nfev": 45,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p12_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.40563592324204695,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 13,
+      "slot": 2,
+      "old": [
+        1,
+        2
+      ],
+      "replacement": [
+        1,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8848725865496316,
+      "loss": 0.45895449886771883,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p13_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.4474133252190165,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 14,
+      "slot": 2,
+      "old": [
+        1,
+        2
+      ],
+      "replacement": [
+        2,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9208197107449042,
+      "loss": 0.37517587819703685,
+      "nit": 40,
+      "nfev": 46,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p14_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.9996928985692167,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 15,
+      "slot": 3,
+      "old": [
+        1,
+        0
+      ],
+      "replacement": [
+        2,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.7175515964968655,
+      "loss": 0.500000302947728,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p15_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.9691457582438744,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 16,
+      "slot": 3,
+      "old": [
+        1,
+        0
+      ],
+      "replacement": [
+        3,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.4953524939285847,
+      "loss": 0.2509324227893126,
+      "nit": 40,
+      "nfev": 43,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p16_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7092865961162191,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 17,
+      "slot": 3,
+      "old": [
+        1,
+        0
+      ],
+      "replacement": [
+        2,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8232819911897772,
+      "loss": 0.5000001441300083,
+      "nit": 40,
+      "nfev": 45,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p17_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.9474152630187368,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 18,
+      "slot": 3,
+      "old": [
+        1,
+        0
+      ],
+      "replacement": [
+        3,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8390309889766088,
+      "loss": 0.41698506590118667,
+      "nit": 40,
+      "nfev": 42,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p18_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6217055656564929,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 19,
+      "slot": 3,
+      "old": [
+        1,
+        0
+      ],
+      "replacement": [
+        3,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9502984603503373,
+      "loss": 0.2515119797082267,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p19_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.8647200538890717,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 20,
+      "slot": 4,
+      "old": [
+        2,
+        3
+      ],
+      "replacement": [
+        0,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9103148985150816,
+      "loss": 0.48563732064119347,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p20_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5185752255003779,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 21,
+      "slot": 4,
+      "old": [
+        2,
+        3
+      ],
+      "replacement": [
+        0,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8922956960926766,
+      "loss": 0.17284758929818145,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p21_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7494060806934313,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 22,
+      "slot": 4,
+      "old": [
+        2,
+        3
+      ],
+      "replacement": [
+        0,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8542337801408952,
+      "loss": 0.2418268571406967,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p22_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6233775908429838,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 23,
+      "slot": 4,
+      "old": [
+        2,
+        3
+      ],
+      "replacement": [
+        1,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9357484530624285,
+      "loss": 0.3498408036120426,
+      "nit": 40,
+      "nfev": 43,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p23_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7087011026718129,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 24,
+      "slot": 4,
+      "old": [
+        2,
+        3
+      ],
+      "replacement": [
+        1,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8858948381831351,
+      "loss": 0.4456900557410616,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p24_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.46016419186476515,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 25,
+      "slot": 5,
+      "old": [
+        2,
+        1
+      ],
+      "replacement": [
+        1,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9244336357923615,
+      "loss": 0.24456684689156916,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p25_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.4801855030411901,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 26,
+      "slot": 5,
+      "old": [
+        2,
+        1
+      ],
+      "replacement": [
+        2,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9116290824364719,
+      "loss": 0.24480258064832627,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p26_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6850574259865947,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 27,
+      "slot": 5,
+      "old": [
+        2,
+        1
+      ],
+      "replacement": [
+        3,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9366194963930502,
+      "loss": 0.2715353687798281,
+      "nit": 40,
+      "nfev": 45,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p27_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5055330600534976,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 28,
+      "slot": 5,
+      "old": [
+        2,
+        1
+      ],
+      "replacement": [
+        3,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9105814486308088,
+      "loss": 0.41368820091642133,
+      "nit": 40,
+      "nfev": 43,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p28_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5799556329822585,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 29,
+      "slot": 5,
+      "old": [
+        2,
+        1
+      ],
+      "replacement": [
+        3,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9398724685491069,
+      "loss": 0.47168062861080573,
+      "nit": 40,
+      "nfev": 43,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p29_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6185554739397883,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 30,
+      "slot": 6,
+      "old": [
+        0,
+        1
+      ],
+      "replacement": [
+        0,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8046889219377119,
+      "loss": 0.5000000000084714,
+      "nit": 40,
+      "nfev": 43,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p30_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.9962287767963968,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 31,
+      "slot": 6,
+      "old": [
+        0,
+        1
+      ],
+      "replacement": [
+        0,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8074465572620031,
+      "loss": 0.5000000000011021,
+      "nit": 40,
+      "nfev": 46,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p31_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.9968368350584369,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 32,
+      "slot": 6,
+      "old": [
+        0,
+        1
+      ],
+      "replacement": [
+        1,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9298446450967954,
+      "loss": 0.3172282406513034,
+      "nit": 40,
+      "nfev": 45,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p32_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5167137724861071,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 33,
+      "slot": 6,
+      "old": [
+        0,
+        1
+      ],
+      "replacement": [
+        1,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9213539699220467,
+      "loss": 0.3038478662767836,
+      "nit": 40,
+      "nfev": 42,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p33_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6848616499474364,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 34,
+      "slot": 6,
+      "old": [
+        0,
+        1
+      ],
+      "replacement": [
+        2,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8432531563263873,
+      "loss": 0.10118848621660514,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p34_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.33701257470804935,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 35,
+      "slot": 7,
+      "old": [
+        3,
+        2
+      ],
+      "replacement": [
+        1,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9011447812645332,
+      "loss": 0.5822277492740451,
+      "nit": 40,
+      "nfev": 43,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p35_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.8237788347941577,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 36,
+      "slot": 7,
+      "old": [
+        3,
+        2
+      ],
+      "replacement": [
+        2,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9160023072337498,
+      "loss": 0.5171666537329412,
+      "nit": 40,
+      "nfev": 43,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p36_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.9563173450283649,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 37,
+      "slot": 7,
+      "old": [
+        3,
+        2
+      ],
+      "replacement": [
+        3,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.7126897487572703,
+      "loss": 0.5000027244167191,
+      "nit": 40,
+      "nfev": 46,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p37_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6916279485978729,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 38,
+      "slot": 7,
+      "old": [
+        3,
+        2
+      ],
+      "replacement": [
+        2,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9124103155305656,
+      "loss": 0.5220242440702223,
+      "nit": 40,
+      "nfev": 43,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p38_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6018786095924883,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 39,
+      "slot": 7,
+      "old": [
+        3,
+        2
+      ],
+      "replacement": [
+        3,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.5643929688077103,
+      "loss": 0.06607670729469506,
+      "nit": 40,
+      "nfev": 45,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p39_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.307732288897166,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 40,
+      "slot": 8,
+      "old": [
+        1,
+        2
+      ],
+      "replacement": [
+        0,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8667542830452794,
+      "loss": 0.44617374880338595,
+      "nit": 40,
+      "nfev": 42,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p40_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6928492530579469,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 41,
+      "slot": 8,
+      "old": [
+        1,
+        2
+      ],
+      "replacement": [
+        0,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.7806985321753528,
+      "loss": 0.10321515331031932,
+      "nit": 40,
+      "nfev": 46,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p41_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5490798983149543,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 42,
+      "slot": 8,
+      "old": [
+        1,
+        2
+      ],
+      "replacement": [
+        0,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.7584148133948818,
+      "loss": 0.25112786496359485,
+      "nit": 40,
+      "nfev": 42,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p42_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7136514438791252,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 43,
+      "slot": 8,
+      "old": [
+        1,
+        2
+      ],
+      "replacement": [
+        1,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.703825526828658,
+      "loss": 0.07221398461799401,
+      "nit": 40,
+      "nfev": 46,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p43_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.3747152174859767,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 44,
+      "slot": 8,
+      "old": [
+        1,
+        2
+      ],
+      "replacement": [
+        2,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8526662299491664,
+      "loss": 0.4489853095570121,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p44_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7042036176405752,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 45,
+      "slot": 9,
+      "old": [
+        1,
+        0
+      ],
+      "replacement": [
+        2,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.7172215231453124,
+      "loss": 0.14719051331979294,
+      "nit": 40,
+      "nfev": 45,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p45_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.33095924812656824,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 46,
+      "slot": 9,
+      "old": [
+        1,
+        0
+      ],
+      "replacement": [
+        3,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.7411113659118332,
+      "loss": 0.197153119685509,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p46_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6966452976747172,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 47,
+      "slot": 9,
+      "old": [
+        1,
+        0
+      ],
+      "replacement": [
+        2,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.7211350695277807,
+      "loss": 0.07902352342519595,
+      "nit": 40,
+      "nfev": 45,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p47_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.3853352959275962,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 48,
+      "slot": 9,
+      "old": [
+        1,
+        0
+      ],
+      "replacement": [
+        3,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8688882232247832,
+      "loss": 0.3038022372696203,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p48_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6793975091855425,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 49,
+      "slot": 9,
+      "old": [
+        1,
+        0
+      ],
+      "replacement": [
+        3,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9354716629243485,
+      "loss": 0.18385036940279165,
+      "nit": 40,
+      "nfev": 48,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p49_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6220643870095482,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 50,
+      "slot": 10,
+      "old": [
+        2,
+        3
+      ],
+      "replacement": [
+        0,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8516243076111608,
+      "loss": 0.5000006026311268,
+      "nit": 40,
+      "nfev": 48,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p50_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7961875772477577,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 51,
+      "slot": 10,
+      "old": [
+        2,
+        3
+      ],
+      "replacement": [
+        0,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9217405316115856,
+      "loss": 0.5000332002248677,
+      "nit": 40,
+      "nfev": 43,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p51_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.9432186606233601,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 52,
+      "slot": 10,
+      "old": [
+        2,
+        3
+      ],
+      "replacement": [
+        0,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.716375917551419,
+      "loss": 0.23364298744689593,
+      "nit": 40,
+      "nfev": 45,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p52_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5264751999957132,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 53,
+      "slot": 10,
+      "old": [
+        2,
+        3
+      ],
+      "replacement": [
+        1,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9416023514553138,
+      "loss": 0.5000084701022058,
+      "nit": 40,
+      "nfev": 46,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p53_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.9901639478497904,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 54,
+      "slot": 10,
+      "old": [
+        2,
+        3
+      ],
+      "replacement": [
+        1,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.6635264527585321,
+      "loss": 0.1829884678635742,
+      "nit": 40,
+      "nfev": 41,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p54_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.3568844597771662,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 55,
+      "slot": 11,
+      "old": [
+        2,
+        1
+      ],
+      "replacement": [
+        1,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.6143611351105114,
+      "loss": 0.1488401847585964,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p55_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.696913180771798,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 56,
+      "slot": 11,
+      "old": [
+        2,
+        1
+      ],
+      "replacement": [
+        2,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.2055074082889023,
+      "loss": 0.026288615096255765,
+      "nit": 40,
+      "nfev": 43,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p56_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.18805778107374257,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 57,
+      "slot": 11,
+      "old": [
+        2,
+        1
+      ],
+      "replacement": [
+        3,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9305796380359401,
+      "loss": 0.14863383563419946,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p57_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.697092544335069,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 58,
+      "slot": 11,
+      "old": [
+        2,
+        1
+      ],
+      "replacement": [
+        3,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.898844413819153,
+      "loss": 0.14760983625385782,
+      "nit": 40,
+      "nfev": 47,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p58_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.697599776146442,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 59,
+      "slot": 11,
+      "old": [
+        2,
+        1
+      ],
+      "replacement": [
+        3,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8987043160311703,
+      "loss": 0.14884103700305917,
+      "nit": 40,
+      "nfev": 46,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p59_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6968806865493237,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 60,
+      "slot": 12,
+      "old": [
+        0,
+        1
+      ],
+      "replacement": [
+        0,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "initial_loss": 0.5682697910144129,
+      "loss": 0.13423415594327148,
+      "nit": 40,
+      "nfev": 44,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p60_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7053798462097136,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 61,
+      "slot": 12,
+      "old": [
+        0,
+        1
+      ],
+      "replacement": [
+        0,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "initial_loss": 0.6684258618516713,
+      "loss": 0.1336965672007534,
+      "nit": 40,
+      "nfev": 42,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p61_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7054897087675435,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 62,
+      "slot": 12,
+      "old": [
+        0,
+        1
+      ],
+      "replacement": [
+        1,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "initial_loss": 0.8625581581233415,
+      "loss": 0.13466692624537643,
+      "nit": 40,
+      "nfev": 43,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p62_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7052792695169967,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 63,
+      "slot": 12,
+      "old": [
+        0,
+        1
+      ],
+      "replacement": [
+        1,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "initial_loss": 0.7548407558954712,
+      "loss": 0.13354503835802045,
+      "nit": 40,
+      "nfev": 42,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p63_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7056277743204197,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    },
+    {
+      "proposal": 64,
+      "slot": 12,
+      "old": [
+        0,
+        1
+      ],
+      "replacement": [
+        2,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "initial_loss": 0.7350912357535899,
+      "loss": 0.1342217255416895,
+      "nit": 40,
+      "nfev": 42,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_opening02_recovery_p64_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7053237987244187,
+      "valid_diagonalizer": false,
+      "new_fit": true
+    }
+  ],
+  "deep_rows": [
+    {
+      "rank": 0,
+      "proposal": 7,
+      "slot": 1,
+      "old": [
+        3,
+        2
+      ],
+      "replacement": [
+        3,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "short_candidate": "search13_opening02_fitted_tournament_p7_short.json",
+      "short_loss": 0.014839314687471917,
+      "initial_loss": 0.014839314687471917,
+      "loss": 0.013605877201138764,
+      "nit": 175,
+      "nfev": 185,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_opening02_recovery_p7_deep.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.13439572601456193,
+      "valid_diagonalizer": false
+    },
+    {
+      "rank": 1,
+      "proposal": 56,
+      "slot": 11,
+      "old": [
+        2,
+        1
+      ],
+      "replacement": [
+        2,
+        0
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "short_candidate": "search13_opening02_recovery_p56_short.json",
+      "short_loss": 0.026288615096255765,
+      "initial_loss": 0.026288615096255765,
+      "loss": 0.009117300938607778,
+      "nit": 155,
+      "nfev": 167,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_opening02_recovery_p56_deep.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.10922791847857725,
+      "valid_diagonalizer": false
+    },
+    {
+      "rank": 2,
+      "proposal": 39,
+      "slot": 7,
+      "old": [
+        3,
+        2
+      ],
+      "replacement": [
+        3,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "short_candidate": "search13_opening02_recovery_p39_short.json",
+      "short_loss": 0.06607670729469506,
+      "initial_loss": 0.06607670729469506,
+      "loss": 0.061146974940626056,
+      "nit": 234,
+      "nfev": 246,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_opening02_recovery_p39_deep.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.32021474825327445,
+      "valid_diagonalizer": false
+    },
+    {
+      "rank": 3,
+      "proposal": 43,
+      "slot": 8,
+      "old": [
+        1,
+        2
+      ],
+      "replacement": [
+        1,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "short_candidate": "search13_opening02_recovery_p43_short.json",
+      "short_loss": 0.07221398461799401,
+      "initial_loss": 0.07221398461799401,
+      "loss": 0.07221387488418883,
+      "nit": 36,
+      "nfev": 39,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_opening02_recovery_p43_deep.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.374636586346656,
+      "valid_diagonalizer": false
+    },
+    {
+      "rank": 4,
+      "proposal": 47,
+      "slot": 9,
+      "old": [
+        1,
+        0
+      ],
+      "replacement": [
+        2,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "short_candidate": "search13_opening02_recovery_p47_short.json",
+      "short_loss": 0.07902352342519595,
+      "initial_loss": 0.07902352342519595,
+      "loss": 0.07898964450878676,
+      "nit": 68,
+      "nfev": 75,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_opening02_recovery_p47_deep.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.3895182126794917,
+      "valid_diagonalizer": false
+    },
+    {
+      "rank": 5,
+      "proposal": 34,
+      "slot": 6,
+      "old": [
+        0,
+        1
+      ],
+      "replacement": [
+        2,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "short_candidate": "search13_opening02_recovery_p34_short.json",
+      "short_loss": 0.10118848621660514,
+      "initial_loss": 0.10118848621660514,
+      "loss": 0.09461038032612135,
+      "nit": 158,
+      "nfev": 166,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_opening02_recovery_p34_deep.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.2851164325389447,
+      "valid_diagonalizer": false
+    }
+  ]
+}

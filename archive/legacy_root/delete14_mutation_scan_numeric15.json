@@ -1,0 +1,331 @@
+{
+  "base_candidate": "algebraic16_to15_gauge_1_best.json",
+  "mutations_evaluated": 2100,
+  "top_25": [
+    {
+      "deleted_cx": 10,
+      "replace_cx": 4,
+      "old_edge": [
+        1,
+        2
+      ],
+      "new_edge": [
+        1,
+        3
+      ],
+      "raw_offdiag": 0.2705980500730988
+    },
+    {
+      "deleted_cx": 5,
+      "replace_cx": 1,
+      "old_edge": [
+        1,
+        2
+      ],
+      "new_edge": [
+        3,
+        2
+      ],
+      "raw_offdiag": 0.3535533905932743
+    },
+    {
+      "deleted_cx": 14,
+      "replace_cx": 12,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        3,
+        1
+      ],
+      "raw_offdiag": 0.3750000000000004
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 11,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        1,
+        2
+      ],
+      "raw_offdiag": 0.3750000000000005
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 11,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        3,
+        0
+      ],
+      "raw_offdiag": 0.3750000000000005
+    },
+    {
+      "deleted_cx": 9,
+      "replace_cx": 9,
+      "old_edge": [
+        2,
+        1
+      ],
+      "new_edge": [
+        1,
+        3
+      ],
+      "raw_offdiag": 0.38282469562876065
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 9,
+      "old_edge": [
+        2,
+        0
+      ],
+      "new_edge": [
+        1,
+        3
+      ],
+      "raw_offdiag": 0.38282469562876065
+    },
+    {
+      "deleted_cx": 11,
+      "replace_cx": 6,
+      "old_edge": [
+        3,
+        1
+      ],
+      "new_edge": [
+        1,
+        2
+      ],
+      "raw_offdiag": 0.39528470752104755
+    },
+    {
+      "deleted_cx": 7,
+      "replace_cx": 10,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        2,
+        0
+      ],
+      "raw_offdiag": 0.3952847075210476
+    },
+    {
+      "deleted_cx": 7,
+      "replace_cx": 11,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        3,
+        1
+      ],
+      "raw_offdiag": 0.3952847075210476
+    },
+    {
+      "deleted_cx": 9,
+      "replace_cx": 9,
+      "old_edge": [
+        2,
+        1
+      ],
+      "new_edge": [
+        2,
+        3
+      ],
+      "raw_offdiag": 0.3952847075210476
+    },
+    {
+      "deleted_cx": 7,
+      "replace_cx": 11,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        2,
+        1
+      ],
+      "raw_offdiag": 0.39528470752104766
+    },
+    {
+      "deleted_cx": 12,
+      "replace_cx": 7,
+      "old_edge": [
+        3,
+        1
+      ],
+      "new_edge": [
+        3,
+        2
+      ],
+      "raw_offdiag": 0.39528470752104766
+    },
+    {
+      "deleted_cx": 14,
+      "replace_cx": 10,
+      "old_edge": [
+        2,
+        1
+      ],
+      "new_edge": [
+        3,
+        1
+      ],
+      "raw_offdiag": 0.3952847075210477
+    },
+    {
+      "deleted_cx": 13,
+      "replace_cx": 10,
+      "old_edge": [
+        2,
+        1
+      ],
+      "new_edge": [
+        3,
+        0
+      ],
+      "raw_offdiag": 0.3952847075210478
+    },
+    {
+      "deleted_cx": 14,
+      "replace_cx": 12,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        2,
+        0
+      ],
+      "raw_offdiag": 0.39528470752104783
+    },
+    {
+      "deleted_cx": 8,
+      "replace_cx": 7,
+      "old_edge": [
+        3,
+        1
+      ],
+      "new_edge": [
+        2,
+        3
+      ],
+      "raw_offdiag": 0.3952847075210479
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 13,
+      "old_edge": [
+        0,
+        1
+      ],
+      "new_edge": [
+        1,
+        2
+      ],
+      "raw_offdiag": 0.3952847075210479
+    },
+    {
+      "deleted_cx": 13,
+      "replace_cx": 6,
+      "old_edge": [
+        3,
+        1
+      ],
+      "new_edge": [
+        2,
+        1
+      ],
+      "raw_offdiag": 0.3952847075210479
+    },
+    {
+      "deleted_cx": 13,
+      "replace_cx": 9,
+      "old_edge": [
+        2,
+        0
+      ],
+      "new_edge": [
+        3,
+        2
+      ],
+      "raw_offdiag": 0.3952847075210479
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 11,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        1,
+        3
+      ],
+      "raw_offdiag": 0.39528470752104794
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 12,
+      "old_edge": [
+        0,
+        1
+      ],
+      "new_edge": [
+        0,
+        3
+      ],
+      "raw_offdiag": 0.39528470752104794
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 13,
+      "old_edge": [
+        0,
+        1
+      ],
+      "new_edge": [
+        1,
+        3
+      ],
+      "raw_offdiag": 0.39528470752104816
+    },
+    {
+      "deleted_cx": 12,
+      "replace_cx": 10,
+      "old_edge": [
+        2,
+        1
+      ],
+      "new_edge": [
+        2,
+        0
+      ],
+      "raw_offdiag": 0.3952847075210484
+    },
+    {
+      "deleted_cx": 14,
+      "replace_cx": 12,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        1,
+        0
+      ],
+      "raw_offdiag": 0.40527407742541804
+    }
+  ]
+}

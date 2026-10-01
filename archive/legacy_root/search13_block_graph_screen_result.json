@@ -1,0 +1,608 @@
+{
+  "base": "topology14_exact_matchgate_rational.json",
+  "method": "fixed six-CNOT prefix, changed four-block graph, direct label-free diagonalization fit",
+  "eligible_graphs": 568,
+  "limit": 12,
+  "maxiter": 120,
+  "seed": 133700,
+  "rows": [
+    {
+      "deleted": 6,
+      "block_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 133700,
+      "sigma": 0.12,
+      "maxiter": 120,
+      "initial_loss": 0.9300691224803576,
+      "loss": 0.4776095618101989,
+      "nit": 120,
+      "nfev": 130,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.41826677726747513,
+      "eigenvalue_root_error": 1.1104347548487539,
+      "valid_diagonalizer": false,
+      "case": 0,
+      "degrees": [
+        3,
+        3,
+        2,
+        6
+      ],
+      "crossing": [
+        4,
+        5,
+        5
+      ],
+      "candidate": "search13_block_graph_screen_case0.json"
+    },
+    {
+      "deleted": 6,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 133701,
+      "sigma": 0.12,
+      "maxiter": 120,
+      "initial_loss": 0.9271483902740909,
+      "loss": 0.3030117085725166,
+      "nit": 120,
+      "nfev": 128,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.5093338864090672,
+      "eigenvalue_root_error": 1.1538154437515713,
+      "valid_diagonalizer": false,
+      "case": 1,
+      "degrees": [
+        3,
+        2,
+        3,
+        6
+      ],
+      "crossing": [
+        5,
+        4,
+        5
+      ],
+      "candidate": "search13_block_graph_screen_case1.json"
+    },
+    {
+      "deleted": 6,
+      "block_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "seed": 133702,
+      "sigma": 0.12,
+      "maxiter": 120,
+      "initial_loss": 0.9388775209163345,
+      "loss": 0.41361698781218814,
+      "nit": 120,
+      "nfev": 130,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.6318466392690579,
+      "eigenvalue_root_error": 1.1861671397025535,
+      "valid_diagonalizer": false,
+      "case": 2,
+      "degrees": [
+        3,
+        6,
+        2,
+        3
+      ],
+      "crossing": [
+        5,
+        5,
+        4
+      ],
+      "candidate": "search13_block_graph_screen_case2.json"
+    },
+    {
+      "deleted": 8,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 133703,
+      "sigma": 0.12,
+      "maxiter": 120,
+      "initial_loss": 0.9368821595336401,
+      "loss": 0.2952542923683844,
+      "nit": 120,
+      "nfev": 131,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.6469864529912059,
+      "eigenvalue_root_error": 1.2267526379685418,
+      "valid_diagonalizer": false,
+      "case": 3,
+      "degrees": [
+        3,
+        3,
+        6,
+        2
+      ],
+      "crossing": [
+        4,
+        5,
+        5
+      ],
+      "candidate": "search13_block_graph_screen_case3.json"
+    },
+    {
+      "deleted": 8,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 133704,
+      "sigma": 0.12,
+      "maxiter": 120,
+      "initial_loss": 0.8820514742079524,
+      "loss": 0.5000000000000019,
+      "nit": 94,
+      "nfev": 102,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.7319368002208383,
+      "eigenvalue_root_error": 1.0,
+      "valid_diagonalizer": false,
+      "case": 4,
+      "degrees": [
+        3,
+        2,
+        6,
+        3
+      ],
+      "crossing": [
+        5,
+        5,
+        4
+      ],
+      "candidate": "search13_block_graph_screen_case4.json"
+    },
+    {
+      "deleted": 8,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "seed": 133705,
+      "sigma": 0.12,
+      "maxiter": 120,
+      "initial_loss": 0.9129121298278098,
+      "loss": 0.3507444863297011,
+      "nit": 120,
+      "nfev": 133,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.5133061096101587,
+      "eigenvalue_root_error": 1.1779317362459076,
+      "valid_diagonalizer": false,
+      "case": 5,
+      "degrees": [
+        6,
+        3,
+        2,
+        3
+      ],
+      "crossing": [
+        5,
+        4,
+        5
+      ],
+      "candidate": "search13_block_graph_screen_case5.json"
+    },
+    {
+      "deleted": 10,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 133706,
+      "sigma": 0.12,
+      "maxiter": 120,
+      "initial_loss": 0.9115988055243289,
+      "loss": 0.12500000000000325,
+      "nit": 97,
+      "nfev": 107,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.7071067811865437,
+      "eigenvalue_root_error": 1.249999999999992,
+      "valid_diagonalizer": false,
+      "case": 6,
+      "degrees": [
+        3,
+        2,
+        6,
+        3
+      ],
+      "crossing": [
+        5,
+        5,
+        4
+      ],
+      "candidate": "search13_block_graph_screen_case6.json"
+    },
+    {
+      "deleted": 10,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 133707,
+      "sigma": 0.12,
+      "maxiter": 120,
+      "initial_loss": 0.9305043472018899,
+      "loss": 0.23538393500042948,
+      "nit": 120,
+      "nfev": 131,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.6050363594565499,
+      "eigenvalue_root_error": 1.1477591379251753,
+      "valid_diagonalizer": false,
+      "case": 7,
+      "degrees": [
+        2,
+        3,
+        6,
+        3
+      ],
+      "crossing": [
+        5,
+        4,
+        5
+      ],
+      "candidate": "search13_block_graph_screen_case7.json"
+    },
+    {
+      "deleted": 10,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "seed": 133708,
+      "sigma": 0.12,
+      "maxiter": 120,
+      "initial_loss": 0.9083277295376577,
+      "loss": 0.2627656193902218,
+      "nit": 120,
+      "nfev": 129,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.5082005576365703,
+      "eigenvalue_root_error": 0.8926055338504987,
+      "valid_diagonalizer": false,
+      "case": 8,
+      "degrees": [
+        3,
+        3,
+        6,
+        2
+      ],
+      "crossing": [
+        4,
+        5,
+        5
+      ],
+      "candidate": "search13_block_graph_screen_case8.json"
+    },
+    {
+      "deleted": 12,
+      "block_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 133709,
+      "sigma": 0.12,
+      "maxiter": 120,
+      "initial_loss": 0.9088176531585048,
+      "loss": 0.3518753426001183,
+      "nit": 120,
+      "nfev": 133,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.501818384348405,
+      "eigenvalue_root_error": 0.9473413532286096,
+      "valid_diagonalizer": false,
+      "case": 9,
+      "degrees": [
+        2,
+        6,
+        3,
+        3
+      ],
+      "crossing": [
+        4,
+        5,
+        5
+      ],
+      "candidate": "search13_block_graph_screen_case9.json"
+    },
+    {
+      "deleted": 12,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "seed": 133710,
+      "sigma": 0.12,
+      "maxiter": 120,
+      "initial_loss": 0.8853464844762504,
+      "loss": 0.3850099857194945,
+      "nit": 120,
+      "nfev": 127,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.5777903414348986,
+      "eigenvalue_root_error": 1.0472772107674582,
+      "valid_diagonalizer": false,
+      "case": 10,
+      "degrees": [
+        6,
+        3,
+        3,
+        2
+      ],
+      "crossing": [
+        5,
+        5,
+        4
+      ],
+      "candidate": "search13_block_graph_screen_case10.json"
+    },
+    {
+      "deleted": 12,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "seed": 133711,
+      "sigma": 0.12,
+      "maxiter": 120,
+      "initial_loss": 0.9124955007944493,
+      "loss": 0.5000000000000006,
+      "nit": 82,
+      "nfev": 90,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.82827908621131,
+      "eigenvalue_root_error": 1.0,
+      "valid_diagonalizer": false,
+      "case": 11,
+      "degrees": [
+        6,
+        3,
+        2,
+        3
+      ],
+      "crossing": [
+        5,
+        4,
+        5
+      ],
+      "candidate": "search13_block_graph_screen_case11.json"
+    }
+  ],
+  "best": {
+    "deleted": 10,
+    "block_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "seed": 133706,
+    "sigma": 0.12,
+    "maxiter": 120,
+    "initial_loss": 0.9115988055243289,
+    "loss": 0.12500000000000325,
+    "nit": 97,
+    "nfev": 107,
+    "optimizer_success": true,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "off_diagonal_error": 0.7071067811865437,
+    "eigenvalue_root_error": 1.249999999999992,
+    "valid_diagonalizer": false,
+    "case": 6,
+    "degrees": [
+      3,
+      2,
+      6,
+      3
+    ],
+    "crossing": [
+      5,
+      5,
+      4
+    ],
+    "candidate": "search13_block_graph_screen_case6.json"
+  }
+}

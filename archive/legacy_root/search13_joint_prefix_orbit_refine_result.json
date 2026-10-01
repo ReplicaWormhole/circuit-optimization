@@ -1,0 +1,133 @@
+{
+  "best_candidate": "search13_joint_prefix_orbit_refine_0.json",
+  "best_off_diagonal_error": 0.3866576511498329,
+  "maxiter": 800,
+  "rows": [
+    {
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_joint_prefix_orbit_refine_0.json",
+      "cnot_count": 13,
+      "deleted": 5,
+      "eigenvalue_root_error": 0.4073633886481635,
+      "initial_loss": 0.07873301259438104,
+      "loss": 0.0787330125161619,
+      "maxiter": 800,
+      "nfev": 57,
+      "nit": 51,
+      "off_diagonal_error": 0.3866576511498329,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "prefix_rewire": [
+        2,
+        0,
+        1
+      ],
+      "seed": 32900,
+      "sigma": 0.0,
+      "trial": 0,
+      "valid_diagonalizer": false
+    },
+    {
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_joint_prefix_orbit_refine_1.json",
+      "cnot_count": 13,
+      "deleted": 5,
+      "eigenvalue_root_error": 0.4073634475409718,
+      "initial_loss": 0.11285420871910279,
+      "loss": 0.07873301251616233,
+      "maxiter": 800,
+      "nfev": 149,
+      "nit": 138,
+      "off_diagonal_error": 0.38665768018133045,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "prefix_rewire": [
+        2,
+        0,
+        1
+      ],
+      "seed": 32901,
+      "sigma": 0.02,
+      "trial": 1,
+      "valid_diagonalizer": false
+    },
+    {
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_joint_prefix_orbit_refine_2.json",
+      "cnot_count": 13,
+      "deleted": 5,
+      "eigenvalue_root_error": 0.4073634140757759,
+      "initial_loss": 0.440103562088388,
+      "loss": 0.07873301251616235,
+      "maxiter": 800,
+      "nfev": 157,
+      "nit": 143,
+      "off_diagonal_error": 0.38665766368449694,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "prefix_rewire": [
+        2,
+        0,
+        1
+      ],
+      "seed": 32902,
+      "sigma": 0.08,
+      "trial": 2,
+      "valid_diagonalizer": false
+    }
+  ],
+  "scope": "one whole-circuit 13-CNOT topology, three numerical continuations; failure is not a no-go",
+  "seed": 32900,
+  "source": "search13_joint_prefix_orbit_case1_random_direct.json"
+}

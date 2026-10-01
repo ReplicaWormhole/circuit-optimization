@@ -1,0 +1,118 @@
+"""Factor the exact parity-conditioned Fock Fourier basis and synthesize its twist.
+
+U_parity = U_periodic G, where G is a diagonal site-phase gate applied in
+even-particle sectors. Verify the factorization over Q(zeta8), calculate
+its exact Walsh parity polynomial, and BFS the shortest identity-returning
+CNOT parity network that realizes its four nonlocal masks. This is a
+restricted diagonal-gate synthesis; it does not optimize jointly with U0.
+"""
+
+import json
+from collections import deque
+from fractions import Fraction
+from pathlib import Path
+
+from algebraic14_orbit_shear import parity
+from algebraic14_parity_fermion_fourier import (
+    FIELD, HALF, ZERO, ZETA, determinant, fock_transform, occupied)
+
+
+ROOT = Path(__file__).parent
+IDENTITY = (8, 4, 2, 1)
+EDGES = [(c, t) for c in range(4) for t in range(4) if c != t]
+
+
+def periodic_transform():
+    f = [[HALF * ZETA ** (2 * k * j)
+          for j in range(4)] for k in range(4)]
+    u = [[ZERO for _ in range(16)] for _ in range(16)]
+    for y in range(16):
+        outputs = occupied(y)
+        for x in range(16):
+            inputs = occupied(x)
+            if len(inputs) != len(outputs):
+                continue
+            u[y][x] = determinant([[f[k][j] for j in inputs]
+                                   for k in outputs])
+    return u
+
+
+def phase_integer(x):
+    return sum(j for j in occupied(x)) if x.bit_count() % 2 == 0 else 0
+
+
+def walsh_coefficients():
+    values = [phase_integer(x) for x in range(16)]
+    return {mask: Fraction(sum(values[x] * (-1) ** parity(mask & x)
+                               for x in range(16)), 16)
+            for mask in range(16)}
+
+
+def shortest_parity_tour(masks):
+    index = {mask: i for i, mask in enumerate(masks)}
+    all_seen = (1 << len(masks)) - 1
+    initial = (IDENTITY, 0)
+    queue = deque([initial])
+    parent = {initial: None}
+    final = None
+    while queue:
+        rows, seen = queue.popleft()
+        if rows == IDENTITY and seen == all_seen:
+            final = (rows, seen)
+            break
+        for c, t in EDGES:
+            next_rows = list(rows)
+            next_rows[t] ^= next_rows[c]
+            next_rows = tuple(next_rows)
+            next_seen = seen
+            for mask in next_rows:
+                if mask in index:
+                    next_seen |= 1 << index[mask]
+            child = (next_rows, next_seen)
+            if child in parent:
+                continue
+            parent[child] = ((rows, seen), (c, t))
+            queue.append(child)
+    assert final is not None
+    path = []
+    state = final
+    while parent[state] is not None:
+        previous, edge = parent[state]
+        path.append({"cx": edge,
+                     "new_masks": [mask for mask in masks
+                                   if mask in state[0] and
+                                   not (previous[1] & (1 << index[mask]))]})
+        state = previous
+    path.reverse()
+    return path, len(parent)
+
+
+def main():
+    target = fock_transform()
+    periodic = periodic_transform()
+    identities = [
+        target[y][x] == periodic[y][x] * ZETA ** phase_integer(x)
+        for y in range(16) for x in range(16)]
+    assert all(identities)
+    coeff = walsh_coefficients()
+    nonlocal_masks = tuple(mask for mask, value in coeff.items()
+                           if value and mask.bit_count() >= 2)
+    tour, states = shortest_parity_tour(nonlocal_masks)
+    result = {
+        "exact_factorization": True,
+        "diagonal_phase_integer": [phase_integer(x) for x in range(16)],
+        "phase_units": "pi/4",
+        "walsh_coefficients": {str(mask): str(value)
+                               for mask, value in coeff.items() if value},
+        "nonlocal_masks": nonlocal_masks,
+        "parity_network_states_explored": states,
+        "shortest_closed_parity_tour_cx": len(tour),
+        "tour": tour,
+        "scope": "Diagonal twist alone, identity-returning CNOT parity network"}
+    (ROOT / "algebraic14_fermion_twist_factor_result.json").write_text(
+        json.dumps(result, indent=2) + "\n")
+    print(json.dumps(result, indent=2))
+
+
+if __name__ == "__main__":
+    main()

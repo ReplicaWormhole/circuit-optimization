@@ -1,0 +1,1319 @@
+{
+  "pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "gauges_tested": 64,
+  "minimum_cnot": 15,
+  "valid_count": 64,
+  "best": {
+    "mask": 0,
+    "pairs": [],
+    "cnot_count": 15,
+    "off_diagonal_error": 1.8637482498317134e-15,
+    "valid": true
+  },
+  "results": [
+    {
+      "mask": 0,
+      "pairs": [],
+      "cnot_count": 15,
+      "off_diagonal_error": 1.8637482498317134e-15,
+      "valid": true
+    },
+    {
+      "mask": 1,
+      "pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "cnot_count": 16,
+      "off_diagonal_error": 1.8076861484884655e-15,
+      "valid": true
+    },
+    {
+      "mask": 2,
+      "pairs": [
+        [
+          0,
+          2
+        ]
+      ],
+      "cnot_count": 16,
+      "off_diagonal_error": 1.7422542748461972e-15,
+      "valid": true
+    },
+    {
+      "mask": 3,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 1.7421292099027472e-15,
+      "valid": true
+    },
+    {
+      "mask": 4,
+      "pairs": [
+        [
+          0,
+          3
+        ]
+      ],
+      "cnot_count": 16,
+      "off_diagonal_error": 1.7362155263940788e-15,
+      "valid": true
+    },
+    {
+      "mask": 5,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 1.775669123229471e-15,
+      "valid": true
+    },
+    {
+      "mask": 6,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 3.2989533306780807e-15,
+      "valid": true
+    },
+    {
+      "mask": 7,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.28825975103489e-15,
+      "valid": true
+    },
+    {
+      "mask": 8,
+      "pairs": [
+        [
+          1,
+          2
+        ]
+      ],
+      "cnot_count": 16,
+      "off_diagonal_error": 1.7046494460234747e-15,
+      "valid": true
+    },
+    {
+      "mask": 9,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 1.7013475566783633e-15,
+      "valid": true
+    },
+    {
+      "mask": 10,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 1.7422542748461972e-15,
+      "valid": true
+    },
+    {
+      "mask": 11,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 1.7421292099027472e-15,
+      "valid": true
+    },
+    {
+      "mask": 12,
+      "pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 3.2286368368083628e-15,
+      "valid": true
+    },
+    {
+      "mask": 13,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.244628570192084e-15,
+      "valid": true
+    },
+    {
+      "mask": 14,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.2989533306780807e-15,
+      "valid": true
+    },
+    {
+      "mask": 15,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.28825975103489e-15,
+      "valid": true
+    },
+    {
+      "mask": 16,
+      "pairs": [
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 16,
+      "off_diagonal_error": 1.7647243413399396e-15,
+      "valid": true
+    },
+    {
+      "mask": 17,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 1.8141871240158386e-15,
+      "valid": true
+    },
+    {
+      "mask": 18,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 3.2461640818000764e-15,
+      "valid": true
+    },
+    {
+      "mask": 19,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.309277737856392e-15,
+      "valid": true
+    },
+    {
+      "mask": 20,
+      "pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 1.7248800217350236e-15,
+      "valid": true
+    },
+    {
+      "mask": 21,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 1.775669123229471e-15,
+      "valid": true
+    },
+    {
+      "mask": 22,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.2989533306780807e-15,
+      "valid": true
+    },
+    {
+      "mask": 23,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.28825975103489e-15,
+      "valid": true
+    },
+    {
+      "mask": 24,
+      "pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 3.222763278979717e-15,
+      "valid": true
+    },
+    {
+      "mask": 25,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.231185931669736e-15,
+      "valid": true
+    },
+    {
+      "mask": 26,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.2578310093953288e-15,
+      "valid": true
+    },
+    {
+      "mask": 27,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.2600249869617353e-15,
+      "valid": true
+    },
+    {
+      "mask": 28,
+      "pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.2286368368083628e-15,
+      "valid": true
+    },
+    {
+      "mask": 29,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.244628570192084e-15,
+      "valid": true
+    },
+    {
+      "mask": 30,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.2989533306780807e-15,
+      "valid": true
+    },
+    {
+      "mask": 31,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "cnot_count": 20,
+      "off_diagonal_error": 3.28825975103489e-15,
+      "valid": true
+    },
+    {
+      "mask": 32,
+      "pairs": [
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 16,
+      "off_diagonal_error": 1.824830637409243e-15,
+      "valid": true
+    },
+    {
+      "mask": 33,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 1.8025552500741595e-15,
+      "valid": true
+    },
+    {
+      "mask": 34,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 3.283996027644553e-15,
+      "valid": true
+    },
+    {
+      "mask": 35,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.2465200387341198e-15,
+      "valid": true
+    },
+    {
+      "mask": 36,
+      "pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 1.7362155263940788e-15,
+      "valid": true
+    },
+    {
+      "mask": 37,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 1.7895219959447575e-15,
+      "valid": true
+    },
+    {
+      "mask": 38,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.286963636895322e-15,
+      "valid": true
+    },
+    {
+      "mask": 39,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.3021699616508032e-15,
+      "valid": true
+    },
+    {
+      "mask": 40,
+      "pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 3.2417781588258945e-15,
+      "valid": true
+    },
+    {
+      "mask": 41,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.231185931669736e-15,
+      "valid": true
+    },
+    {
+      "mask": 42,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.283996027644553e-15,
+      "valid": true
+    },
+    {
+      "mask": 43,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.220499065829916e-15,
+      "valid": true
+    },
+    {
+      "mask": 44,
+      "pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.2586585414280633e-15,
+      "valid": true
+    },
+    {
+      "mask": 45,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.244628570192084e-15,
+      "valid": true
+    },
+    {
+      "mask": 46,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.286963636895322e-15,
+      "valid": true
+    },
+    {
+      "mask": 47,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 20,
+      "off_diagonal_error": 3.3021699616508032e-15,
+      "valid": true
+    },
+    {
+      "mask": 48,
+      "pairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 17,
+      "off_diagonal_error": 1.811089040140904e-15,
+      "valid": true
+    },
+    {
+      "mask": 49,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 1.800336831452585e-15,
+      "valid": true
+    },
+    {
+      "mask": 50,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.283996027644553e-15,
+      "valid": true
+    },
+    {
+      "mask": 51,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.229926542663994e-15,
+      "valid": true
+    },
+    {
+      "mask": 52,
+      "pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 1.7248800217350236e-15,
+      "valid": true
+    },
+    {
+      "mask": 53,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 1.7895219959447575e-15,
+      "valid": true
+    },
+    {
+      "mask": 54,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.286963636895322e-15,
+      "valid": true
+    },
+    {
+      "mask": 55,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 20,
+      "off_diagonal_error": 3.3021699616508032e-15,
+      "valid": true
+    },
+    {
+      "mask": 56,
+      "pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 18,
+      "off_diagonal_error": 3.2417781588258945e-15,
+      "valid": true
+    },
+    {
+      "mask": 57,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.231185931669736e-15,
+      "valid": true
+    },
+    {
+      "mask": 58,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.283996027644553e-15,
+      "valid": true
+    },
+    {
+      "mask": 59,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 20,
+      "off_diagonal_error": 3.220499065829916e-15,
+      "valid": true
+    },
+    {
+      "mask": 60,
+      "pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 19,
+      "off_diagonal_error": 3.2586585414280633e-15,
+      "valid": true
+    },
+    {
+      "mask": 61,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 20,
+      "off_diagonal_error": 3.244628570192084e-15,
+      "valid": true
+    },
+    {
+      "mask": 62,
+      "pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 20,
+      "off_diagonal_error": 3.286963636895322e-15,
+      "valid": true
+    },
+    {
+      "mask": 63,
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "cnot_count": 21,
+      "off_diagonal_error": 3.3021699616508032e-15,
+      "valid": true
+    }
+  ]
+}

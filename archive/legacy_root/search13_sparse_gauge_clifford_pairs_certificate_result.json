@@ -1,0 +1,14 @@
+{
+  "attaining_gauge": "left-compose exact G by real Hadamard on same-eigenvalue output rows 1 and 14",
+  "eigenvalue_preservation_reason": "output labels of rows 1 and 14 agree",
+  "exact_mixed_cut_ranks": {
+    "163": 12,
+    "83": 12
+  },
+  "family_screen": "search13_sparse_gauge_clifford_pairs_result.json",
+  "field": "Q(zeta_96)",
+  "hadamard_entry": "(zeta_96^12 + zeta_96^-12)/2 = 1/sqrt(2)",
+  "minimum_over_enumerated_family": "both ranks >=12 by exhaustive mod97 screen, and this exact gauge attains 12 at both masks",
+  "scope": "exact minimum for these two masks and this finite sparse family only; no global output-gauge obstruction",
+  "unitarity_reason": "the pair block is [[h,h],[h,-h]] with 2h^2=1; all other rows unchanged"
+}

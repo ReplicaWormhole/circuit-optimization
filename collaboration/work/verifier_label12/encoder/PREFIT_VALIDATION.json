@@ -1,0 +1,13 @@
+{
+  "config_sha256": "5e28c0afff49bac0ac84a6adc8b9aa85172cb662c78e87c6acc9a14c48d28afc",
+  "source_hash_verified": true,
+  "mapping_verified": true,
+  "all108_catalog_basis_actions_verified": true,
+  "cost_bounds_verified": [
+    0,
+    1,
+    6,
+    34
+  ],
+  "before_search": true
+}

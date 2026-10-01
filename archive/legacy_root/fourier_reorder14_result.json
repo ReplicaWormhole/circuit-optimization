@@ -1,0 +1,27 @@
+{
+  "unitary_orders": 4,
+  "trials": 2472,
+  "tail_cnot_histogram": {
+    "12": 828,
+    "13": 1443,
+    "11": 189,
+    "10": 12
+  },
+  "best": {
+    "model_index": 17,
+    "endpoint_rows": [
+      8,
+      5,
+      11,
+      1
+    ],
+    "inverse_distance": 3,
+    "first_order": 0,
+    "last_order": 1,
+    "tail_cnot_count": 10,
+    "total_cnot_count": 15,
+    "candidate": "fourier_reorder14_best.json",
+    "off_diagonal_error": 1.3130940145771107e-15,
+    "valid": true
+  }
+}

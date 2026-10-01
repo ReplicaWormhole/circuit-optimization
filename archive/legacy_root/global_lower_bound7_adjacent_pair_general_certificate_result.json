@@ -1,0 +1,44 @@
+{
+  "equation_count": 61,
+  "forced_zero_one_body_labels": [
+    "IXII",
+    "IYII",
+    "IZII",
+    "XIII",
+    "YIII",
+    "ZIII"
+  ],
+  "gram_rank": 111,
+  "groebner_basis": [
+    "1"
+  ],
+  "initial_basis_labels": [
+    "IXII",
+    "IYII",
+    "IZII",
+    "XIII",
+    "XXII",
+    "XYII",
+    "XZII",
+    "YIII",
+    "YXII",
+    "YYII",
+    "YZII",
+    "ZIII",
+    "ZXII",
+    "ZYII",
+    "ZZII"
+  ],
+  "normalized_real_nonzero_solution_exists": false,
+  "remaining_two_body_labels": [
+    "XXII",
+    "XYII",
+    "XZII",
+    "YXII",
+    "YYII",
+    "YZII",
+    "ZXII",
+    "ZYII",
+    "ZZII"
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "base": "topology14_exact_matchgate_rational.json",
+  "positions": [
+    3,
+    6,
+    12
+  ],
+  "stages": [
+    0.875,
+    0.75,
+    0.5,
+    0.25,
+    0.0
+  ],
+  "sigmas": [
+    0.02,
+    0.15
+  ],
+  "alpha1_cx_matrix_error": 2.303328157969851e-16,
+  "rows": [
+    {
+      "removed": 3,
+      "seed": 14200,
+      "sigma": 0.02,
+      "maxiter_per_stage": 100,
+      "stages": [
+        {
+          "alpha": 0.875,
+          "initial_loss": 0.08451584803618092,
+          "loss": 0.0015856636980589446,
+          "nit": 100,
+          "nfev": 109,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.75,
+          "initial_loss": 0.06071238343802954,
+          "loss": 0.0065065037805169135,
+          "nit": 100,
+          "nfev": 108,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.5,
+          "initial_loss": 0.2222409257447733,
+          "loss": 0.027272559666453006,
+          "nit": 100,
+          "nfev": 105,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.25,
+          "initial_loss": 0.25225845503638,
+          "loss": 0.056144594888048655,
+          "nit": 100,
+          "nfev": 109,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.0,
+          "initial_loss": 0.2773562605347229,
+          "loss": 0.14176255885304584,
+          "nit": 100,
+          "nfev": 109,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        }
+      ],
+      "candidate": "search13_cx_power_homotopy_run214_p3_s0.json",
+      "endpoint_off_diagonal_error": 0.26655751838554315,
+      "endpoint_eigenvalue_root_error": 0.528897973282826,
+      "endpoint_valid_diagonalizer": false
+    },
+    {
+      "removed": 3,
+      "seed": 14201,
+      "sigma": 0.15,
+      "maxiter_per_stage": 100,
+      "stages": [
+        {
+          "alpha": 0.875,
+          "initial_loss": 0.7388821471536504,
+          "loss": 0.0015878004865716331,
+          "nit": 100,
+          "nfev": 107,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.75,
+          "initial_loss": 0.060716604917565274,
+          "loss": 0.006505405032366915,
+          "nit": 100,
+          "nfev": 107,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.5,
+          "initial_loss": 0.22224366983666594,
+          "loss": 0.027248907944171365,
+          "nit": 100,
+          "nfev": 104,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.25,
+          "initial_loss": 0.25211583618229183,
+          "loss": 0.05614121128339805,
+          "nit": 100,
+          "nfev": 107,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.0,
+          "initial_loss": 0.2773554841110185,
+          "loss": 0.1417625586892593,
+          "nit": 100,
+          "nfev": 108,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        }
+      ],
+      "candidate": "search13_cx_power_homotopy_run214_p3_s1.json",
+      "endpoint_off_diagonal_error": 0.2665578433143392,
+      "endpoint_eigenvalue_root_error": 0.5288961745116868,
+      "endpoint_valid_diagonalizer": false
+    },
+    {
+      "removed": 6,
+      "seed": 14202,
+      "sigma": 0.02,
+      "maxiter_per_stage": 100,
+      "stages": [
+        {
+          "alpha": 0.875,
+          "initial_loss": 0.08533990989704651,
+          "loss": 7.17215038369218e-15,
+          "nit": 88,
+          "nfev": 94,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "alpha": 0.75,
+          "initial_loss": 0.056239229934555005,
+          "loss": 1.059692133516608e-12,
+          "nit": 88,
+          "nfev": 96,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "alpha": 0.5,
+          "initial_loss": 0.20677172398724622,
+          "loss": 2.1984640034184348e-07,
+          "nit": 100,
+          "nfev": 106,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.25,
+          "initial_loss": 0.20374092454527432,
+          "loss": 0.0635987198559834,
+          "nit": 100,
+          "nfev": 109,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.0,
+          "initial_loss": 0.34105431426825006,
+          "loss": 0.06881439971471319,
+          "nit": 100,
+          "nfev": 115,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        }
+      ],
+      "candidate": "search13_cx_power_homotopy_run214_p6_s0.json",
+      "endpoint_off_diagonal_error": 0.3040636427595381,
+      "endpoint_eigenvalue_root_error": 0.35012847978300843,
+      "endpoint_valid_diagonalizer": false
+    },
+    {
+      "removed": 6,
+      "seed": 14203,
+      "sigma": 0.15,
+      "maxiter_per_stage": 100,
+      "stages": [
+        {
+          "alpha": 0.875,
+          "initial_loss": 0.813667957413073,
+          "loss": 8.37289290517456e-09,
+          "nit": 100,
+          "nfev": 107,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.75,
+          "initial_loss": 0.05623816405914351,
+          "loss": 2.5804461640526833e-09,
+          "nit": 100,
+          "nfev": 107,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.5,
+          "initial_loss": 0.2067816718289038,
+          "loss": 5.3872810984291256e-08,
+          "nit": 100,
+          "nfev": 106,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.25,
+          "initial_loss": 0.20366682076699472,
+          "loss": 0.06359871984772378,
+          "nit": 91,
+          "nfev": 98,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "alpha": 0.0,
+          "initial_loss": 0.3410543227132655,
+          "loss": 0.06881493880753006,
+          "nit": 100,
+          "nfev": 116,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        }
+      ],
+      "candidate": "search13_cx_power_homotopy_run214_p6_s1.json",
+      "endpoint_off_diagonal_error": 0.3037972244439112,
+      "endpoint_eigenvalue_root_error": 0.34985653008368234,
+      "endpoint_valid_diagonalizer": false
+    },
+    {
+      "removed": 12,
+      "seed": 14204,
+      "sigma": 0.02,
+      "maxiter_per_stage": 100,
+      "stages": [
+        {
+          "alpha": 0.875,
+          "initial_loss": 0.07785603287717528,
+          "loss": 0.004461959781756839,
+          "nit": 100,
+          "nfev": 108,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.75,
+          "initial_loss": 0.08166478873540657,
+          "loss": 0.016882105840173797,
+          "nit": 100,
+          "nfev": 107,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.5,
+          "initial_loss": 0.282639785923621,
+          "loss": 0.058884071486670096,
+          "nit": 100,
+          "nfev": 108,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.25,
+          "initial_loss": 0.32591332240481685,
+          "loss": 0.05203582160593255,
+          "nit": 100,
+          "nfev": 108,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.0,
+          "initial_loss": 0.32530034785171946,
+          "loss": 0.12500000000000072,
+          "nit": 80,
+          "nfev": 90,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ],
+      "candidate": "search13_cx_power_homotopy_run214_p12_s0.json",
+      "endpoint_off_diagonal_error": 0.7071067811865452,
+      "endpoint_eigenvalue_root_error": 1.249999999999999,
+      "endpoint_valid_diagonalizer": false
+    },
+    {
+      "removed": 12,
+      "seed": 14205,
+      "sigma": 0.15,
+      "maxiter_per_stage": 100,
+      "stages": [
+        {
+          "alpha": 0.875,
+          "initial_loss": 0.8150491998909952,
+          "loss": 0.004447019749170109,
+          "nit": 100,
+          "nfev": 105,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.75,
+          "initial_loss": 0.08162154711032611,
+          "loss": 0.016883746293944648,
+          "nit": 100,
+          "nfev": 108,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.5,
+          "initial_loss": 0.2809155659488638,
+          "loss": 0.05886536790569159,
+          "nit": 100,
+          "nfev": 108,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.25,
+          "initial_loss": 0.32315796580715617,
+          "loss": 0.05242274133598168,
+          "nit": 100,
+          "nfev": 110,
+          "optimizer_success": false,
+          "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "alpha": 0.0,
+          "initial_loss": 0.3236639796359981,
+          "loss": 0.12500000000000325,
+          "nit": 73,
+          "nfev": 81,
+          "optimizer_success": true,
+          "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ],
+      "candidate": "search13_cx_power_homotopy_run214_p12_s1.json",
+      "endpoint_off_diagonal_error": 0.7071067811865451,
+      "endpoint_eigenvalue_root_error": 1.2499999999999962,
+      "endpoint_valid_diagonalizer": false
+    }
+  ],
+  "best": {
+    "removed": 6,
+    "seed": 14202,
+    "sigma": 0.02,
+    "maxiter_per_stage": 100,
+    "stages": [
+      {
+        "alpha": 0.875,
+        "initial_loss": 0.08533990989704651,
+        "loss": 7.17215038369218e-15,
+        "nit": 88,
+        "nfev": 94,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "alpha": 0.75,
+        "initial_loss": 0.056239229934555005,
+        "loss": 1.059692133516608e-12,
+        "nit": 88,
+        "nfev": 96,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      {
+        "alpha": 0.5,
+        "initial_loss": 0.20677172398724622,
+        "loss": 2.1984640034184348e-07,
+        "nit": 100,
+        "nfev": 106,
+        "optimizer_success": false,
+        "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+      },
+      {
+        "alpha": 0.25,
+        "initial_loss": 0.20374092454527432,
+        "loss": 0.0635987198559834,
+        "nit": 100,
+        "nfev": 109,
+        "optimizer_success": false,
+        "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+      },
+      {
+        "alpha": 0.0,
+        "initial_loss": 0.34105431426825006,
+        "loss": 0.06881439971471319,
+        "nit": 100,
+        "nfev": 115,
+        "optimizer_success": false,
+        "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+      }
+    ],
+    "candidate": "search13_cx_power_homotopy_run214_p6_s0.json",
+    "endpoint_off_diagonal_error": 0.3040636427595381,
+    "endpoint_eigenvalue_root_error": 0.35012847978300843,
+    "endpoint_valid_diagonalizer": false
+  }
+}

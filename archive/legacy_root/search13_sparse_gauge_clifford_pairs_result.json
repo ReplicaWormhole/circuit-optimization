@@ -1,0 +1,98 @@
+{
+  "base_gauge": "search13_fulltail_invariant_exact_witness.py",
+  "counts": {
+    "1": 432,
+    "2": 69888
+  },
+  "family": "one or two disjoint same-eigenvalue 2x2 complex-Hadamard row blocks [[1,q],[r,-r*q]]/sqrt(2), q,r fourth roots of unity",
+  "field": "Q(zeta_96), rank reduced modulo 97",
+  "mask_order": [
+    83,
+    163
+  ],
+  "minimum_mod97_ranks_by_mask": {
+    "163": {
+      "example": {
+        "mod97_ranks": [
+          12,
+          12
+        ],
+        "phase_indices": [
+          [
+            0,
+            0
+          ]
+        ],
+        "row_pairs": [
+          [
+            1,
+            14
+          ]
+        ]
+      },
+      "rank": 12
+    },
+    "83": {
+      "example": {
+        "mod97_ranks": [
+          12,
+          12
+        ],
+        "phase_indices": [
+          [
+            0,
+            0
+          ]
+        ],
+        "row_pairs": [
+          [
+            1,
+            14
+          ]
+        ]
+      },
+      "rank": 12
+    }
+  },
+  "minimum_sum_mod97_ranks": {
+    "example": {
+      "mod97_ranks": [
+        12,
+        12
+      ],
+      "phase_indices": [
+        [
+          0,
+          0
+        ]
+      ],
+      "row_pairs": [
+        [
+          1,
+          14
+        ]
+      ]
+    },
+    "sum": 24
+  },
+  "mod97_rank_profiles": {
+    "12,12": 260,
+    "13,13": 1032,
+    "14,14": 13332,
+    "14,15": 4,
+    "15,14": 4,
+    "15,15": 33528,
+    "15,16": 59,
+    "16,15": 54,
+    "16,16": 22047
+  },
+  "phase_index_to_value": [
+    "1",
+    "-1",
+    "i",
+    "-i"
+  ],
+  "potentially_relevant_rank_at_most_8_count": 0,
+  "scope": "exact finite-field lower-bound screen for one/two pair rotations at two masks; exact characteristic-zero rank requires separate verification",
+  "up_to_100_potentially_relevant_examples": []
+}

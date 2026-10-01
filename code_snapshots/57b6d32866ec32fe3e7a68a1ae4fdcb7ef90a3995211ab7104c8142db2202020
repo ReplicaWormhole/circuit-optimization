@@ -1,0 +1,77 @@
+"""Catalog distinct valid 15-CNOT topologies from five-mask parity prefixes.
+
+Runs 61/68 reported the best count but saved only one representative. This
+replays the bounded seed-42 scan and keeps one gate list per ordered CNOT
+topology, giving numerical-search agents genuinely different 15-CNOT seeds.
+"""
+
+import json
+from pathlib import Path
+
+from qiskit import transpile
+
+from algebraic14_alt_pair_sweep import prefix_gates
+from algebraic14_five_prefix import inverse_paths
+from algebraic14_fivemask_prefix import tours
+from check_circuit import evaluate
+from qiskit_crosscheck import from_qiskit, to_qiskit
+
+
+ROOT = Path(__file__).resolve().parent
+
+
+def topology(gates):
+    return tuple((g["control"], g["target"]) for g in gates
+                 if g["gate"] == "cx")
+
+
+def main():
+    models = json.loads((ROOT / "algebraic14_fivemask_models.json").read_text())
+    baseline = json.loads((ROOT / "baseline_18.json")).get("gates")
+    tail = baseline[18:]
+    inverses = inverse_paths(4)
+    tested = 0
+    valid_15 = 0
+    representatives = {}
+    for index, model in enumerate(models):
+        endpoints, _ = tours(model["support"])
+        for rows, edges in endpoints.items():
+            inverse = inverses.get(rows)
+            if inverse is None:
+                continue
+            tail_input = {"n": 4, "gates": [
+                *({"gate": "cx", "control": c, "target": t}
+                  for c, t in inverse), *tail]}
+            optimized = transpile(to_qiskit(tail_input),
+                                  basis_gates=["u", "cx"],
+                                  optimization_level=3, seed_transpiler=42)
+            tested += 1
+            if optimized.count_ops().get("cx", 0) != 10:
+                continue
+            candidate = {"n": 4, "gates": prefix_gates(
+                edges, model["coefficients_pi_over_8"])
+                + from_qiskit(optimized)["gates"]}
+            check = evaluate(candidate)
+            if not check["valid_diagonalizer"] or check["cnot_count"] != 15:
+                continue
+            valid_15 += 1
+            key = topology(candidate["gates"])
+            if key not in representatives:
+                representatives[key] = {"model_index": index,
+                    "endpoint_rows": rows, "prefix_edges": edges,
+                    "cnot_topology": key,
+                    "off_diagonal_error": check["off_diagonal_error"],
+                    "candidate": candidate}
+    records = list(representatives.values())
+    path = ROOT / "fivemask15_topology_catalog.json"
+    path.write_text(json.dumps(records, indent=2) + "\n")
+    result = {"endpoints_tested": tested, "valid_15": valid_15,
+              "distinct_cnot_topologies": len(records),
+              "catalog": path.name}
+    (ROOT / "fivemask15_topology_catalog_result.json").write_text(
+        json.dumps(result, indent=2) + "\n")
+    print(json.dumps(result, indent=2))
+
+
+if __name__ == "__main__":
+    main()

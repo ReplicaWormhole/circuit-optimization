@@ -1,0 +1,123 @@
+{
+  "source": "topology14_exact_matchgate_rational.json",
+  "seed": 42,
+  "rows": [
+    {
+      "coefficients": 1,
+      "matrix_rows": [
+        8,
+        4,
+        2,
+        1
+      ],
+      "input_cnot_count": 0,
+      "compiled_cnot_count": 14,
+      "off_diagonal_error": 1.8577394510042414e-15,
+      "valid_diagonalizer": true
+    },
+    {
+      "coefficients": 2,
+      "matrix_rows": [
+        1,
+        8,
+        4,
+        2
+      ],
+      "input_cnot_count": 9,
+      "compiled_cnot_count": 23,
+      "off_diagonal_error": 1.845820582760792e-15,
+      "valid_diagonalizer": true
+    },
+    {
+      "coefficients": 4,
+      "matrix_rows": [
+        2,
+        1,
+        8,
+        4
+      ],
+      "input_cnot_count": 6,
+      "compiled_cnot_count": 18,
+      "off_diagonal_error": 3.1642573528207784e-15,
+      "valid_diagonalizer": true
+    },
+    {
+      "coefficients": 7,
+      "matrix_rows": [
+        11,
+        13,
+        14,
+        7
+      ],
+      "input_cnot_count": 6,
+      "compiled_cnot_count": 20,
+      "off_diagonal_error": 1.8459675632860083e-15,
+      "valid_diagonalizer": true
+    },
+    {
+      "coefficients": 8,
+      "matrix_rows": [
+        4,
+        2,
+        1,
+        8
+      ],
+      "input_cnot_count": 9,
+      "compiled_cnot_count": 23,
+      "off_diagonal_error": 1.8459675632860083e-15,
+      "valid_diagonalizer": true
+    },
+    {
+      "coefficients": 11,
+      "matrix_rows": [
+        13,
+        14,
+        7,
+        11
+      ],
+      "input_cnot_count": 6,
+      "compiled_cnot_count": 20,
+      "off_diagonal_error": 1.8552000963454475e-15,
+      "valid_diagonalizer": true
+    },
+    {
+      "coefficients": 13,
+      "matrix_rows": [
+        14,
+        7,
+        11,
+        13
+      ],
+      "input_cnot_count": 6,
+      "compiled_cnot_count": 20,
+      "off_diagonal_error": 1.845820582760792e-15,
+      "valid_diagonalizer": true
+    },
+    {
+      "coefficients": 14,
+      "matrix_rows": [
+        7,
+        11,
+        13,
+        14
+      ],
+      "input_cnot_count": 8,
+      "compiled_cnot_count": 22,
+      "off_diagonal_error": 1.857739451004242e-15,
+      "valid_diagonalizer": true
+    }
+  ],
+  "best": {
+    "coefficients": 1,
+    "matrix_rows": [
+      8,
+      4,
+      2,
+      1
+    ],
+    "input_cnot_count": 0,
+    "compiled_cnot_count": 14,
+    "off_diagonal_error": 1.8577394510042414e-15,
+    "valid_diagonalizer": true
+  }
+}

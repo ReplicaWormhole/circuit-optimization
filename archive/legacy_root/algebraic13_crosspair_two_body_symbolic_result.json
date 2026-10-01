@@ -1,0 +1,69 @@
+{
+  "row_phase_definition": "even parity 1, odd parity t=e^(-2ic)",
+  "rows": [
+    {
+      "mask": 5,
+      "cut": [
+        0,
+        2
+      ],
+      "factor": "t**8/65536"
+    },
+    {
+      "mask": 5,
+      "cut": [
+        0,
+        3
+      ],
+      "factor": "t**8/65536"
+    },
+    {
+      "mask": 6,
+      "cut": [
+        0,
+        2
+      ],
+      "factor": "t**8/65536"
+    },
+    {
+      "mask": 6,
+      "cut": [
+        0,
+        3
+      ],
+      "factor": "t**8/65536"
+    },
+    {
+      "mask": 9,
+      "cut": [
+        0,
+        2
+      ],
+      "factor": "t**8/65536"
+    },
+    {
+      "mask": 9,
+      "cut": [
+        0,
+        3
+      ],
+      "factor": "t**8/65536"
+    },
+    {
+      "mask": 10,
+      "cut": [
+        0,
+        2
+      ],
+      "factor": "t**8/65536"
+    },
+    {
+      "mask": 10,
+      "cut": [
+        0,
+        3
+      ],
+      "factor": "t**8/65536"
+    }
+  ]
+}

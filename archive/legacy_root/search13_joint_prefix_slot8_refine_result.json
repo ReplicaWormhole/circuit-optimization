@@ -1,0 +1,126 @@
+{
+  "best_candidate": "search13_joint_prefix_slot8_refine_trial1.json",
+  "best_off_diagonal_error": 0.25491354218619505,
+  "maxiter": 1000,
+  "rows": [
+    {
+      "candidate": "search13_joint_prefix_slot8_refine_trial0.json",
+      "cnot_count": 13,
+      "initial_loss": 0.06019279537098438,
+      "loss": 0.06019279505795965,
+      "nfev": 230,
+      "nit": 216,
+      "off_diagonal_error": 0.25491354507909697,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "seed": 33400,
+      "sigma": 0.0,
+      "trial": 0,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot8_refine_trial1.json",
+      "cnot_count": 13,
+      "initial_loss": 0.08589521886303589,
+      "loss": 0.06019279505817157,
+      "nfev": 248,
+      "nit": 228,
+      "off_diagonal_error": 0.25491354218619505,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "seed": 33401,
+      "sigma": 0.02,
+      "trial": 1,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot8_refine_trial2.json",
+      "cnot_count": 13,
+      "initial_loss": 0.4545913187275862,
+      "loss": 0.060192795058007426,
+      "nfev": 382,
+      "nit": 360,
+      "off_diagonal_error": 0.2549135662746807,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "seed": 33402,
+      "sigma": 0.08,
+      "trial": 2,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot8_refine_trial3.json",
+      "cnot_count": 13,
+      "initial_loss": 0.9189062502331287,
+      "loss": 0.23501608509606697,
+      "nfev": 409,
+      "nit": 382,
+      "off_diagonal_error": 0.8851956156261879,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "seed": 33403,
+      "sigma": 0.2,
+      "trial": 3,
+      "valid_diagonalizer": false
+    }
+  ],
+  "schedule": [
+    [
+      3,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "scope": "one13-CNOT topology, four whole-circuit numerical continuations; not an exact circuit or no-go",
+  "seed": 33400,
+  "source": "search13_joint_prefix_slot_diversity_case8.json",
+  "source_roundtrip_error": 6.245004513516506e-17,
+  "source_roundtrip_loss": 0.06019279537098438
+}

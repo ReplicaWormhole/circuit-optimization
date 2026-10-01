@@ -1,0 +1,15 @@
+{
+  "method": "separate NumPy Kronecker gates and bit permutation reconstruction from saved gate lists",
+  "results": [
+    {
+      "off_diagonal_error": 0.4487654196973814,
+      "unitarity_error": 8.881784197001252e-16,
+      "cnot_count": 12
+    },
+    {
+      "off_diagonal_error": 0.6728896343792273,
+      "unitarity_error": 5.551115123125783e-16,
+      "cnot_count": 12
+    }
+  ]
+}

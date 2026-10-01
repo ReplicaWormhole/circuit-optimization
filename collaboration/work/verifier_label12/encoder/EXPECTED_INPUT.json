@@ -1,0 +1,88 @@
+{
+  "convention": "q0MSB P|x>=|table[x]>",
+  "table": [
+    0,
+    4,
+    7,
+    8,
+    6,
+    2,
+    11,
+    12,
+    5,
+    9,
+    3,
+    13,
+    10,
+    14,
+    15,
+    1
+  ],
+  "orbits": [
+    [
+      0
+    ],
+    [
+      15
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      1,
+      8,
+      4,
+      2
+    ],
+    [
+      3,
+      9,
+      12,
+      6
+    ],
+    [
+      7,
+      11,
+      13,
+      14
+    ]
+  ],
+  "addresses": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9,
+      10,
+      11
+    ],
+    [
+      12,
+      13,
+      14,
+      15
+    ]
+  ],
+  "catalog_costs": {
+    "X": 0,
+    "CX": 1,
+    "CCX": 6,
+    "CCCX": 34
+  },
+  "cost_scope": "CompiledCX upper bounds, arbitrarylocals free; mixed controls by localX conjugation; not minimum compiler costs."
+}

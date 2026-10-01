@@ -1,0 +1,143 @@
+{
+  "results": [
+    {
+      "cancelled_triple_mask": 11,
+      "required_masks": [
+        13,
+        14,
+        7,
+        6
+      ],
+      "states_explored": 18974,
+      "five_cnot_endpoints": 114,
+      "inverse_distance_histogram": {
+        "4": 44,
+        "3": 10,
+        ">4": 60
+      },
+      "tails_evaluated": 54,
+      "best": {
+        "endpoint_rows": [
+          8,
+          13,
+          7,
+          1
+        ],
+        "inverse_distance": 3,
+        "tail_cnot_count": 11,
+        "total_cnot_count": 16,
+        "off_diagonal_error": 1.0023578194354181e-15,
+        "valid": true,
+        "candidate": "algebraic14_gauge_0_best.json"
+      }
+    },
+    {
+      "cancelled_triple_mask": 13,
+      "required_masks": [
+        11,
+        14,
+        7,
+        6
+      ],
+      "states_explored": 18974,
+      "five_cnot_endpoints": 114,
+      "inverse_distance_histogram": {
+        "4": 44,
+        "3": 10,
+        ">4": 60
+      },
+      "tails_evaluated": 54,
+      "best": {
+        "endpoint_rows": [
+          8,
+          5,
+          11,
+          1
+        ],
+        "inverse_distance": 3,
+        "tail_cnot_count": 10,
+        "total_cnot_count": 15,
+        "off_diagonal_error": 1.1246301919954391e-15,
+        "valid": true,
+        "candidate": "algebraic14_gauge_1_best.json"
+      }
+    },
+    {
+      "cancelled_triple_mask": 14,
+      "required_masks": [
+        11,
+        13,
+        7,
+        6
+      ],
+      "states_explored": 18587,
+      "five_cnot_endpoints": 132,
+      "inverse_distance_histogram": {
+        "3": 20,
+        ">4": 59,
+        "4": 53
+      },
+      "tails_evaluated": 73,
+      "best": {
+        "endpoint_rows": [
+          13,
+          5,
+          11,
+          1
+        ],
+        "inverse_distance": 4,
+        "tail_cnot_count": 11,
+        "total_cnot_count": 16,
+        "off_diagonal_error": 1.2133480851693653e-15,
+        "valid": true,
+        "candidate": "algebraic14_gauge_2_best.json"
+      }
+    },
+    {
+      "cancelled_triple_mask": 7,
+      "required_masks": [
+        11,
+        13,
+        14,
+        6
+      ],
+      "states_explored": 18587,
+      "five_cnot_endpoints": 132,
+      "inverse_distance_histogram": {
+        "4": 53,
+        ">4": 59,
+        "3": 20
+      },
+      "tails_evaluated": 73,
+      "best": {
+        "endpoint_rows": [
+          13,
+          5,
+          11,
+          1
+        ],
+        "inverse_distance": 4,
+        "tail_cnot_count": 11,
+        "total_cnot_count": 16,
+        "off_diagonal_error": 1.3382144587731169e-15,
+        "valid": true,
+        "candidate": "algebraic14_gauge_3_best.json"
+      }
+    }
+  ],
+  "overall_best": {
+    "endpoint_rows": [
+      8,
+      5,
+      11,
+      1
+    ],
+    "inverse_distance": 3,
+    "tail_cnot_count": 10,
+    "total_cnot_count": 15,
+    "off_diagonal_error": 1.1246301919954391e-15,
+    "valid": true,
+    "candidate": "algebraic14_gauge_1_best.json"
+  },
+  "overall_candidate": "algebraic14_gauge_1_best.json"
+}

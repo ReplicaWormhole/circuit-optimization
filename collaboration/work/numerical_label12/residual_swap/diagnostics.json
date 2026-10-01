@@ -1,0 +1,16 @@
+{
+  "source_reconstructed_phase_aligned_max_error": 9.682678848994767e-16,
+  "source_phase": [
+    -0.4285019436871223,
+    0.9035408592069085
+  ],
+  "rows": [
+    {
+      "candidate": "collaboration/work/numerical_label12/residual_swap/target0.json",
+      "sha256": "281e296f30bd7796d6805141d8303932a2de8b42e484ef12156d9ee22422f7ff",
+      "fixed_target_loss": 0.018175553524735204,
+      "fixed_target_max_entry": 0.08808977407679722
+    }
+  ],
+  "scope": "Read-only floating diagnostics, no optimization and no exact certificate."
+}

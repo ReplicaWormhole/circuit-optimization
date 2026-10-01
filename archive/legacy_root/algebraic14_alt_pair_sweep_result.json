@@ -1,0 +1,176 @@
+{
+  "results": [
+    {
+      "support": [
+        7,
+        9,
+        11,
+        13
+      ],
+      "coefficients_pi_over_8": {
+        "8": 6,
+        "4": 3,
+        "1": 5,
+        "7": 1,
+        "9": 4,
+        "11": 10,
+        "13": 7
+      },
+      "states_explored": 18974,
+      "five_cnot_endpoints": 114,
+      "inverse_distance_histogram": {
+        ">4": 60,
+        "4": 44,
+        "3": 10
+      },
+      "tails_evaluated": 54,
+      "best": {
+        "endpoint_rows": [
+          10,
+          4,
+          2,
+          7
+        ],
+        "inverse_distance": 3,
+        "tail_cnot_count": 10,
+        "total_cnot_count": 15,
+        "off_diagonal_error": 1.9926631182016375e-15,
+        "valid": true,
+        "candidate": "algebraic14_alt_pair_0_best.json"
+      }
+    },
+    {
+      "support": [
+        7,
+        9,
+        11,
+        14
+      ],
+      "coefficients_pi_over_8": {
+        "8": 13,
+        "4": 6,
+        "2": 15,
+        "7": 10,
+        "9": 12,
+        "11": 7,
+        "14": 13
+      },
+      "states_explored": 18587,
+      "five_cnot_endpoints": 132,
+      "inverse_distance_histogram": {
+        "4": 53,
+        ">4": 59,
+        "3": 20
+      },
+      "tails_evaluated": 73,
+      "best": {
+        "endpoint_rows": [
+          8,
+          5,
+          7,
+          9
+        ],
+        "inverse_distance": 3,
+        "tail_cnot_count": 11,
+        "total_cnot_count": 16,
+        "off_diagonal_error": 1.138289796048224e-15,
+        "valid": true,
+        "candidate": "algebraic14_alt_pair_1_best.json"
+      }
+    },
+    {
+      "support": [
+        7,
+        9,
+        13,
+        14
+      ],
+      "coefficients_pi_over_8": {
+        "8": 11,
+        "2": 5,
+        "1": 2,
+        "7": 15,
+        "9": 4,
+        "13": 5,
+        "14": 6
+      },
+      "states_explored": 18587,
+      "five_cnot_endpoints": 132,
+      "inverse_distance_histogram": {
+        ">4": 59,
+        "4": 53,
+        "3": 20
+      },
+      "tails_evaluated": 73,
+      "best": {
+        "endpoint_rows": [
+          9,
+          13,
+          10,
+          1
+        ],
+        "inverse_distance": 3,
+        "tail_cnot_count": 11,
+        "total_cnot_count": 16,
+        "off_diagonal_error": 1.907627581213127e-15,
+        "valid": true,
+        "candidate": "algebraic14_alt_pair_2_best.json"
+      }
+    },
+    {
+      "support": [
+        9,
+        11,
+        13,
+        14
+      ],
+      "coefficients_pi_over_8": {
+        "8": 15,
+        "4": 4,
+        "2": 9,
+        "1": 6,
+        "9": 4,
+        "11": 1,
+        "13": 6,
+        "14": 7
+      },
+      "states_explored": 18974,
+      "five_cnot_endpoints": 114,
+      "inverse_distance_histogram": {
+        ">4": 60,
+        "4": 44,
+        "3": 10
+      },
+      "tails_evaluated": 54,
+      "best": {
+        "endpoint_rows": [
+          8,
+          4,
+          14,
+          11
+        ],
+        "inverse_distance": 3,
+        "tail_cnot_count": 11,
+        "total_cnot_count": 16,
+        "off_diagonal_error": 1.7490960842886789e-15,
+        "valid": true,
+        "candidate": "algebraic14_alt_pair_3_best.json"
+      }
+    }
+  ],
+  "overall_best": {
+    "endpoint_rows": [
+      10,
+      4,
+      2,
+      7
+    ],
+    "inverse_distance": 3,
+    "tail_cnot_count": 10,
+    "total_cnot_count": 15,
+    "off_diagonal_error": 1.9926631182016375e-15,
+    "valid": true,
+    "candidate": "algebraic14_alt_pair_0_best.json"
+  },
+  "overall_candidate": "algebraic14_alt_pair_0_best.json"
+}

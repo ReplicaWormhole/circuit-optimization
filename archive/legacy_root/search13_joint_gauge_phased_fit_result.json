@@ -1,0 +1,74 @@
+{
+  "gauge_pairs": [
+    [
+      4,
+      7
+    ],
+    [
+      8,
+      11
+    ]
+  ],
+  "angle": "pi/4",
+  "phases": [
+    "-pi/2",
+    "-pi/2"
+  ],
+  "edges": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "seed": 25020,
+  "process_maxiter": 350,
+  "direct_maxiter": 500,
+  "process": {
+    "seed": 25020,
+    "maxiter": 350,
+    "initial_loss": 0.998032467944816,
+    "loss": 0.6183999114717964,
+    "nit": 70,
+    "nfev": 80,
+    "optimizer_success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "candidate": "search13_joint_gauge_phased_process_candidate.json",
+    "off_diagonal_error": 0.6027011154941615,
+    "valid_diagonalizer": false
+  },
+  "direct": {
+    "initial_loss": 0.8382664245549827,
+    "loss": 0.5544732798875821,
+    "nit": 57,
+    "nfev": 82,
+    "optimizer_success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "candidate": "search13_joint_gauge_phased_direct_candidate.json",
+    "off_diagonal_error": 0.8300946761943262,
+    "valid_diagonalizer": false
+  }
+}

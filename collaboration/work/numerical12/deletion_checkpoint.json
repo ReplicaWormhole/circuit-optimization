@@ -1,0 +1,1087 @@
+{
+  "short_rows": [
+    {
+      "deleted_slot": 0,
+      "deleted_edge": [
+        0,
+        1
+      ],
+      "native_schedule": [
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8906249999999973,
+      "loss": 0.29128869564114,
+      "nit": 100,
+      "nfev": 115,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "deletion_slot0_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.6774918041494923,
+      "valid_diagonalizer": false
+    },
+    {
+      "deleted_slot": 1,
+      "deleted_edge": [
+        3,
+        2
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8906249999999973,
+      "loss": 0.05024047365541493,
+      "nit": 100,
+      "nfev": 108,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "deletion_slot1_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.2588194636125882,
+      "valid_diagonalizer": false
+    },
+    {
+      "deleted_slot": 2,
+      "deleted_edge": [
+        1,
+        2
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8437499999999974,
+      "loss": 0.23396304902354553,
+      "nit": 100,
+      "nfev": 117,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "deletion_slot2_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.47592444362427605,
+      "valid_diagonalizer": false
+    },
+    {
+      "deleted_slot": 3,
+      "deleted_edge": [
+        1,
+        0
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8912947475091886,
+      "loss": 0.35935348087029195,
+      "nit": 100,
+      "nfev": 110,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "deletion_slot3_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.5015435152917994,
+      "valid_diagonalizer": false
+    },
+    {
+      "deleted_slot": 4,
+      "deleted_edge": [
+        2,
+        3
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8437499999999976,
+      "loss": 0.2594669039468254,
+      "nit": 100,
+      "nfev": 109,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "deletion_slot4_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.6681015321267894,
+      "valid_diagonalizer": false
+    },
+    {
+      "deleted_slot": 5,
+      "deleted_edge": [
+        2,
+        1
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8958988454010073,
+      "loss": 0.13572330635146815,
+      "nit": 100,
+      "nfev": 109,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "deletion_slot5_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.3535555303738185,
+      "valid_diagonalizer": false
+    },
+    {
+      "deleted_slot": 6,
+      "deleted_edge": [
+        0,
+        1
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.8636027473104295,
+      "loss": 0.5000000000005381,
+      "nit": 100,
+      "nfev": 108,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "deletion_slot6_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.9973551731779835,
+      "valid_diagonalizer": false
+    },
+    {
+      "deleted_slot": 7,
+      "deleted_edge": [
+        3,
+        2
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.703124999999998,
+      "loss": 0.375000049283473,
+      "nit": 100,
+      "nfev": 115,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "deletion_slot7_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.9999999395898739,
+      "valid_diagonalizer": false
+    },
+    {
+      "deleted_slot": 8,
+      "deleted_edge": [
+        1,
+        2
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.7099577404826124,
+      "loss": 0.38414503136730194,
+      "nit": 100,
+      "nfev": 109,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "deletion_slot8_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.7767357565613374,
+      "valid_diagonalizer": false
+    },
+    {
+      "deleted_slot": 9,
+      "deleted_edge": [
+        1,
+        0
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.7065795341732254,
+      "loss": 0.2179252382366888,
+      "nit": 100,
+      "nfev": 108,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "deletion_slot9_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.988659699404407,
+      "valid_diagonalizer": false
+    },
+    {
+      "deleted_slot": 10,
+      "deleted_edge": [
+        2,
+        3
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.49999999999999856,
+      "loss": 0.49999999999999856,
+      "nit": 0,
+      "nfev": 1,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "candidate": "deletion_slot10_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.9999999999999997,
+      "valid_diagonalizer": false
+    },
+    {
+      "deleted_slot": 11,
+      "deleted_edge": [
+        2,
+        1
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.43749999999999856,
+      "loss": 0.43749999999999856,
+      "nit": 0,
+      "nfev": 1,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "candidate": "deletion_slot11_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.9999999999999991,
+      "valid_diagonalizer": false
+    },
+    {
+      "deleted_slot": 12,
+      "deleted_edge": [
+        0,
+        1
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "initial_loss": 0.6544627825494377,
+      "loss": 0.12916336772220383,
+      "nit": 100,
+      "nfev": 105,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "deletion_slot12_short.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.7060347907884442,
+      "valid_diagonalizer": false
+    }
+  ],
+  "deep_rows": [
+    {
+      "rank": 0,
+      "deleted_slot": 1,
+      "deleted_edge": [
+        3,
+        2
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "short_candidate": "deletion_slot1_short.json",
+      "short_loss": 0.05024047365541493,
+      "initial_loss": 0.05024047365541493,
+      "loss": 0.050240473580837414,
+      "nit": 44,
+      "nfev": 49,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "deletion_slot1_deep.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.2588190369994409,
+      "valid_diagonalizer": false
+    },
+    {
+      "rank": 1,
+      "deleted_slot": 12,
+      "deleted_edge": [
+        0,
+        1
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "short_candidate": "deletion_slot12_short.json",
+      "short_loss": 0.12916336772220383,
+      "initial_loss": 0.12916336772220383,
+      "loss": 0.12916336772122008,
+      "nit": 26,
+      "nfev": 30,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "deletion_slot12_deep.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.7060347896725088,
+      "valid_diagonalizer": false
+    },
+    {
+      "rank": 2,
+      "deleted_slot": 5,
+      "deleted_edge": [
+        2,
+        1
+      ],
+      "native_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "short_candidate": "deletion_slot5_short.json",
+      "short_loss": 0.13572330635146815,
+      "initial_loss": 0.13572330635146815,
+      "loss": 0.13572330470337104,
+      "nit": 64,
+      "nfev": 69,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "deletion_slot5_deep.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.35355339812538517,
+      "valid_diagonalizer": false
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "boundary_order": "out0,out1,out3,in0,in1,in3",
+  "compatible_order_count": 0,
+  "field": "Q(zeta_96)",
+  "fits": [],
+  "primes": [
+    97,
+    193
+  ],
+  "rank_screen": [
+    {
+      "first_violating_cut": [
+        19,
+        8,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        19,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        19,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        19,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        13,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "violating_cut_count": 5
+    },
+    {
+      "first_violating_cut": [
+        25,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "violating_cut_count": 3
+    },
+    {
+      "first_violating_cut": [
+        19,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        13,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "violating_cut_count": 3
+    },
+    {
+      "first_violating_cut": [
+        9,
+        4,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        19,
+        8,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        13,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "violating_cut_count": 5
+    },
+    {
+      "first_violating_cut": [
+        19,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "violating_cut_count": 3
+    },
+    {
+      "first_violating_cut": [
+        13,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "violating_cut_count": 5
+    },
+    {
+      "first_violating_cut": [
+        13,
+        8,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "violating_cut_count": 5
+    },
+    {
+      "first_violating_cut": [
+        13,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "violating_cut_count": 5
+    },
+    {
+      "first_violating_cut": [
+        19,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "violating_cut_count": 2
+    },
+    {
+      "first_violating_cut": [
+        13,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "violating_cut_count": 5
+    },
+    {
+      "first_violating_cut": [
+        9,
+        4,
+        1
+      ],
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        19,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        13,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "violating_cut_count": 2
+    },
+    {
+      "first_violating_cut": [
+        9,
+        4,
+        1
+      ],
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        13,
+        8,
+        2
+      ],
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "violating_cut_count": 2
+    },
+    {
+      "first_violating_cut": [
+        13,
+        8,
+        1
+      ],
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "violating_cut_count": 5
+    },
+    {
+      "first_violating_cut": [
+        9,
+        4,
+        1
+      ],
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        9,
+        4,
+        1
+      ],
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        9,
+        4,
+        1
+      ],
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "violating_cut_count": 4
+    },
+    {
+      "first_violating_cut": [
+        9,
+        4,
+        0
+      ],
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "violating_cut_count": 4
+    }
+  ],
+  "scope": "fixed exact three-qubit middle block only; changed gauges or other regroupings untested",
+  "target": "F01 * (center locals 0,1,3) * F13",
+  "target_modular_rank_lower_bounds": {
+    "1": 2,
+    "11": 2,
+    "13": 8,
+    "15": 4,
+    "17": 4,
+    "19": 8,
+    "21": 8,
+    "23": 4,
+    "25": 8,
+    "27": 4,
+    "29": 4,
+    "3": 4,
+    "31": 2,
+    "33": 4,
+    "35": 8,
+    "37": 8,
+    "39": 4,
+    "41": 8,
+    "43": 4,
+    "45": 4,
+    "47": 2,
+    "49": 8,
+    "5": 4,
+    "51": 4,
+    "53": 4,
+    "55": 2,
+    "57": 4,
+    "59": 2,
+    "61": 2,
+    "7": 8,
+    "9": 4
+  },
+  "three_cnot_pair_schedules": 27
+}

@@ -1,0 +1,17 @@
+{
+  "denominator": 4,
+  "trials": 4096,
+  "best": {
+    "phase_numerators": [
+      6,
+      1,
+      6,
+      7
+    ],
+    "off_diagonal_error": 0.7071067811865462
+  },
+  "checked_error": 0.7071067811865468,
+  "valid": false,
+  "cnot_count": 14,
+  "near_zero_count": 0
+}

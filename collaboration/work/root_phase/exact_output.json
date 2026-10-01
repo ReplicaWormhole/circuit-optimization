@@ -1,0 +1,29 @@
+{
+  "exact_diagonalizer": true,
+  "cnot_count": 67,
+  "cyclotomic_conductor": 64,
+  "output_labels": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    2,
+    1,
+    3,
+    0,
+    2,
+    1,
+    3,
+    0,
+    2,
+    1,
+    3
+  ],
+  "eigenvalue_multiplicities": [
+    6,
+    3,
+    4,
+    3
+  ]
+}

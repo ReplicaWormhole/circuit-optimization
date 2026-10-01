@@ -1,0 +1,1029 @@
+{
+  "plan": "search13_balanced_haar_tournament_plan.json",
+  "short_rows": [
+    {
+      "case": 0,
+      "seed": 35500,
+      "schedule": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "initial_loss": 0.9464187300695296,
+      "loss": 0.423082852096484,
+      "nit": 120,
+      "nfev": 126,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_balanced_haar_tournament_case0_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5498516934927566,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 1,
+      "seed": 35501,
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "initial_loss": 0.9321695905581395,
+      "loss": 0.48123270112358196,
+      "nit": 120,
+      "nfev": 127,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_balanced_haar_tournament_case1_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.44551798387567215,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 2,
+      "seed": 35502,
+      "schedule": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "initial_loss": 0.9416826132168064,
+      "loss": 0.24044667736791991,
+      "nit": 120,
+      "nfev": 131,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_balanced_haar_tournament_case2_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.707128489386893,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 3,
+      "seed": 35503,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9455489899686002,
+      "loss": 0.49803555327869203,
+      "nit": 120,
+      "nfev": 124,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_balanced_haar_tournament_case3_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.49898978455503346,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 4,
+      "seed": 35504,
+      "schedule": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "initial_loss": 0.9248143290186253,
+      "loss": 0.4310120057363277,
+      "nit": 120,
+      "nfev": 129,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_balanced_haar_tournament_case4_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5423235987945294,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 5,
+      "seed": 35505,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "initial_loss": 0.9484451845115744,
+      "loss": 0.5397963176384931,
+      "nit": 116,
+      "nfev": 135,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_balanced_haar_tournament_case5_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.42933826586621704,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 6,
+      "seed": 35506,
+      "schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "initial_loss": 0.9347883883067573,
+      "loss": 0.33163165737875633,
+      "nit": 120,
+      "nfev": 128,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_balanced_haar_tournament_case6_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5720347865572993,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 7,
+      "seed": 35507,
+      "schedule": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "initial_loss": 0.9420388521854695,
+      "loss": 0.4645830184535129,
+      "nit": 120,
+      "nfev": 130,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_balanced_haar_tournament_case7_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5712269412634765,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 8,
+      "seed": 35508,
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "initial_loss": 0.934618131296323,
+      "loss": 0.49453466126780765,
+      "nit": 114,
+      "nfev": 132,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_balanced_haar_tournament_case8_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.4300281303382226,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 9,
+      "seed": 35509,
+      "schedule": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "initial_loss": 0.9240659216762103,
+      "loss": 0.4955998444926063,
+      "nit": 120,
+      "nfev": 126,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_balanced_haar_tournament_case9_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6570871999065658,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 10,
+      "seed": 35510,
+      "schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "initial_loss": 0.9048142647735444,
+      "loss": 0.4607821606329567,
+      "nit": 120,
+      "nfev": 134,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_balanced_haar_tournament_case10_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5510773349600195,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 11,
+      "seed": 35511,
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "initial_loss": 0.9295196869306068,
+      "loss": 0.31982889132458725,
+      "nit": 120,
+      "nfev": 127,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_balanced_haar_tournament_case11_short.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7219295892510821,
+      "valid_diagonalizer": false
+    }
+  ],
+  "deep_rows": [
+    {
+      "case": 2,
+      "schedule": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "short_candidate": "search13_balanced_haar_tournament_case2_short.json",
+      "initial_loss": 0.24044667736791991,
+      "loss": 0.2404466710294349,
+      "nit": 44,
+      "nfev": 48,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_balanced_haar_tournament_case2_deep.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7071067932719088,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 11,
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "short_candidate": "search13_balanced_haar_tournament_case11_short.json",
+      "initial_loss": 0.31982889132458725,
+      "loss": 0.3198287930463394,
+      "nit": 83,
+      "nfev": 97,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_balanced_haar_tournament_case11_deep.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7222278202456417,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 6,
+      "schedule": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "short_candidate": "search13_balanced_haar_tournament_case6_short.json",
+      "initial_loss": 0.33163165737875633,
+      "loss": 0.33163164868965933,
+      "nit": 47,
+      "nfev": 53,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_balanced_haar_tournament_case6_deep.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5720119151511925,
+      "valid_diagonalizer": false
+    }
+  ],
+  "best_candidate": "search13_balanced_haar_tournament_case5_short.json",
+  "scope": "12 specified fresh schedules, one Haar local start each, three local continuations; no topology exclusion"
+}

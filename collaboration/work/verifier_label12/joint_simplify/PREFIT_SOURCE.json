@@ -1,0 +1,8 @@
+{
+  "source": "collaboration/work/verifier_label12/encoder/orbit_encoder67.json",
+  "sha256": "d595df83cc218ab4a532cdc2c51ab90a19dd68503fccc8d10311a23f0608ed6d",
+  "cx_count": 67,
+  "gates": 149,
+  "parent382_status": "complete",
+  "scope": "Source identity check only; parent exact certificate not rerun."
+}

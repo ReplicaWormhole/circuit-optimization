@@ -1,0 +1,37 @@
+{
+  "accepted_on": "2026-09-26",
+  "candidate": "collaboration/work/algebraic13_new/canonical_algebraic_ansatz.json",
+  "sha256": "d500ff2a79c4717ff38d935d71b67bd798b06a7c6899a275fec25570b86b8d13",
+  "gate_model": "Arbitrary exact single-qubit unitary gates and fixed directed CNOT on any ordered pair; ancilla-free4qubits",
+  "target": "UV4=DU, V4|x0x1x2x3>=|x3x0x1x2>, q0 most significant, chronological gates, arbitrary output eigenvalue order and bases within degenerate eigenspaces",
+  "cnot_count": 13,
+  "local_rotation_count": 60,
+  "exact_specification": "sin_exact/cos_exact and signed half-angle radical metadata define rotations; floating theta values alone are not an exact prescription",
+  "certificate_runs": [
+    370,
+    371
+  ],
+  "certificate_result": "256 empty residual dictionaries over Fraction Gaussian Q(sqrt2) with positive radical generators;60 exact local normalizations",
+  "independent_evidence": [
+    "Separate positive-root relation audit of120 sine/cosine values, run369",
+    "Separate exact realness/nonzero projective-scalar audit and local proof",
+    "Independent normalized100digit row simulation, run367 (numerical corroboration)",
+    "Isolated full-matrix verifier reproduction, run371 (same implementation)"
+  ],
+  "review": "collaboration/work/verifier_round2/REPORT.md",
+  "review_provenance": "Independent researcher reviewed handoff and coordinator-transmitted source excerpts/audit summaries; child shell blocked. Coordinator read original code/results and checked current hash. No new duplicate certificate execution.",
+  "reproduction_commands": [
+    "python3 collaboration/work/algebraic13_new/canonical_multiquadratic_verify.py",
+    "python3 collaboration/work/root/radical13_tower_relations.py",
+    "python3 collaboration/work/root/radical13_local_verify.py",
+    "python3 check_circuit.py collaboration/work/algebraic13_new/canonical_algebraic_ansatz.json"
+  ],
+  "limitations": [
+    "Runs370371 use the same full-matrix implementation; no second independent exact matrix implementation claimed",
+    "Formal monomial reduction maps to actual positive roots; no generator independence or degree32 claim",
+    "Not optimal, not total-spin diagonalization or strong Schur transform, no novelty claim",
+    "Six-CNOT lower bound is inherited from preserved exact proof, not re-proved this round; interval6<=Cmin<=13"
+  ],
+  "old_exact14_preserved": true,
+  "native_costs_not_promoted": true
+}

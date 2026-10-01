@@ -1,0 +1,1313 @@
+{
+  "n": 4,
+  "gates": [
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": "5*pi/8"
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "3*pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "3*pi/8"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.029749625741225336
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": -0.20602746313870826
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.1459021056193812
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": -0.1781466658363506
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": -0.010504531251453529
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": -0.17820618694251608
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": 0.1545479181832556
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": -0.706426344273363
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": 0.03411188145598518
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.010730092226693655
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": -0.06653245954938948
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.008685762697341726
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 1
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.1328647310588181
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": 1.288047125733805e-10
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.1325989412191612
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.7756768789510956
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": -0.19512234396507513
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.7855408605216707
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": 0.02838212221980788
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": -0.696704971555876
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.15430528989861111
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.018468783437683562
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": 0.5214491892186732
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.016756308880608545
+    },
+    {
+      "gate": "cx",
+      "control": 2,
+      "target": 1
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": "3*pi/8"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.13248031977950614
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": -1.1769896021066066e-10
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.11318687527698068
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.15590470074669732
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": -0.1428038941183922
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.23447181326260474
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.1555094175631528
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": 0.005387183060559312
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.1551917303884059
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.023066313301326417
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": 0.5707217346178882
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.04233296895528486
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 1
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.13375165517831034
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": -0.023371668848625404
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.009844616853891455
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.060694290675376156
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": 0.03345404780275273
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.0007885151101873512
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.14505422243936475
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": -0.009291408284997398
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.1519658243965986
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.053862915501409286
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": 0.5952907418876104
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.04648398593434124
+    },
+    {
+      "gate": "cx",
+      "control": 1,
+      "target": 3
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "pi/8"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.009844617900827794
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": 0.023371668842768967
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.08153442300608853
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.008047635468402993
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": 0.012835029363244967
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": -0.007738148178859183
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.13337363613506828
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": 0.003316229524228943
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.15477875220941925
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.09736676972565543
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": -1.7537365964136243e-11
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.2953323119685734
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 3
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.10026797379912863
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": -0.0032634742817514743
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.10090086145952269
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": -0.019722167185767702
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": -0.012815367847697046
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": -0.04203850672040483
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.16054875170361796
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": 0.0011674260337774791
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.14111594766682586
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.06308395240607652
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": 0.01309535969748041
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.016189009521913537
+    },
+    {
+      "gate": "cx",
+      "control": 2,
+      "target": 1
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.10109430968798726
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": 0.00013377107240130422
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.1221954698538384
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": -0.03337930394823118
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": 0.08537867030827587
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": -0.015818907332502907
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.14095790467110536
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": 0.7853981633955224
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": 0.7587128434467583
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.008009090953967193
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": -0.013089034617131654
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.05490473486377297
+    },
+    {
+      "gate": "cx",
+      "control": 2,
+      "target": 3
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 0,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 2,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.009958667243712976
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": -0.1451927627100923
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.016438512874955284
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": -0.007682706873449994
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": 0.05295678780656246
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.0006893040249419625
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": 0.055767969367965006
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": 0.8128602631399952
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.03835720839710004
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.07564827996524458
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": -0.3519788379832372
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.09662600619099289
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 2
+    },
+    {
+      "gate": "rx",
+      "qubit": 0,
+      "theta": "pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.6243378704006283
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": -1.0418069981555516
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.02794143159209212
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.004858016450358514
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": 0.01899808387172938
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": -0.0018592286788916012
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": 0.034222390252613505
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": -0.028645362556397984
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.03461820447552086
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.07092539186822451
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": -0.38397732178286925
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.07702372104083259
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 2
+    },
+    {
+      "gate": "rx",
+      "qubit": 0,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 2,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 1,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 3,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.16838216488843608
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": 0.044945774978828006
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.06265782949600678
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.020258116479171376
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": 0.013779664043845962
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.04421025347235347
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -9.385442522639545e-05
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": 0.005144854558240441
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": 0.006117666324568835
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.2001006784389217
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": 0.025477043678586005
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.23155619318222861
+    },
+    {
+      "gate": "cx",
+      "control": 1,
+      "target": 3
+    },
+    {
+      "gate": "rx",
+      "qubit": 1,
+      "theta": "pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": 0.03910845911402608
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": 0.0886357653886996
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.060071434305091355
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.03283646285228679
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": -0.06563754948564995
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.04886712597181304
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.002427045412724565
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": -0.031066973737053038
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.025841385218464186
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.03954587149421366
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": 0.3214103569506216
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.029567964428493784
+    },
+    {
+      "gate": "cx",
+      "control": 1,
+      "target": 3
+    },
+    {
+      "gate": "rx",
+      "qubit": 1,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 3,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "h",
+      "qubit": 1
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.04658990651275467
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": 0.0967374323655154
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.1163263693347219
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": -0.020466652490162437
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": -0.01603402005699018
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.020464022338707363
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.04266001824925461
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": -0.0017299340168266905
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.08108527870779059
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.0028619094713210522
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": 0.2614022794705075
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.009604175077580391
+    },
+    {
+      "gate": "cx",
+      "control": 2,
+      "target": 1
+    },
+    {
+      "gate": "h",
+      "qubit": 1
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 0,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 1,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.12297582335860861
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": -0.2053346017399094
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.1299661703081036
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": -0.011323914552286206
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": 0.40624009781854564
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.01040236530110098
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.08040740593499852
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": 0.002405699850696334
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.0767834647441996
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.00720066967174737
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": -0.018577195969727945
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.002538852929676343
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 1
+    },
+    {
+      "gate": "rx",
+      "qubit": 0,
+      "theta": "pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": "pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.05839946034604479
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": 0.11660025723580807
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.045557488937932746
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": -0.0018912222533560114
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": 0.003164060928178587
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.0018862071449097454
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.06387759779962525
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": -0.005992427122086755
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.07631212004177268
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.0034582752370388467
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": 0.0008633627226182349
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.03613158961637848
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 1
+    },
+    {
+      "gate": "rx",
+      "qubit": 0,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 1,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 2,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 3,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.07059609676402834
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": 0.027380677802883915
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.0228961148747817
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.12833635845816513
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": -0.001333021893896207
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.08558437505386929
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.0030178210668026454
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": -0.1000734659695777
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": 0.012763935459104548
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.25893606186812274
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": 0.0036105524652200825
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.24235740534503147
+    },
+    {
+      "gate": "cx",
+      "control": 2,
+      "target": 3
+    },
+    {
+      "gate": "rx",
+      "qubit": 2,
+      "theta": "pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.030958526028580808
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": -0.002340072431514297
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.004305912405295029
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.07449170648225731
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": 0.02396234067360106
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.03194319072882871
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.004728764649043336
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": 0.009457421194578122
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.011046788948631725
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.0015078843091550964
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": 4.196265197620187e-11
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.001507884323930424
+    },
+    {
+      "gate": "cx",
+      "control": 2,
+      "target": 3
+    },
+    {
+      "gate": "rx",
+      "qubit": 2,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 3,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.005500479682798041
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": -0.01225883949386637
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": -0.02711285437451862
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.024821663213555355
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": -0.019638877744620996
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": 0.011096379992292507
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -7.843847680303594e-10
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": -0.006318026694376432
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": -0.010651247287917652
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": 0.10884278581450062
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": 2.1432735223208762e-11
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": -0.01064771042635804
+    }
+  ]
+}

@@ -1,0 +1,1006 @@
+{
+  "trials": 52,
+  "split_gate": 50,
+  "baseline_ranks": {
+    "0": 4,
+    "1": 4,
+    "2": 4,
+    "3": 4,
+    "01": 2,
+    "02": 16,
+    "03": 16
+  },
+  "compatible_trials": 0,
+  "rows": [
+    {
+      "label": 0,
+      "triple": [
+        0,
+        6,
+        8
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 7,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        6,
+        8
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 8,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        6,
+        9
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 9,
+        "02": 14,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        6,
+        9
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 9,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        6,
+        11
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 9,
+        "02": 14,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        6,
+        11
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 8,
+        "02": 14,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        6,
+        15
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 10,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        6,
+        15
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 10,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        8,
+        9
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        8,
+        9
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 7,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        8,
+        11
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        8,
+        11
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        8,
+        15
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        8,
+        15
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        9,
+        11
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 8,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        9,
+        11
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 7,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        9,
+        15
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 10,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        9,
+        15
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 10,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        11,
+        15
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        0,
+        11,
+        15
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        6,
+        8,
+        9
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        6,
+        8,
+        9
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        6,
+        8,
+        11
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        6,
+        8,
+        11
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        6,
+        8,
+        15
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 9,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        6,
+        8,
+        15
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 8,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        6,
+        9,
+        11
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        6,
+        9,
+        11
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        6,
+        9,
+        15
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 9,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        6,
+        9,
+        15
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 9,
+        "02": 14,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        6,
+        11,
+        15
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 7,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        6,
+        11,
+        15
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 8,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        8,
+        9,
+        11
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 4,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        8,
+        9,
+        11
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 4,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        8,
+        9,
+        15
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 7,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        8,
+        9,
+        15
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 8,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        8,
+        11,
+        15
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        8,
+        11,
+        15
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        9,
+        11,
+        15
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 7,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 0,
+      "triple": [
+        9,
+        11,
+        15
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 15,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 1,
+      "triple": [
+        2,
+        3,
+        13
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 1,
+      "triple": [
+        2,
+        3,
+        13
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 2,
+      "triple": [
+        4,
+        5,
+        7
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 4,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 2,
+      "triple": [
+        4,
+        5,
+        7
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 4,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 2,
+      "triple": [
+        4,
+        5,
+        10
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 2,
+      "triple": [
+        4,
+        5,
+        10
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 2,
+      "triple": [
+        4,
+        7,
+        10
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 2,
+      "triple": [
+        4,
+        7,
+        10
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 2,
+      "triple": [
+        5,
+        7,
+        10
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 2,
+      "triple": [
+        5,
+        7,
+        10
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 15,
+        "03": 15
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 3,
+      "triple": [
+        1,
+        12,
+        14
+      ],
+      "direction": 0,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    },
+    {
+      "label": 3,
+      "triple": [
+        1,
+        12,
+        14
+      ],
+      "direction": 1,
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 16,
+        "03": 16
+      },
+      "compatible_four_cx_graphs": []
+    }
+  ],
+  "rank_tolerance": 1e-09,
+  "scope": "single three-cycle row permutation in one eigenvalue sector; fixed ten-CNOT prefix"
+}

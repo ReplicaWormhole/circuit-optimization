@@ -1,0 +1,117 @@
+{
+  "new_exclusions": 0,
+  "partial_axis_witnesses": [
+    {
+      "name": "adjacent_star",
+      "oriented_cnot_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "selected_input_x_wire": 1,
+      "selected_input_z_wire": 2,
+      "selected_x_image": "X1 X3",
+      "selected_z_image": "Z0 Z1 Z2 Z3",
+      "spectral_path_zero_for_both": true,
+      "transformed_shift_offdiagonal_nonzero_entries": 14
+    },
+    {
+      "name": "opposite_chain",
+      "oriented_cnot_schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "selected_input_x_wire": 3,
+      "selected_input_z_wire": 2,
+      "selected_x_image": "X1 X3",
+      "selected_z_image": "Z0 Z1 Z2 Z3",
+      "spectral_path_zero_for_both": true,
+      "transformed_shift_offdiagonal_nonzero_entries": 14
+    }
+  ],
+  "remaining_schedule_shapes": {
+    "adjacent_star": 8,
+    "opposite_chain": 32
+  },
+  "unoriented_example_schedules": {
+    "adjacent_star": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "opposite_chain": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ]
+  }
+}

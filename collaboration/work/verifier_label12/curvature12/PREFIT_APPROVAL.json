@@ -1,0 +1,8 @@
+{
+  "source": "collaboration/work/numerical_label12/relaxed12/config.json",
+  "source_sha256": "8b3cbc0de26d3c9044dce965c8b1728eaf4289338124308751c92d4555107513",
+  "source385_seed9261101_exact_embedding": true,
+  "script_sha256": "a99ee052ea8534616153e921b3de0a8a8159a0683938cff55a9184adfb797769",
+  "config_sha256": "e7fce4cbe841922c67405ca9254ebdb997d9faedfa555a9030c75b9ee907644f",
+  "before_reserve_compute": true
+}

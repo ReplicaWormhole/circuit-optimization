@@ -1,0 +1,139 @@
+{
+  "exact_half_shift_opposite_pair_pauli_trace_tensors": {
+    "02": [
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        4
+      ]
+    ],
+    "13": [
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        4
+      ]
+    ]
+  },
+  "examples_for_penultimate_classes": {
+    "adjacent_chain_opposite_endpoint": {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "selected_chain": [
+        2,
+        1,
+        0
+      ]
+    },
+    "adjacent_v_both_endpoints_adjacent": {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "selected_chain": [
+        1,
+        2,
+        0
+      ]
+    },
+    "opposite_first_trace": {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "selected_chain": [
+        3,
+        1,
+        0
+      ]
+    }
+  },
+  "exclusive_rejection_counts": {
+    "adjacent_chain_opposite_endpoint": 48,
+    "adjacent_v_both_endpoints_adjacent": 48,
+    "degree_rejected": 5196,
+    "forward_support_rejected": 1572,
+    "opposite_first_trace": 48,
+    "terminal_adjacent_gram": 576,
+    "terminal_opposite_trace": 288
+  },
+  "ordered_unoriented_pair_schedules": 7776,
+  "target": "four-qubit shift with arbitrary local gates, all CNOT pairs and directions",
+  "unclassified_schedule_count": 0
+}

@@ -1,0 +1,154 @@
+{
+  "excluded_by_degree_sequence": {
+    "3333": 144,
+    "4332": 144,
+    "5322": 80
+  },
+  "excluded_examples": {
+    "3333": {
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "selected_axis_witnesses": [
+        {
+          "active_gate_indices_zero_based": [
+            4,
+            5
+          ],
+          "pair": [
+            2,
+            3
+          ],
+          "wire": 2
+        },
+        {
+          "active_gate_indices_zero_based": [
+            4,
+            5
+          ],
+          "pair": [
+            2,
+            3
+          ],
+          "wire": 3
+        }
+      ]
+    },
+    "4332": {
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "selected_axis_witnesses": [
+        {
+          "active_gate_indices_zero_based": [
+            4,
+            5
+          ],
+          "pair": [
+            1,
+            2
+          ],
+          "wire": 2
+        }
+      ]
+    },
+    "5322": {
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "selected_axis_witnesses": [
+        {
+          "active_gate_indices_zero_based": [
+            4,
+            5
+          ],
+          "pair": [
+            0,
+            1
+          ],
+          "wire": 1
+        }
+      ]
+    }
+  },
+  "exclusive_partition": {
+    "excluded_adjacent_pair": 368,
+    "survives_all_applied_tests": 3208
+  },
+  "prior_survivors": 3576,
+  "remaining_by_degree_sequence": {
+    "3333": 1272,
+    "4332": 1752,
+    "4422": 144,
+    "5322": 40
+  }
+}

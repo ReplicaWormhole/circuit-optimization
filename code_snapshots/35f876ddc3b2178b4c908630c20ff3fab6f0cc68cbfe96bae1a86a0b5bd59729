@@ -1,0 +1,90 @@
+"""Construct the rational-angle four-matchgate 14-CX diagonalizer.
+
+The six-CX prefix is the verified exact prefix of the 15-CX circuit.  Four
+two-CX Cartan blocks and Clifford/pi-six local frames implement its new tail.
+Output diagonal Rz gates are omitted because they cannot affect diagonalization.
+"""
+
+import argparse
+import json
+import math
+from pathlib import Path
+
+from qiskit import transpile
+from qiskit.quantum_info import Operator
+
+from check_circuit import evaluate
+from qiskit_crosscheck import from_qiskit, to_qiskit
+from topology14_twolevel_boundary_rank import circuit_matrix
+
+
+ROOT = Path(__file__).resolve().parent
+PI = math.pi
+
+
+def add_zyz(circuit, wire, theta, phi, lam):
+    qubit = 3 - wire
+    circuit.rz(lam * PI, qubit)
+    circuit.ry(theta * PI, qubit)
+    circuit.rz(phi * PI, qubit)
+
+
+def make_circuit():
+    prefix = json.loads((ROOT / "topology16_15_exact_candidate.json").read_text())
+    circuit = to_qiskit({"n": 4, "gates": prefix["gates"][:13]})
+    input_zyz = {
+        0: (3 / 4, 0, 0),
+        1: (1 / 2, -1 / 2, -1 / 3),
+        2: (1 / 2, -3 / 2, 1 / 6),
+        3: (3 / 4, -1, 1),
+    }
+    center_zyz = {
+        0: (1 / 2, 0, -1),
+        1: (1, 0, 3 / 2),
+        2: (1, 0, 3 / 2),
+        3: (1 / 2, -3 / 2, 0),
+    }
+    for wire in range(4):
+        add_zyz(circuit, wire, *input_zyz[wire])
+    for first, second in ((0, 2), (1, 3)):
+        q1, q2 = 3 - first, 3 - second
+        circuit.rxx(-PI / 2, q1, q2)
+        circuit.ryy(-PI / 4, q1, q2)
+    for wire in range(4):
+        add_zyz(circuit, wire, *center_zyz[wire])
+    for first, second in ((0, 1), (2, 3)):
+        q1, q2 = 3 - first, 3 - second
+        circuit.rxx(-PI / 4, q1, q2)
+        circuit.ryy(-PI / 4, q1, q2)
+    return circuit
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--candidate", type=Path, required=True)
+    parser.add_argument("--result", type=Path, required=True)
+    args = parser.parse_args()
+    circuit = make_circuit()
+    raw = Operator(circuit).data
+    optimized = transpile(circuit, basis_gates=["u", "cx"],
+                          optimization_level=3, seed_transpiler=42)
+    candidate = from_qiskit(optimized)
+    args.candidate.write_text(json.dumps(candidate, indent=2) + "\n")
+    check = evaluate(candidate)
+    qmat = circuit_matrix(candidate["gates"])
+    overlap = (raw.conj() * qmat).sum()
+    phase = overlap / abs(overlap)
+    matrix_error = float(abs(raw - qmat / phase).max())
+    result = {"candidate": str(args.candidate),
+              "raw_circuit_cnot_count": circuit.count_ops().get("cx", 0),
+              "transpiled_cnot_count": check["cnot_count"],
+              "off_diagonal_error": check["off_diagonal_error"],
+              "valid_diagonalizer": check["valid_diagonalizer"],
+              "raw_to_transpiled_matrix_error": matrix_error,
+              "proof_status": "numerical pending exact symbolic verification"}
+    args.result.write_text(json.dumps(result, indent=2) + "\n")
+    print(json.dumps(result, indent=2))
+
+
+if __name__ == "__main__":
+    main()

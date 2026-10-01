@@ -1,0 +1,10 @@
+{
+  "stage": "timeout",
+  "elapsed": 300.00004246796016,
+  "exact_diagonalizer": null,
+  "rotations": 60,
+  "cnot_count": 13,
+  "gate_position": 45,
+  "max_expression_ops": 1349,
+  "limitation": "Incomplete exact verification; no certificate"
+}

@@ -1,0 +1,1 @@
+../../global_lower_bound6_two_terminal_axes.md

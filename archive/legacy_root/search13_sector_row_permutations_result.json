@@ -1,0 +1,58 @@
+{
+  "best": {
+    "mod97_ranks": [
+      11,
+      11
+    ],
+    "row_permutation": [
+      15,
+      12,
+      3,
+      13,
+      6,
+      5,
+      4,
+      7,
+      10,
+      9,
+      8,
+      0,
+      1,
+      2,
+      14,
+      11
+    ],
+    "sample_index": 3536
+  },
+  "family": "independent output row permutations within each shift eigenspace",
+  "mask_order": [
+    83,
+    163
+  ],
+  "mod97_rank_profiles": {
+    "11,11": 6,
+    "12,12": 286,
+    "12,13": 1,
+    "13,12": 2,
+    "13,13": 3407,
+    "13,14": 17,
+    "14,13": 19,
+    "14,14": 13385,
+    "14,15": 29,
+    "15,14": 20,
+    "15,15": 11234,
+    "15,16": 7,
+    "16,15": 7,
+    "16,16": 1580
+  },
+  "samples": 30000,
+  "scope": "random sample; modular ranks lower bound exact ranks; not exhaustive",
+  "sector_sizes": [
+    6,
+    3,
+    4,
+    3
+  ],
+  "seed": 30113,
+  "source": "exact run266 gauge times exact14 tail"
+}

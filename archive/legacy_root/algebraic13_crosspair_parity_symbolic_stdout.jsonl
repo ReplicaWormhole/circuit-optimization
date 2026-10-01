@@ -1,0 +1,10 @@
+{"cut": [0, 2], "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536", "mask": 7, "seconds": 0.0566702950745821, "status": "complete"}
+{"cut": [0, 3], "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536", "mask": 7, "seconds": 0.021913127042353153, "status": "complete"}
+{"cut": [0, 2], "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536", "mask": 11, "seconds": 0.026254322030581534, "status": "complete"}
+{"cut": [0, 3], "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536", "mask": 11, "seconds": 0.023690589936450124, "status": "complete"}
+{"cut": [0, 2], "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536", "mask": 13, "seconds": 0.02935490000527352, "status": "complete"}
+{"cut": [0, 3], "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536", "mask": 13, "seconds": 0.022686439915560186, "status": "complete"}
+{"cut": [0, 2], "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536", "mask": 14, "seconds": 0.0238323959056288, "status": "complete"}
+{"cut": [0, 3], "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536", "mask": 14, "seconds": 0.023744888952933252, "status": "complete"}
+{"cut": [0, 2], "factor": "-(2*t**2 - 1)**4*(8*t**2 - 9)/65536", "mask": 15, "seconds": 0.03883388498798013, "status": "complete"}
+{"cut": [0, 3], "factor": "-(2*t**2 - 1)**4*(8*t**2 - 9)/65536", "mask": 15, "seconds": 0.026750265969894826, "status": "complete"}

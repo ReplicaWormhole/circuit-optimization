@@ -1,0 +1,53 @@
+{
+  "convention": "q0 MSB; chronological left multiplication; right-cycle UV=DU",
+  "cycle_traces": [
+    16,
+    2,
+    4,
+    2
+  ],
+  "required_root_counts": [
+    6,
+    3,
+    4,
+    3
+  ],
+  "checks": [
+    {
+      "path": "collaboration/work/numerical_label12/curvature/base.json",
+      "sha256": "ec62eafb433b500a6d3553f339a4682bb32281f58de091415bd6ef5ee0f33bc4",
+      "cx_count": 12,
+      "unitarity_error": 1.5543122344752192e-15,
+      "max_offdiagonal": 0.1523762940765612,
+      "offdiagonal_loss": 0.009423003567534258,
+      "nearest_root_max_error": 0.011784633645669285,
+      "nearest_labels": [
+        2,
+        0,
+        0,
+        3,
+        3,
+        1,
+        2,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        3,
+        2,
+        0
+      ],
+      "nearest_label_counts": [
+        6,
+        3,
+        4,
+        3
+      ],
+      "nearest_label_intertwining_max_error": 0.06917946057945595,
+      "numerically_valid": false,
+      "exact_certificate": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "all_compatible": [],
+  "assignments_passing_single_axis_marginals": 76,
+  "assignments_with_real_product_first_moment": 52,
+  "compatible_assignments": 0,
+  "example_compatible": null,
+  "valid_total_block_assignments": 7168
+}

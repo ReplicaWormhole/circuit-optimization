@@ -1,0 +1,11 @@
+{
+  "source": "collaboration/work/verifier_label12/encoder/orbit_encoder67.json",
+  "source_sha256": "d595df83cc218ab4a532cdc2c51ab90a19dd68503fccc8d10311a23f0608ed6d",
+  "seed": null,
+  "parent": 382,
+  "max_sweeps": 100,
+  "max_rule_checks": 50000,
+  "wall_seconds": 120,
+  "threads": 1,
+  "rules": "First chronological i/j match across commuting intermediates: identicalCX/h cancel; sameaxis rationalpi rx/ry/rz merge exactly without anglemod. Commutation disjointsupports, sameaxis samewire, CX-CX c1!=t2,c2!=t1, CX with controlrz/targetrx. Restartaftereachrewrite. No RPT/u3approx."
+}

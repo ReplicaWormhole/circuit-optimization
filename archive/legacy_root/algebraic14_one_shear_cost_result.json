@@ -1,0 +1,79 @@
+{
+  "form": [
+    15,
+    3,
+    5,
+    0,
+    0
+  ],
+  "expected_coordinate_map": [
+    0,
+    14,
+    2,
+    3,
+    6,
+    7,
+    11,
+    5,
+    10,
+    4,
+    8,
+    9,
+    12,
+    13,
+    1,
+    15
+  ],
+  "records": [
+    {
+      "relative": false,
+      "linear_conjugator_cx": 3,
+      "naive_cx": 14,
+      "compiled_cx": 14,
+      "phase_exponents_mod8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "phase_is_trivial": true
+    },
+    {
+      "relative": true,
+      "linear_conjugator_cx": 3,
+      "naive_cx": 11,
+      "compiled_cx": 11,
+      "phase_exponents_mod8": [
+        0,
+        2,
+        4,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        2,
+        4,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      "phase_is_trivial": false
+    }
+  ]
+}

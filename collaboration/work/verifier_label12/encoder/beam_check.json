@@ -1,0 +1,29 @@
+{
+  "source": "collaboration/work/numerical_label12/encoder/result.json",
+  "sha256": "9eac4d08b2e2bd209b0768d7aafe99cb6a9be9458bfb0e1602cd44f0c4c9df65",
+  "independent_actual_permutation": [
+    0,
+    4,
+    7,
+    8,
+    6,
+    2,
+    11,
+    12,
+    5,
+    9,
+    3,
+    13,
+    10,
+    14,
+    15,
+    1
+  ],
+  "native_steps": 10,
+  "compiled_cx_upper": 25,
+  "mismatched_rows": [],
+  "exact_encoder": true,
+  "expansions": 122364,
+  "stop": "exactfound",
+  "encoder_only_not_diagonalizer": true
+}

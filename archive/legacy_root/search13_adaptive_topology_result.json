@@ -1,0 +1,437 @@
+{
+  "source": "search13_prefix_delete_fit_p4_s1.json",
+  "seed": 135000,
+  "generations": 4,
+  "proposals_per_parent": 24,
+  "fits_per_generation": 4,
+  "maxiter": 150,
+  "start_loss": 0.1417625585277496,
+  "unique_schedules_seen": 169,
+  "records": [
+    {
+      "generation": 0,
+      "rank": 0,
+      "parent_id": 0,
+      "changed_slot": 8,
+      "old_pair": [
+        1,
+        3
+      ],
+      "new_pair": [
+        0,
+        3
+      ],
+      "raw_loss": 0.591710150517568,
+      "initial_loss": 0.591710150517568,
+      "loss": 0.3449300646625702,
+      "nit": 64,
+      "nfev": 71,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_adaptive_topology_g0_r0.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.8552544623071656,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 0,
+      "rank": 1,
+      "parent_id": 0,
+      "changed_slot": 11,
+      "old_pair": [
+        2,
+        3
+      ],
+      "new_pair": [
+        0,
+        2
+      ],
+      "raw_loss": 0.6228636904173602,
+      "initial_loss": 0.6228636904173602,
+      "loss": 0.4572644965180867,
+      "nit": 76,
+      "nfev": 83,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_adaptive_topology_g0_r1.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.8960646381051857,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 0,
+      "rank": 2,
+      "parent_id": 0,
+      "changed_slot": 11,
+      "old_pair": [
+        2,
+        3
+      ],
+      "new_pair": [
+        0,
+        3
+      ],
+      "raw_loss": 0.6556149830525826,
+      "initial_loss": 0.6556149830525826,
+      "loss": 0.36949596060557455,
+      "nit": 150,
+      "nfev": 163,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_adaptive_topology_g0_r2.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.4311047873838703,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 0,
+      "rank": 3,
+      "parent_id": 0,
+      "changed_slot": 12,
+      "old_pair": [
+        2,
+        3
+      ],
+      "new_pair": [
+        2,
+        1
+      ],
+      "raw_loss": 0.6963511568276661,
+      "initial_loss": 0.6963511568276661,
+      "loss": 0.30519879908874537,
+      "nit": 140,
+      "nfev": 149,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_adaptive_topology_g0_r3.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.46169383407741493,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 1,
+      "rank": 0,
+      "parent_id": 0,
+      "changed_slot": 1,
+      "old_pair": [
+        1,
+        2
+      ],
+      "new_pair": [
+        1,
+        3
+      ],
+      "raw_loss": 0.49892532889076063,
+      "initial_loss": 0.49892532889076063,
+      "loss": 0.14176255852840258,
+      "nit": 89,
+      "nfev": 97,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_adaptive_topology_g1_r0.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.26655697858368804,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 1,
+      "rank": 1,
+      "parent_id": 1,
+      "changed_slot": 8,
+      "old_pair": [
+        1,
+        3
+      ],
+      "new_pair": [
+        2,
+        0
+      ],
+      "raw_loss": 0.602972709728935,
+      "initial_loss": 0.602972709728935,
+      "loss": 0.25997154013275164,
+      "nit": 150,
+      "nfev": 158,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_adaptive_topology_g1_r1.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5802728390891693,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 1,
+      "rank": 2,
+      "parent_id": 0,
+      "changed_slot": 7,
+      "old_pair": [
+        1,
+        3
+      ],
+      "new_pair": [
+        2,
+        0
+      ],
+      "raw_loss": 0.6599482650382645,
+      "initial_loss": 0.6599482650382645,
+      "loss": 0.3138794312197596,
+      "nit": 79,
+      "nfev": 86,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_adaptive_topology_g1_r2.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.4339708931577342,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 1,
+      "rank": 3,
+      "parent_id": 0,
+      "changed_slot": 7,
+      "old_pair": [
+        1,
+        3
+      ],
+      "new_pair": [
+        0,
+        3
+      ],
+      "raw_loss": 0.7391085892487388,
+      "initial_loss": 0.7391085892487388,
+      "loss": 0.31387943121975986,
+      "nit": 101,
+      "nfev": 107,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_adaptive_topology_g1_r3.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.43397091514152275,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 2,
+      "rank": 0,
+      "parent_id": 0,
+      "changed_slot": 1,
+      "old_pair": [
+        1,
+        2
+      ],
+      "new_pair": [
+        0,
+        2
+      ],
+      "raw_loss": 0.43641090858890225,
+      "initial_loss": 0.43641090858890225,
+      "loss": 0.32504793022813955,
+      "nit": 107,
+      "nfev": 115,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_adaptive_topology_g2_r0.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7984974107676068,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 2,
+      "rank": 1,
+      "parent_id": 0,
+      "changed_slot": 8,
+      "old_pair": [
+        1,
+        3
+      ],
+      "new_pair": [
+        2,
+        1
+      ],
+      "raw_loss": 0.5922447924922322,
+      "initial_loss": 0.5922447924922322,
+      "loss": 0.4758990531341745,
+      "nit": 109,
+      "nfev": 118,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_adaptive_topology_g2_r1.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7215645580303185,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 2,
+      "rank": 2,
+      "parent_id": 0,
+      "changed_slot": 7,
+      "old_pair": [
+        1,
+        3
+      ],
+      "new_pair": [
+        1,
+        0
+      ],
+      "raw_loss": 0.594838670718837,
+      "initial_loss": 0.594838670718837,
+      "loss": 0.31387943121977646,
+      "nit": 144,
+      "nfev": 157,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_adaptive_topology_g2_r2.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.43397090379164,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 2,
+      "rank": 3,
+      "parent_id": 0,
+      "changed_slot": 7,
+      "old_pair": [
+        1,
+        3
+      ],
+      "new_pair": [
+        2,
+        3
+      ],
+      "raw_loss": 0.6123426723490332,
+      "initial_loss": 0.6123426723490332,
+      "loss": 0.2990422122199273,
+      "nit": 150,
+      "nfev": 169,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_adaptive_topology_g2_r3.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5471047016641675,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 3,
+      "rank": 0,
+      "parent_id": 1,
+      "changed_slot": 8,
+      "old_pair": [
+        1,
+        3
+      ],
+      "new_pair": [
+        2,
+        1
+      ],
+      "raw_loss": 0.5921699309807528,
+      "initial_loss": 0.5921699309807528,
+      "loss": 0.32504793022814,
+      "nit": 73,
+      "nfev": 82,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_adaptive_topology_g3_r0.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.7984974167350802,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 3,
+      "rank": 1,
+      "parent_id": 1,
+      "changed_slot": 7,
+      "old_pair": [
+        1,
+        3
+      ],
+      "new_pair": [
+        2,
+        0
+      ],
+      "raw_loss": 0.655062070854439,
+      "initial_loss": 0.655062070854439,
+      "loss": 0.3151909477598746,
+      "nit": 101,
+      "nfev": 111,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_adaptive_topology_g3_r1.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.433278563479279,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 3,
+      "rank": 2,
+      "parent_id": 1,
+      "changed_slot": 11,
+      "old_pair": [
+        2,
+        3
+      ],
+      "new_pair": [
+        1,
+        0
+      ],
+      "raw_loss": 0.7204473433976329,
+      "initial_loss": 0.7204473433976329,
+      "loss": 0.23922678519792837,
+      "nit": 133,
+      "nfev": 143,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_adaptive_topology_g3_r2.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.591742031318288,
+      "valid_diagonalizer": false
+    },
+    {
+      "generation": 3,
+      "rank": 3,
+      "parent_id": 1,
+      "changed_slot": 9,
+      "old_pair": [
+        0,
+        1
+      ],
+      "new_pair": [
+        2,
+        1
+      ],
+      "raw_loss": 0.7252608985641747,
+      "initial_loss": 0.7252608985641747,
+      "loss": 0.3975194611611693,
+      "nit": 150,
+      "nfev": 162,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "candidate": "search13_adaptive_topology_g3_r3.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.8183361409364541,
+      "valid_diagonalizer": false
+    }
+  ],
+  "best": {
+    "generation": 1,
+    "rank": 0,
+    "parent_id": 0,
+    "changed_slot": 1,
+    "old_pair": [
+      1,
+      2
+    ],
+    "new_pair": [
+      1,
+      3
+    ],
+    "raw_loss": 0.49892532889076063,
+    "initial_loss": 0.49892532889076063,
+    "loss": 0.14176255852840258,
+    "nit": 89,
+    "nfev": 97,
+    "optimizer_success": true,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "candidate": "search13_adaptive_topology_g1_r0.json",
+    "cnot_count": 13,
+    "off_diagonal_error": 0.26655697858368804,
+    "valid_diagonalizer": false
+  }
+}

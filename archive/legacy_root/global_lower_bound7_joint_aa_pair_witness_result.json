@@ -1,0 +1,45 @@
+{
+  "commute_exactly": true,
+  "first_image_pauli_labels": [
+    "ZXII",
+    "XIIZ",
+    "YXIZ"
+  ],
+  "first_involution": true,
+  "first_spectral_path": true,
+  "interpretation": "feasible joint necessary system; not a shift diagonalizer",
+  "normalization": "divide each sum by sqrt(3)",
+  "schedule": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "second_image_pauli_labels": [
+    "IIXZ",
+    "ZIIX",
+    "ZIXY"
+  ],
+  "second_involution": true,
+  "second_spectral_path": true
+}

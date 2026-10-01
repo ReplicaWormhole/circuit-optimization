@@ -1,0 +1,591 @@
+{
+  "source": "search13_prefix_delete_fit_p4_s1.json",
+  "deleted_prefix_cx": 4,
+  "rewires": [
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      3,
+      1,
+      0
+    ],
+    [
+      3,
+      1,
+      2
+    ],
+    [
+      3,
+      2,
+      1
+    ],
+    [
+      3,
+      2,
+      3
+    ],
+    [
+      3,
+      3,
+      2
+    ],
+    [
+      5,
+      0,
+      2
+    ],
+    [
+      5,
+      2,
+      0
+    ],
+    [
+      5,
+      0,
+      3
+    ],
+    [
+      5,
+      3,
+      0
+    ],
+    [
+      5,
+      1,
+      2
+    ],
+    [
+      5,
+      2,
+      1
+    ]
+  ],
+  "seed": 134500,
+  "initial_perturb_sigma": 0.03,
+  "maxiter": 250,
+  "rows": [
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "prefix_rewire": [
+        3,
+        0,
+        1
+      ],
+      "seed": 134500,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.8054924945138321,
+      "loss": 0.49694171939242765,
+      "nit": 250,
+      "nfev": 261,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.6532345669616567,
+      "eigenvalue_root_error": 1.0140767495722107,
+      "valid_diagonalizer": false,
+      "case": 0,
+      "candidate": "search13_prefix_rewire_warm_case0.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "prefix_rewire": [
+        3,
+        1,
+        0
+      ],
+      "seed": 134501,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.9014004919887287,
+      "loss": 0.17317601595517096,
+      "nit": 221,
+      "nfev": 242,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.3976637113606144,
+      "eigenvalue_root_error": 0.6059387736293675,
+      "valid_diagonalizer": false,
+      "case": 1,
+      "candidate": "search13_prefix_rewire_warm_case1.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "prefix_rewire": [
+        3,
+        1,
+        2
+      ],
+      "seed": 134502,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.8544623156510572,
+      "loss": 0.1885391383977333,
+      "nit": 91,
+      "nfev": 103,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.4828643547539346,
+      "eigenvalue_root_error": 0.450278333343312,
+      "valid_diagonalizer": false,
+      "case": 2,
+      "candidate": "search13_prefix_rewire_warm_case2.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "prefix_rewire": [
+        3,
+        2,
+        1
+      ],
+      "seed": 134503,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.9074045118120682,
+      "loss": 0.13979388571533852,
+      "nit": 104,
+      "nfev": 113,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.38736479628797676,
+      "eigenvalue_root_error": 0.5563176099854722,
+      "valid_diagonalizer": false,
+      "case": 3,
+      "candidate": "search13_prefix_rewire_warm_case3.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "prefix_rewire": [
+        3,
+        2,
+        3
+      ],
+      "seed": 134504,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.8914413709720533,
+      "loss": 0.37663100504393565,
+      "nit": 151,
+      "nfev": 159,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.599042514206003,
+      "eigenvalue_root_error": 1.0929049375006719,
+      "valid_diagonalizer": false,
+      "case": 4,
+      "candidate": "search13_prefix_rewire_warm_case4.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "prefix_rewire": [
+        3,
+        3,
+        2
+      ],
+      "seed": 134505,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.8435413404541936,
+      "loss": 0.4125173478602794,
+      "nit": 250,
+      "nfev": 263,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.3288544393630756,
+      "eigenvalue_root_error": 0.9131294692032754,
+      "valid_diagonalizer": false,
+      "case": 5,
+      "candidate": "search13_prefix_rewire_warm_case5.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "prefix_rewire": [
+        5,
+        0,
+        2
+      ],
+      "seed": 134506,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.8339153676272771,
+      "loss": 0.3750000000000002,
+      "nit": 75,
+      "nfev": 83,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.4960235687774076,
+      "eigenvalue_root_error": 0.999749011059266,
+      "valid_diagonalizer": false,
+      "case": 6,
+      "candidate": "search13_prefix_rewire_warm_case6.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "prefix_rewire": [
+        5,
+        2,
+        0
+      ],
+      "seed": 134507,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.84353426756315,
+      "loss": 0.3750000000000014,
+      "nit": 77,
+      "nfev": 85,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.3788735880593244,
+      "eigenvalue_root_error": 0.7099737755473614,
+      "valid_diagonalizer": false,
+      "case": 7,
+      "candidate": "search13_prefix_rewire_warm_case7.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "prefix_rewire": [
+        5,
+        0,
+        3
+      ],
+      "seed": 134508,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.8831648970356305,
+      "loss": 0.3210883074733676,
+      "nit": 191,
+      "nfev": 204,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.4768773081090643,
+      "eigenvalue_root_error": 1.0773100086257534,
+      "valid_diagonalizer": false,
+      "case": 8,
+      "candidate": "search13_prefix_rewire_warm_case8.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "prefix_rewire": [
+        5,
+        3,
+        0
+      ],
+      "seed": 134509,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.8647069838713111,
+      "loss": 0.12500000000000075,
+      "nit": 96,
+      "nfev": 107,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.7071067811865456,
+      "eigenvalue_root_error": 1.2499999999999973,
+      "valid_diagonalizer": false,
+      "case": 9,
+      "candidate": "search13_prefix_rewire_warm_case9.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "prefix_rewire": [
+        5,
+        1,
+        2
+      ],
+      "seed": 134510,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.8503118110490733,
+      "loss": 0.38998008767741665,
+      "nit": 166,
+      "nfev": 177,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.581611210749924,
+      "eigenvalue_root_error": 1.1461561685821,
+      "valid_diagonalizer": false,
+      "case": 10,
+      "candidate": "search13_prefix_rewire_warm_case10.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "prefix_rewire": [
+        5,
+        2,
+        1
+      ],
+      "seed": 134511,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.9004231772895248,
+      "loss": 0.3215897379776177,
+      "nit": 250,
+      "nfev": 261,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.5597828114717276,
+      "eigenvalue_root_error": 1.1436157983472293,
+      "valid_diagonalizer": false,
+      "case": 11,
+      "candidate": "search13_prefix_rewire_warm_case11.json"
+    }
+  ],
+  "best": {
+    "deleted": 4,
+    "block_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "prefix_rewire": [
+      5,
+      3,
+      0
+    ],
+    "seed": 134509,
+    "sigma": 0.03,
+    "maxiter": 250,
+    "initial_loss": 0.8647069838713111,
+    "loss": 0.12500000000000075,
+    "nit": 96,
+    "nfev": 107,
+    "optimizer_success": true,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "off_diagonal_error": 0.7071067811865456,
+    "eigenvalue_root_error": 1.2499999999999973,
+    "valid_diagonalizer": false,
+    "case": 9,
+    "candidate": "search13_prefix_rewire_warm_case9.json"
+  }
+}

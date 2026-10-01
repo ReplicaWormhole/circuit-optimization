@@ -1,0 +1,78 @@
+[
+  {
+    "native": "collaboration/work/numerical_label12/parity12/native_seed9261101.json",
+    "compiled": "collaboration/work/numerical_label12/parity12/compiled_seed9261101.json",
+    "native_sha256": "6d8446c23352862a4618397debcf0124068105842ccfb6418c7d2c7a168da60c",
+    "compiled_sha256": "95831f6cdfc7580e6041c36d24112006e0d1b8fede3e56e0ac7f7ba8f047863b",
+    "native_cx": 4,
+    "native_f": 4,
+    "compiled_cx": 12,
+    "full_matrix_difference": 3.855927796350635e-16,
+    "maxoff": 0.9438619418015138,
+    "offloss": 0.5922239996302485,
+    "unitarity": 1.887379141862766e-15,
+    "nearest_labels": [
+      2,
+      0,
+      1,
+      1,
+      0,
+      0,
+      3,
+      1,
+      0,
+      0,
+      2,
+      0,
+      3,
+      1,
+      3,
+      3
+    ],
+    "root_counts": [
+      6,
+      4,
+      2,
+      4
+    ],
+    "exact_certificate": false
+  },
+  {
+    "native": "collaboration/work/numerical_label12/parity12/native_seed9261102.json",
+    "compiled": "collaboration/work/numerical_label12/parity12/compiled_seed9261102.json",
+    "native_sha256": "bb57ed6d7a4519ef3f26f48684fcf1bc7d6278268f548ee18bb7829cc325b2d9",
+    "compiled_sha256": "37717c3a4dca702d1d0d80d2af87e5ef143bf6ebf003ca7da6b9c96086298209",
+    "native_cx": 4,
+    "native_f": 4,
+    "compiled_cx": 12,
+    "full_matrix_difference": 4.172577943820896e-16,
+    "maxoff": 0.7071067866282266,
+    "offloss": 0.5000000000000019,
+    "unitarity": 1.1102230246251565e-15,
+    "nearest_labels": [
+      0,
+      0,
+      0,
+      1,
+      3,
+      1,
+      0,
+      3,
+      2,
+      2,
+      2,
+      0,
+      0,
+      0,
+      2,
+      2
+    ],
+    "root_counts": [
+      7,
+      2,
+      5,
+      2
+    ],
+    "exact_certificate": false
+  }
+]

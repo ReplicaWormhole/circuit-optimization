@@ -1,0 +1,75 @@
+{
+  "source": "collaboration/work/numerical_label12/curvature/base.json",
+  "source_sha256": "ec62eafb433b500a6d3553f339a4682bb32281f58de091415bd6ef5ee0f33bc4",
+  "optimizer_schedule": [
+    [
+      0,
+      1
+    ],
+    null,
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "seed": null,
+  "selection": "Nearest multiplicity-constrained Hungarian root target; ONLY pair(10,14) exchanged, assert distinct labels",
+  "max_targets": 1,
+  "maxiter": 200,
+  "maxfun": 4000,
+  "maxls": 20,
+  "max_newton_steps": 5,
+  "rcond": 1e-06,
+  "line_search_trials": 8,
+  "wall_seconds": 120,
+  "threads": 1,
+  "local_parameters": 168,
+  "objective": "||UV-DU||F\u00b2/16",
+  "parent": 377,
+  "dependencies": {
+    "delete14_search.py": "b12320ef0491d0fc953d76aa92c39025f5ea9c40dddfa1458894d18eef5fd044",
+    "search13_adaptive_topology.py": "14973daa02e3f0e97a8a8c8cc4d2c05f906bc1f2dedec4b2893f2cf39cceb471",
+    "search13_fresh_chain_dynamic_rows.py": "be937d249d245f686a85fda2536a1527bdf6e1c4d77840603c37b4758b974752",
+    "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0"
+  }
+}

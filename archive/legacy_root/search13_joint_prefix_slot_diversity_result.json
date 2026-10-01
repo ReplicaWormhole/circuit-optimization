@@ -1,0 +1,474 @@
+{
+  "baseline_loss": 0.0787330125161619,
+  "best_candidate": "search13_joint_prefix_slot_diversity_case8.json",
+  "best_off_diagonal_error": 0.2549165175930817,
+  "fits": 17,
+  "maxiter": 250,
+  "rows": [
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case0.json",
+      "case": 0,
+      "cnot_count": 13,
+      "initial_loss": 0.8612380893441345,
+      "kind": "disjoint_pair",
+      "loss": 0.46535316128660925,
+      "nfev": 231,
+      "nit": 215,
+      "off_diagonal_error": 0.697404975072344,
+      "old": [
+        3,
+        1
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.8612380893441345,
+      "replacement": [
+        0,
+        2
+      ],
+      "slot": 0,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case1.json",
+      "case": 1,
+      "cnot_count": 13,
+      "initial_loss": 0.9315349799838358,
+      "kind": "disjoint_pair",
+      "loss": 0.22621030824623878,
+      "nfev": 166,
+      "nit": 153,
+      "off_diagonal_error": 0.5102799851573133,
+      "old": [
+        1,
+        2
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.9315349799838358,
+      "replacement": [
+        3,
+        0
+      ],
+      "slot": 1,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case2.json",
+      "case": 2,
+      "cnot_count": 13,
+      "initial_loss": 0.9056366225251783,
+      "kind": "disjoint_pair",
+      "loss": 0.35418997711251266,
+      "nfev": 268,
+      "nit": 250,
+      "off_diagonal_error": 0.5756736946621365,
+      "old": [
+        0,
+        1
+      ],
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "optimizer_success": false,
+      "raw_loss": 0.9056366225251783,
+      "replacement": [
+        2,
+        3
+      ],
+      "slot": 2,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case3.json",
+      "case": 3,
+      "cnot_count": 13,
+      "initial_loss": 0.9402434205276837,
+      "kind": "disjoint_pair",
+      "loss": 0.17583067672523747,
+      "nfev": 166,
+      "nit": 155,
+      "off_diagonal_error": 0.9964852495526301,
+      "old": [
+        0,
+        2
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.9402434205276837,
+      "replacement": [
+        3,
+        1
+      ],
+      "slot": 3,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case4.json",
+      "case": 4,
+      "cnot_count": 13,
+      "initial_loss": 0.9476480482907607,
+      "kind": "disjoint_pair",
+      "loss": 0.25000000000000255,
+      "nfev": 100,
+      "nit": 89,
+      "off_diagonal_error": 0.7071067831395101,
+      "old": [
+        1,
+        2
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.9476480482907607,
+      "replacement": [
+        0,
+        3
+      ],
+      "slot": 4,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case5.json",
+      "case": 5,
+      "cnot_count": 13,
+      "initial_loss": 0.8968128704496439,
+      "kind": "disjoint_pair",
+      "loss": 0.15580894126267597,
+      "nfev": 122,
+      "nit": 109,
+      "off_diagonal_error": 0.5603580993203652,
+      "old": [
+        0,
+        2
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.8968128704496439,
+      "replacement": [
+        3,
+        1
+      ],
+      "slot": 5,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case6.json",
+      "case": 6,
+      "cnot_count": 13,
+      "initial_loss": 0.7998549694422675,
+      "kind": "disjoint_pair",
+      "loss": 0.37500000000004313,
+      "nfev": 138,
+      "nit": 127,
+      "off_diagonal_error": 0.7071067882558636,
+      "old": [
+        0,
+        2
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.7998549694422675,
+      "replacement": [
+        1,
+        3
+      ],
+      "slot": 6,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case7.json",
+      "case": 7,
+      "cnot_count": 13,
+      "initial_loss": 0.9479774384613094,
+      "kind": "disjoint_pair",
+      "loss": 0.1167220696733782,
+      "nfev": 188,
+      "nit": 174,
+      "off_diagonal_error": 0.48162030041714565,
+      "old": [
+        0,
+        3
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.9479774384613094,
+      "replacement": [
+        2,
+        1
+      ],
+      "slot": 7,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case8.json",
+      "case": 8,
+      "cnot_count": 13,
+      "initial_loss": 0.9366758021315521,
+      "kind": "disjoint_pair",
+      "loss": 0.06019279537098432,
+      "nfev": 278,
+      "nit": 250,
+      "off_diagonal_error": 0.2549165175930817,
+      "old": [
+        0,
+        3
+      ],
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "optimizer_success": false,
+      "raw_loss": 0.9366758021315521,
+      "replacement": [
+        1,
+        2
+      ],
+      "slot": 8,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case9.json",
+      "case": 9,
+      "cnot_count": 13,
+      "initial_loss": 0.9637672141382108,
+      "kind": "disjoint_pair",
+      "loss": 0.5625000149256845,
+      "nfev": 264,
+      "nit": 250,
+      "off_diagonal_error": 0.9999997772206244,
+      "old": [
+        0,
+        1
+      ],
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "optimizer_success": false,
+      "raw_loss": 0.9637672141382108,
+      "replacement": [
+        3,
+        2
+      ],
+      "slot": 9,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case10.json",
+      "case": 10,
+      "cnot_count": 13,
+      "initial_loss": 0.9310904569336098,
+      "kind": "disjoint_pair",
+      "loss": 0.21590213638308822,
+      "nfev": 212,
+      "nit": 194,
+      "off_diagonal_error": 0.6563270588075417,
+      "old": [
+        0,
+        1
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.9310904569336098,
+      "replacement": [
+        2,
+        3
+      ],
+      "slot": 10,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case11.json",
+      "case": 11,
+      "cnot_count": 13,
+      "initial_loss": 0.8055875523179483,
+      "kind": "disjoint_pair",
+      "loss": 0.318300843717683,
+      "nfev": 267,
+      "nit": 250,
+      "off_diagonal_error": 0.960089091460144,
+      "old": [
+        2,
+        3
+      ],
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "optimizer_success": false,
+      "raw_loss": 0.8055875523179483,
+      "replacement": [
+        1,
+        0
+      ],
+      "slot": 11,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case12.json",
+      "case": 12,
+      "cnot_count": 13,
+      "initial_loss": 0.3320627488360115,
+      "kind": "disjoint_pair",
+      "loss": 0.31830084371767114,
+      "nfev": 180,
+      "nit": 165,
+      "off_diagonal_error": 0.9600890894704844,
+      "old": [
+        2,
+        3
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.3320627488360115,
+      "replacement": [
+        0,
+        1
+      ],
+      "slot": 12,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case13.json",
+      "case": 13,
+      "cnot_count": 13,
+      "initial_loss": 0.9140768234742243,
+      "kind": "direction_reversal",
+      "loss": 0.12500000000000194,
+      "nfev": 110,
+      "nit": 101,
+      "off_diagonal_error": 0.7071067811865404,
+      "old": [
+        3,
+        1
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.9140768234742243,
+      "replacement": [
+        1,
+        3
+      ],
+      "slot": 0,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case14.json",
+      "case": 14,
+      "cnot_count": 13,
+      "initial_loss": 0.9219253646937661,
+      "kind": "direction_reversal",
+      "loss": 0.12500000000000225,
+      "nfev": 113,
+      "nit": 104,
+      "off_diagonal_error": 0.7071067811865467,
+      "old": [
+        1,
+        2
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.9219253646937661,
+      "replacement": [
+        2,
+        1
+      ],
+      "slot": 4,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case15.json",
+      "case": 15,
+      "cnot_count": 13,
+      "initial_loss": 0.9121726681232105,
+      "kind": "direction_reversal",
+      "loss": 0.1503836596426635,
+      "nfev": 151,
+      "nit": 141,
+      "off_diagonal_error": 0.48556295063063515,
+      "old": [
+        0,
+        3
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.9121726681232105,
+      "replacement": [
+        3,
+        0
+      ],
+      "slot": 8,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_slot_diversity_case16.json",
+      "case": 16,
+      "cnot_count": 13,
+      "initial_loss": 0.860407873930633,
+      "kind": "direction_reversal",
+      "loss": 0.07873301251616353,
+      "nfev": 158,
+      "nit": 139,
+      "off_diagonal_error": 0.38665766423403053,
+      "old": [
+        2,
+        3
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "raw_loss": 0.860407873930633,
+      "replacement": [
+        3,
+        2
+      ],
+      "slot": 12,
+      "valid_diagonalizer": false
+    }
+  ],
+  "scope": "17 one-step directed topology fits from one fixed near-hit warm start; all 168 local layers free; failures are not exclusions",
+  "selection_rule": "disjoint wire pair at every slot with alternating orientation, plus direction reversals at slots 0,4,8,12; no raw-loss ranking",
+  "source": "search13_joint_prefix_orbit_refine_0.json",
+  "source_topology": [
+    [
+      3,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ]
+}

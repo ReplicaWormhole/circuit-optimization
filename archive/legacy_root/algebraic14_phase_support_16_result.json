@@ -1,0 +1,26 @@
+{
+  "angle_grid": "pi/16",
+  "results": [
+    {
+      "max_nonlocal": 3,
+      "status": "unsat",
+      "model": null,
+      "reason_unknown": null
+    },
+    {
+      "max_nonlocal": 4,
+      "status": "sat",
+      "model": {
+        "8": 29,
+        "4": 31,
+        "2": 1,
+        "1": 19,
+        "7": 22,
+        "9": 24,
+        "13": 2,
+        "14": 12
+      },
+      "reason_unknown": null
+    }
+  ]
+}

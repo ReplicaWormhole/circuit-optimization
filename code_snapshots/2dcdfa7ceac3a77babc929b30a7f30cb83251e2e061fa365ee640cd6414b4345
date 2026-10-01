@@ -1,0 +1,106 @@
+"""Bounded Fourier-output row relabeling scan after one shear.
+
+Randomly permute Fourier modes among output states of each transformed V4
+orbit. Test both an exact shear and the 11-CNOT relative-phase shear of
+algebraic run129; for the latter include its required input-side diagonal
+phase correction in the block. Report numerical cut ranks and CNOT graph
+lower bounds for each chosen basis. This is not exhaustive eigenbasis search.
+"""
+
+import argparse
+import itertools
+import json
+import math
+from pathlib import Path
+
+import numpy as np
+
+from topology14_boundary_schmidt import schmidt_singular_values
+from topology14_one_shear_orbit_fourier_rank import cycles
+
+
+ROOT = Path(__file__).resolve().parent
+CUTS = ((0,), (1,), (2,), (3,), (0, 1), (0, 2), (0, 3))
+EDGES = tuple(itertools.combinations(range(4), 2))
+
+
+def basis_matrix(orbits, permutations, input_phases):
+    u = np.zeros((16, 16), dtype=complex)
+    for orbit, order in zip(orbits, permutations):
+        length = len(orbit)
+        root = np.exp(2j * math.pi / length)
+        for mode, output_slot in enumerate(order):
+            output = orbit[output_slot]
+            for j, inp in enumerate(orbit):
+                u[output, inp] = root ** (mode * j) * input_phases[inp] / math.sqrt(length)
+    return u
+
+
+def graph_lower_bound(ranks, cache):
+    key = tuple(ranks)
+    if key in cache:
+        return cache[key]
+    bounds = [math.ceil(math.log2(rank)) for rank in ranks]
+    for count in range(9):
+        if any(all(sum((a in cut) != (b in cut) for a, b in graph) >= bound
+                   for cut, bound in zip(CUTS, bounds))
+               for graph in itertools.combinations_with_replacement(EDGES, count)):
+            cache[key] = count
+            return count
+    cache[key] = None
+    return None
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--seed", type=int, required=True)
+    parser.add_argument("--trials", type=int, required=True)
+    parser.add_argument("--output", type=Path, required=True)
+    args = parser.parse_args()
+    rng = np.random.default_rng(args.seed)
+    action = json.loads((ROOT / "topology14_one_shear_action_result.json").read_text())
+    cost = json.loads((ROOT / "algebraic14_one_shear_cost_result.json").read_text())
+    orbits = cycles(action["induced_permutation"])
+    coordinate = action["coordinate_map"]
+    defects = cost["records"][1]["phase_exponents_mod8"]
+    phases = np.array([np.exp(-1j * math.pi * defects[coordinate.index(y)] / 4)
+                       for y in range(16)])
+    modes = {"exact": np.ones(16, dtype=complex), "relative_phase_corrected": phases}
+    t = np.zeros((16, 16), dtype=complex)
+    for inp, output in enumerate(action["induced_permutation"]):
+        t[output, inp] = 1
+    for name, phase in modes.items():
+        trial_basis = basis_matrix(orbits, [list(range(len(orbit))) for orbit in orbits],
+                                   phase)
+        weighted = np.diag(phase.conj()) @ t @ np.diag(phase)
+        conjugated = trial_basis @ weighted @ trial_basis.conj().T
+        assert np.max(np.abs(conjugated - np.diag(np.diag(conjugated)))) < 1e-9, name
+    cache = {}
+    best = {name: None for name in modes}
+    histogram = {name: {} for name in modes}
+    for trial in range(args.trials):
+        orders = [list(range(len(orbit))) if trial == 0
+                  else list(rng.permutation(len(orbit))) for orbit in orbits]
+        for name, phase in modes.items():
+            u = basis_matrix(orbits, orders, phase)
+            ranks = [int(np.count_nonzero(schmidt_singular_values(u, cut) > 1e-9))
+                     for cut in CUTS]
+            lower = graph_lower_bound(ranks, cache)
+            histogram[name][str(lower)] = histogram[name].get(str(lower), 0) + 1
+            record = {"trial": trial, "orders": orders,
+                      "ranks": {"".join(map(str, cut)): rank
+                                for cut, rank in zip(CUTS, ranks)},
+                      "cut_based_cnot_lower_bound": lower}
+            if best[name] is None or (lower, sum(ranks)) < (
+                    best[name]["cut_based_cnot_lower_bound"],
+                    sum(best[name]["ranks"].values())):
+                best[name] = record
+    result = {"seed": args.seed, "trials": args.trials,
+              "orbit_list": orbits, "histogram": histogram, "best": best,
+              "scope": "sampled orbit-local output row permutations; no mixing between equal-eigenvalue orbits"}
+    args.output.write_text(json.dumps(result, indent=2) + "\n")
+    print(json.dumps({"histogram": histogram, "best": best}, indent=2))
+
+
+if __name__ == "__main__":
+    main()

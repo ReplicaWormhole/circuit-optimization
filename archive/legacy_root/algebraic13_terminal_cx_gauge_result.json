@@ -1,0 +1,67 @@
+{
+  "F": {
+    "magic_invariant_characteristic": "(z - 1)**2*(z**2 + 1)",
+    "eigenvalue_multiplicities": {
+      "1": 2,
+      "-I": 1,
+      "I": 1
+    },
+    "at_most_two_distinct": false
+  },
+  "CX01": {
+    "magic_invariant_characteristic": "(z - 1)**2*(z + 1)**2",
+    "eigenvalue_multiplicities": {
+      "1": 2,
+      "-1": 2
+    },
+    "at_most_two_distinct": true
+  },
+  "CX10": {
+    "magic_invariant_characteristic": "(z - 1)**2*(z + 1)**2",
+    "eigenvalue_multiplicities": {
+      "1": 2,
+      "-1": 2
+    },
+    "at_most_two_distinct": true
+  },
+  "CX01_F": {
+    "magic_invariant_characteristic": "(z**2 - sqrt(2)*z + 1)*(z**2 + sqrt(2)*z + 1)",
+    "eigenvalue_multiplicities": {
+      "-sqrt(2)/2 - sqrt(2)*I/2": 1,
+      "-sqrt(2)/2 + sqrt(2)*I/2": 1,
+      "sqrt(2)/2 - sqrt(2)*I/2": 1,
+      "sqrt(2)/2 + sqrt(2)*I/2": 1
+    },
+    "at_most_two_distinct": false
+  },
+  "CX10_F": {
+    "magic_invariant_characteristic": "(z**2 - sqrt(2)*z + 1)*(z**2 + sqrt(2)*z + 1)",
+    "eigenvalue_multiplicities": {
+      "-sqrt(2)/2 - sqrt(2)*I/2": 1,
+      "-sqrt(2)/2 + sqrt(2)*I/2": 1,
+      "sqrt(2)/2 - sqrt(2)*I/2": 1,
+      "sqrt(2)/2 + sqrt(2)*I/2": 1
+    },
+    "at_most_two_distinct": false
+  },
+  "F_CX01": {
+    "magic_invariant_characteristic": "(z**2 - sqrt(2)*z + 1)*(z**2 + sqrt(2)*z + 1)",
+    "eigenvalue_multiplicities": {
+      "-sqrt(2)/2 - sqrt(2)*I/2": 1,
+      "-sqrt(2)/2 + sqrt(2)*I/2": 1,
+      "sqrt(2)/2 - sqrt(2)*I/2": 1,
+      "sqrt(2)/2 + sqrt(2)*I/2": 1
+    },
+    "at_most_two_distinct": false
+  },
+  "F_CX10": {
+    "magic_invariant_characteristic": "(z**2 - sqrt(2)*z + 1)*(z**2 + sqrt(2)*z + 1)",
+    "eigenvalue_multiplicities": {
+      "-sqrt(2)/2 - sqrt(2)*I/2": 1,
+      "-sqrt(2)/2 + sqrt(2)*I/2": 1,
+      "sqrt(2)/2 - sqrt(2)*I/2": 1,
+      "sqrt(2)/2 + sqrt(2)*I/2": 1
+    },
+    "at_most_two_distinct": false
+  }
+}

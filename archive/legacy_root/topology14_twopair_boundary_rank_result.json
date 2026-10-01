@@ -1,0 +1,277 @@
+{
+  "trial_count": 4368,
+  "rank_histogram": {
+    "13": 9,
+    "14": 341,
+    "15": 546,
+    "16": 3472
+  },
+  "min_rank": 13,
+  "best": [
+    {
+      "pairs": [
+        [
+          1,
+          12
+        ],
+        [
+          3,
+          13
+        ]
+      ],
+      "axes": [
+        "x",
+        "x"
+      ],
+      "angles_over_pi": [
+        "2/4",
+        "2/4"
+      ],
+      "rank_1e-9": 13,
+      "smallest_singular": 1.5175170179419617e-17
+    },
+    {
+      "pairs": [
+        [
+          1,
+          12
+        ],
+        [
+          3,
+          13
+        ]
+      ],
+      "axes": [
+        "y",
+        "x"
+      ],
+      "angles_over_pi": [
+        "2/4",
+        "2/4"
+      ],
+      "rank_1e-9": 13,
+      "smallest_singular": 1.9424079961670372e-17
+    },
+    {
+      "pairs": [
+        [
+          1,
+          12
+        ],
+        [
+          3,
+          13
+        ]
+      ],
+      "axes": [
+        "x",
+        "y"
+      ],
+      "angles_over_pi": [
+        "2/4",
+        "2/4"
+      ],
+      "rank_1e-9": 13,
+      "smallest_singular": 2.4120646783946388e-17
+    },
+    {
+      "pairs": [
+        [
+          1,
+          12
+        ],
+        [
+          3,
+          13
+        ]
+      ],
+      "axes": [
+        "y",
+        "y"
+      ],
+      "angles_over_pi": [
+        "2/4",
+        "2/4"
+      ],
+      "rank_1e-9": 13,
+      "smallest_singular": 3.1509135830995483e-17
+    },
+    {
+      "pairs": [
+        [
+          0,
+          11
+        ],
+        [
+          8,
+          15
+        ]
+      ],
+      "axes": [
+        "y",
+        "y"
+      ],
+      "angles_over_pi": [
+        "2/4",
+        "2/4"
+      ],
+      "rank_1e-9": 13,
+      "smallest_singular": 3.280337881291309e-17
+    },
+    {
+      "pairs": [
+        [
+          0,
+          11
+        ],
+        [
+          8,
+          15
+        ]
+      ],
+      "axes": [
+        "x",
+        "x"
+      ],
+      "angles_over_pi": [
+        "2/4",
+        "2/4"
+      ],
+      "rank_1e-9": 13,
+      "smallest_singular": 3.9413560231078334e-17
+    },
+    {
+      "pairs": [
+        [
+          0,
+          11
+        ],
+        [
+          8,
+          15
+        ]
+      ],
+      "axes": [
+        "x",
+        "y"
+      ],
+      "angles_over_pi": [
+        "2/4",
+        "2/4"
+      ],
+      "rank_1e-9": 13,
+      "smallest_singular": 4.09251242466403e-17
+    },
+    {
+      "pairs": [
+        [
+          0,
+          15
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "axes": [
+        "y",
+        "y"
+      ],
+      "angles_over_pi": [
+        "1/4",
+        "2/4"
+      ],
+      "rank_1e-9": 13,
+      "smallest_singular": 5.890394687023418e-17
+    },
+    {
+      "pairs": [
+        [
+          0,
+          11
+        ],
+        [
+          8,
+          15
+        ]
+      ],
+      "axes": [
+        "y",
+        "x"
+      ],
+      "angles_over_pi": [
+        "2/4",
+        "2/4"
+      ],
+      "rank_1e-9": 13,
+      "smallest_singular": 8.401940059600118e-17
+    },
+    {
+      "pairs": [
+        [
+          1,
+          12
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "axes": [
+        "y",
+        "y"
+      ],
+      "angles_over_pi": [
+        "1/4",
+        "2/4"
+      ],
+      "rank_1e-9": 14,
+      "smallest_singular": 1.2211303202770356e-18
+    },
+    {
+      "pairs": [
+        [
+          0,
+          15
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "axes": [
+        "y",
+        "x"
+      ],
+      "angles_over_pi": [
+        "2/4",
+        "2/4"
+      ],
+      "rank_1e-9": 14,
+      "smallest_singular": 2.9159793627639492e-18
+    },
+    {
+      "pairs": [
+        [
+          0,
+          15
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "axes": [
+        "y",
+        "y"
+      ],
+      "angles_over_pi": [
+        "2/4",
+        "2/4"
+      ],
+      "rank_1e-9": 14,
+      "smallest_singular": 5.54307723334957e-18
+    }
+  ],
+  "scope": "two disjoint equal-label output pairs, X/Y axes, pi/4 or pi/2 angles"
+}

@@ -1,0 +1,1418 @@
+{
+  "basis_radicands": [
+    [
+      "1/2",
+      "-1/4"
+    ],
+    [
+      "2/3",
+      "0"
+    ],
+    [
+      "3/5",
+      "0"
+    ],
+    [
+      "252/367",
+      "-45/367"
+    ],
+    [
+      "3/7",
+      "-1/7"
+    ]
+  ],
+  "representation_proofs": [
+    {
+      "coordinate": 0,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 0,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 1,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 1,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 2,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 2,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 3,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 3,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 4,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 4,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 5,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 5,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 6,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 6,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 7,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 7,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 8,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 8,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 9,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 9,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 10,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 10,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 11,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 11,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 12,
+      "name": "sin",
+      "square": [
+        "1/2",
+        "-1/4"
+      ],
+      "sign": 1,
+      "mask": 1,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "new_generator": true
+    },
+    {
+      "coordinate": 12,
+      "name": "cos",
+      "square": [
+        "1/2",
+        "1/4"
+      ],
+      "sign": -1,
+      "mask": 1,
+      "K_factor": [
+        "1",
+        "1"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 13,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 13,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 14,
+      "name": "sin",
+      "square": [
+        "2/3",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 2,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "new_generator": true
+    },
+    {
+      "coordinate": 14,
+      "name": "cos",
+      "square": [
+        "1/3",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 2,
+      "K_factor": [
+        "0",
+        "1/2"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 15,
+      "name": "sin",
+      "square": [
+        "3/5",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 4,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "new_generator": true
+    },
+    {
+      "coordinate": 15,
+      "name": "cos",
+      "square": [
+        "2/5",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 6,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 16,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 16,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 17,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 17,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 18,
+      "name": "sin",
+      "square": [
+        "1/2",
+        "1/4"
+      ],
+      "sign": -1,
+      "mask": 1,
+      "K_factor": [
+        "1",
+        "1"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 18,
+      "name": "cos",
+      "square": [
+        "1/2",
+        "-1/4"
+      ],
+      "sign": -1,
+      "mask": 1,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 19,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 19,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 20,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 20,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 21,
+      "name": "sin",
+      "square": [
+        "1/6",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 2,
+      "K_factor": [
+        "1/2",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 21,
+      "name": "cos",
+      "square": [
+        "5/6",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 4,
+      "K_factor": [
+        "0",
+        "5/6"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 22,
+      "name": "sin",
+      "square": [
+        "1/2",
+        "-1/4"
+      ],
+      "sign": 1,
+      "mask": 1,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 22,
+      "name": "cos",
+      "square": [
+        "1/2",
+        "1/4"
+      ],
+      "sign": 1,
+      "mask": 1,
+      "K_factor": [
+        "1",
+        "1"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 23,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 23,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 24,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 24,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 25,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 25,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 26,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 26,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 27,
+      "name": "sin",
+      "square": [
+        "252/367",
+        "-45/367"
+      ],
+      "sign": 1,
+      "mask": 8,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "new_generator": true
+    },
+    {
+      "coordinate": 27,
+      "name": "cos",
+      "square": [
+        "115/367",
+        "45/367"
+      ],
+      "sign": 1,
+      "mask": 15,
+      "K_factor": [
+        "5/3",
+        "5/3"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 28,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 28,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 29,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 29,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 30,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 30,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 31,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 31,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 32,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 32,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 33,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 33,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 34,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 34,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 35,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 35,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 36,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 36,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 37,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 37,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 38,
+      "name": "sin",
+      "square": [
+        "3/7",
+        "-1/7"
+      ],
+      "sign": 1,
+      "mask": 16,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "new_generator": true
+    },
+    {
+      "coordinate": 38,
+      "name": "cos",
+      "square": [
+        "4/7",
+        "1/7"
+      ],
+      "sign": -1,
+      "mask": 17,
+      "K_factor": [
+        "2",
+        "2"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 39,
+      "name": "sin",
+      "square": [
+        "5/12",
+        "-5/48"
+      ],
+      "sign": 1,
+      "mask": 21,
+      "K_factor": [
+        "5/2",
+        "5/6"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 39,
+      "name": "cos",
+      "square": [
+        "7/12",
+        "5/48"
+      ],
+      "sign": -1,
+      "mask": 10,
+      "K_factor": [
+        "7/6",
+        "5/24"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 40,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 40,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 41,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 41,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 42,
+      "name": "sin",
+      "square": [
+        "1/3",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 2,
+      "K_factor": [
+        "0",
+        "1/2"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 42,
+      "name": "cos",
+      "square": [
+        "2/3",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 2,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 43,
+      "name": "sin",
+      "square": [
+        "3/4",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 2,
+      "K_factor": [
+        "0",
+        "3/4"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 43,
+      "name": "cos",
+      "square": [
+        "1/4",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1/2",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 44,
+      "name": "sin",
+      "square": [
+        "184/367",
+        "72/367"
+      ],
+      "sign": 1,
+      "mask": 9,
+      "K_factor": [
+        "4/3",
+        "4/3"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 44,
+      "name": "cos",
+      "square": [
+        "183/367",
+        "-72/367"
+      ],
+      "sign": -1,
+      "mask": 27,
+      "K_factor": [
+        "3",
+        "1"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 45,
+      "name": "sin",
+      "square": [
+        "19/28",
+        "3/28"
+      ],
+      "sign": 1,
+      "mask": 16,
+      "K_factor": [
+        "1/2",
+        "1"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 45,
+      "name": "cos",
+      "square": [
+        "9/28",
+        "-3/28"
+      ],
+      "sign": 1,
+      "mask": 18,
+      "K_factor": [
+        "0",
+        "3/4"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 46,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 46,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 47,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 47,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 48,
+      "name": "sin",
+      "square": [
+        "3/5",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 4,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 48,
+      "name": "cos",
+      "square": [
+        "2/5",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 6,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 49,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 49,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 50,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 50,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 51,
+      "name": "sin",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 51,
+      "name": "cos",
+      "zero": true
+    },
+    {
+      "coordinate": 52,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 52,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 53,
+      "name": "sin",
+      "square": [
+        "1/2",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "0",
+        "1/2"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 53,
+      "name": "cos",
+      "square": [
+        "1/2",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 0,
+      "K_factor": [
+        "0",
+        "1/2"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 54,
+      "name": "sin",
+      "square": [
+        "1/3",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 2,
+      "K_factor": [
+        "0",
+        "1/2"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 54,
+      "name": "cos",
+      "square": [
+        "2/3",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 2,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 55,
+      "name": "sin",
+      "square": [
+        "1/2",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "0",
+        "1/2"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 55,
+      "name": "cos",
+      "square": [
+        "1/2",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 0,
+      "K_factor": [
+        "0",
+        "1/2"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 56,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 56,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 57,
+      "name": "sin",
+      "zero": true
+    },
+    {
+      "coordinate": 57,
+      "name": "cos",
+      "square": [
+        "1",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 0,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 58,
+      "name": "sin",
+      "square": [
+        "2/5",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 6,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 58,
+      "name": "cos",
+      "square": [
+        "3/5",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 4,
+      "K_factor": [
+        "1",
+        "0"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 59,
+      "name": "sin",
+      "square": [
+        "5/6",
+        "0"
+      ],
+      "sign": 1,
+      "mask": 4,
+      "K_factor": [
+        "0",
+        "5/6"
+      ],
+      "relation_verified": true
+    },
+    {
+      "coordinate": 59,
+      "name": "cos",
+      "square": [
+        "1/6",
+        "0"
+      ],
+      "sign": -1,
+      "mask": 2,
+      "K_factor": [
+        "1/2",
+        "0"
+      ],
+      "relation_verified": true
+    }
+  ],
+  "source_sha256": "d500ff2a79c4717ff38d935d71b67bd798b06a7c6899a275fec25570b86b8d13",
+  "semantics": "Positive formal square roots; even if dependent, a zero dictionary guarantees exact zero."
+}

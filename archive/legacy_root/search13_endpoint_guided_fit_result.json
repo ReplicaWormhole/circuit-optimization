@@ -1,0 +1,879 @@
+{
+  "screen": "search13_endpoint_guided_screen_result.json",
+  "source": "topology14_exact_matchgate_rational.json",
+  "warm_source": "search13_prefix_delete_fit_p4_s1.json",
+  "selected": [
+    [
+      "2->0",
+      0
+    ],
+    [
+      "2->0",
+      3
+    ],
+    [
+      "1->3",
+      0
+    ],
+    [
+      "1->3",
+      1
+    ]
+  ],
+  "seed": 25050,
+  "maxiter": 350,
+  "phase_sigma": 0.04,
+  "warm_sigma": 0.08,
+  "rows": [
+    {
+      "initial_loss": 0.39510771201382355,
+      "loss": 0.3250479302281368,
+      "nit": 87,
+      "nfev": 137,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "case": 0,
+      "start": "phase",
+      "sigma": 0.04,
+      "orientation": "2->0",
+      "prefix": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "endpoint": [
+        2,
+        5,
+        10,
+        1
+      ],
+      "visited_phase_masks": [
+        6,
+        7
+      ],
+      "omitted_phase_masks": [
+        11,
+        14
+      ],
+      "tail_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_endpoint_guided_case0_phase.json",
+      "off_diagonal_error": 0.7984974122176228,
+      "valid_diagonalizer": false
+    },
+    {
+      "initial_loss": 0.9051047829874693,
+      "loss": 0.12500000000000014,
+      "nit": 63,
+      "nfev": 76,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "case": 0,
+      "start": "warm",
+      "sigma": 0.08,
+      "orientation": "2->0",
+      "prefix": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "endpoint": [
+        2,
+        5,
+        10,
+        1
+      ],
+      "visited_phase_masks": [
+        6,
+        7
+      ],
+      "omitted_phase_masks": [
+        11,
+        14
+      ],
+      "tail_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_endpoint_guided_case0_warm.json",
+      "off_diagonal_error": 0.7071067811865475,
+      "valid_diagonalizer": false
+    },
+    {
+      "initial_loss": 0.4655522175883581,
+      "loss": 0.32504793022813727,
+      "nit": 77,
+      "nfev": 139,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "case": 1,
+      "start": "phase",
+      "sigma": 0.04,
+      "orientation": "2->0",
+      "prefix": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "endpoint": [
+        2,
+        5,
+        10,
+        1
+      ],
+      "visited_phase_masks": [
+        6,
+        14
+      ],
+      "omitted_phase_masks": [
+        7,
+        11
+      ],
+      "tail_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_endpoint_guided_case1_phase.json",
+      "off_diagonal_error": 0.7984974133469196,
+      "valid_diagonalizer": false
+    },
+    {
+      "initial_loss": 0.9174006084896222,
+      "loss": 0.14176255852775643,
+      "nit": 225,
+      "nfev": 246,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "case": 1,
+      "start": "warm",
+      "sigma": 0.08,
+      "orientation": "2->0",
+      "prefix": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "endpoint": [
+        2,
+        5,
+        10,
+        1
+      ],
+      "visited_phase_masks": [
+        6,
+        14
+      ],
+      "omitted_phase_masks": [
+        7,
+        11
+      ],
+      "tail_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_endpoint_guided_case1_warm.json",
+      "off_diagonal_error": 0.2665569719007265,
+      "valid_diagonalizer": false
+    },
+    {
+      "initial_loss": 0.7380566821154031,
+      "loss": 0.12499999999999989,
+      "nit": 65,
+      "nfev": 89,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "case": 2,
+      "start": "phase",
+      "sigma": 0.04,
+      "orientation": "1->3",
+      "prefix": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "endpoint": [
+        8,
+        5,
+        10,
+        4
+      ],
+      "visited_phase_masks": [
+        11,
+        14
+      ],
+      "omitted_phase_masks": [
+        6,
+        7
+      ],
+      "tail_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_endpoint_guided_case2_phase.json",
+      "off_diagonal_error": 0.7071067811865475,
+      "valid_diagonalizer": false
+    },
+    {
+      "initial_loss": 0.8838111579540577,
+      "loss": 0.12499999999999986,
+      "nit": 64,
+      "nfev": 73,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "case": 2,
+      "start": "warm",
+      "sigma": 0.08,
+      "orientation": "1->3",
+      "prefix": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "endpoint": [
+        8,
+        5,
+        10,
+        4
+      ],
+      "visited_phase_masks": [
+        11,
+        14
+      ],
+      "omitted_phase_masks": [
+        6,
+        7
+      ],
+      "tail_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_endpoint_guided_case2_warm.json",
+      "off_diagonal_error": 0.7071067811865478,
+      "valid_diagonalizer": false
+    },
+    {
+      "initial_loss": 0.4478162643121755,
+      "loss": 0.3250479302281377,
+      "nit": 92,
+      "nfev": 113,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "case": 3,
+      "start": "phase",
+      "sigma": 0.04,
+      "orientation": "1->3",
+      "prefix": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "endpoint": [
+        8,
+        5,
+        10,
+        4
+      ],
+      "visited_phase_masks": [
+        6,
+        7
+      ],
+      "omitted_phase_masks": [
+        11,
+        14
+      ],
+      "tail_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_endpoint_guided_case3_phase.json",
+      "off_diagonal_error": 0.7984974139365244,
+      "valid_diagonalizer": false
+    },
+    {
+      "initial_loss": 0.79058937184512,
+      "loss": 0.1250000000000003,
+      "nit": 66,
+      "nfev": 76,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "case": 3,
+      "start": "warm",
+      "sigma": 0.08,
+      "orientation": "1->3",
+      "prefix": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "endpoint": [
+        8,
+        5,
+        10,
+        4
+      ],
+      "visited_phase_masks": [
+        6,
+        7
+      ],
+      "omitted_phase_masks": [
+        11,
+        14
+      ],
+      "tail_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_endpoint_guided_case3_warm.json",
+      "off_diagonal_error": 0.7071067811865485,
+      "valid_diagonalizer": false
+    }
+  ],
+  "best_loss": {
+    "initial_loss": 0.8838111579540577,
+    "loss": 0.12499999999999986,
+    "nit": 64,
+    "nfev": 73,
+    "optimizer_success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "case": 2,
+    "start": "warm",
+    "sigma": 0.08,
+    "orientation": "1->3",
+    "prefix": [
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "endpoint": [
+      8,
+      5,
+      10,
+      4
+    ],
+    "visited_phase_masks": [
+      11,
+      14
+    ],
+    "omitted_phase_masks": [
+      6,
+      7
+    ],
+    "tail_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "candidate": "search13_endpoint_guided_case2_warm.json",
+    "off_diagonal_error": 0.7071067811865478,
+    "valid_diagonalizer": false
+  },
+  "best_off_diagonal": {
+    "initial_loss": 0.9174006084896222,
+    "loss": 0.14176255852775643,
+    "nit": 225,
+    "nfev": 246,
+    "optimizer_success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "case": 1,
+    "start": "warm",
+    "sigma": 0.08,
+    "orientation": "2->0",
+    "prefix": [
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "endpoint": [
+      2,
+      5,
+      10,
+      1
+    ],
+    "visited_phase_masks": [
+      6,
+      14
+    ],
+    "omitted_phase_masks": [
+      7,
+      11
+    ],
+    "tail_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "candidate": "search13_endpoint_guided_case1_warm.json",
+    "off_diagonal_error": 0.2665569719007265,
+    "valid_diagonalizer": false
+  }
+}

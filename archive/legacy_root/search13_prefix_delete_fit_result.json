@@ -1,0 +1,488 @@
+{
+  "base": "topology14_exact_matchgate_rational.json",
+  "deleted_prefix_positions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "tail_blocks": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "seed": 134100,
+  "maxiter_per_start": 250,
+  "rows": [
+    {
+      "deleted": 0,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134100,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.8369878143544855,
+      "loss": 0.3250479302281393,
+      "nit": 101,
+      "nfev": 114,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.7984974153116094,
+      "eigenvalue_root_error": 0.9983513728958344,
+      "valid_diagonalizer": false,
+      "start": 0,
+      "candidate": "search13_prefix_delete_fit_p0_s0.json"
+    },
+    {
+      "deleted": 0,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134101,
+      "sigma": 0.2,
+      "maxiter": 250,
+      "initial_loss": 0.9305025447160739,
+      "loss": 0.2248981353691436,
+      "nit": 250,
+      "nfev": 270,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.41617307250428326,
+      "eigenvalue_root_error": 0.6249558109746002,
+      "valid_diagonalizer": false,
+      "start": 1,
+      "candidate": "search13_prefix_delete_fit_p0_s1.json"
+    },
+    {
+      "deleted": 1,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134102,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.7906625445362958,
+      "loss": 0.2508537144821918,
+      "nit": 94,
+      "nfev": 105,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.5098464801470484,
+      "eigenvalue_root_error": 0.8432879599991949,
+      "valid_diagonalizer": false,
+      "start": 0,
+      "candidate": "search13_prefix_delete_fit_p1_s0.json"
+    },
+    {
+      "deleted": 1,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134103,
+      "sigma": 0.2,
+      "maxiter": 250,
+      "initial_loss": 0.9233563963215357,
+      "loss": 0.29774575140626325,
+      "nit": 109,
+      "nfev": 119,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.7071068280078652,
+      "eigenvalue_root_error": 1.1309016993355712,
+      "valid_diagonalizer": false,
+      "start": 1,
+      "candidate": "search13_prefix_delete_fit_p1_s1.json"
+    },
+    {
+      "deleted": 2,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134104,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.8497276144027712,
+      "loss": 0.3516474116304873,
+      "nit": 126,
+      "nfev": 134,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.5323132513019715,
+      "eigenvalue_root_error": 1.2303858896599773,
+      "valid_diagonalizer": false,
+      "start": 0,
+      "candidate": "search13_prefix_delete_fit_p2_s0.json"
+    },
+    {
+      "deleted": 2,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134105,
+      "sigma": 0.2,
+      "maxiter": 250,
+      "initial_loss": 0.9289092739488218,
+      "loss": 0.2500000000000014,
+      "nit": 149,
+      "nfev": 160,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.7071067812146737,
+      "eigenvalue_root_error": 1.0,
+      "valid_diagonalizer": false,
+      "start": 1,
+      "candidate": "search13_prefix_delete_fit_p2_s1.json"
+    },
+    {
+      "deleted": 3,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134106,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.8354600732727355,
+      "loss": 0.3250479302281385,
+      "nit": 86,
+      "nfev": 94,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.79849742008017,
+      "eigenvalue_root_error": 0.9983513728638915,
+      "valid_diagonalizer": false,
+      "start": 0,
+      "candidate": "search13_prefix_delete_fit_p3_s0.json"
+    },
+    {
+      "deleted": 3,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134107,
+      "sigma": 0.2,
+      "maxiter": 250,
+      "initial_loss": 0.9286267772762794,
+      "loss": 0.14176255852775319,
+      "nit": 152,
+      "nfev": 163,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.26655697275403173,
+      "eigenvalue_root_error": 0.52889876185621,
+      "valid_diagonalizer": false,
+      "start": 1,
+      "candidate": "search13_prefix_delete_fit_p3_s1.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134108,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.7988188938404845,
+      "loss": 0.47591643213873186,
+      "nit": 250,
+      "nfev": 268,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.8980896560049212,
+      "eigenvalue_root_error": 1.1418708925431365,
+      "valid_diagonalizer": false,
+      "start": 0,
+      "candidate": "search13_prefix_delete_fit_p4_s0.json"
+    },
+    {
+      "deleted": 4,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134109,
+      "sigma": 0.2,
+      "maxiter": 250,
+      "initial_loss": 0.910449204618138,
+      "loss": 0.14176255852774977,
+      "nit": 105,
+      "nfev": 113,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.2665569736520387,
+      "eigenvalue_root_error": 0.5288987713440814,
+      "valid_diagonalizer": false,
+      "start": 1,
+      "candidate": "search13_prefix_delete_fit_p4_s1.json"
+    },
+    {
+      "deleted": 5,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134110,
+      "sigma": 0.03,
+      "maxiter": 250,
+      "initial_loss": 0.8513326514587245,
+      "loss": 0.14176255852775188,
+      "nit": 150,
+      "nfev": 162,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.26655697292110975,
+      "eigenvalue_root_error": 0.5288987705274026,
+      "valid_diagonalizer": false,
+      "start": 0,
+      "candidate": "search13_prefix_delete_fit_p5_s0.json"
+    },
+    {
+      "deleted": 5,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 134111,
+      "sigma": 0.2,
+      "maxiter": 250,
+      "initial_loss": 0.9332058512538515,
+      "loss": 0.23686687207258095,
+      "nit": 161,
+      "nfev": 171,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.4523801163916784,
+      "eigenvalue_root_error": 0.6939696280748223,
+      "valid_diagonalizer": false,
+      "start": 1,
+      "candidate": "search13_prefix_delete_fit_p5_s1.json"
+    }
+  ],
+  "best": {
+    "deleted": 4,
+    "block_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "seed": 134109,
+    "sigma": 0.2,
+    "maxiter": 250,
+    "initial_loss": 0.910449204618138,
+    "loss": 0.14176255852774977,
+    "nit": 105,
+    "nfev": 113,
+    "optimizer_success": true,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "off_diagonal_error": 0.2665569736520387,
+    "eigenvalue_root_error": 0.5288987713440814,
+    "valid_diagonalizer": false,
+    "start": 1,
+    "candidate": "search13_prefix_delete_fit_p4_s1.json"
+  }
+}

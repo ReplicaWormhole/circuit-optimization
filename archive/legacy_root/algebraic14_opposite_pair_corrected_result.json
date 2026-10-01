@@ -1,0 +1,168 @@
+{
+  "results": [
+    {
+      "k": 0,
+      "delta_pi_over_16": 0,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.5407552483670578e-15,
+      "valid": true
+    },
+    {
+      "k": 1,
+      "delta_pi_over_16": 1,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.9793012272719173e-15,
+      "valid": true
+    },
+    {
+      "k": 2,
+      "delta_pi_over_16": 2,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 9.761916494637735e-16,
+      "valid": true,
+      "candidate": "algebraic14_opposite_pair_best.json"
+    },
+    {
+      "k": 3,
+      "delta_pi_over_16": 3,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.7762593155415235e-15,
+      "valid": true
+    },
+    {
+      "k": 4,
+      "delta_pi_over_16": 4,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.4096518553013892e-15,
+      "valid": true
+    },
+    {
+      "k": 5,
+      "delta_pi_over_16": 5,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 2.06600382393727e-15,
+      "valid": true
+    },
+    {
+      "k": 6,
+      "delta_pi_over_16": 6,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.3972454725624569e-15,
+      "valid": true
+    },
+    {
+      "k": 7,
+      "delta_pi_over_16": 7,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 2.297755865776621e-15,
+      "valid": true
+    },
+    {
+      "k": 8,
+      "delta_pi_over_16": 8,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 2.112343365827712e-15,
+      "valid": true
+    },
+    {
+      "k": 9,
+      "delta_pi_over_16": 9,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 2.0546626093100596e-15,
+      "valid": true
+    },
+    {
+      "k": 10,
+      "delta_pi_over_16": 10,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.7557711890364456e-15,
+      "valid": true
+    },
+    {
+      "k": 11,
+      "delta_pi_over_16": 11,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 2.7525590004839327e-15,
+      "valid": true
+    },
+    {
+      "k": 12,
+      "delta_pi_over_16": 12,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.4929660725389001e-15,
+      "valid": true
+    },
+    {
+      "k": 13,
+      "delta_pi_over_16": 13,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.3259146911201746e-15,
+      "valid": true
+    },
+    {
+      "k": 14,
+      "delta_pi_over_16": 14,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.8676825336212616e-15,
+      "valid": true
+    },
+    {
+      "k": 15,
+      "delta_pi_over_16": 15,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.388056308787576e-15,
+      "valid": true
+    },
+    {
+      "k": 16,
+      "delta_pi_over_16": 16,
+      "first_butterfly_cnot": 2,
+      "second_butterfly_cnot": 2,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.1793057962592368e-15,
+      "valid": true
+    }
+  ],
+  "best": {
+    "k": 2,
+    "delta_pi_over_16": 2,
+    "first_butterfly_cnot": 2,
+    "second_butterfly_cnot": 2,
+    "total_cnot": 15,
+    "off_diagonal_error": 9.761916494637735e-16,
+    "valid": true,
+    "candidate": "algebraic14_opposite_pair_best.json"
+  }
+}

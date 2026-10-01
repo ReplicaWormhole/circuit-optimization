@@ -1,0 +1,2072 @@
+{
+  "baseline_loss": 0.0787330125161619,
+  "best_candidate": "search13_joint_prefix_one_step_escape_rank1.json",
+  "best_off_diagonal_error": 0.38641938214453964,
+  "fits": 6,
+  "maxiter": 250,
+  "rows": [
+    {
+      "candidate": "search13_joint_prefix_one_step_escape_rank0.json",
+      "cnot_count": 13,
+      "initial_loss": 0.3309147434978802,
+      "loss": 0.31830084371767436,
+      "nfev": 130,
+      "nit": 119,
+      "off_diagonal_error": 0.9600890925539337,
+      "old": [
+        2,
+        3
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "rank": 0,
+      "raw_loss": 0.3309147434978802,
+      "replacement": [
+        0,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 12,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_one_step_escape_rank1.json",
+      "cnot_count": 13,
+      "initial_loss": 0.49370371127664675,
+      "loss": 0.07879651107629726,
+      "nfev": 136,
+      "nit": 124,
+      "off_diagonal_error": 0.38641938214453964,
+      "old": [
+        0,
+        2
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "rank": 1,
+      "raw_loss": 0.49370371127664675,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 5,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_one_step_escape_rank2.json",
+      "cnot_count": 13,
+      "initial_loss": 0.6093564598384323,
+      "loss": 0.12500000000000488,
+      "nfev": 142,
+      "nit": 132,
+      "off_diagonal_error": 0.7071067811865457,
+      "old": [
+        0,
+        2
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "rank": 2,
+      "raw_loss": 0.6093564598384323,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 6,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_one_step_escape_rank3.json",
+      "cnot_count": 13,
+      "initial_loss": 0.6382526166309657,
+      "loss": 0.5000000000000028,
+      "nfev": 175,
+      "nit": 146,
+      "off_diagonal_error": 0.9065295833620903,
+      "old": [
+        2,
+        3
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "rank": 3,
+      "raw_loss": 0.6382526166309657,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 11,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_one_step_escape_rank4.json",
+      "cnot_count": 13,
+      "initial_loss": 0.7072077422207736,
+      "loss": 0.4352453287577611,
+      "nfev": 199,
+      "nit": 186,
+      "off_diagonal_error": 0.9256804644067167,
+      "old": [
+        0,
+        1
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "rank": 4,
+      "raw_loss": 0.7072077422207736,
+      "replacement": [
+        0,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 2,
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_joint_prefix_one_step_escape_rank5.json",
+      "cnot_count": 13,
+      "initial_loss": 0.767809016885991,
+      "loss": 0.18428062362683106,
+      "nfev": 192,
+      "nit": 179,
+      "off_diagonal_error": 0.5035204168444437,
+      "old": [
+        0,
+        2
+      ],
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "optimizer_success": true,
+      "rank": 5,
+      "raw_loss": 0.767809016885991,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 3,
+      "valid_diagonalizer": false
+    }
+  ],
+  "scope": "one-step mutations of one fixed 13-CNOT topology and warm local layers; bounded fits, no no-go",
+  "screen": [
+    {
+      "old": [
+        3,
+        1
+      ],
+      "raw_loss": 0.8448814097481743,
+      "replacement": [
+        0,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 0
+    },
+    {
+      "old": [
+        3,
+        1
+      ],
+      "raw_loss": 0.8612380893441345,
+      "replacement": [
+        0,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 0
+    },
+    {
+      "old": [
+        3,
+        1
+      ],
+      "raw_loss": 0.919654168682327,
+      "replacement": [
+        0,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 0
+    },
+    {
+      "old": [
+        3,
+        1
+      ],
+      "raw_loss": 0.9312316770365374,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 0
+    },
+    {
+      "old": [
+        3,
+        1
+      ],
+      "raw_loss": 0.9281809661017594,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 0
+    },
+    {
+      "old": [
+        3,
+        1
+      ],
+      "raw_loss": 0.9140768234742243,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": true,
+      "slot": 0
+    },
+    {
+      "old": [
+        3,
+        1
+      ],
+      "raw_loss": 0.9101973931311899,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 0
+    },
+    {
+      "old": [
+        3,
+        1
+      ],
+      "raw_loss": 0.8580574597774394,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 0
+    },
+    {
+      "old": [
+        3,
+        1
+      ],
+      "raw_loss": 0.9211241458913073,
+      "replacement": [
+        2,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 0
+    },
+    {
+      "old": [
+        3,
+        1
+      ],
+      "raw_loss": 0.8528487158718986,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 0
+    },
+    {
+      "old": [
+        3,
+        1
+      ],
+      "raw_loss": 0.8425147164389981,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 0
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.916067407846965,
+      "replacement": [
+        0,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 1
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9199877582940237,
+      "replacement": [
+        0,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 1
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9125614428125298,
+      "replacement": [
+        0,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 1
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.8802220392846777,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 1
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9076428626623884,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 1
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9241563755817354,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 1
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9143691463842925,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": true,
+      "slot": 1
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9142324716317822,
+      "replacement": [
+        2,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 1
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9315349799838358,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 1
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9112633368520177,
+      "replacement": [
+        3,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 1
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9126625107553168,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 1
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.7072077422207736,
+      "replacement": [
+        0,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 2
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9028519987867696,
+      "replacement": [
+        0,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 2
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.90307641079839,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": true,
+      "slot": 2
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9097405640383163,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 2
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9412289889700968,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 2
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9239489079003392,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 2
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.7632045995975593,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 2
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9056366225251783,
+      "replacement": [
+        2,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 2
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9205803654494145,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 2
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.8349106842301339,
+      "replacement": [
+        3,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 2
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.894891578219135,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 2
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.8230849974629859,
+      "replacement": [
+        0,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 3
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.7736230488110765,
+      "replacement": [
+        0,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 3
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.8761602938270993,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 3
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.8570736831170469,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 3
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.8490978063712872,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 3
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.9380040171540098,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": true,
+      "slot": 3
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.9226971439240066,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 3
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.9406135078674577,
+      "replacement": [
+        2,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 3
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.8850978452861209,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 3
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.9402434205276837,
+      "replacement": [
+        3,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 3
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.767809016885991,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 3
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9179241354663454,
+      "replacement": [
+        0,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 4
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.8989903404119702,
+      "replacement": [
+        0,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 4
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9476480482907607,
+      "replacement": [
+        0,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 4
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.8978833182064201,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 4
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.8191347188945517,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 4
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9324246097564197,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 4
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9219253646937661,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": true,
+      "slot": 4
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.932307199327684,
+      "replacement": [
+        2,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 4
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9260451142694843,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 4
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.9369192131180941,
+      "replacement": [
+        3,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 4
+    },
+    {
+      "old": [
+        1,
+        2
+      ],
+      "raw_loss": 0.8756589023505008,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 4
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.716249260177823,
+      "replacement": [
+        0,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 5
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.7619460795704738,
+      "replacement": [
+        0,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 5
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.5411887334679341,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 5
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.49370371127664675,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 5
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.6818629436376457,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 5
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.8156486323023987,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": true,
+      "slot": 5
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.9213827641288552,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 5
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.8918793872301274,
+      "replacement": [
+        2,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 5
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.7729864466082679,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 5
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.8968128704496439,
+      "replacement": [
+        3,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 5
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.6603976514667174,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 5
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.7984282842787852,
+      "replacement": [
+        0,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 6
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.8222354433583472,
+      "replacement": [
+        0,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 6
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.7059170326979635,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 6
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.6093564598384323,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 6
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.7998549694422675,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 6
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.8109748191526254,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": true,
+      "slot": 6
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.9368219270636329,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 6
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.8298364354280943,
+      "replacement": [
+        2,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 6
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.8159669596234806,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 6
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.9258911513542305,
+      "replacement": [
+        3,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 6
+    },
+    {
+      "old": [
+        0,
+        2
+      ],
+      "raw_loss": 0.6887881264945758,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 6
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.8689951676181993,
+      "replacement": [
+        0,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 7
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.8727519610301812,
+      "replacement": [
+        0,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 7
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.9514955640534158,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 7
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.9300058761058367,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 7
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.9147502477872158,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 7
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.8736704915534438,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 7
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.9479774384613094,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 7
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.8273574063311042,
+      "replacement": [
+        2,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 7
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.8664507023445397,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": true,
+      "slot": 7
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.9220480593086482,
+      "replacement": [
+        3,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 7
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.875183027475775,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 7
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.8690017807687016,
+      "replacement": [
+        0,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 8
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.8700773722554596,
+      "replacement": [
+        0,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 8
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.9354845900578608,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 8
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.9366758021315521,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 8
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.8950897220707712,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 8
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.8861168412134434,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 8
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.9475381799469842,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 8
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.8568277496891792,
+      "replacement": [
+        2,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 8
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.9121726681232105,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": true,
+      "slot": 8
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.9228975675790433,
+      "replacement": [
+        3,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 8
+    },
+    {
+      "old": [
+        0,
+        3
+      ],
+      "raw_loss": 0.8815002084240291,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 8
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.8794279530444926,
+      "replacement": [
+        0,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 9
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.8758564951199391,
+      "replacement": [
+        0,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 9
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.7843839559533282,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": true,
+      "slot": 9
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9089469546006412,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 9
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.919745230889992,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 9
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.916216736308183,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 9
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9000254327642183,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 9
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9405246548576608,
+      "replacement": [
+        2,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 9
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9156635220301763,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 9
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.8971071539440684,
+      "replacement": [
+        3,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 9
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9637672141382108,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 9
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.8745844345515119,
+      "replacement": [
+        0,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 10
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.8751675165183799,
+      "replacement": [
+        0,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 10
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.7554669144008284,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": true,
+      "slot": 10
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9219710944294248,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 10
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9179857398405458,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 10
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.948562888232116,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 10
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.892597619364135,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 10
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9310904569336098,
+      "replacement": [
+        2,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 10
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9493439979174961,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 10
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.8932774145968226,
+      "replacement": [
+        3,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 10
+    },
+    {
+      "old": [
+        0,
+        1
+      ],
+      "raw_loss": 0.9334362034709474,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 10
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.6623777871701033,
+      "replacement": [
+        0,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 11
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.6620978191041763,
+      "replacement": [
+        0,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 11
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.6615306322208396,
+      "replacement": [
+        0,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 11
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.8055875523179483,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 11
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.8017006649837163,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 11
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.7713934725551439,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 11
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.6382526166309657,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 11
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.6411360341641553,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 11
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.8579167211273517,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 11
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.864039383667528,
+      "replacement": [
+        3,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 11
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.6519923708845582,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": true,
+      "slot": 11
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.3320627488360115,
+      "replacement": [
+        0,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 12
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.3541090012806096,
+      "replacement": [
+        0,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 12
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.3309147434978802,
+      "replacement": [
+        0,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 12
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.39861949229407856,
+      "replacement": [
+        1,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 12
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.41372184719522864,
+      "replacement": [
+        1,
+        2
+      ],
+      "same_unordered_pair": false,
+      "slot": 12
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.4146675861869811,
+      "replacement": [
+        1,
+        3
+      ],
+      "same_unordered_pair": false,
+      "slot": 12
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.6101277749869458,
+      "replacement": [
+        2,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 12
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.5684762468880875,
+      "replacement": [
+        2,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 12
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.8595300909994809,
+      "replacement": [
+        3,
+        0
+      ],
+      "same_unordered_pair": false,
+      "slot": 12
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.8664480748810389,
+      "replacement": [
+        3,
+        1
+      ],
+      "same_unordered_pair": false,
+      "slot": 12
+    },
+    {
+      "old": [
+        2,
+        3
+      ],
+      "raw_loss": 0.860407873930633,
+      "replacement": [
+        3,
+        2
+      ],
+      "same_unordered_pair": true,
+      "slot": 12
+    }
+  ],
+  "screened_directed_replacements": 143,
+  "selection_rule": "lowest raw loss at distinct slots, excluding pure CNOT direction reversals",
+  "source": "search13_joint_prefix_orbit_refine_0.json",
+  "source_topology": [
+    [
+      3,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "endpoint_screen": {
+    "model_count": 54,
+    "ordered_five_cnot_schedules": 248832,
+    "valid_model_paths": 3584,
+    "valid_model_endpoints": 686,
+    "one_cnot_targets": {
+      "0->2": [
+        8,
+        5,
+        2,
+        1
+      ],
+      "2->0": [
+        2,
+        5,
+        10,
+        1
+      ],
+      "1->3": [
+        8,
+        5,
+        10,
+        4
+      ],
+      "3->1": [
+        8,
+        4,
+        10,
+        1
+      ]
+    },
+    "all_path_target_counts": {
+      "3->1": 1165,
+      "0->2": 1165,
+      "2->0": 209,
+      "1->3": 209
+    },
+    "valid_model_target_counts": {
+      "0->2": 0,
+      "2->0": 0,
+      "1->3": 0,
+      "3->1": 0
+    }
+  },
+  "cartan_screen": {
+    "0->2": {
+      "trace_m_exact": [
+        "-2*zeta**16",
+        "-2 + 4*zeta**16",
+        "2"
+      ],
+      "trace_m_zero": [
+        false,
+        false,
+        false
+      ],
+      "same_magic_polynomial_as_first_matchgate": false
+    },
+    "2->0": {
+      "trace_m_exact": [
+        "0",
+        "0",
+        "0"
+      ],
+      "trace_m_zero": [
+        true,
+        true,
+        true
+      ],
+      "same_magic_polynomial_as_first_matchgate": true
+    },
+    "1->3": {
+      "trace_m_exact": [
+        "0",
+        "0",
+        "0"
+      ],
+      "trace_m_zero": [
+        true,
+        true,
+        true
+      ],
+      "same_magic_polynomial_as_first_matchgate": true
+    },
+    "3->1": {
+      "trace_m_exact": [
+        "2*zeta**8 - 2*zeta**24",
+        "2 - 4*zeta**16",
+        "-2*zeta**24"
+      ],
+      "trace_m_zero": [
+        false,
+        false,
+        false
+      ],
+      "same_magic_polynomial_as_first_matchgate": false
+    }
+  }
+}

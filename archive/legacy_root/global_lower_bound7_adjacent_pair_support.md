@@ -1,0 +1,1 @@
+../../global_lower_bound7_adjacent_pair_support.md

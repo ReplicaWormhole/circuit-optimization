@@ -1,0 +1,63 @@
+"""Exact two-CNOT selected-axis witness in the adjacent/adjacent span."""
+
+import json
+from pathlib import Path
+from itertools import permutations
+
+import sympy as sp
+
+ROOT = Path(__file__).resolve().parent
+I = sp.eye(2)
+X = sp.Matrix([[0,1],[1,0]])
+Y = sp.Matrix([[0,-sp.I],[sp.I,0]])
+Z = sp.diag(1,-1)
+H = (X+Z)/sp.sqrt(2)
+
+
+def on_wire(matrix, wire):
+    return sp.kronecker_product(*(matrix if q==wire else I for q in range(4)))
+
+
+def pauli_string(label):
+    d={'I':I,'X':X,'Y':Y,'Z':Z}
+    return sp.kronecker_product(*(d[letter] for letter in label))
+
+
+def main():
+    cx01=sp.zeros(16)
+    cz03=sp.zeros(16)
+    shift=sp.zeros(16)
+    for state in range(16):
+        b0=(state>>3)&1
+        b3=state&1
+        cx01[state ^ (b0<<2),state]=1
+        cz03[state,state]=(-1)**(b0*b3)
+        shift[((state&1)<<3)|(state>>1),state]=1
+    p=(on_wire(X,0)-on_wire(Y,0)+on_wire(Z,0))/sp.sqrt(3)
+    u=cz03*on_wire(H,0)*cx01
+    a=sp.simplify(u*p*u.H)
+    expected=(pauli_string('ZXII')+pauli_string('X I I Z'.replace(' ',''))
+              +pauli_string('YXIZ'))/sp.sqrt(3)
+    # The final term has Y on j, X on k, and Z on l.
+    assert expected == (pauli_string('ZXII')+pauli_string('XIIZ')
+                        +pauli_string('YXIZ'))/sp.sqrt(3)
+    assert sp.simplify(a-expected)==sp.zeros(16)
+    assert sp.simplify(a*a-sp.eye(16))==sp.zeros(16)
+    ms=[sum(((-sp.I)**(k*r)*shift**r for r in range(4)),sp.zeros(16))
+        for k in range(4)]
+    assert all(sp.simplify(ms[i]*a*ms[j]*a*ms[k])==sp.zeros(16)
+               for i,j,k in permutations(range(4),3))
+    trace_moments=[sp.simplify(sp.trace(shift**r*a)) for r in (1,2,3)]
+    result={'selected_axis':'(X0-Y0+Z0)/sqrt(3)',
+            'two_entangling_gates':['CNOT(0,1)','CZ(0,3)'],
+            'interposed_local_gate':'H0',
+            'image':'(Z0 X1 + X0 Z3 + Y0 X1 Z3)/sqrt(3)',
+            'spectral_path_exact':True,'involution_exact':True,
+            'trace_V_powers_1_2_3':[str(v) for v in trace_moments]}
+    (ROOT/'global_lower_bound7_degree3_centered_aa_witness_result.json').write_text(
+        json.dumps(result,indent=2,sort_keys=True)+'\n')
+    print(json.dumps(result,sort_keys=True))
+
+
+if __name__=='__main__':
+    main()

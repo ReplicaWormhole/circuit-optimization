@@ -1,0 +1,700 @@
+{
+  "total_trials": 384,
+  "phase_exponents_in_units_pi_over4": true,
+  "by_mode": {
+    "RR": {
+      "trials": 128,
+      "orbit_constant": 0,
+      "minimum_raw_cx": 16,
+      "minimum_varying_orbits": 2
+    },
+    "RE": {
+      "trials": 128,
+      "orbit_constant": 0,
+      "minimum_raw_cx": 19,
+      "minimum_varying_orbits": 3
+    },
+    "ER": {
+      "trials": 128,
+      "orbit_constant": 0,
+      "minimum_raw_cx": 19,
+      "minimum_varying_orbits": 3
+    }
+  },
+  "common_phase_patterns": [
+    {
+      "exponents_mod8": [
+        2,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        6,
+        2,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        6
+      ],
+      "count": 8
+    },
+    {
+      "exponents_mod8": [
+        2,
+        0,
+        0,
+        4,
+        2,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        6
+      ],
+      "count": 8
+    },
+    {
+      "exponents_mod8": [
+        0,
+        0,
+        0,
+        2,
+        6,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        2,
+        6,
+        0,
+        4,
+        0
+      ],
+      "count": 8
+    },
+    {
+      "exponents_mod8": [
+        0,
+        2,
+        0,
+        2,
+        4,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        6,
+        0
+      ],
+      "count": 8
+    },
+    {
+      "exponents_mod8": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        4,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        6
+      ],
+      "count": 8
+    },
+    {
+      "exponents_mod8": [
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        6,
+        0,
+        0,
+        2,
+        0,
+        2,
+        4,
+        0,
+        4,
+        0
+      ],
+      "count": 8
+    },
+    {
+      "exponents_mod8": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        6
+      ],
+      "count": 8
+    },
+    {
+      "exponents_mod8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        6,
+        6,
+        0,
+        0,
+        4,
+        4,
+        0,
+        0
+      ],
+      "count": 8
+    }
+  ],
+  "compiled_best_twelve": [
+    {
+      "first_form": [
+        15,
+        3,
+        6,
+        0,
+        0
+      ],
+      "second_form": [
+        6,
+        7,
+        8,
+        1,
+        0
+      ],
+      "mode": [
+        true,
+        true
+      ],
+      "raw_cx_estimate": 16,
+      "phase_exponents_mod8": [
+        0,
+        0,
+        4,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        2,
+        2,
+        0,
+        2,
+        2,
+        0
+      ],
+      "orbit_constant": false,
+      "varying_orbit_count": 2,
+      "compiled_cx": 16
+    },
+    {
+      "first_form": [
+        15,
+        6,
+        12,
+        0,
+        0
+      ],
+      "second_form": [
+        12,
+        1,
+        14,
+        1,
+        0
+      ],
+      "mode": [
+        true,
+        true
+      ],
+      "raw_cx_estimate": 16,
+      "phase_exponents_mod8": [
+        0,
+        0,
+        2,
+        0,
+        6,
+        2,
+        0,
+        0,
+        6,
+        0,
+        2,
+        4,
+        0,
+        4,
+        6,
+        0
+      ],
+      "orbit_constant": false,
+      "varying_orbit_count": 2,
+      "compiled_cx": 16
+    },
+    {
+      "first_form": [
+        15,
+        3,
+        5,
+        0,
+        0
+      ],
+      "second_form": [
+        9,
+        4,
+        11,
+        1,
+        0
+      ],
+      "mode": [
+        true,
+        true
+      ],
+      "raw_cx_estimate": 16,
+      "phase_exponents_mod8": [
+        0,
+        2,
+        6,
+        0,
+        0,
+        0,
+        2,
+        0,
+        6,
+        2,
+        0,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "orbit_constant": false,
+      "varying_orbit_count": 3,
+      "compiled_cx": 16
+    },
+    {
+      "first_form": [
+        15,
+        3,
+        5,
+        1,
+        1
+      ],
+      "second_form": [
+        9,
+        2,
+        13,
+        1,
+        0
+      ],
+      "mode": [
+        true,
+        true
+      ],
+      "raw_cx_estimate": 16,
+      "phase_exponents_mod8": [
+        2,
+        2,
+        0,
+        4,
+        2,
+        0,
+        0,
+        4,
+        2,
+        4,
+        0,
+        4,
+        4,
+        6,
+        0,
+        6
+      ],
+      "orbit_constant": false,
+      "varying_orbit_count": 3,
+      "compiled_cx": 16
+    },
+    {
+      "first_form": [
+        15,
+        3,
+        5,
+        1,
+        1
+      ],
+      "second_form": [
+        12,
+        2,
+        13,
+        1,
+        0
+      ],
+      "mode": [
+        true,
+        true
+      ],
+      "raw_cx_estimate": 16,
+      "phase_exponents_mod8": [
+        2,
+        2,
+        0,
+        4,
+        2,
+        0,
+        0,
+        4,
+        2,
+        4,
+        0,
+        4,
+        4,
+        6,
+        0,
+        6
+      ],
+      "orbit_constant": false,
+      "varying_orbit_count": 3,
+      "compiled_cx": 16
+    },
+    {
+      "first_form": [
+        15,
+        3,
+        6,
+        0,
+        0
+      ],
+      "second_form": [
+        3,
+        7,
+        8,
+        0,
+        1
+      ],
+      "mode": [
+        true,
+        true
+      ],
+      "raw_cx_estimate": 16,
+      "phase_exponents_mod8": [
+        0,
+        2,
+        6,
+        0,
+        6,
+        6,
+        4,
+        2,
+        0,
+        0,
+        6,
+        0,
+        4,
+        0,
+        4,
+        0
+      ],
+      "orbit_constant": false,
+      "varying_orbit_count": 3,
+      "compiled_cx": 16
+    },
+    {
+      "first_form": [
+        15,
+        3,
+        6,
+        0,
+        0
+      ],
+      "second_form": [
+        3,
+        7,
+        8,
+        1,
+        0
+      ],
+      "mode": [
+        true,
+        true
+      ],
+      "raw_cx_estimate": 16,
+      "phase_exponents_mod8": [
+        0,
+        0,
+        4,
+        4,
+        0,
+        2,
+        4,
+        0,
+        2,
+        0,
+        2,
+        6,
+        0,
+        2,
+        6,
+        0
+      ],
+      "orbit_constant": false,
+      "varying_orbit_count": 3,
+      "compiled_cx": 16
+    },
+    {
+      "first_form": [
+        15,
+        3,
+        9,
+        0,
+        0
+      ],
+      "second_form": [
+        9,
+        4,
+        11,
+        1,
+        0
+      ],
+      "mode": [
+        true,
+        true
+      ],
+      "raw_cx_estimate": 16,
+      "phase_exponents_mod8": [
+        0,
+        2,
+        6,
+        0,
+        0,
+        6,
+        4,
+        0,
+        6,
+        4,
+        6,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "orbit_constant": false,
+      "varying_orbit_count": 3,
+      "compiled_cx": 16
+    },
+    {
+      "first_form": [
+        15,
+        3,
+        9,
+        1,
+        1
+      ],
+      "second_form": [
+        12,
+        1,
+        14,
+        0,
+        1
+      ],
+      "mode": [
+        true,
+        true
+      ],
+      "raw_cx_estimate": 16,
+      "phase_exponents_mod8": [
+        6,
+        2,
+        0,
+        4,
+        0,
+        0,
+        0,
+        6,
+        0,
+        4,
+        0,
+        6,
+        0,
+        6,
+        0,
+        6
+      ],
+      "orbit_constant": false,
+      "varying_orbit_count": 3,
+      "compiled_cx": 14
+    },
+    {
+      "first_form": [
+        15,
+        3,
+        10,
+        0,
+        0
+      ],
+      "second_form": [
+        3,
+        7,
+        8,
+        0,
+        1
+      ],
+      "mode": [
+        true,
+        true
+      ],
+      "raw_cx_estimate": 16,
+      "phase_exponents_mod8": [
+        0,
+        2,
+        6,
+        0,
+        6,
+        0,
+        6,
+        2,
+        0,
+        2,
+        0,
+        0,
+        4,
+        0,
+        4,
+        0
+      ],
+      "orbit_constant": false,
+      "varying_orbit_count": 3,
+      "compiled_cx": 16
+    },
+    {
+      "first_form": [
+        15,
+        3,
+        10,
+        0,
+        0
+      ],
+      "second_form": [
+        3,
+        7,
+        8,
+        1,
+        0
+      ],
+      "mode": [
+        true,
+        true
+      ],
+      "raw_cx_estimate": 16,
+      "phase_exponents_mod8": [
+        0,
+        0,
+        4,
+        4,
+        0,
+        4,
+        6,
+        0,
+        2,
+        2,
+        4,
+        6,
+        0,
+        2,
+        6,
+        0
+      ],
+      "orbit_constant": false,
+      "varying_orbit_count": 3,
+      "compiled_cx": 16
+    },
+    {
+      "first_form": [
+        15,
+        3,
+        10,
+        0,
+        0
+      ],
+      "second_form": [
+        6,
+        7,
+        8,
+        1,
+        0
+      ],
+      "mode": [
+        true,
+        true
+      ],
+      "raw_cx_estimate": 16,
+      "phase_exponents_mod8": [
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        6,
+        0,
+        2,
+        6,
+        4,
+        2,
+        0,
+        2,
+        2,
+        0
+      ],
+      "orbit_constant": false,
+      "varying_orbit_count": 3,
+      "compiled_cx": 16
+    }
+  ]
+}

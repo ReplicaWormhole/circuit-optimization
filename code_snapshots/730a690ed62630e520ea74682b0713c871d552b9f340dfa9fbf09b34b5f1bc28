@@ -1,0 +1,83 @@
+"""Test three-cycle row gauges at the nine-CNOT split of topology 2.
+
+The exact15 final-five-CNOT suffix could not be replaced by four CNOTs
+under one or two three-cycle gauges (runs 139-140). This changes the
+intermediate basis: freeze only the nine-CNOT prefix of catalog topology 2,
+then ask whether any gauged six-CNOT suffix passes necessary five-CNOT
+operator-Schmidt graph bounds.
+"""
+
+import itertools
+import json
+import math
+from pathlib import Path
+
+import numpy as np
+
+from exact_check import exact_eigenvalue_labels
+from topology14_alt_suffix_rank import CUTS, EDGES
+from topology14_boundary_schmidt import schmidt_singular_values
+from topology14_twolevel_boundary_rank import circuit_matrix
+
+
+ROOT = Path(__file__).resolve().parent
+SOURCE = ROOT / "fivemask15_topology_2.json"
+RESULT = ROOT / "output_threecycle_topology2_5cx_result.json"
+
+
+def cut_ranks(matrix):
+    return {"".join(map(str, cut)): int(np.count_nonzero(
+        schmidt_singular_values(matrix, cut) > 1e-9)) for cut in CUTS}
+
+
+def graphs_for(ranks):
+    requirements = {cut: math.ceil(math.log2(rank))
+                    for cut, rank in ranks.items()}
+    good = []
+    for graph in itertools.combinations_with_replacement(EDGES, 5):
+        if all(sum((a in cut) != (b in cut) for a, b in graph)
+               >= requirements["".join(map(str, cut))]
+               for cut in CUTS):
+            good.append([[a, b] for a, b in graph])
+    return good
+
+
+def main():
+    source = json.loads(SOURCE.read_text())
+    labels = exact_eigenvalue_labels(source)["output_labels"]
+    gates = source["gates"]
+    cx_positions = [i for i, gate in enumerate(gates) if gate["gate"] == "cx"]
+    assert len(cx_positions) == 15
+    split = cx_positions[-6]
+    suffix = circuit_matrix(gates[split:])
+    rows = []
+    for label in sorted(set(labels)):
+        sector = [i for i, value in enumerate(labels) if value == label]
+        for triple in itertools.combinations(sector, 3):
+            a, b, c = triple
+            for image in ((b, c, a), (c, a, b)):
+                perm = list(range(16))
+                for source_row, target_row in zip(triple, image):
+                    perm[source_row] = target_row
+                changed = np.eye(16, dtype=complex)[perm] @ suffix
+                ranks = cut_ranks(changed)
+                graphs = graphs_for(ranks)
+                rows.append({"label": label, "triple": triple,
+                             "image": image, "ranks": ranks,
+                             "compatible_five_cx_graphs": graphs})
+    result = {"trials": len(rows), "split_gate": split,
+              "baseline_ranks": cut_ranks(suffix),
+              "baseline_graphs": graphs_for(cut_ranks(suffix)),
+              "compatible_trials": sum(bool(row["compatible_five_cx_graphs"])
+                                       for row in rows),
+              "rows": rows, "rank_tolerance": 1e-9,
+              "scope": "single same-eigenvalue three-cycle row gauge; nine-CNOT topology2 prefix"}
+    RESULT.write_text(json.dumps(result, indent=2) + "\n")
+    print(json.dumps({"trials": result["trials"],
+                      "baseline_compatible_graphs": len(result["baseline_graphs"]),
+                      "compatible_trials": result["compatible_trials"]},
+                     indent=2))
+
+
+if __name__ == "__main__":
+    main()

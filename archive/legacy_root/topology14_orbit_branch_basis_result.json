@@ -1,0 +1,88 @@
+{
+  "qft_candidates": [
+    {
+      "chronological": [
+        "H0",
+        "CP(+pi/2)",
+        "H1"
+      ],
+      "increment_eigenvalues": [
+        "1",
+        "-1",
+        "I",
+        "-I"
+      ]
+    },
+    {
+      "chronological": [
+        "H0",
+        "CP(-pi/2)",
+        "H1"
+      ],
+      "increment_eigenvalues": [
+        "1",
+        "-1",
+        "-I",
+        "I"
+      ]
+    },
+    {
+      "chronological": [
+        "H1",
+        "CP(+pi/2)",
+        "H0"
+      ],
+      "increment_eigenvalues": null
+    },
+    {
+      "chronological": [
+        "H1",
+        "CP(-pi/2)",
+        "H0"
+      ],
+      "increment_eigenvalues": null
+    }
+  ],
+  "selected_qft_chronological": [
+    "H0",
+    "CP(+pi/2)",
+    "H1"
+  ],
+  "increment_eigenvalues": [
+    "1",
+    "-1",
+    "I",
+    "-I"
+  ],
+  "decrement_eigenvalues": [
+    "1",
+    "-1",
+    "-I",
+    "I"
+  ],
+  "gray_eigenvalues": [
+    "1",
+    "-1",
+    "I",
+    "-I"
+  ],
+  "swap_eigenvalues": [
+    "1",
+    "1",
+    "1",
+    "-1"
+  ],
+  "uncontrolled_cnot_upper_bounds": {
+    "increment_or_decrement": 2,
+    "gray_increment": 3,
+    "swap": 1
+  },
+  "cp_decomposition_chronological": [
+    "CX01",
+    "Rz1(-theta/2)",
+    "CX01",
+    "Rz0(theta/2)",
+    "Rz1(theta/2)"
+  ],
+  "scope": "per-label two-qubit branch bases; no controlled multiplexor"
+}

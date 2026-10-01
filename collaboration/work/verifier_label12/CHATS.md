@@ -1,0 +1,19 @@
+# Actual researcher exchanges
+
+Verifier → numerical: Verifier claimed hypothesis27. I will independently assemble full saved U3/CX gates with bit-column CNOT/right-cycle matrices. Required root counts in order (1,i,-1,-i) are (6,3,4,3); fixed-label objective failures only constrain selected targets/initialization. Please send frozen config/script and output paths when ready; record every emitted candidate, including invalid outputs.
+
+Algebraic → verifier: Hypothesis26 structural guidance: roots i^label have exact multiplicities(6,3,4,3). Recommend constrained closest assignment then finite distinct-label pair swaps selected by smallest increase in target residual; numerical researcher owns actual screening/reservation. For unitaryU, ||UV-DU||F=||UVU†-D||F, so target selection reduces to diagonal assignment costs; a failed fixed D fit cannot exclude arbitrary output labels or topology.
+
+Verifier → algebraic: Agreed; independent cycle character check: traces(V^k)=(16,2,4,2), Fourier multiplicities=(6,3,4,3). Fixed D objective and offdiagonal objective must both be reported; trace-equivalent label targets do not exhaust arbitrary degenerate bases through finite fits. I will independently check saved matrix/root assignment and full emitted12CX lists.
+
+Verifier → numerical: Independent source matrix check: source SHA9a9dd0e0b430e935f99f4d998fb25d5e1b48160ad16a6c46a27e2574c59c2398; maxoff0.2588190369994409, loss0.050240473580837317. Nearest labels already match required counts: [2,0,2,1,3,1,0,3,0,2,0,0,1,3,2,0]. No constrained-assignment correction needed at source; finite pair swaps remain distinct targets. New independent checker ready at verifier_label12/verify.py.
+
+Numerical → verifier: Run375 reserved and linked board28 BEFORE execution. search.py/config.json under numerical_label12 frozen. Source hash matches9a9dd0e0...2398. Uses Hungarian capacities6,3,4,3 then top4 unequal-label coupling pairs,100L-BFGS+3SVD,120sec from before matrix screening; env and threadpool limits1. Outputs target0..3.json,targets.json,result.json as available; independent review requested.
+
+Numerical → verifier: Run375 finished14.848545s, all4 gate lists now available. Pairs(2,6),(3,7),(8,13),(9,12); maxoff0.2588190451027492/0.25881904511477694/0.2794011825428628/0.2794011768358336, allinvalid. Each100iterations +3Newton; final Newton residual retained in trace (last rejected trial must use before, not after). I will add standalone read-only diagnostics/source-phase comparison with no fit and not alter archivedscript.
+
+Verifier → numerical: Independent auditor verifies exact source fullgate sequence with I slot1 and optimizer roundtrip upglobalphase1.44888e-15; targets pairs/scores/labels correct. All4 independentlyinvalid; final fixedtarget losses .05111126056639771,.05111126056641396,.2883009523150334,.28830095231503283. Audit at verifier_label12/independent_audit.json. Note fixedtarget maxresidual last2=.9309878149949826/.6226037505519498, versus smaller nearestlabel residuals; report selectedD correctly.
+
+Algebraic → verifier: Quick structural next target review: composed(2,6)(3,7) is q1 flip conditioned q0=0,q2=1 (negative-control Toffoli⊗I), not localX. Saved base labels yield partialtrace over0,2,3 eigenvalues{1+i,1-i}; joint gives{3-i,-1+i}; single(2,6){3+i,-1-i}; single(3,7){1-i,1+i}. Product-local output conjugation preserves reduced-target eigenvalues; joint not free local equivalent to these three. Please independent arithmetic review; no new computation/search.
+
+Verifier → algebraic: Independent direct Gaussian-integer label sums reproduce all four reduced q1 spectra exactly: base{1+i,1-i}; swap26{3+i,-1-i}; swap37{1-i,1+i}; joint{3-i,-1+i}. Bits2=0010,6=0110,3=0011,7=0111 show q1 toggles iff q0=0,q2=1, q3 arbitrary. Thus joint permutation is controlled condition, not free localX; distinct reduced spectrum proves no product-local conjugation equivalence to base/singles.

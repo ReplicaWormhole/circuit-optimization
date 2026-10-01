@@ -1,0 +1,52 @@
+{
+  "target": "ancilla-free four-qubit right-cycle diagonalization; arbitrary single-qubit gates; all-to-all connectivity",
+  "reviewed_on": "2026-09-26",
+  "records": [
+    {
+      "gate_set": "cx",
+      "candidate": "collaboration/work/algebraic13_new/canonical_algebraic_ansatz.json",
+      "elementary_two_qubit_gate_definition": "Fixed directed CNOT on any ordered pair; arbitrary one-qubit unitaries free",
+      "sha256": "d500ff2a79c4717ff38d935d71b67bd798b06a7c6899a275fec25570b86b8d13",
+      "two_qubit_count": 13,
+      "cnot_compilation_upper_bound": 13,
+      "evidence": "exact Fraction certificate with independent relation/sign/scalar audits and isolated same-verifier reproduction; reviewed acceptance",
+      "acceptance_record": "collaboration/EXACT13_ACCEPTANCE.json",
+      "commands": [
+        "python3 collaboration/work/algebraic13_new/canonical_multiquadratic_verify.py",
+        "python3 collaboration/work/root/radical13_tower_relations.py",
+        "python3 collaboration/work/root/radical13_local_verify.py",
+        "python3 check_circuit.py collaboration/work/algebraic13_new/canonical_algebraic_ansatz.json"
+      ],
+      "limitations": "No optimality/strong Schur/novelty claim; same full-matrix implementation reproduced, not two implementations; exact radical metadata required."
+    },
+    {
+      "gate_set": "cx",
+      "candidate": "topology14_exact_matchgate_rational.json",
+      "sha256": "d5561362b6fd06e8b43f7af9dbc1150488fff9e7e2842796d3cb526eb8cc8e60",
+      "two_qubit_count": 14,
+      "evidence": "independently verified exact",
+      "commands": [
+        "python3 exact_check.py topology14_exact_matchgate_rational.json",
+        "python3 delete14_integer_audit.py topology14_exact_matchgate_rational.json",
+        "python3 algebraic14_raw_matchgate_certificate.py"
+      ],
+      "limitations": "Not claimed optimal or a strong Schur transform; global lower bound not re-proved this round.",
+      "role": "preserved exact14 baseline; superseded in CX cost"
+    },
+    {
+      "gate_set": "cx+independently-tunable-xx_yy",
+      "elementary_two_qubit_gate_definition": "CX or F(a,b)=exp(i a XX+i b YY), independently tunable real a,b; arbitrary one-qubit unitaries free",
+      "candidate": "collaboration/native_baseline.json",
+      "sha256": "4200e56dc0d656c0a408de3206870f3f3ea530810234d6504fc71af97067fe11",
+      "two_qubit_count": 10,
+      "two_qubit_depth": 8,
+      "cnot_compilation_upper_bound": 14,
+      "evidence": "analytic regrouping of preserved exact14 baseline; native JSON numerically matched to compiled gate list",
+      "commands": [
+        "python3 native_gate_check.py collaboration/native_baseline.json --reference topology14_exact_matchgate_rational.json"
+      ],
+      "limitations": "Separate elementary gate model; checker is numerical, no direct exact certificate of native JSON and no minimal native count claim."
+    }
+  ],
+  "acceptance_record": "collaboration/EXACT13_ACCEPTANCE.json"
+}

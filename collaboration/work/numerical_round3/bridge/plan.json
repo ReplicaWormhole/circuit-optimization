@@ -1,0 +1,142 @@
+{
+  "motif_locations": [
+    0,
+    6
+  ],
+  "schedules13": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  ],
+  "seeds": [
+    926401,
+    926402
+  ],
+  "warm_noise_std": 0.08,
+  "stages": [
+    "free13 max100iterations",
+    "hardcommuting13 max100iterations",
+    "collapse equivalencecheck",
+    "free12 polishmax200iterations"
+  ],
+  "constraints": "At layersk+1 andk+2 wire0axis[x,y]=0;wire1axis[y,z]=0; all other coordinates free",
+  "collapse": "template[None,12,02]; middlelayerk+2identity;nextlayerk+3 becomes Lk+3@Lk+2",
+  "per_motif_wall_cap_seconds": 120,
+  "total_wall_cap_seconds": 240,
+  "threads": 1,
+  "optimizer": "SciPy L-BFGS-B analyticTorch gradient",
+  "source_sha256": "d500ff2a79c4717ff38d935d71b67bd798b06a7c6899a275fec25570b86b8d13",
+  "code_sha256": "d52f35a7532b580ce0104ecdc9bae9ded141f26a1376b4349f2ca36d69d2a11f",
+  "dependency_hashes": {
+    "collaboration/work/numerical_round3/run.py": "dfb4ef14228f884423af75c8e00a904200f46222cca929dcd72b1dd6477f0704",
+    "delete14_search.py": "b12320ef0491d0fc953d76aa92c39025f5ea9c40dddfa1458894d18eef5fd044",
+    "search13_adaptive_topology.py": "14973daa02e3f0e97a8a8c8cc4d2c05f906bc1f2dedec4b2893f2cf39cceb471",
+    "search13_fresh_chain_dynamic_rows.py": "be937d249d245f686a85fda2536a1527bdf6e1c4d77840603c37b4758b974752",
+    "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0"
+  }
+}

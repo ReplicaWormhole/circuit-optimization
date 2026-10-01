@@ -1,0 +1,16 @@
+{
+  "source_sha256": "d500ff2a79c4717ff38d935d71b67bd798b06a7c6899a275fec25570b86b8d13",
+  "exact_diagonalizer": true,
+  "stage": "certificate",
+  "last_coordinate": 38,
+  "elapsed": 14.31973721506074,
+  "basis_rank": 5,
+  "basis_dimension": 32,
+  "cnot_count": 13,
+  "local_normalizations_exact": true,
+  "gate_position": 70,
+  "max_terms": 32,
+  "entries_checked": 256,
+  "nonempty_residual_dictionaries": 0,
+  "limitation": null
+}

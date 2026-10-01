@@ -1,0 +1,13 @@
+{
+  "exact_V4_diagonalizer": true,
+  "exact_mixed_cut_ranks": {
+    "163": 4,
+    "83": 4
+  },
+  "field": "Q(zeta_96)",
+  "output_gauge": "identity",
+  "prefix_cnot_count": 6,
+  "scope": "exact ranks at two mixed cuts for the original eight-CNOT tail; seven-CNOT synthesis remains open",
+  "source": "topology14_exact_matchgate_rational.json",
+  "tail_cnot_count": 8
+}

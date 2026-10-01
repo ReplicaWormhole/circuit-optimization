@@ -1,0 +1,30 @@
+{
+  "source": "topology14_exact_matchgate_rational.json",
+  "seed": 42,
+  "checked": 1452,
+  "valid_count": 1452,
+  "cnot_distribution": {
+    "14": 48,
+    "15": 148,
+    "16": 336,
+    "17": 920
+  },
+  "best": {
+    "output_cnots": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "cnot_count": 14,
+    "off_diagonal_error": 3.320548656555232e-15
+  }
+}

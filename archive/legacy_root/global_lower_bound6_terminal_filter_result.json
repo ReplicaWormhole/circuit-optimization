@@ -1,0 +1,513 @@
+{
+  "by_degree_pattern": {
+    "3322": {
+      "degree_feasible": 1860,
+      "full_forward_support": 792,
+      "surviving_schedule_count": 304,
+      "terminal_adjacent_excluded": 432,
+      "terminal_excluded_union": 488,
+      "terminal_opposite_double_excluded": 56
+    },
+    "4222": {
+      "degree_feasible": 720,
+      "full_forward_support": 216,
+      "surviving_schedule_count": 40,
+      "terminal_adjacent_excluded": 144,
+      "terminal_excluded_union": 176,
+      "terminal_opposite_double_excluded": 32
+    }
+  },
+  "rules": [
+    "Each wire has at least two CNOT incidences.",
+    "Forward support of every input Z_j must cover all four physical wires.",
+    "Terminal adjacent edge with a degree-two endpoint is impossible.",
+    "Terminal opposite edge with two degree-two endpoints is impossible."
+  ],
+  "survivor_examples": {
+    "3322": [
+      {
+        "degrees": [
+          3,
+          3,
+          2,
+          2
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          3,
+          3,
+          2,
+          2
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          3,
+          2,
+          2,
+          3
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          3,
+          2,
+          2,
+          3
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          3,
+          3,
+          2,
+          2
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          3,
+          2,
+          2,
+          3
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          3,
+          3,
+          2,
+          2
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          3,
+          2,
+          2,
+          3
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    ],
+    "4222": [
+      {
+        "degrees": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          2,
+          2,
+          2,
+          4
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          2,
+          4,
+          2,
+          2
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          2,
+          2,
+          4,
+          2
+        ],
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          2,
+          2,
+          4,
+          2
+        ],
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "degrees": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      }
+    ]
+  },
+  "total_ordered_unoriented_pair_schedules": 7776
+}

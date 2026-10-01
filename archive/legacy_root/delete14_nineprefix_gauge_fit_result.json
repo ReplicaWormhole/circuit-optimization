@@ -1,0 +1,107 @@
+{
+  "gauge_row_pair": [
+    4,
+    7
+  ],
+  "gauge_angle_over_pi": 0.5,
+  "gauge_phase_over_pi": 0,
+  "prefix_cnot": 9,
+  "suffix_edges": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "seed": 41,
+  "adam_steps_cap": 300,
+  "bfgs_maxiter": 150,
+  "bfgs_nit": 55,
+  "bfgs_nfev": 57,
+  "best_target_loss": 0.7598881968347959,
+  "emitted_gate_list_target_loss": 0.7598881968347958,
+  "off_diagonal_error": 0.7469566157179321,
+  "valid_diagonalizer": false,
+  "history": [
+    {
+      "adam_step": 0,
+      "loss": 0.9689091182989753,
+      "best_loss": 0.9689091182989753
+    },
+    {
+      "adam_step": 25,
+      "loss": 0.782862054582478,
+      "best_loss": 0.782862054582478
+    },
+    {
+      "adam_step": 50,
+      "loss": 0.7650505909469029,
+      "best_loss": 0.7650505909469029
+    },
+    {
+      "adam_step": 75,
+      "loss": 0.7628287762451645,
+      "best_loss": 0.7628181065876595
+    },
+    {
+      "adam_step": 100,
+      "loss": 0.7626952120288382,
+      "best_loss": 0.7626952120288382
+    },
+    {
+      "adam_step": 125,
+      "loss": 0.7624887684968561,
+      "best_loss": 0.7624887684968561
+    },
+    {
+      "adam_step": 150,
+      "loss": 0.7618803678973758,
+      "best_loss": 0.7618803678973758
+    },
+    {
+      "adam_step": 175,
+      "loss": 0.7606268573528396,
+      "best_loss": 0.7606268573528396
+    },
+    {
+      "adam_step": 200,
+      "loss": 0.7599201342105264,
+      "best_loss": 0.7599201342105264
+    },
+    {
+      "adam_step": 225,
+      "loss": 0.7598898935455806,
+      "best_loss": 0.7598886995384584
+    },
+    {
+      "adam_step": 250,
+      "loss": 0.75988845025543,
+      "best_loss": 0.75988845025543
+    },
+    {
+      "adam_step": 275,
+      "loss": 0.7598882024207188,
+      "best_loss": 0.7598881976876837
+    },
+    {
+      "adam_step": 300,
+      "loss": 0.7598881982288838,
+      "best_loss": 0.7598881976876837
+    }
+  ]
+}

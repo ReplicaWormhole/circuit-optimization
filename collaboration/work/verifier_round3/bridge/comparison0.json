@@ -1,0 +1,17 @@
+{
+  "bridge": "collaboration/work/numerical_round3/bridge/case0_constrained13.json",
+  "collapsed": "collaboration/work/numerical_round3/bridge/case0_collapsed12.json",
+  "bridge_sha256": "bfa5279dc54f84e3d4cf9675c44669875ed63d609497d0a46a00081bb3ea110b",
+  "collapsed_sha256": "d1ec91ef085c8b23bac846eb3909079cc316df04983ad243aefc239c166a51d7",
+  "cx_counts": [
+    13,
+    12
+  ],
+  "phase": [
+    0.9762561172099645,
+    0.21661946729258608
+  ],
+  "maximum_difference_up_to_global_phase": 5.36049202688126e-16,
+  "bridge_unitarity_error": 1.3322676295501878e-15,
+  "collapsed_unitarity_error": 1.3322676295501878e-15
+}

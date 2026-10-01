@@ -1,0 +1,31 @@
+{
+  "base_gauge": "search13_fulltail_invariant_exact_witness.py",
+  "family": "two or three disjoint same-eigenvalue row transpositions composed on the left of the exact rank-eight gauge",
+  "family_counts": {
+    "2": 273,
+    "3": 1347
+  },
+  "field": "Q(zeta_96) reduced modulo 97 and 193",
+  "masks": [
+    83,
+    163
+  ],
+  "modular_rank_profile_counts": {
+    "12,12": 8,
+    "13,13": 159,
+    "14,14": 765,
+    "15,15": 616,
+    "16,16": 72
+  },
+  "old_gauge_rank_lower_bounds": [
+    14,
+    14
+  ],
+  "primes": [
+    97,
+    193
+  ],
+  "scope": "two-cut necessary screen only; modular ranks are lower bounds, so possible means not excluded by these cuts",
+  "source": "search13_rank8_neighborhood_mixedcut_result.json",
+  "two_mask_possible": []
+}

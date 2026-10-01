@@ -1,0 +1,359 @@
+{
+  "rows": [
+    {
+      "example_survivor": null,
+      "maximum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "minimum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "orientations_surviving_two_cuts": 0,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "tested_orientations": 128
+    },
+    {
+      "example_survivor": null,
+      "maximum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "minimum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "orientations_surviving_two_cuts": 0,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tested_orientations": 128
+    },
+    {
+      "example_survivor": null,
+      "maximum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "minimum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "orientations_surviving_two_cuts": 0,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "tested_orientations": 128
+    },
+    {
+      "example_survivor": null,
+      "maximum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "minimum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "orientations_surviving_two_cuts": 0,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tested_orientations": 128
+    },
+    {
+      "example_survivor": null,
+      "maximum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "minimum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "orientations_surviving_two_cuts": 0,
+      "schedule": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "tested_orientations": 128
+    },
+    {
+      "example_survivor": null,
+      "maximum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "minimum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "orientations_surviving_two_cuts": 0,
+      "schedule": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "tested_orientations": 128
+    },
+    {
+      "example_survivor": null,
+      "maximum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "minimum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "orientations_surviving_two_cuts": 0,
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "tested_orientations": 128
+    },
+    {
+      "example_survivor": null,
+      "maximum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "minimum_mincuts": {
+        "163": 3,
+        "83": 3
+      },
+      "orientations_surviving_two_cuts": 0,
+      "schedule": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "tested_orientations": 128
+    }
+  ],
+  "schedule_exclusions": 8,
+  "scope": "exact necessary directional tensor-network test for eight listed schedules and two cuts only",
+  "source": "search13_rank8_neighborhood_mixedcut_result.json",
+  "target_rank_lower_bounds": {
+    "83": 14,
+    "163": 14
+  },
+  "tested_boundary_masks": [
+    83,
+    163
+  ]
+}

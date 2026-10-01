@@ -1,0 +1,34 @@
+{
+  "source_reconstructed_phase_aligned_max_error": 1.4488835837920476e-15,
+  "source_phase": [
+    0.4036895316759473,
+    0.9148960389111183
+  ],
+  "rows": [
+    {
+      "candidate": "collaboration/work/numerical_label12/target0.json",
+      "sha256": "fd9f1aa69405bd23a9fd4ed0a26099b165c09c1013c72b3c97a4211d33099e7a",
+      "fixed_target_loss": 0.05111126056639771,
+      "fixed_target_max_entry": 0.14811248316413986
+    },
+    {
+      "candidate": "collaboration/work/numerical_label12/target1.json",
+      "sha256": "852ad9d718da7d68e17e5a0c805e520afb07a71c1f76b26ef1f0a8d4d9bef1b1",
+      "fixed_target_loss": 0.05111126056641396,
+      "fixed_target_max_entry": 0.14809467471404003
+    },
+    {
+      "candidate": "collaboration/work/numerical_label12/target2.json",
+      "sha256": "9e31d1e60e08df8c280fd58efbfe3eee7fc073241c79bda0f7940e35859edb10",
+      "fixed_target_loss": 0.2883009523150334,
+      "fixed_target_max_entry": 0.9309878149949826
+    },
+    {
+      "candidate": "collaboration/work/numerical_label12/target3.json",
+      "sha256": "c704d3d7757d688f8dae2d645e790fcbe7da0536428dec61eecab65a77be20d3",
+      "fixed_target_loss": 0.28830095231503283,
+      "fixed_target_max_entry": 0.6226037505519498
+    }
+  ],
+  "scope": "Read-only floating diagnostics, no optimization and no exact certificate."
+}

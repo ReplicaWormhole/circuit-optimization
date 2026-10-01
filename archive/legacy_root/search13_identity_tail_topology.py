@@ -1,0 +1,88 @@
+"""Global exact necessary seven-CNOT pair-order screen for identity-gauge tail.
+
+Use exact 127 mixed-cut ranks of the original exact14 eight-CNOT tail,
+dimension-two CNOT-factor bond mincuts, and the fixed-prefix exact commutant
+support filter. Survivors are necessary compatible pair schedules only.
+"""
+
+from collections import Counter
+from itertools import combinations, product
+import json
+from pathlib import Path
+
+from search13_fulltail_rank8_topology import CUTS, crossing, reverse_cone, edit_distance_to_one_deletion
+from search13_rank8_global_twocut import bond_graph, edge_connectivity_up_to_four
+
+
+ROOT = Path(__file__).resolve().parent
+SOURCE = ROOT / "search13_identity_tail_allcuts_result.json"
+OUT = ROOT / "search13_identity_tail_topology_result.json"
+EDGES = tuple(combinations(range(4), 2))
+
+
+def ordinary_mask(cut):
+    mask = sum((1 << wire) | (1 << (4 + wire)) for wire in cut)
+    return mask if mask & 1 else 255 ^ mask
+
+
+def main():
+    assert not OUT.exists()
+    ranks = {int(k): v for k, v in json.loads(SOURCE.read_text())
+             ["exact_mixed_cut_ranks"].items()}
+    assert len(ranks) == 127
+    ordinary = tuple(ranks[ordinary_mask(cut)] for cut in CUTS)
+    masks = sorted(ranks, key=lambda mask: (-ranks[mask], mask))
+    forbidden = {tuple(s) for s in json.loads((ROOT / "search13_fulltail_invariant_commutant_result.json").read_text())
+                 ["certified_no_commutant_subsets"]}
+    counts = Counter()
+    first_mixed_cut = Counter()
+    distances = Counter()
+    profiles = Counter()
+    survivors = []
+    for schedule in product(EDGES, repeat=7):
+        crosses = tuple(crossing(schedule, cut) for cut in CUTS)
+        if any(rank > 2**count for rank, count in zip(ordinary, crosses)):
+            counts["ordinary_cut_rejected"] += 1
+            continue
+        if any(reverse_cone(schedule, wire) in forbidden for wire in range(4)):
+            counts["commutant_rejected"] += 1
+            continue
+        graph = bond_graph(schedule)
+        for mask in masks:
+            if ranks[mask] > 2**edge_connectivity_up_to_four(graph, mask):
+                counts["mixed_cut_rejected"] += 1
+                first_mixed_cut[mask] += 1
+                break
+        else:
+            counts["survives_all"] += 1
+            distance = edit_distance_to_one_deletion(schedule)
+            distances[distance] += 1
+            profiles[crosses[4:]] += 1
+            survivors.append({
+                "schedule": [list(edge) for edge in schedule],
+                "distance_to_one_exact8_deletion": distance,
+                "balanced_crossings": list(crosses[4:]),
+                "adjacent_repeats": sum(schedule[i] == schedule[i + 1]
+                                        for i in range(6)),
+            })
+    assert sum(counts.values()) == 6**7
+    result = {
+        "source": SOURCE.name, "target": "original exact14 tail after fixed six-CNOT prefix and identity output gauge",
+        "all_ordered_unoriented_seven_pair_schedules": 6**7,
+        "ordinary_cut_ranks": ordinary,
+        "mixed_boundary_masks_tested": 127,
+        "exclusive_counts": dict(counts),
+        "first_mixed_cut_rejections": {str(k): v for k, v in sorted(first_mixed_cut.items())},
+        "survivor_distance_to_one_deletion": dict(sorted(distances.items())),
+        "survivor_balanced_profiles": {",".join(map(str, k)): v for k, v in sorted(profiles.items())},
+        "surviving_schedules": survivors,
+        "scope": "exact necessary 127-cut and commutant screen for one fixed identity output gauge; no seven-CNOT synthesis or lower bound for all gauges",
+    }
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps({"counts": dict(counts),
+                      "distances": dict(sorted(distances.items())),
+                      "survivors": len(survivors)}), flush=True)
+
+
+if __name__ == "__main__":
+    main()

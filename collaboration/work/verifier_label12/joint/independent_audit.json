@@ -1,0 +1,23 @@
+{
+  "source_layout_verified": true,
+  "source_sha256": "9a9dd0e0b430e935f99f4d998fb25d5e1b48160ad16a6c46a27e2574c59c2398",
+  "optimizer_source_max_error_up_to_phase": 1.4488835837920476e-15,
+  "frozen_target_selection_verified": true,
+  "targets_sha256": "a3ae275d74e43ad4f44a3d6d4334cb96c8e8ee67fb6ca217717d45a34c0505a7",
+  "config_sha256": "b954427114fb99f4804d798f913693de6b08dcefbd7796dc0751994b4826a729",
+  "script_sha256": "79191684b18e3c5401097fea1f50ce60a7a57e5a5433875346b19fc3f84ec082",
+  "final_fixed_target_checks": [
+    {
+      "path": "collaboration/work/numerical_label12/joint/target0.json",
+      "sha256": "e8f7cf6193b6e466b6e62a22ab7f63331ebd30b82d72c6bf4dfe63df541dabae",
+      "fixed_target_loss": 0.009459905009667346,
+      "fixed_target_max_residual": 0.0689367816905082
+    },
+    {
+      "path": "collaboration/work/numerical_label12/joint/target1.json",
+      "sha256": "f33fed5a37d2a55e47f805ff25b68f7b0207690c7b8c273b2da6b502367c3566",
+      "fixed_target_loss": 0.46343390751450736,
+      "fixed_target_max_residual": 0.3678108492632102
+    }
+  ]
+}

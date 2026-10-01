@@ -1,0 +1,38 @@
+[
+  {
+    "id": 17,
+    "title": "Canonical13 structural cancellation analysis",
+    "gate_set": "cx",
+    "proposal": "Inspect certified thirteen-CNOT canonical interaction and commuting-axis blocks for an analytic cancellation or distinct twelve-CNOT schedule; no repeated single deletion, grid rounding, optimizer or exact13 certification.",
+    "budget": "One structural investigation of thirteen interactions and sixty rotations; no scientific symbolic search scheduled.",
+    "dependency": null,
+    "status": "completed",
+    "owner": "algebraic_round2",
+    "run_id": null,
+    "outcome": "Structural fixed-terminal-deletion obstruction plus decorated three-wire rewrite direction; no optimizer, smaller circuit, topology exclusion or new lower bound. Child shell blocked; coordinator persisted researcher report and exchanges."
+  },
+  {
+    "id": 18,
+    "title": "Exclusive exact13 acceptance and separate native-cost review",
+    "gate_set": "cx; separately-defined native gate models",
+    "proposal": "Review completed runs370371 without repeating the same verifier; audit exact prescription hash, chronological gates, positive-root and nonzero projective normalization, independent relation/local evidence. Define native regrouping costs separately and review numerical round2 artifacts.",
+    "budget": "One structural evidence review and native cost analysis; no new optimizer or repeated full-matrix certificate",
+    "dependency": null,
+    "status": "completed",
+    "owner": "verifier_round2",
+    "run_id": null,
+    "outcome": "Independent researcher evidence review recommends exact13 acceptance; no blocker in source excerpts and audit summaries. Honest limitation same full-matrix implementation reproduced and reviewer accessed coordinator-transmitted excerpts. Gate-model costs separately defined, no new exact native improvement."
+  },
+  {
+    "id": 19,
+    "title": "Twelve-CNOT changed retained-pair architecture",
+    "gate_set": "cx",
+    "proposal": "Freeze one12CX schedule with at least2 retained unordered-pair changes relative to a canonical13 deletion source; full local freedom and2 seeded starts. Exclude unchanged run363 deletion schedules; record exact novelty scope before ledger reservation.",
+    "budget": "One ledger run;2 starts max200 L-BFGS iterations each; total compute wall cap120s; one thread",
+    "dependency": null,
+    "status": "inconclusive",
+    "owner": "numerical_round2",
+    "run_id": 372,
+    "outcome": "Run372 one distinct12CX topology and2full-local seeded starts completed8.052s; both invalid. IndependentNumPy/sharedchecker agree. No twelveCX result or exclusion; no follow-up scheduled. Coordinator executed researcher plan due child shell failure."
+  }
+]

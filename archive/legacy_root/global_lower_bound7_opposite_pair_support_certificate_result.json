@@ -1,0 +1,178 @@
+{
+  "excluded_examples": {
+    "3333": {
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "witnesses": [
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "wire": 1
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "wire": 3
+        }
+      ]
+    },
+    "4332": {
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "witnesses": [
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "wire": 1
+        }
+      ]
+    },
+    "5322": {
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "witnesses": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "wire": 2
+        }
+      ]
+    }
+  },
+  "gram_exact_rank": 75,
+  "partition": {
+    "excluded_opposite_pair": 184,
+    "survive": 3024
+  },
+  "prior_survivors": 3208,
+  "remaining_by_degree": {
+    "3333": 1200,
+    "4332": 1680,
+    "4422": 144
+  },
+  "scope": "Sound necessary screen; surviving schedules are not feasible circuit certificates.",
+  "swap_symmetry_certificates": [
+    {
+      "labels": [
+        "IIXI",
+        "XIII"
+      ],
+      "square_difference_in_gram_row_space": true
+    },
+    {
+      "labels": [
+        "IIYI",
+        "YIII"
+      ],
+      "square_difference_in_gram_row_space": true
+    },
+    {
+      "labels": [
+        "IIZI",
+        "ZIII"
+      ],
+      "square_difference_in_gram_row_space": true
+    },
+    {
+      "labels": [
+        "XIYI",
+        "YIXI"
+      ],
+      "square_difference_in_gram_row_space": true
+    },
+    {
+      "labels": [
+        "XIZI",
+        "ZIXI"
+      ],
+      "square_difference_in_gram_row_space": true
+    },
+    {
+      "labels": [
+        "YIZI",
+        "ZIYI"
+      ],
+      "square_difference_in_gram_row_space": true
+    }
+  ]
+}

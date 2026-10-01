@@ -1,0 +1,26 @@
+{
+  "source": "collaboration/work/algebraic_label12/encoder/encoder.json",
+  "sha256": "72bc8fcd221abf3940022330b702d0e39914a482093882e54e205fa9262b22fd",
+  "exact16basis_mapping": [
+    0,
+    4,
+    7,
+    8,
+    6,
+    2,
+    11,
+    12,
+    5,
+    9,
+    3,
+    13,
+    10,
+    14,
+    15,
+    1
+  ],
+  "gates": 44,
+  "compiled_cx_upper_bound": 1496,
+  "encoder_only_not_diagonalizer": true,
+  "anf_verified": true
+}

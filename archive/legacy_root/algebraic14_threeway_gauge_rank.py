@@ -1,0 +1,157 @@
+"""Screen exact rational three-way eigenspace Householder gauges.
+
+Identify the three four-cycle rows within each V4 eigenvalue of the exact
+15-CX circuit. Apply H_v = I - 2 vv^T/(v^Tv) to selected triples. This is
+an exact orthogonal centralizer gauge. Measure numerical Schmidt ranks of
+the full unitary and the 9-CX tail after its fixed 6-CX prefix, then derive
+cut-based graph lower bounds. Numerical ranks guide exact follow-up; they
+are not themselves exact certificates or circuit synthesis.
+"""
+
+import itertools
+import json
+import math
+from pathlib import Path
+
+import numpy as np
+from qiskit.quantum_info import Operator
+
+from algebraic14_orbit_shear import orbits, rotate
+from exact_check import exact_eigenvalue_labels
+from qiskit_crosscheck import to_qiskit
+
+
+ROOT = Path(__file__).parent
+CUTS = ((0,), (1,), (2,), (3,), (0, 1), (0, 2), (0, 3))
+EDGES = tuple(itertools.combinations(range(4), 2))
+VECTORS = ((1, 1, 1), (1, 1, 2), (1, 2, 2))
+SCOPES = ((1,), (3,), (1, 3))
+
+
+def bit(x, q):
+    return (x >> (3 - q)) & 1
+
+
+def bits(x, wires):
+    value = 0
+    for q in wires:
+        value = (value << 1) | bit(x, q)
+    return value
+
+
+def schmidt_rank(u, cut):
+    rest = tuple(q for q in range(4) if q not in cut)
+    left = 1 << len(cut)
+    right = 1 << len(rest)
+    matrix = np.zeros((left * left, right * right), dtype=complex)
+    for output in range(16):
+        for source in range(16):
+            row = bits(output, cut) * left + bits(source, cut)
+            col = bits(output, rest) * right + bits(source, rest)
+            matrix[row, col] = u[output, source]
+    return int(np.linalg.matrix_rank(matrix, tol=1e-8))
+
+
+def ranks(u):
+    return {''.join(map(str, cut)): schmidt_rank(u, cut) for cut in CUTS}
+
+
+def graph_bound(rank_table):
+    bounds = [(cut, math.ceil(math.log2(rank_table[''.join(map(str, cut))])))
+              for cut in CUTS]
+    for count in range(9):
+        if any(all(sum((a in cut) != (b in cut)
+                       for a, b in graph) >= bound
+                   for cut, bound in bounds)
+               for graph in itertools.combinations_with_replacement(
+                   EDGES, count)):
+            return count
+    return None
+
+
+def threeway_rows(u, labels):
+    four_cycles = [set(cycle) for cycle in orbits() if len(cycle) == 4]
+    result = {label: {} for label in range(4)}
+    for row in range(16):
+        support = {x for x in range(16) if abs(u[row, x]) > 1e-8}
+        for orbit_index, cycle in enumerate(four_cycles):
+            if support == cycle:
+                result[labels[row]][orbit_index] = row
+    assert all(len(result[label]) == 3 for label in (1, 3)), result
+    # The exact15 basis mixes the real-eigenvalue length-four rows with
+    # fixed/length-two orbit rows, so only the two imaginary eigenspaces
+    # have three individually supported orbit rows in this representation.
+    result = {label: result[label] for label in (1, 3)}
+    return {label: [group[index] for index in range(3)]
+            for label, group in result.items()}
+
+
+def gauge(rows_by_label, vector, scope):
+    v = np.array(vector, dtype=float)
+    h = np.eye(3) - 2 * np.outer(v, v) / np.dot(v, v)
+    m = np.eye(16, dtype=complex)
+    for label in scope:
+        rows = rows_by_label[label]
+        m[np.ix_(rows, rows)] = h
+    return m
+
+
+def main():
+    candidate = json.loads(
+        (ROOT / "topology16_15_exact_candidate.json").read_text())
+    u = Operator(to_qiskit(candidate)).data
+    labels = exact_eigenvalue_labels(candidate)["output_labels"]
+    rows_by_label = threeway_rows(u, labels)
+    prefix = Operator(to_qiskit(
+        {"n": 4, "gates": candidate["gates"][:13]})).data
+    shift = np.zeros((16, 16), dtype=complex)
+    for x in range(16):
+        shift[rotate(x), x] = 1
+    records = []
+    baseline_tail = u @ prefix.conj().T
+    baseline_ranks = ranks(baseline_tail)
+    for vector in VECTORS:
+        for scope in SCOPES:
+            m = gauge(rows_by_label, vector, scope)
+            transformed = m @ u
+            diagonal = transformed @ shift @ transformed.conj().T
+            offdiag = float(np.max(np.abs(
+                diagonal - np.diag(np.diag(diagonal)))))
+            assert offdiag < 1e-12
+            tail = transformed @ prefix.conj().T
+            tail_ranks = ranks(tail)
+            records.append({
+                "vector": vector, "scope": scope,
+                "full_ranks": ranks(transformed),
+                "tail_ranks": tail_ranks,
+                "tail_cut_graph_bound": graph_bound(tail_ranks),
+                "offdiag_error": offdiag,
+                "tail_rank_improvement_count": sum(
+                    tail_ranks[key] < baseline_ranks[key]
+                    for key in baseline_ranks),
+                "tail_rank_worsening_count": sum(
+                    tail_ranks[key] > baseline_ranks[key]
+                    for key in baseline_ranks),
+            })
+    records.sort(key=lambda row: (
+        -row["tail_rank_improvement_count"],
+        row["tail_rank_worsening_count"],
+        row["tail_cut_graph_bound"],
+        row["vector"], row["scope"]))
+    result = {
+        "rows_by_eigenvalue_and_four_cycle": rows_by_label,
+        "baseline_tail_ranks": baseline_ranks,
+        "baseline_tail_graph_bound": graph_bound(baseline_ranks),
+        "cases": len(records),
+        "records": records,
+    }
+    (ROOT / "algebraic14_threeway_gauge_rank_result.json").write_text(
+        json.dumps(result, indent=2) + "\n")
+    print(json.dumps({"rows": rows_by_label,
+                      "baseline_tail_ranks": baseline_ranks,
+                      "cases": len(records),
+                      "top_records": records[:8]}, indent=2))
+
+
+if __name__ == "__main__":
+    main()

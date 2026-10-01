@@ -1,0 +1,1027 @@
+{
+  "cases": 68,
+  "all_ranks_four": true,
+  "all_full_valid": true,
+  "results": [
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 0,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.987217590985849e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 1,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.773304169445321e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 2,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.016818920582367e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 3,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.949847586639827e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 4,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.9080374037992495e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 5,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.297904370059233e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 6,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.104894742844796e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 7,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.256327374382227e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 8,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.828670879282068e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 9,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.830763009052198e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 10,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.338140811601053e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 11,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.599258703248866e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 12,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.752829239766247e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 13,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.007684476990098e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 14,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.115756115230434e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 15,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.248205042620994e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "k": 16,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.987217590985849e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 0,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.987217590985849e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 1,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.773304169445321e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 2,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.016818920582367e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 3,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.949847586639827e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 4,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.003682800150068e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 5,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.297904370059233e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 6,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.1065938584597755e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 7,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.256327374382227e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 8,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.828670879282068e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 9,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.830763009052198e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 10,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.789208367339733e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 11,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.599258703248866e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 12,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.752829239766247e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 13,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.033838158229372e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 14,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.115756115230434e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 15,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.248205042620994e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "k": 16,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.987217590985849e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 0,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.987217590985849e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 1,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.233050585536211e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 2,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.347983621184195e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 3,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.518148478760885e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 4,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.64276810310387e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 5,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.096721477176515e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 6,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.104894742844796e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 7,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.830763009052198e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 8,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.106226635438357e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 9,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.256327374382227e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 10,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.338140811601053e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 11,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.401546518364297e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 12,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.803824585357308e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 13,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.690042777951278e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 14,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.057478397181583e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 15,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.200330666856539e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "k": 16,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.987217590985849e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 0,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.987217590985849e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 1,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.233050585536211e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 2,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.347983621184195e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 3,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.072050849357961e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 4,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.003682800150068e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 5,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.096721477176515e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 6,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.1065938584597755e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 7,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.830763009052198e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 8,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.106226635438357e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 9,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.256327374382227e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 10,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.789208367339733e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 11,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.401546518364297e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 12,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.803824585357308e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 13,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.690042777951278e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 14,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 6.057478397181583e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 15,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.788510555241866e-16,
+      "full_valid": true
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "k": 16,
+      "single_wire_schmidt_ranks": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "full_off_diagonal_error": 5.987217590985849e-16,
+      "full_valid": true
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "field_primes": [
+    97,
+    193
+  ],
+  "residual_shift": "A=P V4 P^-1 after exact14 six-CNOT prefix",
+  "rows": [
+    {
+      "full_rank_certificate": false,
+      "ordinary_gram_rank_mod_prime": 54,
+      "pair": [
+        0,
+        1
+      ],
+      "prime": 97,
+      "quadratic_image_count": 120
+    },
+    {
+      "full_rank_certificate": false,
+      "ordinary_gram_rank_mod_prime": 35,
+      "pair": [
+        0,
+        2
+      ],
+      "prime": 97,
+      "quadratic_image_count": 120
+    },
+    {
+      "full_rank_certificate": false,
+      "ordinary_gram_rank_mod_prime": 12,
+      "pair": [
+        0,
+        3
+      ],
+      "prime": 97,
+      "quadratic_image_count": 120
+    },
+    {
+      "full_rank_certificate": false,
+      "ordinary_gram_rank_mod_prime": 32,
+      "pair": [
+        1,
+        2
+      ],
+      "prime": 97,
+      "quadratic_image_count": 120
+    },
+    {
+      "full_rank_certificate": false,
+      "ordinary_gram_rank_mod_prime": 35,
+      "pair": [
+        1,
+        3
+      ],
+      "prime": 97,
+      "quadratic_image_count": 120
+    },
+    {
+      "full_rank_certificate": false,
+      "ordinary_gram_rank_mod_prime": 54,
+      "pair": [
+        2,
+        3
+      ],
+      "prime": 97,
+      "quadratic_image_count": 120
+    },
+    {
+      "full_rank_certificate": false,
+      "ordinary_gram_rank_mod_prime": 54,
+      "pair": [
+        0,
+        1
+      ],
+      "prime": 193,
+      "quadratic_image_count": 120
+    },
+    {
+      "full_rank_certificate": false,
+      "ordinary_gram_rank_mod_prime": 35,
+      "pair": [
+        0,
+        2
+      ],
+      "prime": 193,
+      "quadratic_image_count": 120
+    },
+    {
+      "full_rank_certificate": false,
+      "ordinary_gram_rank_mod_prime": 12,
+      "pair": [
+        0,
+        3
+      ],
+      "prime": 193,
+      "quadratic_image_count": 120
+    },
+    {
+      "full_rank_certificate": false,
+      "ordinary_gram_rank_mod_prime": 32,
+      "pair": [
+        1,
+        2
+      ],
+      "prime": 193,
+      "quadratic_image_count": 120
+    },
+    {
+      "full_rank_certificate": false,
+      "ordinary_gram_rank_mod_prime": 35,
+      "pair": [
+        1,
+        3
+      ],
+      "prime": 193,
+      "quadratic_image_count": 120
+    },
+    {
+      "full_rank_certificate": false,
+      "ordinary_gram_rank_mod_prime": 54,
+      "pair": [
+        2,
+        3
+      ],
+      "prime": 193,
+      "quadratic_image_count": 120
+    }
+  ],
+  "scope": "full modular rank certifies pair no-go; deficient Gram alone does not classify rank-one solutions"
+}

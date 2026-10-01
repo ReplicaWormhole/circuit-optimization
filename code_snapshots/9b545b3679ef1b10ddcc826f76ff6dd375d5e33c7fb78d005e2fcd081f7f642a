@@ -1,0 +1,302 @@
+"""Exact three-qubit middle-block screen for a 13-CNOT regrouping.
+
+Commute the disjoint first blocks so F02 occurs before F13, and group
+M = F01 (L0 tensor L1 tensor L3) F13.  If M has a three-CNOT synthesis,
+the unchanged six-CNOT prefix, F02, and F23 give a 13-CNOT diagonalizer.
+First screen every three-CNOT pair schedule by exact modular mixed-cut ranks.
+Fit unrestricted local SU(2) gates only for rank-compatible schedules.
+"""
+
+from fractions import Fraction
+from itertools import product
+import json
+from pathlib import Path
+
+import numpy as np
+from scipy.optimize import minimize
+import sympy as sp
+import torch
+
+from check_circuit import evaluate
+from delete14_search import axis_rotation, axis_to_u3
+from search13_secondpair_mask_transport import CyclotomicPair
+
+
+ROOT = Path(__file__).resolve().parent
+OUT = ROOT / "search13_middle_threequbit_result.json"
+PAIRS = ((0, 1), (0, 2), (1, 2))
+WIRES = (0, 1, 3)
+PRIMES = (97, 193)
+MASKS = tuple(range(1, 63, 2))
+torch.set_num_threads(1)
+
+
+def angle_string(value):
+    value = Fraction(value)
+    sign = "-" if value < 0 else ""
+    numerator, denominator = abs(value.numerator), value.denominator
+    head = "" if numerator == 1 else str(numerator) + "*"
+    tail = "" if denominator == 1 else "/" + str(denominator)
+    return f"{sign}{head}pi{tail}"
+
+
+def append_rotation(gates, name, wire, value):
+    if value:
+        gates.append({"gate": name, "qubit": wire,
+                      "theta": angle_string(value)})
+
+
+def append_zyz(gates, wire, theta, phi, lam):
+    append_rotation(gates, "rz", wire, lam)
+    append_rotation(gates, "ry", wire, theta)
+    append_rotation(gates, "rz", wire, phi)
+
+
+def append_cartan_two_cx(gates, first, second, a, b):
+    half = Fraction(1, 2)
+    for wire in (first, second):
+        append_rotation(gates, "rx", wire, -half)
+    gates.append({"gate": "cx", "control": first, "target": second})
+    append_rotation(gates, "rx", first, -2*a)
+    append_rotation(gates, "rz", second, -2*b)
+    gates.append({"gate": "cx", "control": first, "target": second})
+    for wire in (first, second):
+        append_rotation(gates, "rx", wire, half)
+
+
+def embed_pair(exact, pair_matrix, pair):
+    out = [[exact.zero for _ in range(8)] for _ in range(8)]
+    other = next(j for j in range(3) if j not in pair)
+    for y in range(8):
+        for x in range(8):
+            if ((y >> (2-other)) & 1) != ((x >> (2-other)) & 1):
+                continue
+            py = (((y >> (2-pair[0])) & 1) << 1) | ((y >> (2-pair[1])) & 1)
+            px = (((x >> (2-pair[0])) & 1) << 1) | ((x >> (2-pair[1])) & 1)
+            out[y][x] = pair_matrix[py][px]
+    return out
+
+
+def middle_exact():
+    exact = CyclotomicPair()
+    a, b = exact.trig(Fraction(1, 8))
+    x = [[exact.zero, exact.one], [exact.one, exact.zero]]
+    y = [[exact.zero, -exact.imag], [exact.imag, exact.zero]]
+    xx, yy = exact.kron(x, x), exact.kron(y, y)
+    f_final = exact.matmul(
+        exact.add_scaled(a, exact.eye4, exact.imag*b, xx),
+        exact.add_scaled(a, exact.eye4, exact.imag*b, yy))
+    center = exact.kron(exact.kron(
+        exact.zyz((Fraction(1, 2), Fraction(0), Fraction(-1))),
+        exact.zyz((Fraction(1), Fraction(0), Fraction(3, 2)))),
+        exact.zyz((Fraction(1, 2), Fraction(-3, 2), Fraction(0))))
+    first = embed_pair(exact, exact.f, (1, 2))
+    final = embed_pair(exact, f_final, (0, 1))
+    return exact, exact.matmul(final, exact.matmul(center, first))
+
+
+def reduce_field(value, root, prime):
+    result = 0
+    for coefficient in value.rep:
+        denominator = int(coefficient.denominator) % prime
+        assert denominator
+        result = (result*root + int(coefficient.numerator)
+                  *pow(denominator, -1, prime)) % prime
+    return result
+
+
+def realign(matrix, mask):
+    left = tuple(j for j in range(6) if mask & (1 << j))
+    right = tuple(j for j in range(6) if j not in left)
+    out = [[0 for _ in range(1 << len(right))]
+           for _ in range(1 << len(left))]
+    for y in range(8):
+        for x in range(8):
+            bits = tuple((y >> (2-j)) & 1 for j in range(3)) + tuple(
+                (x >> (2-j)) & 1 for j in range(3))
+            row = col = 0
+            for j in left:
+                row = 2*row + bits[j]
+            for j in right:
+                col = 2*col + bits[j]
+            out[row][col] = matrix[y][x]
+    return out
+
+
+def rank_mod(matrix, prime):
+    a = [row[:] for row in matrix]
+    nrows, ncols = len(a), len(a[0])
+    rank = 0
+    for col in range(ncols):
+        pivot = next((j for j in range(rank, nrows) if a[j][col] % prime), None)
+        if pivot is None:
+            continue
+        a[rank], a[pivot] = a[pivot], a[rank]
+        inv = pow(a[rank][col], -1, prime)
+        for j in range(rank+1, nrows):
+            scalar = a[j][col]*inv % prime
+            if scalar:
+                for k in range(col, ncols):
+                    a[j][k] = (a[j][k] - scalar*a[rank][k]) % prime
+        rank += 1
+        if rank == nrows:
+            break
+    return rank
+
+
+def target_rank_bounds(exact, target):
+    ranks = {mask: 0 for mask in MASKS}
+    for prime in PRIMES:
+        root = pow(int(sp.primitive_root(prime)), (prime-1)//96, prime)
+        assert (pow(root, 32, prime) - pow(root, 16, prime) + 1) % prime == 0
+        numeric = [[reduce_field(v, root, prime) for v in row] for row in target]
+        for mask in MASKS:
+            ranks[mask] = max(ranks[mask], rank_mod(realign(numeric, mask), prime))
+    return ranks
+
+
+def graph_edges(schedule):
+    edges = [(6+2*t, 7+2*t) for t in range(3)]
+    for wire in range(3):
+        visits = [6+2*t+(wire == b) for t, (a, b) in enumerate(schedule)
+                  if wire in (a, b)]
+        path = [3+wire] + visits + [wire]
+        edges.extend(zip(path, path[1:]))
+    return edges
+
+
+def mincut(edges, mask):
+    # The six factor vertices can be assigned to either side exactly.
+    best = 100
+    for assignments in range(64):
+        sides = [(mask >> j) & 1 for j in range(6)] + [
+            (assignments >> j) & 1 for j in range(6)]
+        best = min(best, sum(sides[a] != sides[b] for a, b in edges))
+    return best
+
+
+def numerical_target(exact, target):
+    z = np.exp(2j*np.pi/96)
+    out = np.zeros((8, 8), dtype=complex)
+    for row in range(8):
+        for col in range(8):
+            value = 0j
+            for coefficient in target[row][col].rep:
+                value = value*z + complex(coefficient)
+            out[row, col] = value
+    assert np.max(np.abs(out.conj().T @ out - np.eye(8))) < 1e-12
+    return out
+
+
+def cnot_matrix(a, b):
+    out = np.zeros((8, 8), dtype=complex)
+    for x in range(8):
+        y = x ^ (1 << (2-b)) if x & (1 << (2-a)) else x
+        out[y, x] = 1
+    return torch.as_tensor(out, dtype=torch.complex128)
+
+
+def kron_local(mat, wire):
+    out = torch.ones((1, 1), dtype=torch.complex128)
+    for q in range(3):
+        out = torch.kron(out, mat if q == wire else torch.eye(2, dtype=torch.complex128))
+    return out
+
+
+def fit(schedule, target, initial, maxiter):
+    cxs = [cnot_matrix(a, b) for a, b in schedule]
+    target = torch.as_tensor(target, dtype=torch.complex128)
+
+    def objective(flat):
+        angles = torch.tensor(flat.reshape(4, 3, 3), dtype=torch.float64,
+                              requires_grad=True)
+        u = torch.eye(8, dtype=torch.complex128)
+        for slot in range(4):
+            for wire in range(3):
+                u = kron_local(axis_rotation(*angles[slot, wire]), wire) @ u
+            if slot < 3:
+                u = cxs[slot] @ u
+        overlap = torch.trace(target.conj().T @ u)
+        loss = 1 - overlap.abs().square()/64
+        grad = torch.autograd.grad(loss, angles)[0]
+        return float(loss.detach()), grad.detach().numpy().ravel().copy()
+
+    initial_loss = objective(initial.ravel())[0]
+    opt = minimize(objective, initial.ravel(), jac=True, method="L-BFGS-B",
+                   options={"maxiter": maxiter, "ftol": 1e-15,
+                            "gtol": 1e-11, "maxls": 30})
+    return opt.x.reshape(4, 3, 3), {
+        "initial_loss": initial_loss, "loss": float(opt.fun),
+        "iterations": int(opt.nit), "success": bool(opt.success),
+        "message": str(opt.message)}
+
+
+def full_candidate(schedule, angles):
+    original = json.loads((ROOT / "topology14_exact_matchgate_rational.json").read_text())
+    gates = list(original["gates"][:13])
+    input_zyz = {
+        0: (Fraction(3, 4), 0, 0),
+        1: (Fraction(1, 2), Fraction(-1, 2), Fraction(-1, 3)),
+        2: (Fraction(1, 2), Fraction(-3, 2), Fraction(1, 6)),
+        3: (Fraction(3, 4), -1, 1)}
+    for wire, params in input_zyz.items():
+        append_zyz(gates, wire, *params)
+    append_cartan_two_cx(gates, 0, 2, Fraction(1, 4), Fraction(1, 8))
+    for slot in range(4):
+        for q, wire in enumerate(WIRES):
+            gates.append({"gate": "u3", "qubit": wire,
+                          **axis_to_u3(*angles[slot, q])})
+        if slot < 3:
+            a, b = schedule[slot]
+            gates.append({"gate": "cx", "control": WIRES[a], "target": WIRES[b]})
+    append_zyz(gates, 2, 1, 0, Fraction(3, 2))
+    append_cartan_two_cx(gates, 2, 3, Fraction(1, 8), Fraction(1, 8))
+    return {"n": 4, "gates": gates}
+
+
+def main():
+    exact, target = middle_exact()
+    ranks = target_rank_bounds(exact, target)
+    records = []
+    compatible = []
+    for schedule in product(PAIRS, repeat=3):
+        edges = graph_edges(schedule)
+        violations = [(mask, ranks[mask], mincut(edges, mask))
+                      for mask in MASKS if ranks[mask] > 2**mincut(edges, mask)]
+        records.append({"schedule": [list(p) for p in schedule],
+                        "violating_cut_count": len(violations),
+                        "first_violating_cut": violations[0] if violations else None})
+        if not violations:
+            compatible.append(schedule)
+    fits = []
+    if compatible:
+        rng = np.random.default_rng(29313)
+        target_numeric = numerical_target(exact, target)
+        for index, schedule in enumerate(compatible):
+            for start in range(2):
+                initial = rng.normal(0, 0.35 if start else 0.05, (4, 3, 3))
+                angles, record = fit(schedule, target_numeric, initial, 200)
+                candidate = full_candidate(schedule, angles)
+                path = ROOT / f"search13_middle_threequbit_{index}_{start}.json"
+                path.write_text(json.dumps(candidate, indent=2) + "\n")
+                checked = evaluate(candidate)
+                fits.append({"schedule_index": index, "start": start,
+                             **record, "candidate": path.name,
+                             "off_diagonal_error": checked["off_diagonal_error"],
+                             "valid_diagonalizer": checked["valid_diagonalizer"]})
+                print(json.dumps(fits[-1], sort_keys=True), flush=True)
+    result = {"target": "F01 * (center locals 0,1,3) * F13",
+              "field": "Q(zeta_96)", "primes": PRIMES,
+              "boundary_order": "out0,out1,out3,in0,in1,in3",
+              "target_modular_rank_lower_bounds": {str(k): v for k, v in ranks.items()},
+              "three_cnot_pair_schedules": len(records),
+              "compatible_order_count": len(compatible),
+              "rank_screen": records, "fits": fits,
+              "scope": "fixed exact three-qubit middle block only; changed gauges or other regroupings untested"}
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps({"screened": len(records), "compatible": len(compatible),
+                      "fits": len(fits)}, sort_keys=True), flush=True)
+
+
+if __name__ == "__main__":
+    main()

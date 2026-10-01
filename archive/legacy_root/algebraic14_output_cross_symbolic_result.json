@@ -1,0 +1,17 @@
+{
+  "cyclotomic_conductor": 32,
+  "butterfly_schmidt_determinants": [
+    {
+      "qubit_in_butterfly": 0,
+      "determinant": "1/4",
+      "nonzero_exact": true
+    },
+    {
+      "qubit_in_butterfly": 1,
+      "determinant": "1/4",
+      "nonzero_exact": true
+    }
+  ],
+  "all_nonzero": true,
+  "all_angle_conclusion": "Every cross-pair RZZ output gauge has rank 4 across each one-wire cut, hence at least 4 CNOTs in the fixed final block."
+}

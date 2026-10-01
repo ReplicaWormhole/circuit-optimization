@@ -1,0 +1,537 @@
+{
+  "angle_over_pi": 0.5,
+  "unique_motifs": 42,
+  "ranked_count": 42,
+  "selected_count": 20,
+  "rank_bound_histogram": {
+    "5": 16,
+    "6": 26
+  },
+  "best": {
+    "output_cx": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "wire_pair": [
+      2,
+      3
+    ],
+    "tail_rank_lower_bound": 5,
+    "tail_cnot_count": 8,
+    "total_cnot_count": 18,
+    "off_diagonal_error": 2.2021704628628196e-15,
+    "valid": true
+  },
+  "results": [
+    {
+      "output_cx": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "wire_pair": [
+        0,
+        2
+      ],
+      "tail_rank_lower_bound": 5,
+      "tail_cnot_count": 9,
+      "total_cnot_count": 19,
+      "off_diagonal_error": 1.9395826058830988e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "wire_pair": [
+        0,
+        3
+      ],
+      "tail_rank_lower_bound": 5,
+      "tail_cnot_count": 9,
+      "total_cnot_count": 19,
+      "off_diagonal_error": 1.9261620466081333e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "wire_pair": [
+        1,
+        2
+      ],
+      "tail_rank_lower_bound": 5,
+      "tail_cnot_count": 9,
+      "total_cnot_count": 19,
+      "off_diagonal_error": 3.0389503565089167e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "wire_pair": [
+        1,
+        2
+      ],
+      "tail_rank_lower_bound": 5,
+      "tail_cnot_count": 9,
+      "total_cnot_count": 19,
+      "off_diagonal_error": 1.8634078381009543e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "wire_pair": [
+        1,
+        3
+      ],
+      "tail_rank_lower_bound": 5,
+      "tail_cnot_count": 9,
+      "total_cnot_count": 19,
+      "off_diagonal_error": 2.0801873471034385e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "wire_pair": [
+        1,
+        3
+      ],
+      "tail_rank_lower_bound": 5,
+      "tail_cnot_count": 9,
+      "total_cnot_count": 19,
+      "off_diagonal_error": 1.852331902139647e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "wire_pair": [
+        2,
+        3
+      ],
+      "tail_rank_lower_bound": 5,
+      "tail_cnot_count": 8,
+      "total_cnot_count": 18,
+      "off_diagonal_error": 2.2021704628628196e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "wire_pair": [
+        2,
+        3
+      ],
+      "tail_rank_lower_bound": 5,
+      "tail_cnot_count": 8,
+      "total_cnot_count": 18,
+      "off_diagonal_error": 3.098789633745824e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "wire_pair": [
+        2,
+        3
+      ],
+      "tail_rank_lower_bound": 5,
+      "tail_cnot_count": 9,
+      "total_cnot_count": 19,
+      "off_diagonal_error": 1.9261620466081333e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "wire_pair": [
+        2,
+        3
+      ],
+      "tail_rank_lower_bound": 5,
+      "tail_cnot_count": 9,
+      "total_cnot_count": 19,
+      "off_diagonal_error": 3.147077173984038e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "wire_pair": [
+        0,
+        2
+      ],
+      "tail_rank_lower_bound": 6,
+      "tail_cnot_count": 9,
+      "total_cnot_count": 19,
+      "off_diagonal_error": 3.1242615417415904e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "wire_pair": [
+        0,
+        2
+      ],
+      "tail_rank_lower_bound": 6,
+      "tail_cnot_count": 10,
+      "total_cnot_count": 20,
+      "off_diagonal_error": 2.240036941970081e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "wire_pair": [
+        0,
+        2
+      ],
+      "tail_rank_lower_bound": 6,
+      "tail_cnot_count": 10,
+      "total_cnot_count": 20,
+      "off_diagonal_error": 2.099335858130338e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "wire_pair": [
+        0,
+        3
+      ],
+      "tail_rank_lower_bound": 6,
+      "tail_cnot_count": 9,
+      "total_cnot_count": 19,
+      "off_diagonal_error": 1.818227167330728e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "wire_pair": [
+        0,
+        3
+      ],
+      "tail_rank_lower_bound": 6,
+      "tail_cnot_count": 10,
+      "total_cnot_count": 20,
+      "off_diagonal_error": 1.915910364673469e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "wire_pair": [
+        0,
+        3
+      ],
+      "tail_rank_lower_bound": 6,
+      "tail_cnot_count": 10,
+      "total_cnot_count": 20,
+      "off_diagonal_error": 2.1806139297883674e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "wire_pair": [
+        1,
+        2
+      ],
+      "tail_rank_lower_bound": 6,
+      "tail_cnot_count": 10,
+      "total_cnot_count": 20,
+      "off_diagonal_error": 2.1943655693892487e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "wire_pair": [
+        1,
+        2
+      ],
+      "tail_rank_lower_bound": 6,
+      "tail_cnot_count": 10,
+      "total_cnot_count": 20,
+      "off_diagonal_error": 2.1722551357356246e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "wire_pair": [
+        1,
+        3
+      ],
+      "tail_rank_lower_bound": 6,
+      "tail_cnot_count": 10,
+      "total_cnot_count": 20,
+      "off_diagonal_error": 1.915910364673469e-15,
+      "valid": true
+    },
+    {
+      "output_cx": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "wire_pair": [
+        1,
+        3
+      ],
+      "tail_rank_lower_bound": 6,
+      "tail_cnot_count": 10,
+      "total_cnot_count": 20,
+      "off_diagonal_error": 2.1116129610128507e-15,
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "groebner_basis": [
+    "b2**2 - 1/3",
+    "b2*c0 - s/3",
+    "c0**2 - 1/3",
+    "d1**2 - 1/3",
+    "b2*s - c0",
+    "-b2 + c0*s",
+    "s**2 - 1",
+    "a0",
+    "a1",
+    "a2",
+    "b0",
+    "b1",
+    "c1",
+    "c2",
+    "d0",
+    "d2",
+    "t"
+  ],
+  "has_complex_solution": true,
+  "involution_equation_count": 6,
+  "shape": "adjacent_adjacent",
+  "spectral_equation_count": 295,
+  "status": "groebner_finished",
+  "total_distinct_equations": 302,
+  "variables": [
+    "a0",
+    "a1",
+    "a2",
+    "b0",
+    "b1",
+    "b2",
+    "c0",
+    "c1",
+    "c2",
+    "d0",
+    "d1",
+    "d2",
+    "s",
+    "t"
+  ]
+}

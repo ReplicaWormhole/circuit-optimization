@@ -1,0 +1,6 @@
+{
+  "endpoints_tested": 824,
+  "valid_15": 4,
+  "distinct_cnot_topologies": 4,
+  "catalog": "fivemask15_topology_catalog.json"
+}

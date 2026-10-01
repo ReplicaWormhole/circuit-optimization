@@ -1,0 +1,524 @@
+{
+  "best_candidate": "search13_positive_row_weights_t0_w0_direct.json",
+  "best_off_diagonal_error": 0.2549135377454219,
+  "direct_maxiter": 250,
+  "fixed_eigenvalue_labels": false,
+  "objective": "sum_i w_i sum_j!=i |(U V4 Udagger)_ij|^2 / sum_i w_i",
+  "rows": [
+    {
+      "direct": {
+        "candidate": "search13_positive_row_weights_t0_w0_direct.json",
+        "cnot_count": 13,
+        "iterations": 132,
+        "loss": 0.06019279505796686,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.2549135377454219,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "random_weight_seed": null,
+      "topology": 0,
+      "trial": 0,
+      "weight_kind": "residual_adaptive",
+      "weighted": {
+        "candidate": "search13_positive_row_weights_t0_w0_weighted.json",
+        "cnot_count": 13,
+        "iterations": 200,
+        "loss": 0.07188771665284914,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "off_diagonal_error": 0.24838542635924582,
+        "success": false,
+        "valid_diagonalizer": false
+      },
+      "weights": [
+        1.9039152601435738,
+        7.06783797987049,
+        4.301408667059336,
+        7.0678379808654,
+        1.9039148792911162,
+        7.067839226939218,
+        4.3014094001239815,
+        7.0678392279566244,
+        2.8186869199804434,
+        9.99999999842709,
+        5.74096280258977,
+        10.0,
+        1.0170890879471595,
+        4.186123179315837,
+        3.3150472202601544,
+        4.186123179645551
+      ]
+    },
+    {
+      "direct": {
+        "candidate": "search13_positive_row_weights_t0_w1_direct.json",
+        "cnot_count": 13,
+        "iterations": 133,
+        "loss": 0.06019279505797909,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.2549135695886594,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "random_weight_seed": null,
+      "topology": 0,
+      "trial": 1,
+      "weight_kind": "reversed_emphasis",
+      "weighted": {
+        "candidate": "search13_positive_row_weights_t0_w1_weighted.json",
+        "cnot_count": 13,
+        "iterations": 122,
+        "loss": 0.035647534486125634,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.32815876540629474,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "weights": [
+        9.096084739856426,
+        3.9321620201295104,
+        6.698591332940664,
+        3.9321620191345996,
+        9.096085120708883,
+        3.932160773060782,
+        6.6985905998760185,
+        3.9321607720433756,
+        8.181313080019557,
+        1.0000000015729107,
+        5.25903719741023,
+        1.0,
+        9.98291091205284,
+        6.813876820684163,
+        7.684952779739845,
+        6.813876820354449
+      ]
+    },
+    {
+      "direct": {
+        "candidate": "search13_positive_row_weights_t0_w2_direct.json",
+        "cnot_count": 13,
+        "iterations": 250,
+        "loss": 0.0601927950584651,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "off_diagonal_error": 0.25491355271839067,
+        "success": false,
+        "valid_diagonalizer": false
+      },
+      "random_weight_seed": 33900,
+      "topology": 0,
+      "trial": 2,
+      "weight_kind": "positive_random",
+      "weighted": {
+        "candidate": "search13_positive_row_weights_t0_w2_weighted.json",
+        "cnot_count": 13,
+        "iterations": 200,
+        "loss": 0.05956381850230535,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "off_diagonal_error": 0.26777671274237824,
+        "success": false,
+        "valid_diagonalizer": false
+      },
+      "weights": [
+        7.9418889850514995,
+        10.0,
+        8.012237959577128,
+        3.6679789253773674,
+        1.254302795340224,
+        10.0,
+        10.0,
+        10.0,
+        6.056824033896318,
+        3.910436919027878,
+        1.0,
+        10.0,
+        10.0,
+        10.0,
+        4.141205145012961,
+        8.623482577465769
+      ]
+    },
+    {
+      "direct": {
+        "candidate": "search13_positive_row_weights_t0_w3_direct.json",
+        "cnot_count": 13,
+        "iterations": 233,
+        "loss": 0.06019279505804313,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.25491359515778694,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "random_weight_seed": 33901,
+      "topology": 0,
+      "trial": 3,
+      "weight_kind": "positive_random",
+      "weighted": {
+        "candidate": "search13_positive_row_weights_t0_w3_weighted.json",
+        "cnot_count": 13,
+        "iterations": 200,
+        "loss": 0.052402299048362896,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "off_diagonal_error": 0.2502126330696385,
+        "success": false,
+        "valid_diagonalizer": false
+      },
+      "weights": [
+        7.3160015418251545,
+        10.0,
+        5.395742175986232,
+        10.0,
+        10.0,
+        7.288609464651212,
+        3.8902725449699433,
+        10.0,
+        5.785481383255214,
+        1.0,
+        3.228772046657219,
+        3.52567414967835,
+        10.0,
+        5.559476273847532,
+        10.0,
+        5.978904830720279
+      ]
+    },
+    {
+      "direct": {
+        "candidate": "search13_positive_row_weights_t1_w0_direct.json",
+        "cnot_count": 13,
+        "iterations": 112,
+        "loss": 0.060192795057993596,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.25491355527045234,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "random_weight_seed": null,
+      "topology": 1,
+      "trial": 0,
+      "weight_kind": "residual_adaptive",
+      "weighted": {
+        "candidate": "search13_positive_row_weights_t1_w0_weighted.json",
+        "cnot_count": 13,
+        "iterations": 159,
+        "loss": 0.07188773966540463,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.24838566316391839,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "weights": [
+        7.067884390476194,
+        4.3014752670621474,
+        7.067884458446767,
+        1.9039116852047524,
+        4.186113861627554,
+        3.315085461932563,
+        4.186113884894575,
+        1.0170913813878886,
+        9.999999902267872,
+        5.7409759636605315,
+        10.0,
+        2.818715236402108,
+        7.0677900531289195,
+        4.301382862213326,
+        7.067790114234096,
+        1.9039446752459324
+      ]
+    },
+    {
+      "direct": {
+        "candidate": "search13_positive_row_weights_t1_w1_direct.json",
+        "cnot_count": 13,
+        "iterations": 115,
+        "loss": 0.06019279505795832,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.2549135514647057,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "random_weight_seed": null,
+      "topology": 1,
+      "trial": 1,
+      "weight_kind": "reversed_emphasis",
+      "weighted": {
+        "candidate": "search13_positive_row_weights_t1_w1_weighted.json",
+        "cnot_count": 13,
+        "iterations": 122,
+        "loss": 0.03564758125647745,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.32815923795488805,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "weights": [
+        3.932115609523806,
+        6.6985247329378526,
+        3.932115541553233,
+        9.096088314795248,
+        6.813886138372446,
+        7.684914538067437,
+        6.813886115105425,
+        9.982908618612111,
+        1.0000000977321282,
+        5.2590240363394685,
+        1.0,
+        8.181284763597892,
+        3.9322099468710805,
+        6.698617137786674,
+        3.9322098857659036,
+        9.096055324754067
+      ]
+    },
+    {
+      "direct": {
+        "candidate": "search13_positive_row_weights_t1_w2_direct.json",
+        "cnot_count": 13,
+        "iterations": 250,
+        "loss": 0.06019279512866448,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "off_diagonal_error": 0.25491435349919045,
+        "success": false,
+        "valid_diagonalizer": false
+      },
+      "random_weight_seed": 34000,
+      "topology": 1,
+      "trial": 2,
+      "weight_kind": "positive_random",
+      "weighted": {
+        "candidate": "search13_positive_row_weights_t1_w2_weighted.json",
+        "cnot_count": 13,
+        "iterations": 200,
+        "loss": 0.04526540955609164,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "off_diagonal_error": 0.2875953236461566,
+        "success": false,
+        "valid_diagonalizer": false
+      },
+      "weights": [
+        1.3186937898981381,
+        4.130843362596044,
+        2.270092480089656,
+        8.094604212019975,
+        2.575989106246797,
+        3.384380260908013,
+        10.0,
+        4.614121525609453,
+        2.2766634251580298,
+        1.0,
+        3.322745967802858,
+        10.0,
+        2.4002590717911296,
+        5.0456113863862315,
+        10.0,
+        7.049877553612236
+      ]
+    },
+    {
+      "direct": {
+        "candidate": "search13_positive_row_weights_t1_w3_direct.json",
+        "cnot_count": 13,
+        "iterations": 137,
+        "loss": 0.06019279505831693,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.2549135421884347,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "random_weight_seed": 34001,
+      "topology": 1,
+      "trial": 3,
+      "weight_kind": "positive_random",
+      "weighted": {
+        "candidate": "search13_positive_row_weights_t1_w3_weighted.json",
+        "cnot_count": 13,
+        "iterations": 200,
+        "loss": 0.044543306071052675,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "off_diagonal_error": 0.4400445873119427,
+        "success": false,
+        "valid_diagonalizer": false
+      },
+      "weights": [
+        10.0,
+        1.3447342233350104,
+        7.271689709393195,
+        10.0,
+        5.0242158031860695,
+        1.0,
+        10.0,
+        2.381017506451351,
+        1.0876223188166703,
+        1.3097904246142889,
+        10.0,
+        10.0,
+        5.750576887837767,
+        4.169885157087827,
+        5.78364739595211,
+        5.520089710646491
+      ]
+    }
+  ],
+  "scope": "eight fixed positive-row-weight trials on two 13-CNOT topologies; full local freedom; numerical failures are not exclusions",
+  "seed": 33900,
+  "sources": [
+    {
+      "roundtrip_error": 1.1102230246251565e-16,
+      "roundtrip_loss": 0.06019279505817168,
+      "schedule": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "source": "search13_joint_prefix_slot8_refine_trial1.json",
+      "source_row_residuals": [
+        0.013200899431223087,
+        0.08861551792421705,
+        0.048214214005299856,
+        0.08861551793874686,
+        0.013200893869202828,
+        0.08861553613657566,
+        0.04821422471107404,
+        0.088615536151434,
+        0.02656034717649233,
+        0.13143720445805174,
+        0.06923765525787937,
+        0.13143720448102275,
+        0.0002495713274338879,
+        0.04653056931349577,
+        0.033809259430284136,
+        0.04653056931831097
+      ],
+      "source_sha256": "b680f9e35efb63888ea7811ca90662811361d956ef5eadd84b8d238b3323f7ad"
+    },
+    {
+      "roundtrip_error": 4.163336342344337e-17,
+      "roundtrip_loss": 0.060192795089502205,
+      "schedule": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "source": "search13_joint_prefix_two_slot_v2_case15.json",
+      "source_row_residuals": [
+        0.08861602887775728,
+        0.04821509586840051,
+        0.08861602987040676,
+        0.013200822369781576,
+        0.04653034563627417,
+        0.0338097542647796,
+        0.04653034597606822,
+        0.0002496043512310624,
+        0.13143695560366353,
+        0.06923771711338163,
+        0.13143695703095393,
+        0.02656071070872501,
+        0.08861465116510617,
+        0.04821374637816229,
+        0.08861465205749267,
+        0.013201304159851025
+      ],
+      "source_sha256": "049e067bc926b5e480640203f695c1064c750d755ad79c9891860feef528b757"
+    }
+  ],
+  "strictly_positive_weights": true,
+  "weight_rule": "1+9*row residual/max residual, reverse11-w, and clipped exp-normal vectors with minimum1 and maximum10",
+  "weighted_maxiter": 200
+}

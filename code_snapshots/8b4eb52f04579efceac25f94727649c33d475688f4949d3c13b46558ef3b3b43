@@ -1,0 +1,183 @@
+"""Bounded delete-one-CNOT optimization for the exact 17-CNOT cycle circuit.
+
+The objective is ||U V - D U||_F^2 / 16, where D contains the exact fourth
+roots determined by the checked baseline. This permits any orthonormal basis
+within each degenerate eigenspace. Gate corrections are arbitrary SU(2) Euler
+rotations on every wire between successive CNOTs. Near misses are saved.
+"""
+
+import argparse
+import json
+import math
+from pathlib import Path
+
+import numpy as np
+import torch
+from scipy.optimize import minimize
+
+from check_circuit import cnot, embedded_one_qubit, evaluate, one_qubit_matrix, right_shift
+
+
+ROOT = Path(__file__).resolve().parent
+torch.set_num_threads(1)
+CDTYPE = torch.complex128
+RDTYPE = torch.float64
+
+
+def fixed_matrix(gate):
+    if gate["gate"] == "cx":
+        return cnot(gate["control"], gate["target"], 4)
+    return embedded_one_qubit(one_qubit_matrix(gate), gate["qubit"], 4)
+
+
+def split_baseline(gates, deleted_cx):
+    chunks = [[]]
+    cx_gates = []
+    cx_idx = -1
+    for gate in gates:
+        if gate["gate"] == "cx":
+            cx_idx += 1
+            if cx_idx == deleted_cx:
+                continue
+            cx_gates.append(gate)
+            chunks.append([])
+        else:
+            chunks[-1].append(gate)
+    if cx_idx != 16:
+        raise ValueError(f"expected 17 CNOTs, found {cx_idx + 1}")
+    return chunks, cx_gates
+
+
+def kron_gate(mat, qubit):
+    result = torch.ones((1, 1), dtype=CDTYPE)
+    identity = torch.eye(2, dtype=CDTYPE)
+    for j in range(4):
+        result = torch.kron(result, mat if j == qubit else identity)
+    return result
+
+
+def euler(theta, phi, lam):
+    # Rz(phi) Ry(theta) Rz(lam), with identity at the origin.
+    z0 = torch.exp(-0.5j * phi)
+    z1 = torch.exp(0.5j * phi)
+    w0 = torch.exp(-0.5j * lam)
+    w1 = torch.exp(0.5j * lam)
+    c = torch.cos(theta / 2)
+    s = torch.sin(theta / 2)
+    return torch.stack((torch.stack((z0 * c * w0, -z0 * s * w1)),
+                        torch.stack((z1 * s * w0, z1 * c * w1))))
+
+
+def setup(deleted_cx):
+    base = json.loads((ROOT / "algebraic_boundary_candidate.json").read_text())
+    chunks, cxs = split_baseline(base["gates"], deleted_cx)
+    matrices = []
+    for chunk in chunks:
+        mat = np.eye(16, dtype=complex)
+        for gate in chunk:
+            mat = fixed_matrix(gate) @ mat
+        matrices.append(torch.as_tensor(mat, dtype=CDTYPE))
+    cx_matrices = [torch.as_tensor(fixed_matrix(g), dtype=CDTYPE) for g in cxs]
+    vb = right_shift(4)
+    baseline_u = np.eye(16, dtype=complex)
+    for gate in base["gates"]:
+        baseline_u = fixed_matrix(gate) @ baseline_u
+    diag = np.diag(baseline_u @ vb @ baseline_u.conj().T)
+    roots = np.array([1, 1j, -1, -1j])
+    exact_diag = roots[np.argmin(np.abs(diag[:, None] - roots[None, :]), axis=1)]
+    return chunks, cxs, matrices, cx_matrices, torch.as_tensor(vb, dtype=CDTYPE), torch.diag(torch.as_tensor(exact_diag, dtype=CDTYPE))
+
+
+def optimize_one(deleted_cx, seed, maxiter, output, initial_candidate=None, optimizer="L-BFGS-B"):
+    chunks, cxs, mats, cx_mats, v, d = setup(deleted_cx)
+    nslots = len(chunks)
+    rng = np.random.default_rng(seed)
+    x0 = np.zeros((nslots, 4, 3), dtype=np.float64)
+    if initial_candidate:
+        old = json.loads(initial_candidate.read_text())["gates"]
+        pos = 0
+        for slot, chunk in enumerate(chunks):
+            pos += len(chunk)
+            for q in range(4):
+                triple = old[pos:pos + 3]
+                if [(g["gate"], g["qubit"]) for g in triple] != [("rz", q), ("ry", q), ("rz", q)]:
+                    raise ValueError("initial candidate has a different correction layout")
+                x0[slot, q] = [triple[1]["theta"], triple[2]["theta"], triple[0]["theta"]]
+                pos += 3
+            if slot < len(cxs):
+                if old[pos] != cxs[slot]:
+                    raise ValueError("initial candidate has a different CNOT topology")
+                pos += 1
+        if pos != len(old):
+            raise ValueError("initial candidate has extra gates")
+    elif seed:
+        x0 += rng.normal(0, 0.01, x0.shape)
+    history = []
+
+    def objective(flat):
+        angles = torch.tensor(flat.reshape(nslots, 4, 3), dtype=RDTYPE, requires_grad=True)
+        u = torch.eye(16, dtype=CDTYPE)
+        for slot in range(nslots):
+            u = mats[slot] @ u
+            for q in range(4):
+                a, b, c = angles[slot, q]
+                u = kron_gate(euler(a, b, c), q) @ u
+            if slot < len(cx_mats):
+                u = cx_mats[slot] @ u
+        diff = u @ v - d @ u
+        loss = (diff.abs() ** 2).sum().real / 16
+        grad = torch.autograd.grad(loss, angles)[0]
+        return float(loss.detach()), grad.detach().numpy().ravel().copy()
+
+    def callback(x):
+        if len(history) % 25 == 0:
+            history.append(objective(x)[0])
+        else:
+            history.append(None)
+
+    initial = objective(x0.ravel())[0]
+    options = ({"maxiter": maxiter, "ftol": 1e-16, "gtol": 1e-13, "maxls": 30}
+               if optimizer == "L-BFGS-B" else
+               {"maxiter": maxiter, "gtol": 1e-13})
+    result = minimize(objective, x0.ravel(), method=optimizer, jac=True,
+                      options=options, callback=callback)
+    angles = result.x.reshape(nslots, 4, 3)
+    gates = []
+    for slot, chunk in enumerate(chunks):
+        gates.extend(chunk)
+        for q in range(4):
+            a, b, c = angles[slot, q]
+            gates.extend(({"gate": "rz", "qubit": q, "theta": float(c)},
+                          {"gate": "ry", "qubit": q, "theta": float(a)},
+                          {"gate": "rz", "qubit": q, "theta": float(b)}))
+        if slot < len(cxs):
+            gates.append(cxs[slot])
+    candidate = {"n": 4, "gates": gates}
+    output.write_text(json.dumps(candidate, indent=2) + "\n")
+    check = evaluate(candidate)
+    print(json.dumps({"deleted_cx": deleted_cx, "seed": seed,
+                      "maxiter": maxiter, "nit": result.nit, "nfev": result.nfev,
+                      "initial_loss": initial, "final_loss": result.fun,
+                      "optimizer": optimizer,
+                      "optimizer_success": bool(result.success),
+                      "optimizer_message": str(result.message),
+                      "off_diagonal_error": check["off_diagonal_error"],
+                      "valid_diagonalizer": check["valid_diagonalizer"],
+                      "candidate": str(output)}, indent=2))
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--deleted-cx", type=int, required=True)
+    parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--maxiter", type=int, default=500)
+    parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--initial-candidate", type=Path)
+    parser.add_argument("--optimizer", choices=["L-BFGS-B", "BFGS"], default="L-BFGS-B")
+    args = parser.parse_args()
+    optimize_one(args.deleted_cx, args.seed, args.maxiter, args.output,
+                 args.initial_candidate, args.optimizer)
+
+
+if __name__ == "__main__":
+    main()

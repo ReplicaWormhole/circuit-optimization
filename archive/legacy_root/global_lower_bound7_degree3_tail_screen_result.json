@@ -1,0 +1,363 @@
+{
+  "degree_3333_schedules_by_shortest_tail": {
+    "2:j_center_adjacent_v": 280,
+    "2:j_center_mixed_adjacent_opposite": 560,
+    "2:repeated_adjacent_pair": 144,
+    "2:repeated_opposite_pair": 72,
+    "3:3_active": 360
+  },
+  "degree_three_selected_wires_by_tail": {
+    "2:j_center_adjacent_v": 624,
+    "2:j_center_mixed_adjacent_opposite": 1248,
+    "2:repeated_adjacent_pair": 608,
+    "2:repeated_opposite_pair": 304,
+    "3:3_active": 3312,
+    "4:4_active": 2448,
+    "5:5_active": 1032
+  },
+  "examples": {
+    "2:j_center_adjacent_v": {
+      "active_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "potential_support": [
+        1,
+        2,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "selected_wire": 2
+    },
+    "2:j_center_mixed_adjacent_opposite": {
+      "active_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "potential_support": [
+        0,
+        1,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "selected_wire": 3
+    },
+    "2:repeated_adjacent_pair": {
+      "active_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "potential_support": [
+        1,
+        2
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "selected_wire": 2
+    },
+    "2:repeated_opposite_pair": {
+      "active_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "potential_support": [
+        1,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "selected_wire": 1
+    },
+    "3:3_active": {
+      "active_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "potential_support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "selected_wire": 2
+    },
+    "4:4_active": {
+      "active_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "potential_support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "selected_wire": 1
+    },
+    "5:5_active": {
+      "active_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "potential_support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "schedule": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "selected_wire": 1
+    }
+  },
+  "interpretation": "classification only; no new schedules excluded",
+  "prior_survivors_with_degree_three_wire": 3432,
+  "surviving_schedules_by_shortest_degree_three_tail": {
+    "2:j_center_adjacent_v": 536,
+    "2:j_center_mixed_adjacent_opposite": 1072,
+    "2:repeated_adjacent_pair": 368,
+    "2:repeated_opposite_pair": 184,
+    "3:3_active": 1080,
+    "4:4_active": 192
+  }
+}

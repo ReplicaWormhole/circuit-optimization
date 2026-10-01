@@ -1,0 +1,263 @@
+{
+  "best_candidate": "search13_threecycle_within_sector_deletion_warm.json",
+  "best_off_diagonal_error": 0.99249427209697,
+  "direct_maxiter": 180,
+  "process_maxiter": 100,
+  "rows": [
+    {
+      "candidate": "search13_threecycle_overall_deletion_warm.json",
+      "case": "overall",
+      "cnot_count": 13,
+      "deleted_exact_tail_cnot": 6,
+      "direct": {
+        "initial_loss": 0.5038384377937214,
+        "iterations": 51,
+        "loss": 0.37500000000000205,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "success": true
+      },
+      "distance_to_deletion": 2,
+      "mod97_rank16_masks": 22,
+      "mod97_rank_sum": 1096,
+      "off_diagonal_error": 0.9999999999999988,
+      "output_cycle": [
+        0,
+        1,
+        3
+      ],
+      "process": {
+        "initial_loss": 0.9919260088349938,
+        "iterations": 78,
+        "loss": 0.6498320878094153,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "success": true
+      },
+      "same_eigenvalue_sector": false,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "schedule_index": 506,
+      "start": "deletion_warm",
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_threecycle_overall_random.json",
+      "case": "overall",
+      "cnot_count": 13,
+      "deleted_exact_tail_cnot": 6,
+      "direct": {
+        "initial_loss": 0.5030859464688732,
+        "iterations": 48,
+        "loss": 0.375000000000001,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "success": true
+      },
+      "distance_to_deletion": 2,
+      "mod97_rank16_masks": 22,
+      "mod97_rank_sum": 1096,
+      "off_diagonal_error": 0.9999999999999991,
+      "output_cycle": [
+        0,
+        1,
+        3
+      ],
+      "process": {
+        "initial_loss": 0.9820310936902107,
+        "iterations": 95,
+        "loss": 0.6498550476500082,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "success": true
+      },
+      "same_eigenvalue_sector": false,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "schedule_index": 506,
+      "start": "random",
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_threecycle_within_sector_deletion_warm.json",
+      "case": "within_sector",
+      "cnot_count": 13,
+      "deleted_exact_tail_cnot": 0,
+      "direct": {
+        "initial_loss": 0.7428687600423962,
+        "iterations": 70,
+        "loss": 0.48395473677333,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "success": true
+      },
+      "distance_to_deletion": 2,
+      "mod97_rank16_masks": 24,
+      "mod97_rank_sum": 1104,
+      "off_diagonal_error": 0.99249427209697,
+      "output_cycle": [
+        4,
+        6,
+        7
+      ],
+      "process": {
+        "initial_loss": 0.9967720152815068,
+        "iterations": 82,
+        "loss": 0.6162773750746752,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "success": true
+      },
+      "same_eigenvalue_sector": true,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "schedule_index": 922,
+      "start": "deletion_warm",
+      "valid_diagonalizer": false
+    },
+    {
+      "candidate": "search13_threecycle_within_sector_random.json",
+      "case": "within_sector",
+      "cnot_count": 13,
+      "deleted_exact_tail_cnot": 0,
+      "direct": {
+        "initial_loss": 0.6960270059618714,
+        "iterations": 71,
+        "loss": 0.43750000000000044,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "success": true
+      },
+      "distance_to_deletion": 2,
+      "mod97_rank16_masks": 24,
+      "mod97_rank_sum": 1104,
+      "off_diagonal_error": 0.9999999999999981,
+      "output_cycle": [
+        4,
+        6,
+        7
+      ],
+      "process": {
+        "initial_loss": 0.9796136845228186,
+        "iterations": 100,
+        "loss": 0.5518479495522559,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "success": false
+      },
+      "same_eigenvalue_sector": true,
+      "schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "schedule_index": 922,
+      "start": "random",
+      "valid_diagonalizer": false
+    }
+  ],
+  "scope": "two rank-profile-selected three-cycle gauges, two seven-tail orders and two starts each; numerical failure is not a no-go",
+  "screen": "search13_threecycle_distance2_rank_result.json",
+  "seed": 32800
+}

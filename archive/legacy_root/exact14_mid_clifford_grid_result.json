@@ -1,0 +1,19 @@
+{
+  "trials": 331776,
+  "best_indices": [
+    6,
+    22,
+    21,
+    16
+  ],
+  "best_words": [
+    "hsh",
+    "hshsss",
+    "hshssh",
+    "hshss"
+  ],
+  "best_error": 0.3749999999999991,
+  "checked_error": 0.3749999999999994,
+  "valid": false,
+  "cnot_count": 14
+}

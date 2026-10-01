@@ -1,0 +1,139 @@
+{
+  "checked": 14,
+  "all_invalid": true,
+  "ranking_verified": [
+    1,
+    9,
+    11
+  ],
+  "native_schedules_verified": true,
+  "max_loss_error": 1.3322676295501878e-15,
+  "records": [
+    {
+      "stage": "short",
+      "candidate": "search12_fresh_chain_interior_slot1_short.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.25887674575548614,
+      "loss_error": 2.0816681711721685e-17
+    },
+    {
+      "stage": "short",
+      "candidate": "search12_fresh_chain_interior_slot2_short.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.7902257511907677,
+      "loss_error": 1.1102230246251565e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search12_fresh_chain_interior_slot3_short.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.4997181531593198,
+      "loss_error": 8.326672684688674e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search12_fresh_chain_interior_slot4_short.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.5171749204736106,
+      "loss_error": 1.2212453270876722e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search12_fresh_chain_interior_slot5_short.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.9984344144135304,
+      "loss_error": 1.0547118733938987e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search12_fresh_chain_interior_slot6_short.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.9241317636801972,
+      "loss_error": 7.771561172376096e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search12_fresh_chain_interior_slot7_short.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.6784779846565454,
+      "loss_error": 2.220446049250313e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search12_fresh_chain_interior_slot8_short.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.7071066441426382,
+      "loss_error": 9.992007221626409e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search12_fresh_chain_interior_slot9_short.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.48023289681204184,
+      "loss_error": 4.718447854656915e-16
+    },
+    {
+      "stage": "short",
+      "candidate": "search12_fresh_chain_interior_slot10_short.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.9989268876021656,
+      "loss_error": 1.3322676295501878e-15
+    },
+    {
+      "stage": "short",
+      "candidate": "search12_fresh_chain_interior_slot11_short.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.6943053371066065,
+      "loss_error": 2.498001805406602e-16
+    },
+    {
+      "stage": "deep",
+      "candidate": "search12_fresh_chain_interior_slot1_deep.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.2588190538193609,
+      "loss_error": 2.0816681711721685e-17
+    },
+    {
+      "stage": "deep",
+      "candidate": "search12_fresh_chain_interior_slot9_deep.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.4800425598239467,
+      "loss_error": 5.551115123125783e-17
+    },
+    {
+      "stage": "deep",
+      "candidate": "search12_fresh_chain_interior_slot11_deep.json",
+      "exit_code": 1,
+      "cnot_count": 12,
+      "valid": false,
+      "off_diagonal_error": 0.6943053371066062,
+      "loss_error": 1.942890293094024e-16
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "native": "collaboration/work/numerical_label12/relaxed12/native_seed9261101.json",
+    "compiled": "collaboration/work/numerical_label12/relaxed12/compiled_seed9261101.json",
+    "native_sha256": "ae93b27f0fd346f9104790cca3f584f98d405965f353108bdd1f4969fa80a1de",
+    "compiled_sha256": "025a844f57da3f886088e0972510d45cc099dce5db30fd005ecfa077dddee742",
+    "native_cx": 4,
+    "native_f": 4,
+    "compiled_cx": 12,
+    "full_matrix_difference": 4.0053709487069576e-16,
+    "maxoff": 0.9438619403021393,
+    "offloss": 0.5922239996302484,
+    "unitarity": 1.5543122344752192e-15,
+    "nearest_labels": [
+      2,
+      0,
+      1,
+      1,
+      0,
+      0,
+      3,
+      1,
+      0,
+      0,
+      2,
+      0,
+      3,
+      1,
+      3,
+      3
+    ],
+    "root_counts": [
+      6,
+      4,
+      2,
+      4
+    ],
+    "exact_certificate": false
+  },
+  {
+    "native": "collaboration/work/numerical_label12/relaxed12/native_seed9261102.json",
+    "compiled": "collaboration/work/numerical_label12/relaxed12/compiled_seed9261102.json",
+    "native_sha256": "b00ff82ed96ac62d17570d8ddf955a0ca43127a1673ee9ae02a6f07534f461b5",
+    "compiled_sha256": "cb3435a1e923bd4affcb9428c5400a6cc751027b1dcb2dfb46946647054af1a6",
+    "native_cx": 4,
+    "native_f": 4,
+    "compiled_cx": 12,
+    "full_matrix_difference": 3.925231146709438e-16,
+    "maxoff": 0.7071067846798587,
+    "offloss": 0.5000000000000011,
+    "unitarity": 1.3322676295501878e-15,
+    "nearest_labels": [
+      0,
+      0,
+      0,
+      3,
+      3,
+      1,
+      3,
+      3,
+      3,
+      2,
+      2,
+      0,
+      0,
+      0,
+      2,
+      1
+    ],
+    "root_counts": [
+      6,
+      2,
+      3,
+      5
+    ],
+    "exact_certificate": false
+  }
+]

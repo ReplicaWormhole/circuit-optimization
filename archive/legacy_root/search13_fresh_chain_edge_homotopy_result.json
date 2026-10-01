@@ -1,0 +1,248 @@
+{
+  "source": "search13_fresh_chain_refine_trial1.json",
+  "source_loss": 0.0012158342275705673,
+  "source_schedule": [
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "maxiter": 150,
+  "polish_maxiter": 300,
+  "rows": [
+    {
+      "case": 0,
+      "slot": 6,
+      "old_edge": [
+        0,
+        1
+      ],
+      "new_edge": [
+        0,
+        3
+      ],
+      "stages": [
+        {
+          "alpha": 1.0,
+          "initial_loss": 0.0012158342275705673,
+          "loss": 0.0012158342275699681,
+          "iterations": 1,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "native_single_cnot_endpoint": true
+        },
+        {
+          "alpha": 0.875,
+          "initial_loss": 0.06634966108372652,
+          "loss": 0.024630292168671252,
+          "iterations": 150,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "native_single_cnot_endpoint": false
+        },
+        {
+          "alpha": 0.75,
+          "initial_loss": 0.1225539192594847,
+          "loss": 0.07204342165095787,
+          "iterations": 150,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "native_single_cnot_endpoint": false
+        },
+        {
+          "alpha": 0.5,
+          "initial_loss": 0.3280614033354251,
+          "loss": 0.1507497446269448,
+          "iterations": 150,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "native_single_cnot_endpoint": false
+        },
+        {
+          "alpha": 0.25,
+          "initial_loss": 0.36874308718289694,
+          "loss": 0.09379445564434738,
+          "iterations": 150,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "native_single_cnot_endpoint": false
+        },
+        {
+          "alpha": 0.125,
+          "initial_loss": 0.16307486115780087,
+          "loss": 0.1145396772286014,
+          "iterations": 150,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "native_single_cnot_endpoint": false
+        },
+        {
+          "alpha": 0.0,
+          "initial_loss": 0.2155309422917793,
+          "loss": 0.17501821663804906,
+          "iterations": 88,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "native_single_cnot_endpoint": true
+        }
+      ],
+      "endpoint_candidate": "search13_fresh_chain_edge_homotopy_case0_endpoint.json",
+      "endpoint_off_diagonal_error": 0.3582415780259216,
+      "endpoint_valid": false,
+      "polish": {
+        "initial_loss": 0.17501821663804906,
+        "loss": 0.17501821663804829,
+        "nit": 1,
+        "nfev": 3,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      "candidate": "search13_fresh_chain_edge_homotopy_case0_polish.json",
+      "off_diagonal_error": 0.358241576691771,
+      "valid_diagonalizer": false,
+      "cnot_count": 13
+    },
+    {
+      "case": 1,
+      "slot": 8,
+      "old_edge": [
+        1,
+        2
+      ],
+      "new_edge": [
+        0,
+        2
+      ],
+      "stages": [
+        {
+          "alpha": 1.0,
+          "initial_loss": 0.0012158342275705677,
+          "loss": 0.0012158342275699723,
+          "iterations": 1,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "native_single_cnot_endpoint": true
+        },
+        {
+          "alpha": 0.875,
+          "initial_loss": 0.0715089001715051,
+          "loss": 0.03768163722190253,
+          "iterations": 150,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "native_single_cnot_endpoint": false
+        },
+        {
+          "alpha": 0.75,
+          "initial_loss": 0.16670987481297356,
+          "loss": 0.13682219838545673,
+          "iterations": 150,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "native_single_cnot_endpoint": false
+        },
+        {
+          "alpha": 0.5,
+          "initial_loss": 0.4757026228469369,
+          "loss": 0.3912442970146231,
+          "iterations": 150,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "native_single_cnot_endpoint": false
+        },
+        {
+          "alpha": 0.25,
+          "initial_loss": 0.6119287483872303,
+          "loss": 0.4498851430855032,
+          "iterations": 150,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "native_single_cnot_endpoint": false
+        },
+        {
+          "alpha": 0.125,
+          "initial_loss": 0.4924308855025456,
+          "loss": 0.46365779711695904,
+          "iterations": 142,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "native_single_cnot_endpoint": false
+        },
+        {
+          "alpha": 0.0,
+          "initial_loss": 0.5258954393871444,
+          "loss": 0.4970417078991213,
+          "iterations": 132,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "native_single_cnot_endpoint": true
+        }
+      ],
+      "endpoint_candidate": "search13_fresh_chain_edge_homotopy_case1_endpoint.json",
+      "endpoint_off_diagonal_error": 0.531742605653878,
+      "endpoint_valid": false,
+      "polish": {
+        "initial_loss": 0.4970417078991212,
+        "loss": 0.49704170789912094,
+        "nit": 1,
+        "nfev": 3,
+        "optimizer_success": true,
+        "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      "candidate": "search13_fresh_chain_edge_homotopy_case1_polish.json",
+      "off_diagonal_error": 0.5317426076164427,
+      "valid_diagonalizer": false,
+      "cnot_count": 13
+    }
+  ],
+  "best_candidate": "search13_fresh_chain_edge_homotopy_case0_polish.json",
+  "scope": "Two specified powered-entangler homotopies; only native endpoint/polish gate lists count as13CNOT candidates; bounded failures exclude nothing globally"
+}

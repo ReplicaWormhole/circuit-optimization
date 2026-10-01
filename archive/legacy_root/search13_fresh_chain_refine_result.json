@@ -1,0 +1,109 @@
+{
+  "source": "search13_fresh_schedules_case2_start1.json",
+  "source_roundtrip_loss": 0.0012158348375901405,
+  "schedule": [
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "seed": 34000,
+  "maxiter": 1200,
+  "rows": [
+    {
+      "trial": 0,
+      "sigma": 0.0,
+      "seed": 34000,
+      "initial_loss": 0.0012158348375901405,
+      "loss": 0.0012158342275766705,
+      "nit": 124,
+      "nfev": 132,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_fresh_chain_refine_trial0.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.04303464849612123,
+      "valid_diagonalizer": false
+    },
+    {
+      "trial": 1,
+      "sigma": 0.02,
+      "seed": 34001,
+      "initial_loss": 0.01865526014062106,
+      "loss": 0.0012158342275705642,
+      "nit": 158,
+      "nfev": 168,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_fresh_chain_refine_trial1.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.043034579534661443,
+      "valid_diagonalizer": false
+    },
+    {
+      "trial": 2,
+      "sigma": 0.1,
+      "seed": 34002,
+      "initial_loss": 0.4390909475781651,
+      "loss": 0.0012158342275677436,
+      "nit": 183,
+      "nfev": 193,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_fresh_chain_refine_trial2.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.043034644938766534,
+      "valid_diagonalizer": false
+    }
+  ],
+  "best_candidate": "search13_fresh_chain_refine_trial1.json",
+  "scope": "Three bounded local continuations on one fresh chain13 topology; numerical results require exact confirmation if valid"
+}

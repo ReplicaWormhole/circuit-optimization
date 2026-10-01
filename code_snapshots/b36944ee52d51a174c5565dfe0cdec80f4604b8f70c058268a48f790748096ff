@@ -1,0 +1,65 @@
+"""Symbolically prove the exact two-CNOT endpoint block identity over Q(zeta_32)."""
+
+import json
+from pathlib import Path
+
+import sympy as sp
+
+from topology16_exact_block import exact_block
+
+
+ROOT = Path(__file__).resolve().parent
+I = sp.I
+
+
+def matrix(gates):
+    u = sp.eye(4)
+    cx = sp.Matrix([[1, 0, 0, 0], [0, 1, 0, 0],
+                    [0, 0, 0, 1], [0, 0, 1, 0]])
+    for g in gates:
+        if g["gate"] == "cx":
+            m = cx
+        else:
+            t = sp.sympify(g["theta"], locals={"pi": sp.pi})
+            c, s = sp.cos(t / 2), sp.sin(t / 2)
+            if g["gate"] == "rx":
+                small = sp.Matrix([[c, -I * s], [-I * s, c]])
+            elif g["gate"] == "ry":
+                small = sp.Matrix([[c, -s], [s, c]])
+            elif g["gate"] == "rz":
+                small = sp.diag(sp.exp(-I * t / 2), sp.exp(I * t / 2))
+            else:
+                raise ValueError(g)
+            m = sp.kronecker_product(small, sp.eye(2)) if g["qubit"] == 0 else (
+                sp.kronecker_product(sp.eye(2), small))
+        u = m * u
+    return u
+
+
+def main():
+    baseline = json.loads((ROOT / "baseline_18.json").read_text())
+    original = [{"gate": "cx", "control": 0, "target": 2},
+                *baseline["gates"][18:28]]
+    exact = exact_block()
+    source = matrix(original)
+    replacement = matrix(exact)
+    phase = sp.exp(3 * I * sp.pi / 4)
+    differences = [sp.simplify(replacement[i, j] - phase * source[i, j])
+                   for i in range(4) for j in range(4)]
+    assert all(value == 0 for value in differences), differences
+    expected = sp.Matrix([
+        [-I, 0, 0, 0],
+        [0, I / sp.sqrt(2), 0, -I / sp.sqrt(2)],
+        [0, -I / sp.sqrt(2), 0, -I / sp.sqrt(2)],
+        [0, 0, I, 0],
+    ])
+    assert all(sp.simplify(source[i, j] - expected[i, j]) == 0
+               for i in range(4) for j in range(4))
+    print(json.dumps({"exact_block_identity": True,
+                      "phase_replacement_over_source": "exp(3*pi*i/4)",
+                      "source_block_cnot_count": 3,
+                      "replacement_block_cnot_count": 2}))
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,26 @@
+{
+  "before_reserve_fit": true,
+  "source_hash_verified": true,
+  "source": "collaboration/work/numerical_label12/parity12/result.json",
+  "source_sha256": "115f15daef550eb93dcac0058c805896c88b06af41e30a685e2f021192ef38e0",
+  "script_sha256": "1675eb5bf8e9526d6e027a0f6514f785b0a4cba94391c8e5940241530bd145f7",
+  "config_sha256": "8b3cbc0de26d3c9044dce965c8b1728eaf4289338124308751c92d4555107513",
+  "checks": [
+    {
+      "seed": 9261101,
+      "source_native_sha256": "6d8446c23352862a4618397debcf0124068105842ccfb6418c7d2c7a168da60c",
+      "zero_AB_embedding_verified": true,
+      "source_native_matrix_difference": 0.0,
+      "compiled_native_matrix_difference": 3.855927796350635e-16,
+      "torch_native_phase_error": 5.23691153334427e-16
+    },
+    {
+      "seed": 9261102,
+      "source_native_sha256": "bb57ed6d7a4519ef3f26f48684fcf1bc7d6278268f548ee18bb7829cc325b2d9",
+      "zero_AB_embedding_verified": true,
+      "source_native_matrix_difference": 0.0,
+      "compiled_native_matrix_difference": 4.172577943820896e-16,
+      "torch_native_phase_error": 5.887846720064157e-16
+    }
+  ]
+}

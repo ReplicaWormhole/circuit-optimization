@@ -1,0 +1,27 @@
+{
+  "source": "collaboration/work/numerical_label12/curvature12/audit_result.json",
+  "source_sha256": "061d96ed272818676fb871e6ce5d70b213b90da5e88f943dd858c1844c204cc3",
+  "direction_norm": 0.9999999999999997,
+  "mapping": "24CorderABaxis coordinates embedded116[12:36]",
+  "checks": [
+    {
+      "h": 0.001,
+      "minus_loss": 0.5922239996302493,
+      "base_loss": 0.5922239996302494,
+      "plus_loss": 0.5922239996302494,
+      "gradient": 5.551115123125783e-14,
+      "curvature": -1.1102230246251565e-10
+    },
+    {
+      "h": 0.0005,
+      "minus_loss": 0.5922239996302495,
+      "base_loss": 0.5922239996302494,
+      "plus_loss": 0.5922239996302494,
+      "gradient": -1.1102230246251565e-13,
+      "curvature": 4.440892098500626e-10
+    }
+  ],
+  "threshold": -1e-06,
+  "both_negative_below_threshold": false,
+  "scope": "Two predeclared reserved diagnosticsteps; no optimization or exactproof."
+}

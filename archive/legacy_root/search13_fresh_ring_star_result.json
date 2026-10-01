@@ -1,0 +1,357 @@
+{
+  "family": "ring-star",
+  "seed": 34700,
+  "maxiter": 400,
+  "schedules": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  ],
+  "excluded_prior_directed_count": 209,
+  "initialization": "independent Gaussian SU2-axis coordinates, no inherited fixed gates; not Haar-distributed",
+  "rows": [
+    {
+      "case": 0,
+      "start": 0,
+      "seed": 34700,
+      "normal_std": 0.8,
+      "initial_loss": 0.9593467498766097,
+      "loss": 0.5064574432165446,
+      "nit": 103,
+      "nfev": 110,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_fresh_ring_star_case0_start0.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.510777710700385,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 0,
+      "start": 1,
+      "seed": 34701,
+      "normal_std": 2.0,
+      "initial_loss": 0.932214177462079,
+      "loss": 0.4696832923782986,
+      "nit": 164,
+      "nfev": 176,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_fresh_ring_star_case0_start1.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.4918475093775502,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 1,
+      "start": 0,
+      "seed": 34710,
+      "normal_std": 0.8,
+      "initial_loss": 0.924979733510219,
+      "loss": 0.4721180037767775,
+      "nit": 118,
+      "nfev": 124,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_fresh_ring_star_case1_start0.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5447667975662317,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 1,
+      "start": 1,
+      "seed": 34711,
+      "normal_std": 2.0,
+      "initial_loss": 0.9553118639314901,
+      "loss": 0.4826331402852264,
+      "nit": 146,
+      "nfev": 156,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_fresh_ring_star_case1_start1.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5481348205665533,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 2,
+      "start": 0,
+      "seed": 34720,
+      "normal_std": 0.8,
+      "initial_loss": 0.9439383511045178,
+      "loss": 0.5112333139509166,
+      "nit": 122,
+      "nfev": 135,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_fresh_ring_star_case2_start0.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5220581779469164,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 2,
+      "start": 1,
+      "seed": 34721,
+      "normal_std": 2.0,
+      "initial_loss": 0.9385508901647919,
+      "loss": 0.44092757688727735,
+      "nit": 183,
+      "nfev": 231,
+      "optimizer_success": false,
+      "optimizer_message": "ABNORMAL: ",
+      "candidate": "search13_fresh_ring_star_case2_start1.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.6177480179059028,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 3,
+      "start": 0,
+      "seed": 34730,
+      "normal_std": 0.8,
+      "initial_loss": 0.9448495940841326,
+      "loss": 0.4716288704941771,
+      "nit": 184,
+      "nfev": 195,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_fresh_ring_star_case3_start0.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.4492480040660648,
+      "valid_diagonalizer": false
+    },
+    {
+      "case": 3,
+      "start": 1,
+      "seed": 34731,
+      "normal_std": 2.0,
+      "initial_loss": 0.9253808291113901,
+      "loss": 0.46583351978959764,
+      "nit": 158,
+      "nfev": 167,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "candidate": "search13_fresh_ring_star_case3_start1.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.5639466116098416,
+      "valid_diagonalizer": false
+    }
+  ],
+  "best_candidate": "search13_fresh_ring_star_case3_start0.json",
+  "scope": "Four specified full 13-CNOT schedules, two independent starts each, bounded local fits; no topology no-go"
+}

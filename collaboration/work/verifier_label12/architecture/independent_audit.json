@@ -1,0 +1,22 @@
+{
+  "source_hash_matches": true,
+  "source_actual": "collaboration/work/numerical_label12/joint/target0.json",
+  "source_axis_phase_error": 1.186692873213599e-15,
+  "provenance_discrepancy": "Actual source is run376joint target0, while parent377 and text say377; preserved archive and coordinator notified.",
+  "rows": [
+    {
+      "candidate": "collaboration/work/numerical_label12/architecture/target0.json",
+      "sha256": "b3ef39eac7e81a722ff58f4dc150cc82523772722a49f7daa91b7f66f578d476",
+      "count": 12,
+      "axis_saved_gate_error": 1.0333648016421173e-15,
+      "offloss": 0.49992723754302326
+    },
+    {
+      "candidate": "collaboration/work/numerical_label12/architecture/target1.json",
+      "sha256": "288cb4e041192c92cdb3125dcdced36f4b089da39cb6ae59624b189d5d9009c8",
+      "count": 12,
+      "axis_saved_gate_error": 1.0364765906566343e-15,
+      "offloss": 0.5000000000000004
+    }
+  ]
+}

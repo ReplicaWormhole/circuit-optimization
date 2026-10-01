@@ -1,0 +1,22 @@
+{
+  "source_hash_matches": true,
+  "source_actual": "collaboration/work/numerical_label12/curvature/base.json",
+  "source_axis_phase_error": 1.0585623221582674e-15,
+  "corrected_source_binding": "Actual source377base verified independently before fit.",
+  "rows": [
+    {
+      "candidate": "collaboration/work/numerical_label12/architecture_corrected/target0.json",
+      "sha256": "eaac2949c2814cfa90767df4b8f8ef0d8b39181ad7eb959ec1a6abbff9a98a9d",
+      "count": 12,
+      "axis_saved_gate_error": 1.1443916996305594e-15,
+      "offloss": 0.49992723754302315
+    },
+    {
+      "candidate": "collaboration/work/numerical_label12/architecture_corrected/target1.json",
+      "sha256": "9d5e52ced39ffff877c0acbde4cec27e54ab7bf3d67a24c9a15f1406d75f54c1",
+      "count": 12,
+      "axis_saved_gate_error": 1.2779626727101132e-15,
+      "offloss": 0.5000000000000007
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "source": "search13_fresh_chain_refine_trial1.json",
+  "source_schedule": [
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "seed": 34200,
+  "maxiter": 400,
+  "rows": [
+    {
+      "deletion": 0,
+      "start": 0,
+      "sigma": 0.0,
+      "seed": 34200,
+      "initial_loss": 0.8897849033197408,
+      "loss": 0.4105361479663936,
+      "nit": 202,
+      "nfev": 214,
+      "optimizer_success": true,
+      "candidate": "search12_fresh_chain_delete_slot0_start0.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.6613769254238752,
+      "valid_diagonalizer": false
+    },
+    {
+      "deletion": 0,
+      "start": 1,
+      "sigma": 0.3,
+      "seed": 34201,
+      "initial_loss": 0.9503993121470482,
+      "loss": 0.22613266442632807,
+      "nit": 215,
+      "nfev": 234,
+      "optimizer_success": true,
+      "candidate": "search12_fresh_chain_delete_slot0_start1.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.6978576207477268,
+      "valid_diagonalizer": false
+    },
+    {
+      "deletion": 12,
+      "start": 0,
+      "sigma": 0.0,
+      "seed": 34320,
+      "initial_loss": 0.5899284065242713,
+      "loss": 0.1700591955321231,
+      "nit": 109,
+      "nfev": 117,
+      "optimizer_success": true,
+      "candidate": "search12_fresh_chain_delete_slot12_start0.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.7043981834108572,
+      "valid_diagonalizer": false
+    },
+    {
+      "deletion": 12,
+      "start": 1,
+      "sigma": 0.3,
+      "seed": 34321,
+      "initial_loss": 0.9258116861558223,
+      "loss": 0.16265493719824822,
+      "nit": 82,
+      "nfev": 95,
+      "optimizer_success": true,
+      "candidate": "search12_fresh_chain_delete_slot12_start1.json",
+      "cnot_count": 12,
+      "off_diagonal_error": 0.5688733941037402,
+      "valid_diagonalizer": false
+    }
+  ],
+  "best_candidate": "search12_fresh_chain_delete_slot12_start1.json",
+  "scope": "Two specified12-CNOT deletions, two numerical starts each; arbitrary local gates and one redundant adjacent layer; no global exclusion"
+}

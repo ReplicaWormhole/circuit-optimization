@@ -1,0 +1,165 @@
+"""Gauge-fix the local boundary between exact-angle matchgate layers.
+
+Factor a 14-CX numerical tail into KAK frames for (02,13) then (01,23).
+The latter a=b=pi/8 interactions commute with equal Rz rotations on each
+pair. Shift those phases from the center to the output to make center ZYZ
+phi angles simple. Rebuild a full candidate with rational pi/8 Cartan
+angles and numerical local ZYZ frames, transpile to u/cx, and verify V4.
+"""
+
+import argparse
+import json
+import math
+from pathlib import Path
+
+import numpy as np
+from qiskit import QuantumCircuit, transpile
+from qiskit.quantum_info import Operator
+from qiskit.circuit.library import CXGate
+from qiskit.synthesis import (OneQubitEulerDecomposer, TwoQubitBasisDecomposer,
+                              TwoQubitWeylDecomposition)
+
+from check_circuit import evaluate
+from qiskit_crosscheck import from_qiskit, to_qiskit
+from topology14_nearhit_kak import factor
+from topology14_twolevel_boundary_rank import circuit_matrix
+
+
+ROOT = Path(__file__).parent
+EULER = OneQubitEulerDecomposer("ZYZ")
+TWO_CX = TwoQubitBasisDecomposer(CXGate(), basis_fidelity=1.0)
+
+
+def rz(theta):
+    return np.diag([np.exp(-0.5j * theta), np.exp(0.5j * theta)])
+
+
+def local_matrix(factors):
+    result = factors[0]
+    for factor in factors[1:]:
+        result = np.kron(result, factor)
+    return result
+
+
+def embedded_two(unitary, first, second):
+    output = np.zeros((16, 16), dtype=complex)
+    for inp in range(16):
+        i = (((inp >> (3 - first)) & 1) << 1) | ((inp >> (3 - second)) & 1)
+        for j in range(4):
+            out = inp
+            for wire, bit in ((first, j >> 1), (second, j & 1)):
+                mask = 1 << (3 - wire)
+                out = (out | mask) if bit else (out & ~mask)
+            output[out, inp] = unitary[j, i]
+    return output
+
+
+def canonical(a, b, c):
+    x = np.array([[0, 1], [1, 0]], dtype=complex)
+    y = np.array([[0, -1j], [1j, 0]], dtype=complex)
+    z = np.diag([1, -1]).astype(complex)
+    from scipy.linalg import expm
+    return expm(1j * (a * np.kron(x, x) + b * np.kron(y, y)
+                      + c * np.kron(z, z)))
+
+
+def add_locals(circuit, factors):
+    for physical in range(4):
+        theta, phi, lam = EULER.angles(factors[physical])
+        qubit = 3 - physical
+        circuit.rz(float(lam), qubit)
+        circuit.ry(float(theta), qubit)
+        circuit.rz(float(phi), qubit)
+
+
+def add_canonical(circuit, first, second, decomposition):
+    local = TWO_CX(canonical(decomposition.a, decomposition.b,
+                             decomposition.c), approximate=False)
+    assert local.count_ops().get("cx", 0) == 2
+    circuit.compose(local, qubits=[3 - second, 3 - first], inplace=True)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--source", type=Path, required=True)
+    parser.add_argument("--candidate", type=Path, required=True)
+    parser.add_argument("--result", type=Path, required=True)
+    parser.add_argument("--optimization-level", type=int, default=0)
+    args = parser.parse_args()
+    source = json.loads(args.source.read_text())
+    gates = source["gates"]
+    a02, a13, _ = factor(circuit_matrix(gates[13:65]), (0, 2))
+    b01, b23, _ = factor(circuit_matrix(gates[65:]), (0, 1))
+    d02, d13, d01, d23 = [TwoQubitWeylDecomposition(u, fidelity=1.0)
+                          for u in (a02, a13, b01, b23)]
+    decompositions = {(0, 2): d02, (1, 3): d13,
+                      (0, 1): d01, (2, 3): d23}
+    n = {0: d02.K2l, 2: d02.K2r, 1: d13.K2l, 3: d13.K2r}
+    a_out = {0: d02.K1l, 2: d02.K1r, 1: d13.K1l, 3: d13.K1r}
+    b_in = {0: d01.K2l, 1: d01.K2r, 2: d23.K2l, 3: d23.K2r}
+    o = {0: d01.K1l, 1: d01.K1r, 2: d23.K1l, 3: d23.K1r}
+    center = {q: b_in[q] @ a_out[q] for q in range(4)}
+    before = {str(q): [float(v) for v in EULER.angles(center[q])]
+              for q in range(4)}
+    alpha = {(0, 1): before["0"][1], (2, 3): before["2"][1]}
+    output_gauged = dict(o)
+    center_gauged = dict(center)
+    for pair, value in alpha.items():
+        for q in pair:
+            output_gauged[q] = o[q] @ rz(value)
+            center_gauged[q] = rz(-value) @ center[q]
+
+    ud_a = embedded_two(canonical(d02.a, d02.b, d02.c), 0, 2) @ embedded_two(
+        canonical(d13.a, d13.b, d13.c), 1, 3)
+    ud_b = embedded_two(canonical(d01.a, d01.b, d01.c), 0, 1) @ embedded_two(
+        canonical(d23.a, d23.b, d23.c), 2, 3)
+    before_matrix = local_matrix([o[q] for q in range(4)]) @ ud_b @ local_matrix(
+        [center[q] for q in range(4)]) @ ud_a @ local_matrix([n[q] for q in range(4)])
+    after_matrix = local_matrix([output_gauged[q] for q in range(4)]) @ ud_b @ local_matrix(
+        [center_gauged[q] for q in range(4)]) @ ud_a @ local_matrix([n[q] for q in range(4)])
+    gauge_matrix_error = float(np.max(np.abs(before_matrix - after_matrix)))
+    assert gauge_matrix_error < 1e-12
+    original_tail = circuit_matrix(gates[13:])
+    phase = np.vdot(original_tail.ravel(), before_matrix.ravel())
+    phase /= abs(phase)
+    kak_reassembly_error = float(np.max(np.abs(original_tail - before_matrix / phase)))
+    assert kak_reassembly_error < 1e-12
+
+    circuit = to_qiskit({"n": 4, "gates": gates[:13]})
+    add_locals(circuit, n)
+    for first, second in ((0, 2), (1, 3)):
+        add_canonical(circuit, first, second, decompositions[(first, second)])
+    add_locals(circuit, center_gauged)
+    for first, second in ((0, 1), (2, 3)):
+        add_canonical(circuit, first, second, decompositions[(first, second)])
+    add_locals(circuit, output_gauged)
+    raw_matrix = Operator(circuit).data
+    source_matrix = circuit_matrix(gates)
+    raw_phase = np.vdot(source_matrix.ravel(), raw_matrix.ravel())
+    raw_phase /= abs(raw_phase)
+    raw_circuit_error = float(np.max(np.abs(source_matrix - raw_matrix / raw_phase)))
+    optimized = transpile(circuit, basis_gates=["u", "cx"],
+                          optimization_level=args.optimization_level, seed_transpiler=42)
+    candidate = from_qiskit(optimized)
+    args.candidate.write_text(json.dumps(candidate, indent=2) + "\n")
+    check = evaluate(candidate)
+    after = {str(q): [float(v) for v in EULER.angles(center_gauged[q])]
+             for q in range(4)}
+    result = {"source": str(args.source), "candidate": str(args.candidate),
+              "alpha_by_pair": {str(pair): value for pair, value in alpha.items()},
+              "center_zyz_before": before, "center_zyz_after": after,
+              "gauge_matrix_error": gauge_matrix_error,
+              "kak_reassembly_error": kak_reassembly_error,
+              "raw_circuit_error": raw_circuit_error,
+              "cnot_count": check["cnot_count"],
+              "off_diagonal_error": check["off_diagonal_error"],
+              "valid_diagonalizer": check["valid_diagonalizer"],
+              "weyl_angles": {str(pair): [float(d.a), float(d.b), float(d.c)]
+                              for pair, d in decompositions.items()},
+              "exact_status": "rational Cartan values suggested; local ZYZ floats remain numerical"}
+    args.result.write_text(json.dumps(result, indent=2) + "\n")
+    print(json.dumps(result, indent=2))
+
+
+if __name__ == "__main__":
+    main()

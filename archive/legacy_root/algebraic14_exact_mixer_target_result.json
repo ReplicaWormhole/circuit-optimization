@@ -1,0 +1,53 @@
+{
+  "exact_mixer_unitary": true,
+  "exact_conjugated_eigenvalue_matrix_diagonal": true,
+  "source_labels": [
+    0,
+    3,
+    1,
+    1,
+    2,
+    2,
+    0,
+    2,
+    0,
+    0,
+    2,
+    0,
+    3,
+    1,
+    3,
+    0
+  ],
+  "target_labels": [
+    0,
+    3,
+    1,
+    1,
+    2,
+    0,
+    2,
+    2,
+    0,
+    2,
+    0,
+    0,
+    3,
+    1,
+    3,
+    0
+  ],
+  "mixer_block": [
+    [
+      "sqrt(3)/2",
+      "-I/2"
+    ],
+    [
+      "1/2",
+      "I*sqrt(3)/2"
+    ]
+  ],
+  "numerical14_vs_exact_target_row_phase_error": 2.1131392916097648e-07,
+  "output_overlap_offdiag_error": 4.2262755496735645e-07,
+  "scope": "Exact target matrix, numerical 14-CX implementation"
+}

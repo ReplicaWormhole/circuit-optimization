@@ -1,0 +1,174 @@
+{
+  "ansatz": "at most three pairwise anticommuting Pauli terms, equal absolute coefficients",
+  "canonical": {
+    "labels": [
+      "XIIZ",
+      "YXIZ",
+      "ZXII"
+    ],
+    "normalized_moment_abs_squared": [
+      "4/3",
+      "0/3",
+      "4/3"
+    ],
+    "signs": [
+      1,
+      1,
+      1
+    ],
+    "unnormalized_moments_real_imag": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        -2
+      ]
+    ]
+  },
+  "counts_by_size": {
+    "1": 0,
+    "2": 0,
+    "3": 4
+  },
+  "different_trace_invariant_example": null,
+  "distinct_trace_invariants": [
+    [
+      "4/3",
+      "0/3",
+      "4/3"
+    ]
+  ],
+  "solutions": [
+    {
+      "labels": [
+        "XIIZ",
+        "YXIZ",
+        "ZXII"
+      ],
+      "normalized_moment_abs_squared": [
+        "4/3",
+        "0/3",
+        "4/3"
+      ],
+      "signs": [
+        1,
+        -1,
+        1
+      ],
+      "unnormalized_moments_real_imag": [
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "labels": [
+        "XIIZ",
+        "YXIZ",
+        "ZXII"
+      ],
+      "normalized_moment_abs_squared": [
+        "4/3",
+        "0/3",
+        "4/3"
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "unnormalized_moments_real_imag": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -2
+        ]
+      ]
+    },
+    {
+      "labels": [
+        "XYIZ",
+        "YIIZ",
+        "ZYII"
+      ],
+      "normalized_moment_abs_squared": [
+        "4/3",
+        "0/3",
+        "4/3"
+      ],
+      "signs": [
+        1,
+        -1,
+        -1
+      ],
+      "unnormalized_moments_real_imag": [
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "labels": [
+        "XYIZ",
+        "YIIZ",
+        "ZYII"
+      ],
+      "normalized_moment_abs_squared": [
+        "4/3",
+        "0/3",
+        "4/3"
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "unnormalized_moments_real_imag": [
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    }
+  ],
+  "total_solutions_mod_global_sign": 4
+}

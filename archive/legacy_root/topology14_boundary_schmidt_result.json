@@ -1,0 +1,600 @@
+{
+  "definition": "delta=k*pi/16; cuts use physical MSB-first wires",
+  "results": [
+    {
+      "k": 0,
+      "delta_over_pi": "0/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29289321881345237
+        },
+        "02": {
+          "rank": 1,
+          "smallest_nonzero_singular": 3.999999999999999
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.2928932188134524
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 1,
+      "delta_over_pi": "1/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.082392200292394
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.1072128563901813
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.107212856390181
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29389339992086155
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 0.392068561318242
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.2928932188134525
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 2,
+      "delta_over_pi": "2/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923934
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.17765617658434
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.1776561765843396
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29691931481279643
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 0.780361288064513
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29289321881345226
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 3,
+      "delta_over_pi": "3/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.2838414213450513
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.2838414213450515
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.3020480051482664
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 1.161138709017849
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29289321881345237
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 4,
+      "delta_over_pi": "4/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.4142135623730947
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.4142135623730947
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.309410937442968
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 1.5307337294603582
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29289321881345237
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 5,
+      "delta_over_pi": "5/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.5583998470308558
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.558399847030856
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923934
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.31919848106191134
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 1.8855869473039901
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29289321881345237
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 6,
+      "delta_over_pi": "6/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.7081006409774586
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.7081006409774584
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.3316658406335183
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 2.2222809320784083
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29289321881345237
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 7,
+      "delta_over_pi": "7/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.856933289440984
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.8569332894409842
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.3471398457545114
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 2.537573136654582
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29289321881345237
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 8,
+      "delta_over_pi": "8/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.9999999999999998
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.9999999999999998
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.082392200292394
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.3660254037844384
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 2.8284271247461894
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.2928932188134524
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 9,
+      "delta_over_pi": "9/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.856933289440984
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.856933289440984
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.3471398457545113
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 2.537573136654582
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29289321881345237
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 10,
+      "delta_over_pi": "10/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.7081006409774582
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.7081006409774584
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.3316658406335182
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 2.2222809320784087
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.2928932188134523
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 11,
+      "delta_over_pi": "11/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.558399847030855
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.558399847030856
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.3191984810619115
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 1.8855869473039906
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.2928932188134523
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 12,
+      "delta_over_pi": "12/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.4142135623730947
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.4142135623730945
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923934
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.30941093744296805
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 1.530733729460359
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29289321881345226
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 13,
+      "delta_over_pi": "13/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923934
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.2838414213450513
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.2838414213450515
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.082392200292394
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.3020480051482663
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 1.1611387090178489
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.2928932188134524
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 14,
+      "delta_over_pi": "14/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.1776561765843399
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.1776561765843399
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29691931481279643
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 0.7803612880645139
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.2928932188134523
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 15,
+      "delta_over_pi": "15/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.1072128563901817
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.1072128563901809
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923936
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29389339992086144
+        },
+        "02": {
+          "rank": 2,
+          "smallest_nonzero_singular": 0.3920685613182427
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.2928932188134523
+        }
+      },
+      "single_wire_degree_bound": 4
+    },
+    {
+      "k": 16,
+      "delta_over_pi": "16/16",
+      "splits": {
+        "0": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "1": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "2": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923934
+        },
+        "3": {
+          "rank": 4,
+          "smallest_nonzero_singular": 1.0823922002923938
+        },
+        "01": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.2928932188134523
+        },
+        "02": {
+          "rank": 1,
+          "smallest_nonzero_singular": 3.999999999999999
+        },
+        "03": {
+          "rank": 16,
+          "smallest_nonzero_singular": 0.29289321881345226
+        }
+      },
+      "single_wire_degree_bound": 4
+    }
+  ]
+}

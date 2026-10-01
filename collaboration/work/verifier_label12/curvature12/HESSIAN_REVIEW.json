@@ -1,0 +1,8 @@
+{
+  "source": "387savedHessian no rerun",
+  "least_eigenvalue": -8.549970885548562e-17,
+  "symmetry_error": 2.220446049250313e-16,
+  "eigenvector_norm": 0.9999999999999997,
+  "eigenpair_residual": 2.533435462130692e-16,
+  "gradient_norm": 6.028778951929848e-09
+}

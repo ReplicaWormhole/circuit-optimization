@@ -1,0 +1,167 @@
+"""Exact continuous input-orbit gauge screen for five-CNOT parity prefixes.
+
+The exact14 prefix is a monomial permutation with a rational-pi phase vector.
+For every five-CNOT parity path whose endpoint differs from the six-CNOT
+endpoint only inside one first-pair GL(2,2), test whether its visited parity
+masks, together with arbitrary shift-orbit input phases, reproduce that phase
+vector modulo 2*pi.  Integer kernel and Hermite normal form make the test
+exact, including all logarithm branches.  Endpoint compatibility is only a
+necessary condition for absorption by the two-CNOT first-pair block.
+"""
+
+import json
+from collections import Counter
+from fractions import Fraction
+from pathlib import Path
+
+import sympy as sp
+from sympy.matrices.normalforms import hermite_normal_form
+
+from search13_firstpair_mask_relocation import BASIS, EXACT6_ROWS, pair_local_endpoints
+
+
+ROOT = Path(__file__).resolve().parent
+SOURCE = ROOT / "topology14_exact_matchgate_rational.json"
+OUT = ROOT / "search13_input_gauge_torus_result.json"
+EDGES = tuple((a, b) for a in range(4) for b in range(4) if a != b)
+
+
+def shift(x):
+    return ((x & 1) << 3) | (x >> 1)
+
+
+def orbits():
+    unseen = set(range(16))
+    result = []
+    while unseen:
+        x = min(unseen)
+        orbit = []
+        while x not in orbit:
+            orbit.append(x)
+            unseen.remove(x)
+            x = shift(x)
+        result.append(tuple(orbit))
+    assert sorted(map(len, result)) == [1, 1, 2, 4, 4, 4]
+    return tuple(result)
+
+
+def parity(mask, x):
+    return 1 if (mask & x).bit_count() % 2 == 0 else -1
+
+
+def prefix_phase_over_2pi():
+    gates = json.loads(SOURCE.read_text())["gates"][:13]
+    rows = list(BASIS)
+    phase = [sp.Rational(0) for _ in range(16)]
+    coefficients = {m: sp.Rational(0) for m in range(1, 16)}
+    for gate in gates:
+        if gate["gate"] == "cx":
+            rows[gate["target"]] ^= rows[gate["control"]]
+        else:
+            assert gate["gate"] == "rz"
+            theta = sp.sympify(gate["theta"], locals={"pi": sp.pi}) / sp.pi
+            assert theta.is_Rational
+            coeff = -theta / 4  # Rz(theta): exp[-i theta Z/2].
+            mask = rows[gate["qubit"]]
+            coefficients[mask] += coeff
+            for x in range(16):
+                phase[x] += coeff * parity(mask, x)
+    assert tuple(rows) == EXACT6_ROWS
+    return sp.Matrix(phase), coefficients
+
+
+def mask_orbit_summary(coefficients):
+    summary = []
+    for orbit in orbits():
+        if 0 in orbit:
+            continue
+        vals = [coefficients.get(mask, sp.Rational(0)) for mask in orbit]
+        multiplicity = max(Counter(vals).values())
+        summary.append({"masks": list(orbit),
+                        "coefficients_over_2pi": [str(v) for v in vals],
+                        "minimum_nonzero_after_continuous_gauge": len(orbit)-multiplicity})
+    return summary
+
+
+def torus_test(masks, phase, input_orbits):
+    columns = [sp.Matrix([parity(mask, x) for x in range(16)])
+               for mask in sorted(masks)]
+    columns += [sp.Matrix([int(x in orbit) for x in range(16)])
+                for orbit in input_orbits]
+    a = sp.Matrix.hstack(*columns)
+    null = a.T.nullspace()
+    if not null:
+        return True, None
+    kernel_rows = []
+    for vector in null:
+        denominator = sp.ilcm(*(int(v.q) for v in vector))
+        kernel_rows.append((vector * denominator).T)
+    c = sp.Matrix.vstack(*kernel_rows)
+    h = hermite_normal_form(c)
+    assert h.rows == h.cols == c.rows
+    character_basis = h.inv() * c
+    assert all(value.is_Integer for value in character_basis)
+    values = character_basis * phase
+    for row in range(values.rows):
+        if not values[row].is_Integer:
+            witness = [int(v) for v in character_basis.row(row)]
+            assert (character_basis.row(row) * a).is_zero_matrix
+            return False, {"integer_character": witness,
+                           "character_phase_over_2pi": str(values[row])}
+    return True, None
+
+
+def main():
+    phase, coefficients = prefix_phase_over_2pi()
+    input_orbits = orbits()
+    targets = pair_local_endpoints()
+    patterns = {}
+    endpoint_paths = Counter()
+
+    def walk(rows, masks, path):
+        if len(path) == 5:
+            if rows in targets:
+                endpoint_paths[rows] += 1
+                patterns.setdefault((rows, masks), path)
+            return
+        for a, b in EDGES:
+            nxt = list(rows)
+            nxt[b] ^= rows[a]
+            walk(tuple(nxt), masks | {nxt[b]}, path + ((a, b),))
+
+    walk(BASIS, frozenset(BASIS), ())
+    hits = []
+    first_failure = None
+    for (endpoint, masks), path in sorted(patterns.items()):
+        ok, witness = torus_test(masks, phase, input_orbits)
+        if ok:
+            hits.append({"endpoint": list(endpoint), "masks": sorted(masks),
+                         "path": [list(edge) for edge in path],
+                         "first_pair_options": [list(pair) for pair in targets[endpoint]]})
+        elif first_failure is None:
+            first_failure = {"endpoint": list(endpoint),
+                             "masks": sorted(masks), **witness}
+    result = {
+        "source": SOURCE.name, "ordered_five_cnot_paths": 12**5,
+        "pair_local_endpoint_count": len(targets),
+        "pair_local_path_count": sum(endpoint_paths.values()),
+        "distinct_endpoint_mask_patterns": len(patterns),
+        "input_orbits": [list(o) for o in input_orbits],
+        "exact_prefix_endpoint": list(EXACT6_ROWS),
+        "prefix_mask_coefficients_over_2pi": {
+            str(m): str(c) for m, c in coefficients.items() if c},
+        "mask_orbit_summary": mask_orbit_summary(coefficients),
+        "continuous_gauge_compatible_patterns": len(hits),
+        "hits": hits, "first_exclusion_witness": first_failure,
+        "scope": "exact phase-torus screen for parity-Rz five-CNOT paths and "
+                 "first-pair-local endpoints; no arbitrary single-qubit gates "
+                 "or changed matchgate blocks",
+    }
+    OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps({k: v for k, v in result.items()
+                      if k not in ("hits", "mask_orbit_summary")},
+                     indent=2, sort_keys=True), flush=True)
+
+
+if __name__ == "__main__":
+    main()

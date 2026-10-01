@@ -1,0 +1,462 @@
+{
+  "n": 4,
+  "gates": [
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "6*pi/8",
+      "phi": "2*pi/8",
+      "lam": "-9*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "6*pi/8",
+      "phi": "-3*pi/8",
+      "lam": "1*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "5*pi/8",
+      "phi": "3*pi/8",
+      "lam": "9*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "7*pi/8",
+      "phi": "7*pi/8",
+      "lam": "-1*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 1
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "7*pi/8",
+      "phi": "13*pi/8",
+      "lam": "3*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "4*pi/8",
+      "phi": "11*pi/8",
+      "lam": "-4*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "5*pi/8",
+      "phi": "3*pi/8",
+      "lam": "-12*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "3*pi/8",
+      "phi": "7*pi/8",
+      "lam": "-7*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 3,
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "7*pi/8",
+      "phi": "-2*pi/8",
+      "lam": "-3*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "4*pi/8",
+      "phi": "-1*pi/8",
+      "lam": "-3*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "0*pi/8",
+      "phi": "0*pi/8",
+      "lam": "16*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "6*pi/8",
+      "phi": "-5*pi/8",
+      "lam": "-1*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 1,
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "4*pi/8",
+      "phi": "8*pi/8",
+      "lam": "5*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "6*pi/8",
+      "phi": "-21*pi/8",
+      "lam": "3*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "5*pi/8",
+      "phi": "9*pi/8",
+      "lam": "-4*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "2*pi/8",
+      "phi": "-7*pi/8",
+      "lam": "-7*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 1,
+      "target": 0
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "6*pi/8",
+      "phi": "7*pi/8",
+      "lam": "6*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "1*pi/8",
+      "phi": "5*pi/8",
+      "lam": "24*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "0*pi/8",
+      "phi": "11*pi/8",
+      "lam": "-3*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "6*pi/8",
+      "phi": "0*pi/8",
+      "lam": "-3*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 2,
+      "target": 3
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "4*pi/8",
+      "phi": "8*pi/8",
+      "lam": "6*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "1*pi/8",
+      "phi": "-14*pi/8",
+      "lam": "-1*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "4*pi/8",
+      "phi": "-4*pi/8",
+      "lam": "4*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "6*pi/8",
+      "phi": "7*pi/8",
+      "lam": "5*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 2,
+      "target": 1
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "5*pi/8",
+      "phi": "3*pi/8",
+      "lam": "-5*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "2*pi/8",
+      "phi": "14*pi/8",
+      "lam": "1*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "5*pi/8",
+      "phi": "-3*pi/8",
+      "lam": "-1*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "4*pi/8",
+      "phi": "-3*pi/8",
+      "lam": "3*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 1
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "6*pi/8",
+      "phi": "5*pi/8",
+      "lam": "7*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "5*pi/8",
+      "phi": "-10*pi/8",
+      "lam": "2*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "4*pi/8",
+      "phi": "-5*pi/8",
+      "lam": "3*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "6*pi/8",
+      "phi": "3*pi/8",
+      "lam": "9*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 3,
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "5*pi/8",
+      "phi": "1*pi/8",
+      "lam": "-4*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "6*pi/8",
+      "phi": "1*pi/8",
+      "lam": "-9*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "4*pi/8",
+      "phi": "1*pi/8",
+      "lam": "-16*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "4*pi/8",
+      "phi": "2*pi/8",
+      "lam": "-9*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 1,
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "5*pi/8",
+      "phi": "-5*pi/8",
+      "lam": "-5*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "7*pi/8",
+      "phi": "-3*pi/8",
+      "lam": "-5*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "2*pi/8",
+      "phi": "1*pi/8",
+      "lam": "4*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "6*pi/8",
+      "phi": "15*pi/8",
+      "lam": "1*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 1,
+      "target": 0
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "2*pi/8",
+      "phi": "2*pi/8",
+      "lam": "10*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "6*pi/8",
+      "phi": "12*pi/8",
+      "lam": "-2*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "6*pi/8",
+      "phi": "6*pi/8",
+      "lam": "-9*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "3*pi/8",
+      "phi": "-3*pi/8",
+      "lam": "-10*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 2,
+      "target": 3
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "2*pi/8",
+      "phi": "-2*pi/8",
+      "lam": "13*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "3*pi/8",
+      "phi": "4*pi/8",
+      "lam": "-10*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "8*pi/8",
+      "phi": "9*pi/8",
+      "lam": "-7*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "4*pi/8",
+      "phi": "-14*pi/8",
+      "lam": "-2*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 2,
+      "target": 1
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "1*pi/8",
+      "phi": "10*pi/8",
+      "lam": "5*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "4*pi/8",
+      "phi": "14*pi/8",
+      "lam": "0*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "2*pi/8",
+      "phi": "-1*pi/8",
+      "lam": "13*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "4*pi/8",
+      "phi": "2*pi/8",
+      "lam": "8*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 1
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": "6*pi/8",
+      "phi": "-5*pi/8",
+      "lam": "3*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": "6*pi/8",
+      "phi": "6*pi/8",
+      "lam": "-9*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": "2*pi/8",
+      "phi": "-1*pi/8",
+      "lam": "-7*pi/8"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": "4*pi/8",
+      "phi": "-3*pi/8",
+      "lam": "-7*pi/8"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "exact_spec": "algebraic16_exact_spec.json",
+  "numeric_export": "algebraic16_from_exact_spec.json",
+  "exact_check": {
+    "exact_diagonalizer": true,
+    "cnot_count": 16,
+    "cyclotomic_conductor": 32,
+    "output_labels": [
+      0,
+      3,
+      1,
+      1,
+      2,
+      2,
+      0,
+      2,
+      0,
+      0,
+      2,
+      0,
+      3,
+      1,
+      3,
+      0
+    ],
+    "eigenvalue_multiplicities": [
+      6,
+      3,
+      4,
+      3
+    ]
+  },
+  "numeric_check": {
+    "n": 4,
+    "cnot_count": 16,
+    "valid_diagonalizer": true,
+    "beats_18_cnot_reference": true,
+    "unitarity_error": 1.5543122344752192e-15,
+    "off_diagonal_error": 5.590817566887535e-16,
+    "eigenvalue_root_error": 6.217273326335925e-15,
+    "total_spin_off_diagonal_error": 0.9999999999999986,
+    "diagonalizes_total_spin": false
+  }
+}

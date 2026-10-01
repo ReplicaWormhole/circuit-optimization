@@ -1,0 +1,123 @@
+{
+  "seed": 9261303,
+  "schedules": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  ],
+  "rule": "Five different round-robin/nonmonomial prefix CNOTs, then eight pair-block tail CNOTs. All 14 local layers have arbitrary SU(2) gates on all four wires; no fixed target rows or prefix matrices. Two distinct fresh random starts.",
+  "maxiter_per_start": 80,
+  "wall_cap_seconds": 120,
+  "threads": 1,
+  "prior_json_files_scanned": 1217,
+  "prior_exact_13_schedules": 341,
+  "ledger_configs_scanned": 0,
+  "novelty_scope": "Exact ordered schedules in readable saved JSON gate lists/schedule fields and ledger configuration; not equivalence classes or unsaved trials",
+  "source_sha256": "4d9cfe603eebf3e6526285eb2f9f679b8fed75bbd1f59b02a58391ccefdf3776",
+  "initial_angles": "Independent normal(0,0.7), seed+case"
+}

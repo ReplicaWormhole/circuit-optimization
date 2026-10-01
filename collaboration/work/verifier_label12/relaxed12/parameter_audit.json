@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "seed": 9261101,
+      "exact_warmstart_source_coordinates_verified": true,
+      "restricted_native_chronology_verified": true,
+      "saved_parameter_matrix_phase_error": 6.797371776802048e-16
+    },
+    {
+      "seed": 9261102,
+      "exact_warmstart_source_coordinates_verified": true,
+      "restricted_native_chronology_verified": true,
+      "saved_parameter_matrix_phase_error": 4.449557262054371e-16
+    }
+  ],
+  "helper_sha256": "992aa07290b35bcc0ad0860e1f7053f790b0d72e45c477e12ebd13a902f734b3",
+  "config_sha256": "8b3cbc0de26d3c9044dce965c8b1728eaf4289338124308751c92d4555107513",
+  "script_sha256": "1675eb5bf8e9526d6e027a0f6514f785b0a4cba94391c8e5940241530bd145f7"
+}

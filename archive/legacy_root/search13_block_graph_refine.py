@@ -1,0 +1,42 @@
+"""Refine two selected low-loss run-226 graph topologies with new seeds."""
+
+import argparse
+import json
+from pathlib import Path
+
+from search13_multi_pair_block_rewire import fit
+
+
+ROOT = Path(__file__).resolve().parent
+CASES = (
+    (10, ((0, 2), (1, 2), (0, 3), (2, 3))),
+    (10, ((0, 2), (2, 3), (0, 1), (1, 2))),
+)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--maxiter", type=int, default=350)
+    parser.add_argument("--seed", type=int, default=133800)
+    parser.add_argument("--prefix", default="search13_block_graph_refine")
+    args = parser.parse_args()
+    rows = []
+    for case_index, (deleted, blocks) in enumerate(CASES):
+        for start, sigma in enumerate((0.03, 0.3)):
+            seed = args.seed + 2 * case_index + start
+            candidate, record = fit(deleted, blocks, seed, sigma, args.maxiter)
+            path = ROOT / f"{args.prefix}_case{case_index}_start{start}.json"
+            path.write_text(json.dumps(candidate, indent=2) + "\n")
+            record.update(case=case_index, start=start, candidate=path.name)
+            rows.append(record)
+            print(json.dumps(record, sort_keys=True), flush=True)
+    result = {"cases": CASES, "seed": args.seed, "maxiter": args.maxiter,
+              "rows": rows, "best": min(rows, key=lambda x: x["loss"])}
+    path = ROOT / f"{args.prefix}_result.json"
+    path.write_text(json.dumps(result, indent=2) + "\n")
+    print(json.dumps({"result": path.name, "best": result["best"]["candidate"]}),
+          flush=True)
+
+
+if __name__ == "__main__":
+    main()

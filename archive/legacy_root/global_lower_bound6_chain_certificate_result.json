@@ -1,0 +1,171 @@
+{
+  "excluded_examples": [
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "selected_chain": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "selected_chain": [
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "selected_chain": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "selected_chain": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "forced_zero_stages": [
+    {
+      "monomials": 231,
+      "new_forced_zero_axes": [
+        0,
+        7,
+        14,
+        18,
+        19,
+        20
+      ],
+      "rank": 207
+    },
+    {
+      "monomials": 120,
+      "new_forced_zero_axes": [
+        6,
+        13
+      ],
+      "rank": 101
+    },
+    {
+      "monomials": 91,
+      "new_forced_zero_axes": [],
+      "rank": 72
+    }
+  ],
+  "gram_rank_exact": 207,
+  "groebner_basis_with_unit_sphere": [
+    "1"
+  ],
+  "newly_excluded": {
+    "3322:11111": 24,
+    "3322:1112": 24
+  },
+  "prior_survivors": {
+    "3322:11111": 128,
+    "3322:1112": 88,
+    "4222:1112": 40
+  },
+  "remaining": {
+    "3322:11111": 104,
+    "3322:1112": 64,
+    "4222:1112": 40
+  },
+  "remaining_coefficient_count_before_groebner": 13,
+  "totals": {
+    "newly_excluded": 48,
+    "prior_survivors": 256,
+    "remaining": 208
+  }
+}

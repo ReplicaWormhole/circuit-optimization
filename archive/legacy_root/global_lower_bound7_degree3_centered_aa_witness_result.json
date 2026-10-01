@@ -1,0 +1,16 @@
+{
+  "image": "(Z0 X1 + X0 Z3 + Y0 X1 Z3)/sqrt(3)",
+  "interposed_local_gate": "H0",
+  "involution_exact": true,
+  "selected_axis": "(X0-Y0+Z0)/sqrt(3)",
+  "spectral_path_exact": true,
+  "trace_V_powers_1_2_3": [
+    "2*sqrt(3)*I/3",
+    "0",
+    "-2*sqrt(3)*I/3"
+  ],
+  "two_entangling_gates": [
+    "CNOT(0,1)",
+    "CZ(0,3)"
+  ]
+}

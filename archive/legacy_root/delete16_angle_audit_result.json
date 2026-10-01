@@ -1,0 +1,151 @@
+{
+  "candidate": "algebraic16_endpoint_0_2.json",
+  "non_pi_fraction_angles_up_to_denominator": 64,
+  "count": 12,
+  "angles": [
+    {
+      "gate_position": 14,
+      "qubit": 3,
+      "parameter": "lam",
+      "value": -2.527801027062023,
+      "nearest_pi_fraction": "-33/41",
+      "nearest_angle_error": 0.0007979380224445443,
+      "cos": -0.8174700317915436,
+      "sin": -0.5759711339318426,
+      "cos_radical_guess": "-sqrt(3)/sqrt(-63*sqrt(2)/5 - 6*sqrt(5)/5 + 1 + 22*sqrt(2 - sqrt(2))/5 + 23*sqrt(sqrt(2) + 2)/5 + 7*sqrt(3))",
+      "sin_radical_guess": "-sqrt(2)*(-169*sqrt(3)/45 - 73*sqrt(2)/45 - 121/90 + 58*sqrt(5)/45 + 121*sqrt(2 - sqrt(2))/30 + 27*sqrt(sqrt(2) + 2)/10)/2"
+    },
+    {
+      "gate_position": 16,
+      "qubit": 1,
+      "parameter": "lam",
+      "value": -0.9570047002671256,
+      "nearest_pi_fraction": "-7/23",
+      "nearest_angle_error": 0.0008678056963189462,
+      "cos": 0.5759711339318433,
+      "sin": -0.8174700317915432,
+      "cos_radical_guess": "sqrt(2)*(-169*sqrt(3)/45 - 73*sqrt(2)/45 - 121/90 + 58*sqrt(5)/45 + 121*sqrt(2 - sqrt(2))/30 + 27*sqrt(sqrt(2) + 2)/10)/2",
+      "sin_radical_guess": "-sqrt(3)/sqrt(-63*sqrt(2)/5 - 6*sqrt(5)/5 + 1 + 22*sqrt(2 - sqrt(2))/5 + 23*sqrt(sqrt(2) + 2)/5 + 7*sqrt(3))"
+    },
+    {
+      "gate_position": 18,
+      "qubit": 3,
+      "parameter": "theta",
+      "value": 1.7177715174584018,
+      "nearest_pi_fraction": "35/64",
+      "nearest_angle_error": 0.00028696497351621275,
+      "cos": -0.14644660940672638,
+      "sin": 0.9892185757421227,
+      "cos_radical_guess": "-1/2 + sqrt(2)/4",
+      "sin_radical_guess": "sqrt(sqrt(2)/4 + 5/8)"
+    },
+    {
+      "gate_position": 18,
+      "qubit": 3,
+      "parameter": "phi",
+      "value": 2.100699116543823,
+      "nearest_pi_fraction": "2/3",
+      "nearest_angle_error": 0.006304014150627868,
+      "cos": -0.5054494651244236,
+      "sin": 0.8628562094610168,
+      "cos_radical_guess": "-(-71*sqrt(2)/23 - 32*sqrt(3)/23 - 9*sqrt(5)/23 + 13*sqrt(2 - sqrt(2))/23 + 16/23 + 86*sqrt(sqrt(2) + 2)/23)/sqrt(2 - sqrt(2))",
+      "sin_radical_guess": "sqrt(4*sqrt(2)/17 + 7/17)"
+    },
+    {
+      "gate_position": 18,
+      "qubit": 3,
+      "parameter": "lam",
+      "value": -2.100699116543823,
+      "nearest_pi_fraction": "-2/3",
+      "nearest_angle_error": 0.006304014150627868,
+      "cos": -0.5054494651244236,
+      "sin": -0.8628562094610168,
+      "cos_radical_guess": "-(-71*sqrt(2)/23 - 32*sqrt(3)/23 - 9*sqrt(5)/23 + 13*sqrt(2 - sqrt(2))/23 + 16/23 + 86*sqrt(sqrt(2) + 2)/23)/sqrt(2 - sqrt(2))",
+      "sin_radical_guess": "-sqrt(4*sqrt(2)/17 + 7/17)"
+    },
+    {
+      "gate_position": 21,
+      "qubit": 3,
+      "parameter": "theta",
+      "value": 1.151330010230888,
+      "nearest_pi_fraction": "11/30",
+      "nearest_angle_error": 0.0005872960853692266,
+      "cos": 0.4072730945709115,
+      "sin": 0.9133064252695441,
+      "cos_radical_guess": "-63*sqrt(3)/22 - 273*sqrt(2)/220 - 10/11 + 37*sqrt(5)/44 + 371*sqrt(2 - sqrt(2))/110 + 85*sqrt(sqrt(2) + 2)/44",
+      "sin_radical_guess": "sqrt(3)*(-39*sqrt(3)/23 - 17/23 + sqrt(2 - sqrt(2))/23 + 10*sqrt(2)/23 + 14*sqrt(sqrt(2) + 2)/23 + 25*sqrt(5)/23)"
+    },
+    {
+      "gate_position": 21,
+      "qubit": 3,
+      "parameter": "phi",
+      "value": -0.885493331746189,
+      "nearest_pi_fraction": "-11/39",
+      "nearest_angle_error": 0.000596903881701305,
+      "cos": 0.6329076276081008,
+      "sin": -0.7742273147567745,
+      "cos_radical_guess": "sqrt(3)*(-45*sqrt(sqrt(2) + 2)/29 - 20/29 + 7*sqrt(5)/29 + 42*sqrt(2 - sqrt(2))/29 + 25*sqrt(3)/29 + 31*sqrt(2)/29)/3",
+      "sin_radical_guess": "-61*sqrt(3)/55 - 24/55 + 7*sqrt(sqrt(2) + 2)/55 + 27*sqrt(2 - sqrt(2))/55 + 2*sqrt(5)/11 + 2*sqrt(2)/5"
+    },
+    {
+      "gate_position": 21,
+      "qubit": 3,
+      "parameter": "lam",
+      "value": -2.679376746583614,
+      "nearest_pi_fraction": "-29/34",
+      "nearest_angle_error": 0.0002169873606212569,
+      "cos": -0.8950665506927568,
+      "sin": -0.44593258440146616,
+      "cos_radical_guess": "-sqrt(5)/(-52*sqrt(sqrt(2) + 2)/9 - 41*sqrt(5)/9 - 19*sqrt(2 - sqrt(2))/3 - 11/9 + 28*sqrt(3)/9 + 17*sqrt(2))",
+      "sin_radical_guess": "-sqrt(-60*sqrt(2 - sqrt(2))/59 - 41*sqrt(2)/118 - 13*sqrt(3)/118 + 19/59 + 39*sqrt(sqrt(2) + 2)/118 + 17*sqrt(5)/59)/sqrt(2 - sqrt(2))"
+    },
+    {
+      "gate_position": 22,
+      "qubit": 1,
+      "parameter": "theta",
+      "value": 0.5702953105901366,
+      "nearest_pi_fraction": "2/11",
+      "nearest_angle_error": 0.0009033536989166979,
+      "cos": 0.8417415793954218,
+      "sin": 0.5398806474739587,
+      "cos_radical_guess": "sqrt(5)*(-5*sqrt(5) - 277*sqrt(2 - sqrt(2))/70 + 39*sqrt(2)/35 + 41*sqrt(sqrt(2) + 2)/35 + 68*sqrt(3)/35 + 629/70)/5",
+      "sin_radical_guess": "sqrt(2 - sqrt(2))*(-64*sqrt(sqrt(2) + 2)/15 - 39*sqrt(2 - sqrt(2))/5 - 43/15 - 9*sqrt(2)/5 + 3*sqrt(3)/5 + 127*sqrt(5)/15)"
+    },
+    {
+      "gate_position": 26,
+      "qubit": 0,
+      "parameter": "phi",
+      "value": 2.526112944919406,
+      "nearest_pi_fraction": "41/51",
+      "nearest_angle_error": 0.0005188508570235228,
+      "cos": -0.8164965809277263,
+      "sin": 0.5773502691896255,
+      "cos_radical_guess": "-sqrt(6)/3",
+      "sin_radical_guess": "sqrt(3)/3"
+    },
+    {
+      "gate_position": 26,
+      "qubit": 0,
+      "parameter": "lam",
+      "value": -2.526112944919406,
+      "nearest_pi_fraction": "-41/51",
+      "nearest_angle_error": 0.0005188508570235228,
+      "cos": -0.8164965809277263,
+      "sin": -0.5773502691896255,
+      "cos_radical_guess": "-sqrt(6)/3",
+      "sin_radical_guess": "-sqrt(3)/3"
+    },
+    {
+      "gate_position": 37,
+      "qubit": 1,
+      "parameter": "theta",
+      "value": 1.6142926427325301,
+      "nearest_pi_fraction": "19/37",
+      "nearest_angle_error": 0.001042361159393268,
+      "cos": -0.04348260190778501,
+      "sin": 0.9990541843820729,
+      "cos_radical_guess": "-sqrt(2)*(-51*sqrt(sqrt(2) + 2)/37 - 40*sqrt(2 - sqrt(2))/37 - 5*sqrt(5)/37 + 4*sqrt(2)/37 + 12/37 + 69*sqrt(3)/37)",
+      "sin_radical_guess": "sqrt(2 - sqrt(2))/sqrt(-95*sqrt(2)/36 - 59/36 - 4*sqrt(2 - sqrt(2))/3 + 25*sqrt(sqrt(2) + 2)/36 + 7*sqrt(3)/9 + 35*sqrt(5)/18)"
+    }
+  ]
+}

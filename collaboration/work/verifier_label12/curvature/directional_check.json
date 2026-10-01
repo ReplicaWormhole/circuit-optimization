@@ -1,0 +1,30 @@
+{
+  "mapping": "C-order14layers,4wires,3axiscomponents x,y,z; exp(-i axis.sigma/2)",
+  "point_sha256": "2bff11504584f37d19c7d5dab552c704c9f0f0ccb469d24ce18a9724efabb1b7",
+  "eigenvector_norm": 0.9999999999999994,
+  "unitarity_error": 1.5543122344752192e-15,
+  "independent_loss": 0.009423003567534283,
+  "saved_eigenvalue": -3.343255264296238e-08,
+  "hessian_symmetry_max_error": 3.3306690738754696e-16,
+  "eigenpair_residual": 4.852236990128356e-16,
+  "gradient_norm": 2.0320596718335954e-07,
+  "saved_gradient_directional": 2.1940129979533535e-16,
+  "checks": [
+    {
+      "h": 0.001,
+      "minus_loss": 0.009423003567557977,
+      "base_loss": 0.009423003567534283,
+      "plus_loss": 0.009423003567558073,
+      "central_directional_gradient": 4.7704895589362195e-14,
+      "central_directional_curvature": 4.748458570791314e-08
+    },
+    {
+      "h": 0.0005,
+      "minus_loss": 0.009423003567532628,
+      "base_loss": 0.009423003567534283,
+      "plus_loss": 0.009423003567532586,
+      "central_directional_gradient": -4.163336342344337e-14,
+      "central_directional_curvature": -1.3405943022348765e-08
+    }
+  ]
+}

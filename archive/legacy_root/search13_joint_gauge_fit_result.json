@@ -1,0 +1,182 @@
+{
+  "gauge_pairs": [
+    [
+      8,
+      11
+    ],
+    [
+      1,
+      14
+    ]
+  ],
+  "angle": "pi/4 real Givens",
+  "balanced_ranks": {
+    "01": 16,
+    "02": 15,
+    "03": 16
+  },
+  "schedules": [
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  ],
+  "maxiter": 350,
+  "seed": 25010,
+  "rows": [
+    {
+      "seed": 25010,
+      "maxiter": 350,
+      "initial_loss": 0.9948646847850307,
+      "loss": 0.609668633699471,
+      "nit": 74,
+      "nfev": 142,
+      "optimizer_success": false,
+      "message": "ABNORMAL: ",
+      "schedule_index": 0,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cut_capacities": {
+        "01": 16,
+        "02": 16,
+        "03": 64
+      },
+      "candidate": "search13_joint_gauge_candidate_0.json",
+      "off_diagonal_error": 0.9555700403700721,
+      "valid_diagonalizer": false
+    },
+    {
+      "seed": 25011,
+      "maxiter": 350,
+      "initial_loss": 0.9914267682444935,
+      "loss": 0.46823483831521717,
+      "nit": 74,
+      "nfev": 85,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "schedule_index": 1,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cut_capacities": {
+        "01": 16,
+        "02": 16,
+        "03": 64
+      },
+      "candidate": "search13_joint_gauge_candidate_1.json",
+      "off_diagonal_error": 0.6556081352164278,
+      "valid_diagonalizer": false
+    }
+  ]
+}

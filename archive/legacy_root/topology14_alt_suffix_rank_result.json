@@ -1,0 +1,266 @@
+{
+  "results": [
+    {
+      "candidate": "fivemask15_topology_0.json",
+      "suffix_start_gate": 30,
+      "suffix_cnot_edges": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cut_ranks": {
+        "0": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 0.5857864376269051
+        },
+        "1": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 1.4142135623730947
+        },
+        "2": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 1.4142135623730951
+        },
+        "3": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 0.5857864376269046
+        },
+        "01": {
+          "rank": 2,
+          "min_crossing_cnot": 1,
+          "smallest_nonzero_singular": 2.82842712474619
+        },
+        "02": {
+          "rank": 16,
+          "min_crossing_cnot": 4,
+          "smallest_nonzero_singular": 0.1180339887498947
+        },
+        "03": {
+          "rank": 16,
+          "min_crossing_cnot": 4,
+          "smallest_nonzero_singular": 0.08578643762690485
+        }
+      },
+      "passing_four_edge_graphs": [],
+      "passing_count": 0
+    },
+    {
+      "candidate": "fivemask15_topology_1.json",
+      "suffix_start_gate": 30,
+      "suffix_cnot_edges": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cut_ranks": {
+        "0": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 0.5857864376269051
+        },
+        "1": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 1.4142135623730947
+        },
+        "2": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 1.4142135623730951
+        },
+        "3": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 0.5857864376269046
+        },
+        "01": {
+          "rank": 2,
+          "min_crossing_cnot": 1,
+          "smallest_nonzero_singular": 2.82842712474619
+        },
+        "02": {
+          "rank": 16,
+          "min_crossing_cnot": 4,
+          "smallest_nonzero_singular": 0.1180339887498947
+        },
+        "03": {
+          "rank": 16,
+          "min_crossing_cnot": 4,
+          "smallest_nonzero_singular": 0.08578643762690485
+        }
+      },
+      "passing_four_edge_graphs": [],
+      "passing_count": 0
+    },
+    {
+      "candidate": "fivemask15_topology_2.json",
+      "suffix_start_gate": 29,
+      "suffix_cnot_edges": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cut_ranks": {
+        "0": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 0.5857864376269054
+        },
+        "1": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 1.4142135623730945
+        },
+        "2": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 1.4142135623730943
+        },
+        "3": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 0.5857864376269047
+        },
+        "01": {
+          "rank": 2,
+          "min_crossing_cnot": 1,
+          "smallest_nonzero_singular": 2.8284271247461903
+        },
+        "02": {
+          "rank": 16,
+          "min_crossing_cnot": 4,
+          "smallest_nonzero_singular": 0.11803398874989472
+        },
+        "03": {
+          "rank": 16,
+          "min_crossing_cnot": 4,
+          "smallest_nonzero_singular": 0.08578643762690492
+        }
+      },
+      "passing_four_edge_graphs": [],
+      "passing_count": 0
+    },
+    {
+      "candidate": "fivemask15_topology_3.json",
+      "suffix_start_gate": 29,
+      "suffix_cnot_edges": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cut_ranks": {
+        "0": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 0.5857864376269054
+        },
+        "1": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 1.4142135623730945
+        },
+        "2": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 1.4142135623730943
+        },
+        "3": {
+          "rank": 4,
+          "min_crossing_cnot": 2,
+          "smallest_nonzero_singular": 0.5857864376269047
+        },
+        "01": {
+          "rank": 2,
+          "min_crossing_cnot": 1,
+          "smallest_nonzero_singular": 2.8284271247461903
+        },
+        "02": {
+          "rank": 16,
+          "min_crossing_cnot": 4,
+          "smallest_nonzero_singular": 0.11803398874989472
+        },
+        "03": {
+          "rank": 16,
+          "min_crossing_cnot": 4,
+          "smallest_nonzero_singular": 0.08578643762690492
+        }
+      },
+      "passing_four_edge_graphs": [],
+      "passing_count": 0
+    }
+  ],
+  "rank_tolerance": 1e-09,
+  "scope": "fixed suffix targets; local gates may vary in a synthesis"
+}

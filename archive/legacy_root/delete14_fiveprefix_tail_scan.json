@@ -1,0 +1,332 @@
+{
+  "base_candidate": "algebraic14_fivemask_best.json",
+  "fixed_prefix_cx": 5,
+  "mutations_evaluated": 900,
+  "top_25": [
+    {
+      "deleted_cx": 10,
+      "replace_cx": 11,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        1,
+        2
+      ],
+      "raw_offdiag": 0.37500000000000067
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 11,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        3,
+        0
+      ],
+      "raw_offdiag": 0.3750000000000008
+    },
+    {
+      "deleted_cx": 14,
+      "replace_cx": 12,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        3,
+        1
+      ],
+      "raw_offdiag": 0.3750000000000008
+    },
+    {
+      "deleted_cx": 9,
+      "replace_cx": 9,
+      "old_edge": [
+        2,
+        1
+      ],
+      "new_edge": [
+        1,
+        3
+      ],
+      "raw_offdiag": 0.382824695628761
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 9,
+      "old_edge": [
+        2,
+        0
+      ],
+      "new_edge": [
+        1,
+        3
+      ],
+      "raw_offdiag": 0.382824695628761
+    },
+    {
+      "deleted_cx": 7,
+      "replace_cx": 11,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        3,
+        1
+      ],
+      "raw_offdiag": 0.39528470752104783
+    },
+    {
+      "deleted_cx": 13,
+      "replace_cx": 10,
+      "old_edge": [
+        2,
+        1
+      ],
+      "new_edge": [
+        3,
+        0
+      ],
+      "raw_offdiag": 0.39528470752104783
+    },
+    {
+      "deleted_cx": 9,
+      "replace_cx": 9,
+      "old_edge": [
+        2,
+        1
+      ],
+      "new_edge": [
+        2,
+        3
+      ],
+      "raw_offdiag": 0.3952847075210479
+    },
+    {
+      "deleted_cx": 14,
+      "replace_cx": 12,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        2,
+        0
+      ],
+      "raw_offdiag": 0.3952847075210479
+    },
+    {
+      "deleted_cx": 7,
+      "replace_cx": 11,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        2,
+        1
+      ],
+      "raw_offdiag": 0.39528470752104794
+    },
+    {
+      "deleted_cx": 11,
+      "replace_cx": 6,
+      "old_edge": [
+        3,
+        1
+      ],
+      "new_edge": [
+        1,
+        2
+      ],
+      "raw_offdiag": 0.395284707521048
+    },
+    {
+      "deleted_cx": 12,
+      "replace_cx": 7,
+      "old_edge": [
+        3,
+        1
+      ],
+      "new_edge": [
+        3,
+        2
+      ],
+      "raw_offdiag": 0.395284707521048
+    },
+    {
+      "deleted_cx": 13,
+      "replace_cx": 9,
+      "old_edge": [
+        2,
+        0
+      ],
+      "new_edge": [
+        3,
+        2
+      ],
+      "raw_offdiag": 0.395284707521048
+    },
+    {
+      "deleted_cx": 7,
+      "replace_cx": 10,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        2,
+        0
+      ],
+      "raw_offdiag": 0.3952847075210481
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 11,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        1,
+        3
+      ],
+      "raw_offdiag": 0.3952847075210482
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 12,
+      "old_edge": [
+        0,
+        1
+      ],
+      "new_edge": [
+        0,
+        3
+      ],
+      "raw_offdiag": 0.3952847075210482
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 13,
+      "old_edge": [
+        0,
+        1
+      ],
+      "new_edge": [
+        1,
+        2
+      ],
+      "raw_offdiag": 0.3952847075210483
+    },
+    {
+      "deleted_cx": 10,
+      "replace_cx": 13,
+      "old_edge": [
+        0,
+        1
+      ],
+      "new_edge": [
+        1,
+        3
+      ],
+      "raw_offdiag": 0.3952847075210483
+    },
+    {
+      "deleted_cx": 12,
+      "replace_cx": 10,
+      "old_edge": [
+        2,
+        1
+      ],
+      "new_edge": [
+        2,
+        0
+      ],
+      "raw_offdiag": 0.3952847075210483
+    },
+    {
+      "deleted_cx": 13,
+      "replace_cx": 6,
+      "old_edge": [
+        3,
+        1
+      ],
+      "new_edge": [
+        2,
+        1
+      ],
+      "raw_offdiag": 0.3952847075210483
+    },
+    {
+      "deleted_cx": 14,
+      "replace_cx": 10,
+      "old_edge": [
+        2,
+        1
+      ],
+      "new_edge": [
+        3,
+        1
+      ],
+      "raw_offdiag": 0.3952847075210483
+    },
+    {
+      "deleted_cx": 8,
+      "replace_cx": 7,
+      "old_edge": [
+        3,
+        1
+      ],
+      "new_edge": [
+        2,
+        3
+      ],
+      "raw_offdiag": 0.3952847075210484
+    },
+    {
+      "deleted_cx": 14,
+      "replace_cx": 12,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        1,
+        0
+      ],
+      "raw_offdiag": 0.4052740774254183
+    },
+    {
+      "deleted_cx": 6,
+      "replace_cx": 7,
+      "old_edge": [
+        2,
+        0
+      ],
+      "new_edge": [
+        1,
+        2
+      ],
+      "raw_offdiag": 0.40545687395142394
+    },
+    {
+      "deleted_cx": 11,
+      "replace_cx": 11,
+      "old_edge": [
+        2,
+        3
+      ],
+      "new_edge": [
+        3,
+        0
+      ],
+      "raw_offdiag": 0.41295833556435185
+    }
+  ]
+}

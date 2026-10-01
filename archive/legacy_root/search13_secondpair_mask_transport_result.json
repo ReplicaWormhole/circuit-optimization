@@ -1,0 +1,10 @@
+{
+  "ordered_five_cnot_paths": 248832,
+  "near_case_count": 196,
+  "distinct_exact_factor_checks": 30,
+  "support_profile_histogram": {
+    "((), ())": 196
+  },
+  "second_pair_survivor_count": 0,
+  "survivors": []
+}

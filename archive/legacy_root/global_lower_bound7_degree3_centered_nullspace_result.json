@@ -1,0 +1,38 @@
+{
+  "adjacent_adjacent": {
+    "exact_nullity": 45,
+    "exact_rank": 255,
+    "forced_zero_coefficient_squares": [
+      "ZXIZ",
+      "ZYIZ"
+    ],
+    "ordered_triple_j_k_l": [
+      0,
+      1,
+      3
+    ]
+  },
+  "adjacent_opposite": {
+    "exact_nullity": 40,
+    "exact_rank": 260,
+    "forced_zero_coefficient_squares": [
+      "ZXZI",
+      "ZYZI"
+    ],
+    "ordered_triple_j_k_l": [
+      0,
+      1,
+      2
+    ]
+  },
+  "opposite_adjacent": {
+    "exact_nullity": 64,
+    "exact_rank": 236,
+    "forced_zero_coefficient_squares": [],
+    "ordered_triple_j_k_l": [
+      0,
+      2,
+      1
+    ]
+  }
+}

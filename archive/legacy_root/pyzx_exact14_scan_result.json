@@ -1,0 +1,47 @@
+{
+  "methods": [
+    {
+      "candidate": "pyzx_exact14_basic.json",
+      "cnot_count": 14,
+      "gate_count": 57,
+      "max_offdiagonal": 5.557609263327638e-16,
+      "method": "basic",
+      "valid": true
+    },
+    {
+      "error": "TypeError('This method only works on Clifford+T circuits. This circuit contains a ZPhase(1,phase=5/8). For these circuits, stick to basic_optimization().')",
+      "method": "full"
+    },
+    {
+      "cnot_count": 40,
+      "gate_count": 147,
+      "max_offdiagonal": 6.362061583271442e-16,
+      "method": "extract_0",
+      "valid": true
+    },
+    {
+      "cnot_count": 40,
+      "gate_count": 147,
+      "max_offdiagonal": 6.362061583271442e-16,
+      "method": "extract_1",
+      "valid": true
+    },
+    {
+      "cnot_count": 34,
+      "gate_count": 143,
+      "max_offdiagonal": 4.458825481171215e-16,
+      "method": "extract_2",
+      "valid": true
+    },
+    {
+      "cnot_count": 34,
+      "gate_count": 143,
+      "max_offdiagonal": 4.458825481171215e-16,
+      "method": "extract_3",
+      "valid": true
+    }
+  ],
+  "pyzx_version": "0.10.6",
+  "scope": "heuristic exact-unitary rewrites; no lower bound",
+  "source": "topology14_exact_matchgate_rational.json"
+}

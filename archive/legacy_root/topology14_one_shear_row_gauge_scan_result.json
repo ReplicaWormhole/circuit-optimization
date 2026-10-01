@@ -1,0 +1,131 @@
+{
+  "seed": 42,
+  "trials": 2000,
+  "orbit_list": [
+    [
+      0
+    ],
+    [
+      1,
+      5,
+      9,
+      13
+    ],
+    [
+      2,
+      14,
+      10,
+      6
+    ],
+    [
+      3,
+      4,
+      12,
+      11
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      15
+    ]
+  ],
+  "histogram": {
+    "exact": {
+      "6": 2000
+    },
+    "relative_phase_corrected": {
+      "6": 2000
+    }
+  },
+  "best": {
+    "exact": {
+      "trial": 64,
+      "orders": [
+        [
+          0
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 5,
+        "02": 11,
+        "03": 11
+      },
+      "cut_based_cnot_lower_bound": 6
+    },
+    "relative_phase_corrected": {
+      "trial": 48,
+      "orders": [
+        [
+          0
+        ],
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "ranks": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "01": 6,
+        "02": 10,
+        "03": 12
+      },
+      "cut_based_cnot_lower_bound": 6
+    }
+  },
+  "scope": "sampled orbit-local output row permutations; no mixing between equal-eigenvalue orbits"
+}

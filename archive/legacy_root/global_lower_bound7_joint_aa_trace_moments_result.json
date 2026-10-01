@@ -1,0 +1,25 @@
+{
+  "all_joint_assignments": [],
+  "assignments_passing_joint_product_moments": 0,
+  "assignments_passing_single_axis_moments": 76,
+  "block_row_options": 35,
+  "example_joint_assignment": null,
+  "target_trace_moments": {
+    "A": [
+      "2*sqrt(3)*I/3",
+      "0",
+      "-2*sqrt(3)*I/3"
+    ],
+    "AB": [
+      "10/3",
+      "4",
+      "10/3"
+    ],
+    "B": [
+      "-2*sqrt(3)*I/3",
+      "0",
+      "2*sqrt(3)*I/3"
+    ]
+  },
+  "valid_total_assignments_checked": 7168
+}

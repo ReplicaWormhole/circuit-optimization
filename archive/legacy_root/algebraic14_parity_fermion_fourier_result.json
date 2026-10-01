@@ -1,0 +1,36 @@
+{
+  "cyclotomic_conductor": 8,
+  "exact_cycle_diagonalizer": true,
+  "output_labels": [
+    0,
+    3,
+    2,
+    2,
+    1,
+    1,
+    0,
+    2,
+    0,
+    0,
+    3,
+    1,
+    2,
+    0,
+    3,
+    0
+  ],
+  "multiplicities": [
+    6,
+    3,
+    4,
+    3
+  ],
+  "numeric_unitarity_error": 2.220446049250313e-16,
+  "boundary_condition_by_particle_number": {
+    "0": "antiperiodic",
+    "1": "periodic",
+    "2": "antiperiodic",
+    "3": "periodic",
+    "4": "antiperiodic"
+  }
+}

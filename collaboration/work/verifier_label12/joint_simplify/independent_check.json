@@ -1,0 +1,11 @@
+{
+  "trace_exact_replay_verified": true,
+  "rewrites": 5,
+  "source_sha256": "d595df83cc218ab4a532cdc2c51ab90a19dd68503fccc8d10311a23f0608ed6d",
+  "candidate_sha256": "99742270d05745155e74379602293bfb7bf2c19782d57def349521a570a000f5",
+  "cx_count": 67,
+  "maximum_full_matrix_difference": 8.400361489980554e-16,
+  "maxoff": 7.627804406540184e-16,
+  "unitarity_error": 2.4424906541753444e-15,
+  "whole_exact_UV_certificate": false
+}

@@ -1,0 +1,82 @@
+{
+  "boundary_axis_order": "out0,out1,out2,out3,in0,in1,in2,in3",
+  "boundary_cut_mask": 163,
+  "cut_wire_segment_edges": [
+    {
+      "first_vertex": 9,
+      "second_vertex": 10,
+      "wire": 0
+    },
+    {
+      "first_vertex": 11,
+      "second_vertex": 14,
+      "wire": 3
+    }
+  ],
+  "exactly_excludes_this_ordered_unoriented_skeleton": true,
+  "field": "Q(zeta_96)",
+  "fixed_prefix": "exact14 first six CNOTs",
+  "gate_vertex_side_mask": 60,
+  "left_boundary_axes": [
+    0,
+    1,
+    5,
+    7
+  ],
+  "nonzero_5x5_minor_determinant": "3*zeta_96^32/16",
+  "nonzero_minor_columns": [
+    8,
+    14,
+    5,
+    15,
+    13
+  ],
+  "nonzero_minor_rows": [
+    9,
+    1,
+    6,
+    7,
+    15
+  ],
+  "ordered_unoriented_tail_skeleton": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "right_boundary_axes": [
+    2,
+    3,
+    4,
+    6
+  ],
+  "scope": "arbitrary one-qubit gates and both directions for these seven physical pairs in this order only; other tail schedules untested",
+  "skeleton_rank_upper_bound": 4,
+  "target": "exact rank-eight output gauge times exact14 eight-CNOT tail",
+  "target_exact_rank": 14,
+  "tensor_network_mincut_bonds": 2
+}

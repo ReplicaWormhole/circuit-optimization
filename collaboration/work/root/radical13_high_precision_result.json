@@ -1,0 +1,28 @@
+{
+  "source": "collaboration/work/algebraic13_new/canonical_algebraic_ansatz.json",
+  "source_sha256": "d500ff2a79c4717ff38d935d71b67bd798b06a7c6899a275fec25570b86b8d13",
+  "decimal_digits": 100,
+  "cnot_count": 13,
+  "labels": [
+    2,
+    0,
+    0,
+    1,
+    3,
+    1,
+    2,
+    3,
+    0,
+    2,
+    0,
+    0,
+    1,
+    3,
+    2,
+    0
+  ],
+  "uv_du_max_error": "2.150529808514467287079865836654630729747003228265584274055621966937899736272302141512511925318813363e-101",
+  "unitarity_max_error": "5.714936956411374911078917741526704797259549974113993306075629216138163179533690978377240109300860148e-101",
+  "halfangle_normalization_max_error": "7.143671195514218638848647176908380996574437467642491632594536520172703974417113722971550136626075185e-102",
+  "scope": "Highprecision numerical evidence, not exact certificate"
+}

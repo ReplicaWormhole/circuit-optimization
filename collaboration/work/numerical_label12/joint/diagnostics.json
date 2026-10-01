@@ -1,0 +1,22 @@
+{
+  "source_reconstructed_phase_aligned_max_error": 1.4488835837920476e-15,
+  "source_phase": [
+    0.4036895316759473,
+    0.9148960389111183
+  ],
+  "rows": [
+    {
+      "candidate": "collaboration/work/numerical_label12/joint/target0.json",
+      "sha256": "e8f7cf6193b6e466b6e62a22ab7f63331ebd30b82d72c6bf4dfe63df541dabae",
+      "fixed_target_loss": 0.009459905009667346,
+      "fixed_target_max_entry": 0.0689367816905082
+    },
+    {
+      "candidate": "collaboration/work/numerical_label12/joint/target1.json",
+      "sha256": "f33fed5a37d2a55e47f805ff25b68f7b0207690c7b8c273b2da6b502367c3566",
+      "fixed_target_loss": 0.46343390751450736,
+      "fixed_target_max_entry": 0.3678108492632102
+    }
+  ],
+  "scope": "Read-only floating diagnostics, no optimization and no exact certificate."
+}

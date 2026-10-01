@@ -1,0 +1,29 @@
+{
+  "gauges_with_survivors": 0,
+  "linear_output_gauges": 20160,
+  "masks": 127,
+  "neighborhood_schedules": 124,
+  "primes": [
+    97,
+    193
+  ],
+  "rank_checks_by_prime": {
+    "97": 758232
+  },
+  "rows_with_survivors": [],
+  "scope": "exhaustive finite linear-output-gauge family and 124 near-tail orders; necessary conditions only",
+  "source": "exact14 eight-CNOT tail with all GL(4,2) output row gauges",
+  "survival_histogram_depth_and_count": {
+    "0,0": 1,
+    "1,0": 12,
+    "2,0": 96,
+    "3,0": 542,
+    "4,0": 2058,
+    "5,0": 5316,
+    "6,0": 7530,
+    "7,0": 4058,
+    "8,0": 541,
+    "9,0": 6
+  },
+  "total_survivor_pairs": 0
+}

@@ -1,0 +1,437 @@
+{
+  "config": {
+    "source": "collaboration/work/numerical12/deletion_slot1_deep.json",
+    "source_sha256": "9a9dd0e0b430e935f99f4d998fb25d5e1b48160ad16a6c46a27e2574c59c2398",
+    "optimizer_schedule": [
+      [
+        0,
+        1
+      ],
+      null,
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "seed": null,
+    "selection": "Fixed base labels independently verified run375, two composed disjoint-swap targets prescribed before execution, no numerical screening",
+    "max_targets": 2,
+    "maxiter": 200,
+    "maxfun": 4000,
+    "maxls": 20,
+    "max_newton_steps": 5,
+    "rcond": 1e-06,
+    "line_search_trials": 8,
+    "wall_seconds": 120,
+    "threads": 1,
+    "local_parameters": 168,
+    "objective": "||UV-DU||F\u00b2/16",
+    "parent": 363,
+    "dependencies": {
+      "delete14_search.py": "b12320ef0491d0fc953d76aa92c39025f5ea9c40dddfa1458894d18eef5fd044",
+      "search13_adaptive_topology.py": "14973daa02e3f0e97a8a8c8cc4d2c05f906bc1f2dedec4b2893f2cf39cceb471",
+      "search13_fresh_chain_dynamic_rows.py": "be937d249d245f686a85fda2536a1527bdf6e1c4d77840603c37b4758b974752",
+      "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0"
+    },
+    "base_labels": [
+      2,
+      0,
+      2,
+      1,
+      3,
+      1,
+      0,
+      3,
+      0,
+      2,
+      0,
+      0,
+      1,
+      3,
+      2,
+      0
+    ],
+    "composed_swaps": [
+      [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      [
+        [
+          8,
+          13
+        ],
+        [
+          9,
+          12
+        ]
+      ]
+    ]
+  },
+  "elapsed_seconds": 8.639925215975381,
+  "rows": [
+    {
+      "composed_swaps": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "labels": [
+        2,
+        0,
+        0,
+        3,
+        3,
+        1,
+        2,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        3,
+        2,
+        0
+      ],
+      "optimizer": {
+        "nit": 99,
+        "nfev": 111,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "loss": 0.009459905009668864
+      },
+      "newton": [
+        {
+          "step": 0,
+          "before": 0.009459905009668862,
+          "after": 0.009459905009667872,
+          "rank": 60,
+          "accepted": true,
+          "alpha": 1.0
+        },
+        {
+          "step": 1,
+          "before": 0.009459905009667872,
+          "after": 0.009459905009667521,
+          "rank": 60,
+          "accepted": true,
+          "alpha": 0.25
+        },
+        {
+          "step": 2,
+          "before": 0.009459905009667521,
+          "after": 0.009459905009667393,
+          "rank": 60,
+          "accepted": true,
+          "alpha": 0.25
+        },
+        {
+          "step": 3,
+          "before": 0.009459905009667393,
+          "after": 0.009459905009667386,
+          "rank": 60,
+          "accepted": true,
+          "alpha": 0.25
+        },
+        {
+          "step": 4,
+          "before": 0.009459905009667386,
+          "after": 0.009459905009667324,
+          "rank": 60,
+          "accepted": true,
+          "alpha": 0.25
+        }
+      ],
+      "timedout": false,
+      "candidate": "collaboration/work/numerical_label12/joint/target0.json",
+      "candidate_sha256": "e8f7cf6193b6e466b6e62a22ab7f63331ebd30b82d72c6bf4dfe63df541dabae",
+      "checker": {
+        "n": 4,
+        "cnot_count": 12,
+        "valid_diagonalizer": false,
+        "beats_18_cnot_reference": false,
+        "unitarity_error": 8.881784197001252e-16,
+        "off_diagonal_error": 0.1517277915509333,
+        "eigenvalue_root_error": 0.045931714613946406,
+        "total_spin_off_diagonal_error": 2.8176905025564363,
+        "diagonalizes_total_spin": false,
+        "diagonal_eigenvalues": [
+          [
+            -0.9951355196331241,
+            0.0032082533405780322
+          ],
+          [
+            0.9951355196331494,
+            -0.003208253339707534
+          ],
+          [
+            0.9966647575811055,
+            1.3877787807814457e-17
+          ],
+          [
+            9.145233545661285e-05,
+            -0.9966842098348709
+          ],
+          [
+            0.0032082533469013647,
+            -0.9951355196309617
+          ],
+          [
+            -0.003208253345960894,
+            0.9951355196310565
+          ],
+          [
+            -0.9966647575847328,
+            0.0
+          ],
+          [
+            9.145233591184378e-05,
+            0.9966842098339455
+          ],
+          [
+            0.9951590067260951,
+            -0.003231729290458313
+          ],
+          [
+            -0.9951590067252214,
+            0.003231729288545926
+          ],
+          [
+            0.9883138121553238,
+            1.3877787807814457e-17
+          ],
+          [
+            0.9999085476669516,
+            1.4956776189373189e-05
+          ],
+          [
+            -0.003231729283872886,
+            0.9951590067368441
+          ],
+          [
+            0.0032317292820340064,
+            -0.9951590067358969
+          ],
+          [
+            -0.9883138121516964,
+            0.0
+          ],
+          [
+            0.999908547661679,
+            -1.495677526411332e-05
+          ]
+        ]
+      }
+    },
+    {
+      "composed_swaps": [
+        [
+          8,
+          13
+        ],
+        [
+          9,
+          12
+        ]
+      ],
+      "labels": [
+        2,
+        0,
+        2,
+        1,
+        3,
+        1,
+        0,
+        3,
+        3,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "optimizer": {
+        "nit": 151,
+        "nfev": 167,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "loss": 0.4634339075145201
+      },
+      "newton": [
+        {
+          "step": 0,
+          "before": 0.4634339075145202,
+          "after": 0.4634339075145113,
+          "rank": 59,
+          "accepted": true,
+          "alpha": 1.0
+        },
+        {
+          "step": 1,
+          "before": 0.4634339075145113,
+          "after": 0.4634339075145084,
+          "rank": 59,
+          "accepted": true,
+          "alpha": 1.0
+        },
+        {
+          "step": 2,
+          "before": 0.4634339075145084,
+          "after": 0.46343390751450814,
+          "rank": 59,
+          "accepted": true,
+          "alpha": 1.0
+        },
+        {
+          "step": 3,
+          "before": 0.46343390751450814,
+          "after": 0.46343390751450764,
+          "rank": 59,
+          "accepted": true,
+          "alpha": 0.25
+        },
+        {
+          "step": 4,
+          "before": 0.46343390751450764,
+          "after": 0.4634339075145065,
+          "rank": 59,
+          "accepted": true,
+          "alpha": 1.0
+        }
+      ],
+      "timedout": false,
+      "candidate": "collaboration/work/numerical_label12/joint/target1.json",
+      "candidate_sha256": "f33fed5a37d2a55e47f805ff25b68f7b0207690c7b8c273b2da6b502367c3566",
+      "checker": {
+        "n": 4,
+        "cnot_count": 12,
+        "valid_diagonalizer": false,
+        "beats_18_cnot_reference": false,
+        "unitarity_error": 8.881784197001252e-16,
+        "off_diagonal_error": 0.7071067918307067,
+        "eigenvalue_root_error": 0.9013878290535731,
+        "total_spin_off_diagonal_error": 2.0000000003018785,
+        "diagonalizes_total_spin": false,
+        "diagonal_eigenvalues": [
+          [
+            -0.6830126999290421,
+            0.18301270910799383
+          ],
+          [
+            0.6830126999283984,
+            -0.18301270910831172
+          ],
+          [
+            -0.7071067918307081,
+            0.0
+          ],
+          [
+            3.1153619228566696e-16,
+            0.7071067705423867
+          ],
+          [
+            0.18301270909851536,
+            -0.6830126998918374
+          ],
+          [
+            -0.18301270909819742,
+            0.6830126998924806
+          ],
+          [
+            0.7071067918307076,
+            0.0
+          ],
+          [
+            3.261302402130532e-16,
+            -0.7071067705423868
+          ],
+          [
+            0.1830126947389744,
+            -0.6830127038395479
+          ],
+          [
+            -0.18301269463318853,
+            0.683012703945008
+          ],
+          [
+            1.0,
+            -3.469446951953614e-17
+          ],
+          [
+            0.9999999999999991,
+            3.3306690738754696e-16
+          ],
+          [
+            -0.6830127039084473,
+            0.18301269462339226
+          ],
+          [
+            0.6830127038029865,
+            -0.1830126947291778
+          ],
+          [
+            -0.9999999999999998,
+            0.0
+          ],
+          [
+            0.9999999999999989,
+            -2.8449465006019636e-16
+          ]
+        ]
+      }
+    }
+  ],
+  "scope": "Finite numerical search; failure excludes no target family or topology; passing output needs exact certification."
+}

@@ -1,0 +1,194 @@
+{
+  "plan": "plan.json",
+  "elapsed_seconds": 3.7729355610208586,
+  "rows": [
+    {
+      "case": 0,
+      "seed": 9261303,
+      "candidate": "collaboration/work/numerical/case0.json",
+      "evaluations": 91,
+      "nit": 80,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "optimizer_success": false,
+      "wall_cap_hit": false,
+      "loss": 0.12500000006042622,
+      "independent": {
+        "loss": 0.12500000006042622,
+        "off_diagonal_error": 0.7071067811631252,
+        "unitarity_error": 1.3322676295501878e-15
+      },
+      "checker": {
+        "n": 4,
+        "cnot_count": 13,
+        "valid_diagonalizer": false,
+        "beats_18_cnot_reference": false,
+        "unitarity_error": 1.3322676295501878e-15,
+        "off_diagonal_error": 0.7071067811631252,
+        "eigenvalue_root_error": 1.2499999999709805,
+        "total_spin_off_diagonal_error": 2.0000021790218816,
+        "diagonalizes_total_spin": false,
+        "diagonal_eigenvalues": [
+          [
+            -2.3014667494201186e-12,
+            -0.9999999999729826
+          ],
+          [
+            0.49999845422672295,
+            0.5000015457322391
+          ],
+          [
+            -0.9999999999679339,
+            6.483702463810914e-14
+          ],
+          [
+            -0.5000004588332048,
+            -0.49999954109604283
+          ],
+          [
+            -0.9999999999547842,
+            -6.4624416928893424e-12
+          ],
+          [
+            -1.8273737027946614e-12,
+            -0.9999999999709674
+          ],
+          [
+            0.9999999999593083,
+            -3.6270986214503864e-13
+          ],
+          [
+            9.17764278428201e-13,
+            0.9999999999696456
+          ],
+          [
+            -4.393995413641005e-12,
+            0.9999999999730166
+          ],
+          [
+            -0.4999995410943987,
+            -0.5000004588553218
+          ],
+          [
+            0.9999999999795628,
+            8.113232308204488e-13
+          ],
+          [
+            0.5000015457625805,
+            0.49999845421891354
+          ],
+          [
+            0.9999999999629412,
+            -1.6817103265509559e-13
+          ],
+          [
+            -0.9999999999618578,
+            1.653732706330402e-12
+          ],
+          [
+            0.9999999999628146,
+            4.7641335321202405e-12
+          ],
+          [
+            0.9999999999658556,
+            1.198152688175469e-12
+          ]
+        ]
+      }
+    },
+    {
+      "case": 1,
+      "seed": 9261304,
+      "candidate": "collaboration/work/numerical/case1.json",
+      "evaluations": 86,
+      "nit": 80,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "optimizer_success": false,
+      "wall_cap_hit": false,
+      "loss": 0.3790756296025249,
+      "independent": {
+        "loss": 0.3790756296025249,
+        "off_diagonal_error": 0.9950598775439117,
+        "unitarity_error": 1.3322676295501878e-15
+      },
+      "checker": {
+        "n": 4,
+        "cnot_count": 13,
+        "valid_diagonalizer": false,
+        "beats_18_cnot_reference": false,
+        "unitarity_error": 1.3322676295501878e-15,
+        "off_diagonal_error": 0.9950598775439117,
+        "eigenvalue_root_error": 0.9999999994151857,
+        "total_spin_off_diagonal_error": 2.3979618857763754,
+        "diagonalizes_total_spin": false,
+        "diagonal_eigenvalues": [
+          [
+            0.004962626299961151,
+            -6.211864356231445e-10
+          ],
+          [
+            0.12545248544311627,
+            0.753397917349879
+          ],
+          [
+            -0.0272041195680859,
+            -0.8977867188972521
+          ],
+          [
+            -0.12545331663257087,
+            -0.7533973540227854
+          ],
+          [
+            0.9901199914529096,
+            -1.2469503207768184e-10
+          ],
+          [
+            -0.6356131057513479,
+            8.03740324240021e-07
+          ],
+          [
+            -0.8709884625463243,
+            5.929325735454238e-06
+          ],
+          [
+            0.6356125224005091,
+            -1.1488869194470341e-06
+          ],
+          [
+            0.0049176147785943425,
+            4.635697034571784e-10
+          ],
+          [
+            0.1254604967969379,
+            -0.7533977665655109
+          ],
+          [
+            -0.02721574645623869,
+            0.8977855885865667
+          ],
+          [
+            -0.1254596203143328,
+            0.753396059704003
+          ],
+          [
+            0.9999997647625616,
+            6.928635026826058e-10
+          ],
+          [
+            0.8900809882010297,
+            -9.224094895676771e-07
+          ],
+          [
+            0.9254083292694053,
+            -4.799247826411945e-06
+          ],
+          [
+            -0.8900804481361245,
+            2.410912723058156e-06
+          ]
+        ]
+      }
+    }
+  ],
+  "best_candidate": "collaboration/work/numerical/case0.json",
+  "scope": "Two random starts on two ordered 13-CNOT schedules with full local freedom. Numerical unsuccessful fits are not topology exclusions or a lower bound."
+}

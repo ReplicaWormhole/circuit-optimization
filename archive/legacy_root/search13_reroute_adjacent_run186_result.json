@@ -1,0 +1,265 @@
+{
+  "base": "topology14_exact_matchgate_rational.json",
+  "results": [
+    {
+      "deleted": 6,
+      "rerouted": 8,
+      "edge": [
+        0,
+        2
+      ],
+      "seed": 13250,
+      "sigma": 0.04,
+      "maxiter": 300,
+      "nit": 114,
+      "nfev": 124,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "loss": 0.22376942411434736,
+      "off_diagonal_error": 0.4942063780515872,
+      "eigenvalue_root_error": 0.730833874546132,
+      "valid_diagonalizer": false,
+      "candidate": "search13_reroute_adjacent_run186_d6_r8_02_s0.json"
+    },
+    {
+      "deleted": 6,
+      "rerouted": 8,
+      "edge": [
+        0,
+        2
+      ],
+      "seed": 13251,
+      "sigma": 0.3,
+      "maxiter": 300,
+      "nit": 90,
+      "nfev": 98,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "loss": 0.12500000000000394,
+      "off_diagonal_error": 0.7071067811865458,
+      "eigenvalue_root_error": 1.2499999999999978,
+      "valid_diagonalizer": false,
+      "candidate": "search13_reroute_adjacent_run186_d6_r8_02_s1.json"
+    },
+    {
+      "deleted": 8,
+      "rerouted": 6,
+      "edge": [
+        1,
+        3
+      ],
+      "seed": 13252,
+      "sigma": 0.04,
+      "maxiter": 300,
+      "nit": 96,
+      "nfev": 106,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "loss": 0.1397938857153393,
+      "off_diagonal_error": 0.38736480493693976,
+      "eigenvalue_root_error": 0.5563176227157202,
+      "valid_diagonalizer": false,
+      "candidate": "search13_reroute_adjacent_run186_d8_r6_13_s0.json"
+    },
+    {
+      "deleted": 8,
+      "rerouted": 6,
+      "edge": [
+        1,
+        3
+      ],
+      "seed": 13253,
+      "sigma": 0.3,
+      "maxiter": 300,
+      "nit": 116,
+      "nfev": 128,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "loss": 0.22728992936582784,
+      "off_diagonal_error": 0.6940874941036594,
+      "eigenvalue_root_error": 1.1424571752414303,
+      "valid_diagonalizer": false,
+      "candidate": "search13_reroute_adjacent_run186_d8_r6_13_s1.json"
+    },
+    {
+      "deleted": 8,
+      "rerouted": 10,
+      "edge": [
+        1,
+        3
+      ],
+      "seed": 13254,
+      "sigma": 0.04,
+      "maxiter": 300,
+      "nit": 88,
+      "nfev": 97,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "loss": 0.3750000000000009,
+      "off_diagonal_error": 0.9999999999999986,
+      "eigenvalue_root_error": 1.2499999999999978,
+      "valid_diagonalizer": false,
+      "candidate": "search13_reroute_adjacent_run186_d8_r10_13_s0.json"
+    },
+    {
+      "deleted": 8,
+      "rerouted": 10,
+      "edge": [
+        1,
+        3
+      ],
+      "seed": 13255,
+      "sigma": 0.3,
+      "maxiter": 300,
+      "nit": 141,
+      "nfev": 156,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "loss": 0.17517153767535942,
+      "off_diagonal_error": 0.5701364717209845,
+      "eigenvalue_root_error": 0.8831918844876278,
+      "valid_diagonalizer": false,
+      "candidate": "search13_reroute_adjacent_run186_d8_r10_13_s1.json"
+    },
+    {
+      "deleted": 10,
+      "rerouted": 8,
+      "edge": [
+        0,
+        1
+      ],
+      "seed": 13256,
+      "sigma": 0.04,
+      "maxiter": 300,
+      "nit": 119,
+      "nfev": 127,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "loss": 0.22376942411435047,
+      "off_diagonal_error": 0.4942063957923536,
+      "eigenvalue_root_error": 0.7308339059434749,
+      "valid_diagonalizer": false,
+      "candidate": "search13_reroute_adjacent_run186_d10_r8_01_s0.json"
+    },
+    {
+      "deleted": 10,
+      "rerouted": 8,
+      "edge": [
+        0,
+        1
+      ],
+      "seed": 13257,
+      "sigma": 0.3,
+      "maxiter": 300,
+      "nit": 104,
+      "nfev": 112,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "loss": 0.12500000000000144,
+      "off_diagonal_error": 0.7071067811865462,
+      "eigenvalue_root_error": 1.249999999999998,
+      "valid_diagonalizer": false,
+      "candidate": "search13_reroute_adjacent_run186_d10_r8_01_s1.json"
+    },
+    {
+      "deleted": 10,
+      "rerouted": 12,
+      "edge": [
+        0,
+        1
+      ],
+      "seed": 13258,
+      "sigma": 0.04,
+      "maxiter": 300,
+      "nit": 143,
+      "nfev": 155,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "loss": 0.1250000000000013,
+      "off_diagonal_error": 0.7071067811865461,
+      "eigenvalue_root_error": 1.249999999999999,
+      "valid_diagonalizer": false,
+      "candidate": "search13_reroute_adjacent_run186_d10_r12_01_s0.json"
+    },
+    {
+      "deleted": 10,
+      "rerouted": 12,
+      "edge": [
+        0,
+        1
+      ],
+      "seed": 13259,
+      "sigma": 0.3,
+      "maxiter": 300,
+      "nit": 78,
+      "nfev": 84,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "loss": 0.09375000000000025,
+      "off_diagonal_error": 0.49999999806962686,
+      "eigenvalue_root_error": 0.4374999971044463,
+      "valid_diagonalizer": false,
+      "candidate": "search13_reroute_adjacent_run186_d10_r12_01_s1.json"
+    },
+    {
+      "deleted": 12,
+      "rerouted": 10,
+      "edge": [
+        2,
+        3
+      ],
+      "seed": 13260,
+      "sigma": 0.04,
+      "maxiter": 300,
+      "nit": 127,
+      "nfev": 136,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "loss": 0.2311000119102734,
+      "off_diagonal_error": 0.39913071010895945,
+      "eigenvalue_root_error": 0.6126917075088657,
+      "valid_diagonalizer": false,
+      "candidate": "search13_reroute_adjacent_run186_d12_r10_23_s0.json"
+    },
+    {
+      "deleted": 12,
+      "rerouted": 10,
+      "edge": [
+        2,
+        3
+      ],
+      "seed": 13261,
+      "sigma": 0.3,
+      "maxiter": 300,
+      "nit": 155,
+      "nfev": 166,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "loss": 0.5055030837802204,
+      "off_diagonal_error": 0.5320025003705755,
+      "eigenvalue_root_error": 1.096630547979332,
+      "valid_diagonalizer": false,
+      "candidate": "search13_reroute_adjacent_run186_d12_r10_23_s1.json"
+    }
+  ],
+  "best": {
+    "deleted": 10,
+    "rerouted": 12,
+    "edge": [
+      0,
+      1
+    ],
+    "seed": 13259,
+    "sigma": 0.3,
+    "maxiter": 300,
+    "nit": 78,
+    "nfev": 84,
+    "optimizer_success": true,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "loss": 0.09375000000000025,
+    "off_diagonal_error": 0.49999999806962686,
+    "eigenvalue_root_error": 0.4374999971044463,
+    "valid_diagonalizer": false,
+    "candidate": "search13_reroute_adjacent_run186_d10_r12_01_s1.json"
+  }
+}

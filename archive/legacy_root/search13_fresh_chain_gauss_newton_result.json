@@ -1,0 +1,119 @@
+{
+  "source": "search13_fresh_chain_refine_trial1.json",
+  "schedule": [
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "labels": [
+    2,
+    0,
+    0,
+    1,
+    3,
+    1,
+    2,
+    3,
+    0,
+    2,
+    2,
+    0,
+    1,
+    3,
+    0,
+    0
+  ],
+  "multiplicities": [
+    6,
+    3,
+    4,
+    3
+  ],
+  "minimum_nearest_label_margin": 1.4113730420445185,
+  "jacobian_direction_error": 1.83980667506356e-10,
+  "seed": 34500,
+  "max_nfev": 35,
+  "rows": [
+    {
+      "trial": 0,
+      "sigma": 0.0,
+      "seed": 34500,
+      "squared_residual": 0.001216502001575809,
+      "nfev": 25,
+      "njev": 12,
+      "optimality": 4.785376474285763e-10,
+      "optimizer_success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "candidate": "search13_fresh_chain_gauss_newton_trial0.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.04299887602273452,
+      "valid_diagonalizer": false
+    },
+    {
+      "trial": 1,
+      "sigma": 0.03,
+      "seed": 34501,
+      "squared_residual": 0.0012165020015758674,
+      "nfev": 30,
+      "njev": 19,
+      "optimality": 2.4690478302841733e-09,
+      "optimizer_success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "candidate": "search13_fresh_chain_gauss_newton_trial1.json",
+      "cnot_count": 13,
+      "off_diagonal_error": 0.04299887364847908,
+      "valid_diagonalizer": false
+    }
+  ],
+  "best_candidate": "search13_fresh_chain_gauss_newton_trial1.json",
+  "scope": "Two local fixed-label Gauss-Newton trust-region solves of UV=DU at one13CNOT topology, no no-go"
+}

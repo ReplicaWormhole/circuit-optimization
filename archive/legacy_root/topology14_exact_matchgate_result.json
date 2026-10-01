@@ -1,0 +1,13 @@
+{
+  "candidate": "topology14_exact_matchgate_candidate.json",
+  "raw_circuit_cnot_count": 6,
+  "transpiled_cnot_count": 14,
+  "off_diagonal_error": 5.126466838098624e-15,
+  "valid_diagonalizer": true,
+  "raw_to_transpiled_matrix_error": 2.1868857395626282e-15,
+  "proof_status": "numerical pending exact symbolic verification",
+  "rational_candidate": "topology14_exact_matchgate_rational.json",
+  "rational_cnot_count": 14,
+  "rational_off_diagonal_error": 6.695201117991839e-16,
+  "raw_to_rational_matrix_error": 8.455206652451151e-16
+}

@@ -1,0 +1,32 @@
+{
+  "field": "Q(zeta_96)",
+  "exact_diagonalizer": true,
+  "labels": [
+    0,
+    3,
+    1,
+    1,
+    2,
+    0,
+    2,
+    2,
+    0,
+    2,
+    0,
+    0,
+    3,
+    1,
+    3,
+    0
+  ],
+  "prefix_cnot_count": 6,
+  "nonlocal_blocks": 4,
+  "gate_list_cnot_counts": {
+    "topology14_exact_matchgate_rational.json": 14,
+    "root14_exact_candidate.json": 14
+  },
+  "raw_equals_gate_lists_up_to_global_phase": {
+    "topology14_exact_matchgate_rational.json": true,
+    "root14_exact_candidate.json": true
+  }
+}

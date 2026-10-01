@@ -1,0 +1,74 @@
+{
+  "source": "collaboration/work/algebraic_label12/joint_simplify/REPORT.md",
+  "source_sha256": "eb16e63091258386f7d7437890119e27a85dc132b922cdd7aae3429582114ca7",
+  "seeds": [
+    9261101,
+    9261102
+  ],
+  "seed": 9261101,
+  "local_sigma": 0.3,
+  "f_sigma": 0.3,
+  "parameter_order": "locals84 Corder(7,4,3),thenFangles Corder(4,2); perseed numpydefault_rng normal(0,.3,size92)",
+  "schedule": [
+    [
+      "cx",
+      0,
+      1
+    ],
+    [
+      "cx",
+      2,
+      1
+    ],
+    [
+      "cx",
+      3,
+      1
+    ],
+    [
+      "F",
+      0,
+      2
+    ],
+    [
+      "F",
+      1,
+      3
+    ],
+    [
+      "cx",
+      1,
+      2
+    ],
+    [
+      "F",
+      0,
+      1
+    ],
+    [
+      "F",
+      2,
+      3
+    ]
+  ],
+  "local_layers": "L0;CX01,CX21,CX31;L1;F02;L2;F13;L3;CX12;L4;F01;L5;F23;L6",
+  "parameters": 92,
+  "maxiter": 500,
+  "maxfun": 10000,
+  "maxls": 30,
+  "wall_seconds": 240,
+  "threads": 1,
+  "objective": "||offdiag(UV4Udagger)||F\u00b2/16",
+  "gate_set_native": "arbitrarylocals+CX+F=exp(i aXX+i bYY)",
+  "native_entanglers": 8,
+  "compiled_cx": 12,
+  "extra_starts": 0,
+  "svd": false,
+  "dependencies": {
+    "collaboration/work/verifier_label12/parity12/native_helpers.py": "992aa07290b35bcc0ad0860e1f7053f790b0d72e45c477e12ebd13a902f734b3",
+    "delete14_search.py": "b12320ef0491d0fc953d76aa92c39025f5ea9c40dddfa1458894d18eef5fd044",
+    "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0",
+    "native_gate_check.py": "2e31378917baf44c938fae8ab88920a9cf63769051dcaca2ee874dd624707987",
+    "search13_adaptive_topology.py": "14973daa02e3f0e97a8a8c8cc4d2c05f906bc1f2dedec4b2893f2cf39cceb471"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "convention": "q0 MSB; chronological left multiplication; right-cycle UV=DU",
+  "cycle_traces": [
+    16,
+    2,
+    4,
+    2
+  ],
+  "required_root_counts": [
+    6,
+    3,
+    4,
+    3
+  ],
+  "checks": [
+    {
+      "path": "collaboration/work/numerical_label12/architecture/target0.json",
+      "sha256": "b3ef39eac7e81a722ff58f4dc150cc82523772722a49f7daa91b7f66f578d476",
+      "cx_count": 12,
+      "unitarity_error": 1.1102230246251565e-15,
+      "max_offdiagonal": 0.5115281228445528,
+      "offdiagonal_loss": 0.49992723754302326,
+      "nearest_root_max_error": 0.7149054870745563,
+      "nearest_labels": [
+        1,
+        3,
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        3,
+        2,
+        0
+      ],
+      "nearest_label_counts": [
+        6,
+        3,
+        5,
+        2
+      ],
+      "nearest_label_intertwining_max_error": 0.6065414992822544,
+      "numerically_valid": false,
+      "exact_certificate": false
+    },
+    {
+      "path": "collaboration/work/numerical_label12/architecture/target1.json",
+      "sha256": "288cb4e041192c92cdb3125dcdced36f4b089da39cb6ae59624b189d5d9009c8",
+      "cx_count": 12,
+      "unitarity_error": 1.4432899320127035e-15,
+      "max_offdiagonal": 0.8904639939651671,
+      "offdiagonal_loss": 0.5000000000000004,
+      "nearest_root_max_error": 0.999999999348509,
+      "nearest_labels": [
+        1,
+        3,
+        0,
+        3,
+        3,
+        3,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        3
+      ],
+      "nearest_label_counts": [
+        4,
+        5,
+        2,
+        5
+      ],
+      "nearest_label_intertwining_max_error": 0.6584025783532557,
+      "numerically_valid": false,
+      "exact_certificate": false
+    }
+  ]
+}

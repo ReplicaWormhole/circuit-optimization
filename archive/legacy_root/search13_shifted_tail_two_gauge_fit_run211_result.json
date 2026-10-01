@@ -1,0 +1,306 @@
+{
+  "base": "topology14_exact_matchgate_rational.json",
+  "boundary_gate_start": 13,
+  "masks": [
+    5,
+    6
+  ],
+  "angle_numerators": [
+    -2,
+    2
+  ],
+  "schedules": [
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  ],
+  "rows": [
+    {
+      "seed": 13900,
+      "sigma": 0.3,
+      "maxiter": 300,
+      "initial_loss": 0.9948917645499775,
+      "loss": 0.6222087666982483,
+      "nit": 65,
+      "nfev": 75,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "schedule_index": 0,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "candidate": "search13_shifted_tail_two_gauge_fit_run211_top0_s0.json",
+      "off_diagonal_error": 0.8661734447068217,
+      "eigenvalue_root_error": 1.1319033520899313,
+      "valid_diagonalizer": false
+    },
+    {
+      "seed": 13901,
+      "sigma": 1.0,
+      "maxiter": 300,
+      "initial_loss": 0.9995929716187414,
+      "loss": 0.7720847456433684,
+      "nit": 184,
+      "nfev": 197,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "schedule_index": 0,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "candidate": "search13_shifted_tail_two_gauge_fit_run211_top0_s1.json",
+      "off_diagonal_error": 0.9294254133539597,
+      "eigenvalue_root_error": 1.0058252857789511,
+      "valid_diagonalizer": false
+    },
+    {
+      "seed": 13902,
+      "sigma": 0.3,
+      "maxiter": 300,
+      "initial_loss": 0.9938427594554319,
+      "loss": 0.7439436518091602,
+      "nit": 64,
+      "nfev": 70,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "schedule_index": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "candidate": "search13_shifted_tail_two_gauge_fit_run211_top1_s0.json",
+      "off_diagonal_error": 0.7715541754112941,
+      "eigenvalue_root_error": 1.000133424290002,
+      "valid_diagonalizer": false
+    },
+    {
+      "seed": 13903,
+      "sigma": 1.0,
+      "maxiter": 300,
+      "initial_loss": 0.9867719104241973,
+      "loss": 0.7120435850574499,
+      "nit": 168,
+      "nfev": 189,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "schedule_index": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "candidate": "search13_shifted_tail_two_gauge_fit_run211_top1_s1.json",
+      "off_diagonal_error": 0.7761737304866909,
+      "eigenvalue_root_error": 1.0588342083158317,
+      "valid_diagonalizer": false
+    }
+  ],
+  "best": {
+    "seed": 13900,
+    "sigma": 0.3,
+    "maxiter": 300,
+    "initial_loss": 0.9948917645499775,
+    "loss": 0.6222087666982483,
+    "nit": 65,
+    "nfev": 75,
+    "optimizer_success": true,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "schedule_index": 0,
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "candidate": "search13_shifted_tail_two_gauge_fit_run211_top0_s0.json",
+    "off_diagonal_error": 0.8661734447068217,
+    "eigenvalue_root_error": 1.1319033520899313,
+    "valid_diagonalizer": false
+  }
+}

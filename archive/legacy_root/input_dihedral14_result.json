@@ -1,0 +1,123 @@
+{
+  "trials": 8,
+  "minimum_cnot": 15,
+  "best": {
+    "sign": -1,
+    "offset": 0,
+    "permutation": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "cnot_count": 15,
+    "off_diagonal_error": 1.63017947336152e-15,
+    "valid": true
+  },
+  "rows": [
+    {
+      "sign": 1,
+      "offset": 0,
+      "permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cnot_count": 15,
+      "off_diagonal_error": 1.8637482498317134e-15,
+      "valid": true
+    },
+    {
+      "sign": 1,
+      "offset": 1,
+      "permutation": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "cnot_count": 15,
+      "off_diagonal_error": 1.828702831775561e-15,
+      "valid": true
+    },
+    {
+      "sign": 1,
+      "offset": 2,
+      "permutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "cnot_count": 15,
+      "off_diagonal_error": 1.6796196041286482e-15,
+      "valid": true
+    },
+    {
+      "sign": 1,
+      "offset": 3,
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "cnot_count": 15,
+      "off_diagonal_error": 1.70636487220469e-15,
+      "valid": true
+    },
+    {
+      "sign": -1,
+      "offset": 0,
+      "permutation": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "cnot_count": 15,
+      "off_diagonal_error": 1.63017947336152e-15,
+      "valid": true
+    },
+    {
+      "sign": -1,
+      "offset": 1,
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "cnot_count": 15,
+      "off_diagonal_error": 1.7635433845571219e-15,
+      "valid": true
+    },
+    {
+      "sign": -1,
+      "offset": 2,
+      "permutation": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "cnot_count": 15,
+      "off_diagonal_error": 1.726635260608655e-15,
+      "valid": true
+    },
+    {
+      "sign": -1,
+      "offset": 3,
+      "permutation": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "cnot_count": 15,
+      "off_diagonal_error": 1.7562664422070175e-15,
+      "valid": true
+    }
+  ]
+}

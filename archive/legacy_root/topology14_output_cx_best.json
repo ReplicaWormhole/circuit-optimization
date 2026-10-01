@@ -1,0 +1,366 @@
+{
+  "n": 4,
+  "gates": [
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": "5*pi/8"
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "3*pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "3*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 3,
+      "target": 1
+    },
+    {
+      "gate": "cx",
+      "control": 1,
+      "target": 2
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "-2*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 3,
+      "target": 2
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 2
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "1*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 1,
+      "target": 2
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "-1*pi/8"
+    },
+    {
+      "gate": "cx",
+      "control": 3,
+      "target": 2
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": "pi"
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": "pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 2,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 0,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 2
+    },
+    {
+      "gate": "rx",
+      "qubit": 0,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "-pi/4"
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 2
+    },
+    {
+      "gate": "rx",
+      "qubit": 2,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 0,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "-pi"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": "-pi"
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 0,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "-pi"
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": "3*pi/4"
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 3,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 1,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "cx",
+      "control": 1,
+      "target": 3
+    },
+    {
+      "gate": "rx",
+      "qubit": 1,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "-pi/4"
+    },
+    {
+      "gate": "cx",
+      "control": 1,
+      "target": 3
+    },
+    {
+      "gate": "rx",
+      "qubit": 3,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rx",
+      "qubit": 1,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "-pi"
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": "3*pi/4"
+    },
+    {
+      "gate": "ry",
+      "qubit": 3,
+      "theta": "pi/2"
+    },
+    {
+      "gate": "ry",
+      "qubit": 1,
+      "theta": "pi"
+    },
+    {
+      "gate": "rz",
+      "qubit": 3,
+      "theta": "-pi/2"
+    },
+    {
+      "gate": "rz",
+      "qubit": 1,
+      "theta": "-pi/4"
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": 1.5707963267948966,
+      "phi": -1.5707963267948966,
+      "lam": 1.5707963267948966
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": 1.5707963267948966,
+      "phi": -3.141592653589793,
+      "lam": -2.356194490192345
+    },
+    {
+      "gate": "cx",
+      "control": 2,
+      "target": 1
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": 2.3561944901923453,
+      "phi": -1.5707963267948961,
+      "lam": 1.5707963267948966
+    },
+    {
+      "gate": "cx",
+      "control": 3,
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": 2.3561944901923444,
+      "phi": -3.141592653589793,
+      "lam": -1.5707963267948966
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": 2.0943951023931953,
+      "phi": 2.526112944919406,
+      "lam": -2.526112944919406
+    },
+    {
+      "gate": "cx",
+      "control": 3,
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "qubit": 3,
+      "theta": 1.570796326794897,
+      "phi": -3.141592653589793,
+      "lam": 1.5707963267948966
+    },
+    {
+      "gate": "u3",
+      "qubit": 2,
+      "theta": 1.570796326794896,
+      "phi": 0.0,
+      "lam": 1.5707963267948966
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": 2.356194490192344,
+      "phi": 8.881784197001252e-16,
+      "lam": -1.5707963267948957
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": -1.5707963267948966,
+      "phi": -1.5707963267948966,
+      "lam": 1.5707963267948966
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 1
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": 0.0,
+      "phi": 0.0,
+      "lam": 0.7853981633974483
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": 0.7853981633974483,
+      "phi": -1.5707963267948966,
+      "lam": 1.5707963267948966
+    },
+    {
+      "gate": "cx",
+      "control": 0,
+      "target": 1
+    },
+    {
+      "gate": "u3",
+      "qubit": 1,
+      "theta": 1.5707963267948966,
+      "phi": 0.0,
+      "lam": 1.5707963267948966
+    },
+    {
+      "gate": "u3",
+      "qubit": 0,
+      "theta": 1.5707963267948966,
+      "phi": -1.5707963267948966,
+      "lam": 1.5707963267948966
+    }
+  ]
+}

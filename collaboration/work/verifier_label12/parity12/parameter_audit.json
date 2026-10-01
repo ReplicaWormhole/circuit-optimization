@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "seed": 9261101,
+      "exact_seed_initialization_verified": true,
+      "restricted_native_chronology_verified": true,
+      "saved_parameter_matrix_phase_error": 7.473417450352271e-16
+    },
+    {
+      "seed": 9261102,
+      "exact_seed_initialization_verified": true,
+      "restricted_native_chronology_verified": true,
+      "saved_parameter_matrix_phase_error": 6.662783593823664e-16
+    }
+  ],
+  "helper_sha256": "992aa07290b35bcc0ad0860e1f7053f790b0d72e45c477e12ebd13a902f734b3",
+  "config_sha256": "74e348841156ad1a29117cb43b81944754df60e4bfa9efa9bcb936ca371beb0f",
+  "script_sha256": "dd7a738bce56d137f2f1ab9bdb67c4a90137935f7964a34065e341da3ed0e1dc"
+}

@@ -1,0 +1,917 @@
+{
+  "best_checker": {
+    "candidate": "search13_identity_tail_fit_case5_warm_direct.json",
+    "case": 5,
+    "cnot_count": 13,
+    "initial_loss": 0.8045164071925104,
+    "iterations": 50,
+    "loss": 0.330829676854141,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "off_diagonal_error": 0.629372226269741,
+    "start": "warm",
+    "success": true,
+    "valid_diagonalizer": false
+  },
+  "count": 6,
+  "direct_maxiter": 240,
+  "output_gauge": "identity",
+  "process_maxiter": 180,
+  "rows": [
+    {
+      "case": 0,
+      "directed_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "distance_to_deletion": 2,
+      "nearest_deleted_cnot": 0,
+      "trials": [
+        {
+          "direct": {
+            "candidate": "search13_identity_tail_fit_case0_warm_direct.json",
+            "cnot_count": 13,
+            "initial_loss": 0.6562499999999993,
+            "iterations": 1,
+            "loss": 0.6562499999999983,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.7071067840765496,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "process": {
+            "candidate": "search13_identity_tail_fit_case0_warm_process.json",
+            "cnot_count": 13,
+            "initial_loss": 0.984375,
+            "iterations": 71,
+            "loss": 0.5000000000000013,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.7071067841179828,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "start": "warm"
+        },
+        {
+          "direct": {
+            "candidate": "search13_identity_tail_fit_case0_random_direct.json",
+            "cnot_count": 13,
+            "initial_loss": 0.5727481384826781,
+            "iterations": 39,
+            "loss": 0.4839547367733299,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.9924942735963834,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "process": {
+            "candidate": "search13_identity_tail_fit_case0_random_process.json",
+            "cnot_count": 13,
+            "initial_loss": 0.9966131935025442,
+            "iterations": 76,
+            "loss": 0.5637025555803472,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.9922155246045792,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "start": "random"
+        }
+      ],
+      "unoriented_schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "case": 1,
+      "directed_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "distance_to_deletion": 2,
+      "nearest_deleted_cnot": 6,
+      "trials": [
+        {
+          "direct": {
+            "candidate": "search13_identity_tail_fit_case1_warm_direct.json",
+            "cnot_count": 13,
+            "initial_loss": 0.3750000000000009,
+            "iterations": 1,
+            "loss": 0.3750000000000003,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 1.0,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "process": {
+            "candidate": "search13_identity_tail_fit_case1_warm_process.json",
+            "cnot_count": 13,
+            "initial_loss": 0.9375000000000001,
+            "iterations": 81,
+            "loss": 0.5000000000000006,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.9999999999999987,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "start": "warm"
+        },
+        {
+          "direct": {
+            "candidate": "search13_identity_tail_fit_case1_random_direct.json",
+            "cnot_count": 13,
+            "initial_loss": 0.7187500002292653,
+            "iterations": 82,
+            "loss": 0.4375000000000012,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.999999999999997,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "process": {
+            "candidate": "search13_identity_tail_fit_case1_random_process.json",
+            "cnot_count": 13,
+            "initial_loss": 0.9725828131027398,
+            "iterations": 66,
+            "loss": 0.5732233047033644,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.6994831639470483,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "start": "random"
+        }
+      ],
+      "unoriented_schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "case": 2,
+      "directed_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "distance_to_deletion": 2,
+      "nearest_deleted_cnot": 0,
+      "trials": [
+        {
+          "direct": {
+            "candidate": "search13_identity_tail_fit_case2_warm_direct.json",
+            "cnot_count": 13,
+            "initial_loss": 0.6562500000000021,
+            "iterations": 2,
+            "loss": 0.6562500000000003,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.7071067832957245,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "process": {
+            "candidate": "search13_identity_tail_fit_case2_warm_process.json",
+            "cnot_count": 13,
+            "initial_loss": 0.99771177172802,
+            "iterations": 81,
+            "loss": 0.49999999999999967,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.70710678377143,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "start": "warm"
+        },
+        {
+          "direct": {
+            "candidate": "search13_identity_tail_fit_case2_random_direct.json",
+            "cnot_count": 13,
+            "initial_loss": 0.6562500000000006,
+            "iterations": 1,
+            "loss": 0.6562500000000002,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.7071068070303509,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "process": {
+            "candidate": "search13_identity_tail_fit_case2_random_process.json",
+            "cnot_count": 13,
+            "initial_loss": 0.9992959890114899,
+            "iterations": 104,
+            "loss": 0.5000000000000018,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.707106811388926,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "start": "random"
+        }
+      ],
+      "unoriented_schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "case": 3,
+      "directed_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "distance_to_deletion": 2,
+      "nearest_deleted_cnot": 6,
+      "trials": [
+        {
+          "direct": {
+            "candidate": "search13_identity_tail_fit_case3_warm_direct.json",
+            "cnot_count": 13,
+            "initial_loss": 0.3750000000000121,
+            "iterations": 3,
+            "loss": 0.3750000000000051,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.9999999999999991,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "process": {
+            "candidate": "search13_identity_tail_fit_case3_warm_process.json",
+            "cnot_count": 13,
+            "initial_loss": 0.99609375,
+            "iterations": 73,
+            "loss": 0.5000000000000033,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.9999999999999984,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "start": "warm"
+        },
+        {
+          "direct": {
+            "candidate": "search13_identity_tail_fit_case3_random_direct.json",
+            "cnot_count": 13,
+            "initial_loss": 0.37500000000000033,
+            "iterations": 1,
+            "loss": 0.3750000000000003,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.9999999999999991,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "process": {
+            "candidate": "search13_identity_tail_fit_case3_random_process.json",
+            "cnot_count": 13,
+            "initial_loss": 0.9929029500426109,
+            "iterations": 85,
+            "loss": 0.5000000000000002,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.9999999999999996,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "start": "random"
+        }
+      ],
+      "unoriented_schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "case": 4,
+      "directed_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "distance_to_deletion": 3,
+      "nearest_deleted_cnot": 4,
+      "trials": [
+        {
+          "direct": {
+            "candidate": "search13_identity_tail_fit_case4_warm_direct.json",
+            "cnot_count": 13,
+            "initial_loss": 0.8336668104416657,
+            "iterations": 108,
+            "loss": 0.43750000000000255,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.9999999999999971,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "process": {
+            "candidate": "search13_identity_tail_fit_case4_warm_process.json",
+            "cnot_count": 13,
+            "initial_loss": 0.9966167323300125,
+            "iterations": 113,
+            "loss": 0.7037383197026187,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.8576825823643062,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "start": "warm"
+        },
+        {
+          "direct": {
+            "candidate": "search13_identity_tail_fit_case4_random_direct.json",
+            "cnot_count": 13,
+            "initial_loss": 0.7604019942338337,
+            "iterations": 67,
+            "loss": 0.608169160842531,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.7316146612202373,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "process": {
+            "candidate": "search13_identity_tail_fit_case4_random_process.json",
+            "cnot_count": 13,
+            "initial_loss": 0.9884903083654609,
+            "iterations": 71,
+            "loss": 0.6846039306366306,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.672849404799162,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "start": "random"
+        }
+      ],
+      "unoriented_schedule": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "case": 5,
+      "directed_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "distance_to_deletion": 3,
+      "nearest_deleted_cnot": 0,
+      "trials": [
+        {
+          "direct": {
+            "candidate": "search13_identity_tail_fit_case5_warm_direct.json",
+            "cnot_count": 13,
+            "initial_loss": 0.8045164071925104,
+            "iterations": 50,
+            "loss": 0.330829676854141,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.629372226269741,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "process": {
+            "candidate": "search13_identity_tail_fit_case5_warm_process.json",
+            "cnot_count": 13,
+            "initial_loss": 0.9947545699769925,
+            "iterations": 93,
+            "loss": 0.6357233047033666,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.8541144951767681,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "start": "warm"
+        },
+        {
+          "direct": {
+            "candidate": "search13_identity_tail_fit_case5_random_direct.json",
+            "cnot_count": 13,
+            "initial_loss": 0.6779567348612339,
+            "iterations": 34,
+            "loss": 0.5476527118602349,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.7968030902331166,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "process": {
+            "candidate": "search13_identity_tail_fit_case5_random_process.json",
+            "cnot_count": 13,
+            "initial_loss": 0.9911831960965537,
+            "iterations": 65,
+            "loss": 0.6357233047033646,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "off_diagonal_error": 0.8995090849169919,
+            "success": true,
+            "valid_diagonalizer": false
+          },
+          "start": "random"
+        }
+      ],
+      "unoriented_schedule": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "scope": "bounded numerical fits of exact-cut-compatible pair schedules; failures are not a no-go",
+  "seed": 31300,
+  "selected_schedules": [
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  ],
+  "source": "topology14_exact_matchgate_rational.json",
+  "survivor_distance_counts": {
+    "2": 4,
+    "3": 152,
+    "4": 338,
+    "5": 420,
+    "6": 326,
+    "7": 188
+  },
+  "topology_source": "search13_identity_tail_topology_result.json"
+}

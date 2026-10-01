@@ -1,0 +1,299 @@
+{
+  "best_candidate": "search13_joint_prefix_orbit_case1_random_direct.json",
+  "best_off_diagonal_error": 0.3866559358256528,
+  "cases": [
+    [
+      4,
+      [
+        1,
+        0,
+        3
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    [
+      5,
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ]
+  ],
+  "direct_maxiter": 180,
+  "outer": 2,
+  "process_maxiter": 70,
+  "rows": [
+    {
+      "case": 0,
+      "deleted_prefix_cnot": 4,
+      "direct": {
+        "candidate": "search13_joint_prefix_orbit_case0_zero_direct.json",
+        "cnot_count": 13,
+        "iterations": 88,
+        "loss": 0.37500000000000133,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.9999999999999956,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "prefix_rewire": [
+        1,
+        0,
+        3
+      ],
+      "process_check": {
+        "candidate": "search13_joint_prefix_orbit_case0_zero_process.json",
+        "cnot_count": 13,
+        "off_diagonal_error": 0.4923006332848113,
+        "valid_diagonalizer": false
+      },
+      "stages": [
+        {
+          "iterations": 70,
+          "loss": 0.5669851188123787,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "success": false
+        },
+        {
+          "iterations": 70,
+          "loss": 0.4321577331950561,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "success": false
+        }
+      ],
+      "start": "zero",
+      "suffix_blocks": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "case": 0,
+      "deleted_prefix_cnot": 4,
+      "direct": {
+        "candidate": "search13_joint_prefix_orbit_case0_random_direct.json",
+        "cnot_count": 13,
+        "iterations": 82,
+        "loss": 0.19857641802582546,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.7071067811865455,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "prefix_rewire": [
+        1,
+        0,
+        3
+      ],
+      "process_check": {
+        "candidate": "search13_joint_prefix_orbit_case0_random_process.json",
+        "cnot_count": 13,
+        "off_diagonal_error": 0.5014336391618686,
+        "valid_diagonalizer": false
+      },
+      "stages": [
+        {
+          "iterations": 70,
+          "loss": 0.6088170401067381,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "success": false
+        },
+        {
+          "iterations": 70,
+          "loss": 0.4010378758581731,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "success": false
+        }
+      ],
+      "start": "random",
+      "suffix_blocks": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "case": 1,
+      "deleted_prefix_cnot": 5,
+      "direct": {
+        "candidate": "search13_joint_prefix_orbit_case1_zero_direct.json",
+        "cnot_count": 13,
+        "iterations": 120,
+        "loss": 0.12500000000000305,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "off_diagonal_error": 0.7071067811865464,
+        "success": true,
+        "valid_diagonalizer": false
+      },
+      "prefix_rewire": [
+        2,
+        0,
+        1
+      ],
+      "process_check": {
+        "candidate": "search13_joint_prefix_orbit_case1_zero_process.json",
+        "cnot_count": 13,
+        "off_diagonal_error": 0.5387136485743645,
+        "valid_diagonalizer": false
+      },
+      "stages": [
+        {
+          "iterations": 70,
+          "loss": 0.5311392518238971,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "success": false
+        },
+        {
+          "iterations": 70,
+          "loss": 0.37449938693185425,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "success": false
+        }
+      ],
+      "start": "zero",
+      "suffix_blocks": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "case": 1,
+      "deleted_prefix_cnot": 5,
+      "direct": {
+        "candidate": "search13_joint_prefix_orbit_case1_random_direct.json",
+        "cnot_count": 13,
+        "iterations": 180,
+        "loss": 0.07873301259438109,
+        "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+        "off_diagonal_error": 0.3866559358256528,
+        "success": false,
+        "valid_diagonalizer": false
+      },
+      "prefix_rewire": [
+        2,
+        0,
+        1
+      ],
+      "process_check": {
+        "candidate": "search13_joint_prefix_orbit_case1_random_process.json",
+        "cnot_count": 13,
+        "off_diagonal_error": 0.6168448237624966,
+        "valid_diagonalizer": false
+      },
+      "stages": [
+        {
+          "iterations": 70,
+          "loss": 0.5889212222892841,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "success": false
+        },
+        {
+          "iterations": 70,
+          "loss": 0.49328112828716864,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "success": false
+        }
+      ],
+      "start": "random",
+      "suffix_blocks": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  ],
+  "scope": "four bounded nonconvex fits; no lower-bound implication",
+  "seed": 32700,
+  "source": "topology14_exact_matchgate_rational.json",
+  "strategy": "simultaneous prefix deletion, distant prefix rewire, and suffix-block edge change; full local layers fitted to optimal commuting output gauge, then label-free loss"
+}

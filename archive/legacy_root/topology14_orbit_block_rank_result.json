@@ -1,0 +1,33 @@
+{
+  "exact_diagonalization": true,
+  "diagonal_labels_by_output_index": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "-1",
+    "-1",
+    "-1",
+    "1",
+    "I",
+    "-I",
+    "I",
+    "-1",
+    "-I",
+    "I",
+    "-I"
+  ],
+  "cut_ranks": {
+    "0": 4,
+    "1": 4,
+    "2": 2,
+    "3": 2,
+    "01": 3,
+    "02": 7,
+    "03": 7
+  },
+  "cut_based_cnot_lower_bound": 4,
+  "passing_graph_count_at_lower_bound": 4,
+  "scope": "one exact label-preserving branch basis; other eigenspace choices may differ"
+}

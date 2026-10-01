@@ -1,0 +1,106 @@
+{
+  "row_phase_definition": "even parity 1, odd parity t; physical t=e^(-2ic)",
+  "per_determinant_time_limit_seconds": 20,
+  "rows": [
+    {
+      "mask": 7,
+      "cut": [
+        0,
+        2
+      ],
+      "status": "complete",
+      "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536",
+      "seconds": 0.0566702950745821
+    },
+    {
+      "mask": 7,
+      "cut": [
+        0,
+        3
+      ],
+      "status": "complete",
+      "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536",
+      "seconds": 0.021913127042353153
+    },
+    {
+      "mask": 11,
+      "cut": [
+        0,
+        2
+      ],
+      "status": "complete",
+      "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536",
+      "seconds": 0.026254322030581534
+    },
+    {
+      "mask": 11,
+      "cut": [
+        0,
+        3
+      ],
+      "status": "complete",
+      "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536",
+      "seconds": 0.023690589936450124
+    },
+    {
+      "mask": 13,
+      "cut": [
+        0,
+        2
+      ],
+      "status": "complete",
+      "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536",
+      "seconds": 0.02935490000527352
+    },
+    {
+      "mask": 13,
+      "cut": [
+        0,
+        3
+      ],
+      "status": "complete",
+      "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536",
+      "seconds": 0.022686439915560186
+    },
+    {
+      "mask": 14,
+      "cut": [
+        0,
+        2
+      ],
+      "status": "complete",
+      "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536",
+      "seconds": 0.0238323959056288
+    },
+    {
+      "mask": 14,
+      "cut": [
+        0,
+        3
+      ],
+      "status": "complete",
+      "factor": "t**4*(t**2 - 2)**2*(2*t**2 - 1)**2/65536",
+      "seconds": 0.023744888952933252
+    },
+    {
+      "mask": 15,
+      "cut": [
+        0,
+        2
+      ],
+      "status": "complete",
+      "factor": "-(2*t**2 - 1)**4*(8*t**2 - 9)/65536",
+      "seconds": 0.03883388498798013
+    },
+    {
+      "mask": 15,
+      "cut": [
+        0,
+        3
+      ],
+      "status": "complete",
+      "factor": "-(2*t**2 - 1)**4*(8*t**2 - 9)/65536",
+      "seconds": 0.026750265969894826
+    }
+  ]
+}

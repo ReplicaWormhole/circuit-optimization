@@ -1,0 +1,298 @@
+{
+  "gauge": {
+    "kind": "same-eigenvalue-row-swap",
+    "rows": [
+      8,
+      11
+    ]
+  },
+  "schedules": [
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  ],
+  "seeds": [
+    2201,
+    2202
+  ],
+  "maxiter": 250,
+  "rows": [
+    {
+      "seed": 2201,
+      "maxiter": 250,
+      "initial_loss": 0.9997378782552818,
+      "loss": 0.6517957154712577,
+      "nit": 250,
+      "nfev": 263,
+      "optimizer_success": false,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "schedule_index": 0,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_eigenrow_gauge_seven_fit_top0_seed2201.json",
+      "off_diagonal_error": 0.6366304253798227,
+      "valid_diagonalizer": false
+    },
+    {
+      "seed": 2202,
+      "maxiter": 250,
+      "initial_loss": 0.9901418508137314,
+      "loss": 0.6517957154206311,
+      "nit": 248,
+      "nfev": 258,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "schedule_index": 0,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_eigenrow_gauge_seven_fit_top0_seed2202.json",
+      "off_diagonal_error": 0.6366263533780773,
+      "valid_diagonalizer": false
+    },
+    {
+      "seed": 2201,
+      "maxiter": 250,
+      "initial_loss": 0.9986924142561521,
+      "loss": 0.5992326462394773,
+      "nit": 63,
+      "nfev": 70,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "schedule_index": 1,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_eigenrow_gauge_seven_fit_top1_seed2201.json",
+      "off_diagonal_error": 0.9999999999999987,
+      "valid_diagonalizer": false
+    },
+    {
+      "seed": 2202,
+      "maxiter": 250,
+      "initial_loss": 0.9989424911024267,
+      "loss": 0.5992326462394773,
+      "nit": 76,
+      "nfev": 89,
+      "optimizer_success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "schedule_index": 1,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "candidate": "search13_eigenrow_gauge_seven_fit_top1_seed2202.json",
+      "off_diagonal_error": 0.6976227544602596,
+      "valid_diagonalizer": false
+    }
+  ],
+  "best": {
+    "seed": 2201,
+    "maxiter": 250,
+    "initial_loss": 0.9986924142561521,
+    "loss": 0.5992326462394773,
+    "nit": 63,
+    "nfev": 70,
+    "optimizer_success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "schedule_index": 1,
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "candidate": "search13_eigenrow_gauge_seven_fit_top1_seed2201.json",
+    "off_diagonal_error": 0.9999999999999987,
+    "valid_diagonalizer": false
+  }
+}

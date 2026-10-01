@@ -1,0 +1,308 @@
+{
+  "base": "topology14_exact_matchgate_rational.json",
+  "cases": [
+    [
+      6,
+      [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    ],
+    [
+      8,
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    ],
+    [
+      10,
+      [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    ]
+  ],
+  "results": [
+    {
+      "deleted": 6,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "seed": 13570,
+      "sigma": 0.04,
+      "maxiter": 250,
+      "initial_loss": 0.9313125903097246,
+      "loss": 0.3499729871205083,
+      "nit": 250,
+      "nfev": 274,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.4974740167707484,
+      "eigenvalue_root_error": 1.0062185221834576,
+      "valid_diagonalizer": false,
+      "candidate": "search13_multi_pair_block_rewire_run192_case0_s0.json"
+    },
+    {
+      "deleted": 6,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "seed": 13571,
+      "sigma": 0.3,
+      "maxiter": 250,
+      "initial_loss": 0.9131071011871481,
+      "loss": 0.1555316195662234,
+      "nit": 250,
+      "nfev": 260,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.46795063631823586,
+      "eigenvalue_root_error": 0.5833000447673384,
+      "valid_diagonalizer": false,
+      "candidate": "search13_multi_pair_block_rewire_run192_case0_s1.json"
+    },
+    {
+      "deleted": 8,
+      "block_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "seed": 13572,
+      "sigma": 0.04,
+      "maxiter": 250,
+      "initial_loss": 0.9391765160521555,
+      "loss": 0.442463698829912,
+      "nit": 250,
+      "nfev": 271,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.6675182324863208,
+      "eigenvalue_root_error": 1.0676192557894923,
+      "valid_diagonalizer": false,
+      "candidate": "search13_multi_pair_block_rewire_run192_case1_s0.json"
+    },
+    {
+      "deleted": 8,
+      "block_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "seed": 13573,
+      "sigma": 0.3,
+      "maxiter": 250,
+      "initial_loss": 0.9427117134756458,
+      "loss": 0.35182201693286796,
+      "nit": 135,
+      "nfev": 149,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.6870226258977564,
+      "eigenvalue_root_error": 1.0109785479297584,
+      "valid_diagonalizer": false,
+      "candidate": "search13_multi_pair_block_rewire_run192_case1_s1.json"
+    },
+    {
+      "deleted": 10,
+      "block_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "seed": 13574,
+      "sigma": 0.04,
+      "maxiter": 250,
+      "initial_loss": 0.921411119637616,
+      "loss": 0.5447916154293357,
+      "nit": 250,
+      "nfev": 262,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.6078584848612351,
+      "eigenvalue_root_error": 1.003178445830391,
+      "valid_diagonalizer": false,
+      "candidate": "search13_multi_pair_block_rewire_run192_case2_s0.json"
+    },
+    {
+      "deleted": 10,
+      "block_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "seed": 13575,
+      "sigma": 0.3,
+      "maxiter": 250,
+      "initial_loss": 0.9268427864969548,
+      "loss": 0.20074559535517347,
+      "nit": 163,
+      "nfev": 173,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.6833420746604533,
+      "eigenvalue_root_error": 1.2098628845009292,
+      "valid_diagonalizer": false,
+      "candidate": "search13_multi_pair_block_rewire_run192_case2_s1.json"
+    }
+  ],
+  "best": {
+    "deleted": 6,
+    "block_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "seed": 13571,
+    "sigma": 0.3,
+    "maxiter": 250,
+    "initial_loss": 0.9131071011871481,
+    "loss": 0.1555316195662234,
+    "nit": 250,
+    "nfev": 260,
+    "optimizer_success": false,
+    "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+    "off_diagonal_error": 0.46795063631823586,
+    "eigenvalue_root_error": 0.5833000447673384,
+    "valid_diagonalizer": false,
+    "candidate": "search13_multi_pair_block_rewire_run192_case0_s1.json"
+  }
+}

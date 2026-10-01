@@ -1,0 +1,107 @@
+{
+  "exact_factorization": true,
+  "diagonal_phase_integer": [
+    0,
+    0,
+    0,
+    5,
+    0,
+    4,
+    3,
+    0,
+    0,
+    3,
+    2,
+    0,
+    1,
+    0,
+    0,
+    6
+  ],
+  "phase_units": "pi/4",
+  "walsh_coefficients": {
+    "0": "3/2",
+    "1": "-3/4",
+    "2": "-1/2",
+    "4": "-1/4",
+    "11": "-1/4",
+    "13": "-1/2",
+    "14": "-3/4",
+    "15": "3/2"
+  },
+  "nonlocal_masks": [
+    11,
+    13,
+    14,
+    15
+  ],
+  "parity_network_states_explored": 176346,
+  "shortest_closed_parity_tour_cx": 8,
+  "tour": [
+    {
+      "cx": [
+        1,
+        0
+      ],
+      "new_masks": []
+    },
+    {
+      "cx": [
+        0,
+        2
+      ],
+      "new_masks": [
+        14
+      ]
+    },
+    {
+      "cx": [
+        0,
+        2
+      ],
+      "new_masks": []
+    },
+    {
+      "cx": [
+        3,
+        0
+      ],
+      "new_masks": [
+        13
+      ]
+    },
+    {
+      "cx": [
+        2,
+        0
+      ],
+      "new_masks": [
+        15
+      ]
+    },
+    {
+      "cx": [
+        1,
+        0
+      ],
+      "new_masks": [
+        11
+      ]
+    },
+    {
+      "cx": [
+        2,
+        0
+      ],
+      "new_masks": []
+    },
+    {
+      "cx": [
+        3,
+        0
+      ],
+      "new_masks": []
+    }
+  ],
+  "scope": "Diagonal twist alone, identity-returning CNOT parity network"
+}

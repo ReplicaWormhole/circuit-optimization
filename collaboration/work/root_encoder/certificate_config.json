@@ -1,0 +1,13 @@
+{
+  "source": "collaboration/work/verifier_label12/encoder/orbit_encoder67.json",
+  "source_sha256": "d595df83cc218ab4a532cdc2c51ab90a19dd68503fccc8d10311a23f0608ed6d",
+  "compiler_sha256": "d3437eaec3b80d4448e7f97858e6f854c966e3e784a81f2f424ab29b49cb6c82",
+  "seed": null,
+  "limits": {
+    "wall_seconds": 180,
+    "threads": 1,
+    "invocations": 1
+  },
+  "scope": "New67CXconstructivefamily exactgate-list verification, not incumbent promotion or optimum",
+  "parent_encoder_run": 381
+}

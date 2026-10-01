@@ -1,0 +1,168 @@
+{
+  "results": [
+    {
+      "k": 0,
+      "delta_pi_over_16": 0,
+      "raw_boundary_cnot": 6,
+      "optimized_boundary_cnot": 4,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.4985281521258047e-15,
+      "valid": true,
+      "candidate": "algebraic14_full_parity_boundary_best.json"
+    },
+    {
+      "k": 1,
+      "delta_pi_over_16": 1,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.7537421168949009e-15,
+      "valid": true
+    },
+    {
+      "k": 2,
+      "delta_pi_over_16": 2,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.7984137760532544e-15,
+      "valid": true
+    },
+    {
+      "k": 3,
+      "delta_pi_over_16": 3,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.4263929683464382e-15,
+      "valid": true
+    },
+    {
+      "k": 4,
+      "delta_pi_over_16": 4,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.5310656553239089e-15,
+      "valid": true
+    },
+    {
+      "k": 5,
+      "delta_pi_over_16": 5,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.4263929683464382e-15,
+      "valid": true
+    },
+    {
+      "k": 6,
+      "delta_pi_over_16": 6,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.677405544864911e-15,
+      "valid": true
+    },
+    {
+      "k": 7,
+      "delta_pi_over_16": 7,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.6041362749074577e-15,
+      "valid": true
+    },
+    {
+      "k": 8,
+      "delta_pi_over_16": 8,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 5,
+      "total_cnot": 16,
+      "off_diagonal_error": 1.8342115085765664e-15,
+      "valid": true
+    },
+    {
+      "k": 9,
+      "delta_pi_over_16": 9,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.5084703240028244e-15,
+      "valid": true
+    },
+    {
+      "k": 10,
+      "delta_pi_over_16": 10,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.7849534407935717e-15,
+      "valid": true
+    },
+    {
+      "k": 11,
+      "delta_pi_over_16": 11,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.426392968346438e-15,
+      "valid": true
+    },
+    {
+      "k": 12,
+      "delta_pi_over_16": 12,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.5310656553239089e-15,
+      "valid": true
+    },
+    {
+      "k": 13,
+      "delta_pi_over_16": 13,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.4263929683464382e-15,
+      "valid": true
+    },
+    {
+      "k": 14,
+      "delta_pi_over_16": 14,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.6551770150765297e-15,
+      "valid": true
+    },
+    {
+      "k": 15,
+      "delta_pi_over_16": 15,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 6,
+      "total_cnot": 17,
+      "off_diagonal_error": 1.4267441310670594e-15,
+      "valid": true
+    },
+    {
+      "k": 16,
+      "delta_pi_over_16": 16,
+      "raw_boundary_cnot": 8,
+      "optimized_boundary_cnot": 4,
+      "total_cnot": 15,
+      "off_diagonal_error": 1.6966554825070347e-15,
+      "valid": true
+    }
+  ],
+  "best": {
+    "k": 0,
+    "delta_pi_over_16": 0,
+    "raw_boundary_cnot": 6,
+    "optimized_boundary_cnot": 4,
+    "total_cnot": 15,
+    "off_diagonal_error": 1.4985281521258047e-15,
+    "valid": true,
+    "candidate": "algebraic14_full_parity_boundary_best.json"
+  }
+}

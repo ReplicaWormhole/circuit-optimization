@@ -1,0 +1,440 @@
+{
+  "source": "collaboration/work/algebraic13_new/canonical_algebraic_ansatz.json",
+  "rotations_checked": 60,
+  "sign_method": "Exact rational comparisons for a+b sqrt2, squaring only after signs fixed; no floating sign tests",
+  "checks": [
+    {
+      "coordinate": 0,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 1,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 2,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 3,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 4,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 5,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "purePauli",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 6,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 7,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 8,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 9,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 10,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 11,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 12,
+      "positive_radicands": [
+        "1/2 - sqrt(2)/4",
+        "2",
+        "sqrt(2)/4 + 1/2",
+        "2"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 2
+    },
+    {
+      "coordinate": 13,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 14,
+      "positive_radicands": [
+        "6",
+        "3"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 15,
+      "positive_radicands": [
+        "15",
+        "10"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 5
+    },
+    {
+      "coordinate": 16,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 17,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 18,
+      "positive_radicands": [
+        "sqrt(2)/4 + 1/2",
+        "2",
+        "1/2 - sqrt(2)/4",
+        "2"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 2
+    },
+    {
+      "coordinate": 19,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 20,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 21,
+      "positive_radicands": [
+        "6",
+        "30"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 6
+    },
+    {
+      "coordinate": 22,
+      "positive_radicands": [
+        "1/2 - sqrt(2)/4",
+        "2",
+        "sqrt(2)/4 + 1/2",
+        "2"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 23,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 24,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 25,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 26,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 27,
+      "positive_radicands": [
+        "252/367 - 45*sqrt(2)/367",
+        "2",
+        "45*sqrt(2)/367 + 115/367",
+        "2"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 367
+    },
+    {
+      "coordinate": 28,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 29,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "purePauli",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 30,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 31,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 32,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 33,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 34,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 35,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 36,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 37,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 38,
+      "positive_radicands": [
+        "3/7 - sqrt(2)/7",
+        "2",
+        "sqrt(2)/7 + 4/7",
+        "2"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 39,
+      "positive_radicands": [
+        "5/12 - 5*sqrt(2)/48",
+        "2",
+        "5*sqrt(2)/48 + 7/12",
+        "2"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 12
+    },
+    {
+      "coordinate": 40,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 41,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 42,
+      "positive_radicands": [
+        "3",
+        "6"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 3
+    },
+    {
+      "coordinate": 43,
+      "positive_radicands": [
+        "3"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 2
+    },
+    {
+      "coordinate": 44,
+      "positive_radicands": [
+        "72*sqrt(2)/367 + 184/367",
+        "2",
+        "183/367 - 72*sqrt(2)/367",
+        "2"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 367
+    },
+    {
+      "coordinate": 45,
+      "positive_radicands": [
+        "3*sqrt(2)/28 + 19/28",
+        "2",
+        "9/28 - 3*sqrt(2)/28",
+        "2"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 14
+    },
+    {
+      "coordinate": 46,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 47,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "purePauli",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 48,
+      "positive_radicands": [
+        "15",
+        "10"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 49,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 50,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 51,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 52,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 53,
+      "positive_radicands": [
+        "2",
+        "2"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 2
+    },
+    {
+      "coordinate": 54,
+      "positive_radicands": [
+        "3",
+        "6"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 55,
+      "positive_radicands": [
+        "2",
+        "2"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 2
+    },
+    {
+      "coordinate": 56,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 57,
+      "positive_radicands": [],
+      "projective_nonzero_reason": "factor2",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 58,
+      "positive_radicands": [
+        "10",
+        "15"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 1
+    },
+    {
+      "coordinate": 59,
+      "positive_radicands": [
+        "30",
+        "6"
+      ],
+      "projective_nonzero_reason": "real normalized cosine strictly between-1 and1",
+      "cleared_denominator": 6
+    }
+  ],
+  "scope": "Local realness normalization andnonzero projective scaling only"
+}

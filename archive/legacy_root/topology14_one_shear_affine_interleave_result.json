@@ -1,0 +1,124 @@
+{
+  "controlled_affine_action_gate_list": [
+    {
+      "name": "cx",
+      "qubits_qiskit_little_endian": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "cx",
+      "qubits_qiskit_little_endian": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "cx",
+      "qubits_qiskit_little_endian": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "cx",
+      "qubits_qiskit_little_endian": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "cx",
+      "qubits_qiskit_little_endian": [
+        3,
+        1
+      ]
+    },
+    {
+      "name": "ccx",
+      "qubits_qiskit_little_endian": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "cx",
+      "qubits_qiskit_little_endian": [
+        0,
+        3
+      ]
+    },
+    {
+      "name": "cx",
+      "qubits_qiskit_little_endian": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "cx",
+      "qubits_qiskit_little_endian": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "cx",
+      "qubits_qiskit_little_endian": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "cx",
+      "qubits_qiskit_little_endian": [
+        1,
+        0
+      ]
+    }
+  ],
+  "action_permutation_error": 0.0,
+  "compiled_action_cnot": 13,
+  "compiled_action_error": 1.5582722720639764e-15,
+  "joint_fourier_records": [
+    {
+      "relative_phase_shear": false,
+      "shared_linear_interleaved": false,
+      "prefix_cnot": 14,
+      "compiled_total_cnot": 109,
+      "target_offdiag": 1.735335477312708e-16,
+      "compiled_offdiag": 7.788008929094903e-15
+    },
+    {
+      "relative_phase_shear": false,
+      "shared_linear_interleaved": true,
+      "prefix_cnot": 14,
+      "compiled_total_cnot": 103,
+      "target_offdiag": 1.735335477312708e-16,
+      "compiled_offdiag": 1.479776473818408e-14
+    },
+    {
+      "relative_phase_shear": true,
+      "shared_linear_interleaved": false,
+      "prefix_cnot": 11,
+      "compiled_total_cnot": 105,
+      "target_offdiag": 2.437519464265639e-16,
+      "compiled_offdiag": 8.147896227249733e-15
+    },
+    {
+      "relative_phase_shear": true,
+      "shared_linear_interleaved": true,
+      "prefix_cnot": 11,
+      "compiled_total_cnot": 100,
+      "target_offdiag": 2.437519464265639e-16,
+      "compiled_offdiag": 6.211950243838003e-15
+    }
+  ],
+  "synthesis_basis": [
+    "u",
+    "cx"
+  ],
+  "exact_status": "controlled affine gate list exact; Fourier target exact cyclotomic matrix; transpiled u angles numerical"
+}

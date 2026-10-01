@@ -1,0 +1,32 @@
+{
+  "initial_scaled_loss": 0.00011433661571275399,
+  "final_scaled_loss": 6.509812943141362e-17,
+  "scaling": 1000000000000.0,
+  "iterations": 48,
+  "evaluations": 52,
+  "optimizer_success": true,
+  "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "labels": [
+    0,
+    3,
+    1,
+    1,
+    2,
+    0,
+    2,
+    2,
+    0,
+    2,
+    0,
+    0,
+    3,
+    1,
+    3,
+    0
+  ],
+  "cnot_count": 14,
+  "checker_offdiag": 9.131782057454695e-15,
+  "checker_valid": true,
+  "qiskit_fixed_label_max_residual": 8.764787140696463e-15,
+  "candidate": "/home/lev/Projects/current/circuit-optimization/algebraic14_pure_orbit_refined_candidate.json"
+}

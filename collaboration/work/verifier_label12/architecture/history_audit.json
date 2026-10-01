@@ -1,0 +1,122 @@
+{
+  "scope": "All378prior ledger configs explicit12CX pair sequences and archived candidate paths; dynamic generated unarchived schedules and encoded rules not exhaustively reconstructed.",
+  "prior_runs": 378,
+  "targets": [
+    {
+      "slot": 6,
+      "pair": [
+        0,
+        3
+      ],
+      "unordered": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "matches": []
+    },
+    {
+      "slot": 8,
+      "pair": [
+        0,
+        2
+      ],
+      "unordered": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "matches": []
+    }
+  ]
+}

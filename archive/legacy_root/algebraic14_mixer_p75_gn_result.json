@@ -1,0 +1,86 @@
+{
+  "target_probability": 0.75,
+  "achieved_probabilities": [
+    0.7499999999999718,
+    0.7499999999999722
+  ],
+  "fixed_label_max_residual": 1.4886848503477534e-12,
+  "offdiag_error": 1.4888816518406757e-12,
+  "valid": true,
+  "cnot_count": 14,
+  "history": [
+    {
+      "iteration": 0,
+      "norm": 8.64604024034842e-08,
+      "maximum": 6.113673189922508e-08,
+      "rank": 108,
+      "step_norm": 1.916440220871422e-05,
+      "accepted_factor": 1.0,
+      "next_norm": 4.1808404746417035e-11
+    },
+    {
+      "iteration": 1,
+      "norm": 4.1808404746417035e-11,
+      "maximum": 6.827576333195949e-12,
+      "rank": 108,
+      "step_norm": 1.9949970255436983e-05,
+      "accepted_factor": 1.0,
+      "next_norm": 3.3722580849772515e-11
+    },
+    {
+      "iteration": 2,
+      "norm": 3.3722580849772515e-11,
+      "maximum": 8.024681179968907e-12,
+      "rank": 108,
+      "step_norm": 1.8763580648990142e-05,
+      "accepted_factor": 0.5,
+      "next_norm": 2.7819012206004e-11
+    },
+    {
+      "iteration": 3,
+      "norm": 2.7819012206004e-11,
+      "maximum": 7.92997143792584e-12,
+      "rank": 108,
+      "step_norm": 2.0389466613852446e-05,
+      "accepted_factor": 0.5,
+      "next_norm": 1.1710994681516518e-11
+    },
+    {
+      "iteration": 4,
+      "norm": 1.1710994681516518e-11,
+      "maximum": 3.207562970737636e-12,
+      "rank": 108,
+      "step_norm": 1.7472670005277792e-05,
+      "accepted_factor": 0.5,
+      "next_norm": 1.1238274321324435e-11
+    },
+    {
+      "iteration": 5,
+      "norm": 1.1238274321324435e-11,
+      "maximum": 2.7367832392682923e-12,
+      "rank": 108,
+      "step_norm": 1.8476338087498593e-05,
+      "accepted_factor": 0.5,
+      "next_norm": 7.562714621107808e-12
+    },
+    {
+      "iteration": 6,
+      "norm": 7.562714621107808e-12,
+      "maximum": 2.1737920996258613e-12,
+      "rank": 107,
+      "step_norm": 1.9478226345048555e-05,
+      "accepted_factor": 0.25,
+      "next_norm": 6.41130307287949e-12
+    },
+    {
+      "iteration": 7,
+      "norm": 6.41130307287949e-12,
+      "maximum": 1.6654969777399857e-12,
+      "rank": 108,
+      "step_norm": 1.5141783758197566e-05,
+      "accepted_factor": 0.25,
+      "next_norm": 4.981838774098794e-12
+    }
+  ],
+  "candidate": "/home/lev/Projects/current/circuit-optimization/algebraic14_mixer_p75_gn_candidate.json"
+}

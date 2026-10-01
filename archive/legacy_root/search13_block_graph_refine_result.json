@@ -1,0 +1,230 @@
+{
+  "cases": [
+    [
+      10,
+      [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    [
+      10,
+      [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  ],
+  "seed": 133800,
+  "maxiter": 350,
+  "rows": [
+    {
+      "deleted": 10,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 133800,
+      "sigma": 0.03,
+      "maxiter": 350,
+      "initial_loss": 0.9349785478241693,
+      "loss": 0.1713317756999178,
+      "nit": 236,
+      "nfev": 248,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.6596558297027678,
+      "eigenvalue_root_error": 1.0466305513974339,
+      "valid_diagonalizer": false,
+      "case": 0,
+      "start": 0,
+      "candidate": "search13_block_graph_refine_case0_start0.json"
+    },
+    {
+      "deleted": 10,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "seed": 133801,
+      "sigma": 0.3,
+      "maxiter": 350,
+      "initial_loss": 0.935913239401895,
+      "loss": 0.44494085459315946,
+      "nit": 350,
+      "nfev": 373,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.6042832394917573,
+      "eigenvalue_root_error": 1.1154957715242377,
+      "valid_diagonalizer": false,
+      "case": 0,
+      "start": 1,
+      "candidate": "search13_block_graph_refine_case0_start1.json"
+    },
+    {
+      "deleted": 10,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "seed": 133802,
+      "sigma": 0.03,
+      "maxiter": 350,
+      "initial_loss": 0.9083006585007884,
+      "loss": 0.2024670420851823,
+      "nit": 350,
+      "nfev": 370,
+      "optimizer_success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "off_diagonal_error": 0.6797661694179539,
+      "eigenvalue_root_error": 1.1928500957758765,
+      "valid_diagonalizer": false,
+      "case": 1,
+      "start": 0,
+      "candidate": "search13_block_graph_refine_case1_start0.json"
+    },
+    {
+      "deleted": 10,
+      "block_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "seed": 133803,
+      "sigma": 0.3,
+      "maxiter": 350,
+      "initial_loss": 0.929916492468773,
+      "loss": 0.3566579123148932,
+      "nit": 183,
+      "nfev": 190,
+      "optimizer_success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "off_diagonal_error": 0.5878364443295304,
+      "eigenvalue_root_error": 1.1363135980595085,
+      "valid_diagonalizer": false,
+      "case": 1,
+      "start": 1,
+      "candidate": "search13_block_graph_refine_case1_start1.json"
+    }
+  ],
+  "best": {
+    "deleted": 10,
+    "block_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "seed": 133800,
+    "sigma": 0.03,
+    "maxiter": 350,
+    "initial_loss": 0.9349785478241693,
+    "loss": 0.1713317756999178,
+    "nit": 236,
+    "nfev": 248,
+    "optimizer_success": true,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "off_diagonal_error": 0.6596558297027678,
+    "eigenvalue_root_error": 1.0466305513974339,
+    "valid_diagonalizer": false,
+    "case": 0,
+    "start": 0,
+    "candidate": "search13_block_graph_refine_case0_start0.json"
+  }
+}
