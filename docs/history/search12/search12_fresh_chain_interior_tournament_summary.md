@@ -39,8 +39,8 @@ all 12-CNOT circuits, or a circuit below 14 CNOTs.
 Recorded command:
 
 ```bash
-python3 search12_fresh_chain_interior_tournament.py --short-maxiter 80 --deep-maxiter 500 --deep-count 3
-python3 check_circuit.py search12_fresh_chain_interior_slot1_deep.json
+python3 archive/legacy_root/search12_fresh_chain_interior_tournament.py --short-maxiter 80 --deep-maxiter 500 --deep-count 3
+python3 check_circuit.py archive/legacy_root/search12_fresh_chain_interior_slot1_deep.json
 python3 experiment_log.py show 349
 python3 experiment_log.py audit
 ```

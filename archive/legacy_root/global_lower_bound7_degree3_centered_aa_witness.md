@@ -1,1 +1,1 @@
-../../global_lower_bound7_degree3_centered_aa_witness.md
+../../docs/research/lower_bounds/global_lower_bound7_degree3_centered_aa_witness.md

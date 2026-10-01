@@ -41,13 +41,18 @@ certificate commands and limitations are recorded in
 
 - [Run protocol](docs/EXPERIMENTS.md): reserve a scientific ledger ID, create a
   run workspace, save a complete candidate and its limits, and finish the run.
+- [Repository layout](docs/STRUCTURE.md): where to put new code, notes, run
+  evidence, and manuscripts.
 - [Candidate format](docs/CANDIDATES.md): chronological gate-list JSON and
   the scope of its numerical checker.
 - [Collaboration board](collaboration/README.md): hypotheses, assignments,
   handoffs, and submissions.
 - [Historical search record](docs/history/SEARCH_14_STATUS.md): chronological
   evidence, including failed and inconclusive attempts; the
-  [13-CNOT search notes](docs/history/search13/README.md) are grouped nearby.
+  [12-CNOT](docs/history/search12/README.md) and
+  [13-CNOT](docs/history/search13/README.md) search notes are grouped nearby.
+- [Research notes](docs/research/README.md): lower-bound investigations and
+  circuit derivations, grouped by topic and evidence status.
 - [Legacy computation archive](archive/README.md): historical scripts and
   saved outputs, kept in their original flat namespace for reproduction.
 - [Writing](writing/README.md): manuscripts and local source-material policy.

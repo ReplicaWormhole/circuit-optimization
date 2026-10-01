@@ -60,8 +60,8 @@ remains6≤Cmin≤14. Surviving schedules are not circuit witnesses.
 
 Reproduce:
 
-    python3 global_lower_bound7_opposite_pair_support_certificate.py
-    python3 global_lower_bound7_opposite_pair_support_audit.py
+    python3 archive/legacy_root/global_lower_bound7_opposite_pair_support_certificate.py
+    python3 archive/legacy_root/global_lower_bound7_opposite_pair_support_audit.py
 
 Ledger runs356 and357 archive both scripts immutably. The independent
 audit reconstructs the entire Gram using Gaussian integer int64

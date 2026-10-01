@@ -38,8 +38,8 @@ This does **not** lower-bound every diagonalizer of `V4`. A different Fourier
 boundary, circuit split, or rotation inside degenerate eigenspaces changes the
 target operator and may escape this obstruction.
 
-Checks: `python3 topology14_boundary_schmidt_symbolic.py` gives exact determinant
-`1/256` (ledger run 89). `python3 topology14_boundary_schmidt.py` independently
+Checks: `python3 archive/legacy_root/topology14_boundary_schmidt_symbolic.py` gives exact determinant
+`1/256` (ledger run 89). `python3 archive/legacy_root/topology14_boundary_schmidt.py` independently
 finds rank 16 on `δ=kπ/16`, `k=0,...,16` (run 86). The root agent independently
 matched the symbolic operator against the actual circuit matrix at `δ=0` to
 `4.3e-16` up to global phase. Runs 93 and 94 sampled one- and two-pair

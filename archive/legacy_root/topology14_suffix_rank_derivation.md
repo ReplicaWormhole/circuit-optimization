@@ -1,1 +1,1 @@
-../../topology14_suffix_rank_derivation.md
+../../docs/research/constructions/topology14_suffix_rank_derivation.md

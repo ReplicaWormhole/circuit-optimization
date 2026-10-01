@@ -1,1 +1,1 @@
-../../global_lower_bound6_two_terminal_axes.md
+../../docs/research/lower_bounds/global_lower_bound6_two_terminal_axes.md

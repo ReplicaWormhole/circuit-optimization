@@ -1,1 +1,1 @@
-../../global_lower_bound6_adjacent_v_certificate.md
+../../docs/research/lower_bounds/global_lower_bound6_adjacent_v_certificate.md

@@ -9,7 +9,7 @@ Checks: undeleted source loss roundtrip, exact CNOT deletion/count, optimizer lo
 Reproduce in a fresh copy without this result file:
 
 ```bash
-python3 search12_fresh_chain_delete.py --seed 34200 --maxiter 400
+python3 archive/legacy_root/search12_fresh_chain_delete.py --seed 34200 --maxiter 400
 python3 experiment_log.py show 341
 ```
 

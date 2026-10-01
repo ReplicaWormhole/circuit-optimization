@@ -1,1 +1,1 @@
-../../global_lower_bound7_opposite_pair_support_certificate.md
+../../docs/research/lower_bounds/global_lower_bound7_opposite_pair_support_certificate.md

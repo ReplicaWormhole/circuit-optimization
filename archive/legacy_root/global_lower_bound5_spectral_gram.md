@@ -1,1 +1,1 @@
-../../global_lower_bound5_spectral_gram.md
+../../docs/research/lower_bounds/global_lower_bound5_spectral_gram.md

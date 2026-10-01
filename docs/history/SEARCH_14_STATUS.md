@@ -2,8 +2,9 @@
 
 Historical chronology retained from the root-level status file. Paths in the
 earlier entries were written for the former flat root. Historical computational
-files now live in `archive/legacy_root/`. For the reviewed current state, see
-`docs/STATUS.md`; manuscripts now live in `writing/drafts/`.
+files now live in `archive/legacy_root/`, and mathematical notes are grouped
+in `docs/research/`. For the reviewed current state, see `docs/STATUS.md`;
+manuscripts now live in `writing/drafts/`.
 
 ## Latest reviewed round: runs387–388
 

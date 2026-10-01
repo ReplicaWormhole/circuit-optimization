@@ -121,10 +121,10 @@ The preceding incidence argument already rules out fewer than four.
 
 ## Verification scope
 
-- `python3 spectral_path4_adjacent_gram.py` (run 185): exact integer Gram rank 21.
-- `python3 spectral_path4_opposite_gram.py` (run 187): exact integer Gram rank 20,
+- `python3 archive/legacy_root/spectral_path4_adjacent_gram.py` (run 185): exact integer Gram rank 21.
+- `python3 archive/legacy_root/spectral_path4_opposite_gram.py` (run 187): exact integer Gram rank 20,
   nullspace spanned by (x_5^2).
-- `python3 spectral_path4_pair_pauli_scan.py` (run 182): Pauli-product diagnostic
+- `python3 archive/legacy_root/spectral_path4_pair_pauli_scan.py` (run 182): Pauli-product diagnostic
   only; all adjacent-pair Pauli products fail, while (XX,YY,ZZ) survive on
   opposite pairs.
 

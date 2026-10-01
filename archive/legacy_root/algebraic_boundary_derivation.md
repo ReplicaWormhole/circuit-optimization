@@ -1,1 +1,1 @@
-../../algebraic_boundary_derivation.md
+../../docs/research/constructions/algebraic_boundary_derivation.md

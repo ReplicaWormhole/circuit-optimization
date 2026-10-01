@@ -1,1 +1,1 @@
-../../global_lower_bound7_cut_schmidt.md
+../../docs/research/lower_bounds/global_lower_bound7_cut_schmidt.md

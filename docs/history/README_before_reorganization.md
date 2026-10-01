@@ -3,8 +3,9 @@
 Archived copy of the former full README. Its commands and paths were written
 for execution from the former flat repository root. Historical computational
 files now live in `archive/legacy_root/`; prefix their former root paths with
-that directory. The current entry point is `README.md`, and the current
-reviewed summary is `docs/STATUS.md`.
+that directory. Mathematical notes now live in `docs/research/`. The current
+entry point is `README.md`, and the current reviewed summary is
+`docs/STATUS.md`.
 
 ## Latest reviewed round: runs387–388
 

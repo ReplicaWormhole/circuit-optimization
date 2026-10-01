@@ -54,7 +54,7 @@ these four solutions under the same collective rotation and sign.
 Reproduce with
 
 ```bash
-python3 global_lower_bound7_full_aa_sparse_scan.py
+python3 archive/legacy_root/global_lower_bound7_full_aa_sparse_scan.py
 ```
 
 The exact finite output is

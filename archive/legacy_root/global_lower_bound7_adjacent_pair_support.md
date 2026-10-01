@@ -1,1 +1,1 @@
-../../global_lower_bound7_adjacent_pair_support.md
+../../docs/research/lower_bounds/global_lower_bound7_adjacent_pair_support.md

@@ -1,1 +1,1 @@
-../../algebraic13_crosspair_parity_gauge_rank.md
+../../docs/research/constructions/algebraic13_crosspair_parity_gauge_rank.md

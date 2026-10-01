@@ -108,10 +108,10 @@ even. This is a short independent contradiction for that single pair.
 Reproduce the exact computations with:
 
 ```bash
-python3 global_lower_bound7_joint_aa_centralizer_gram.py
-python3 global_lower_bound7_joint_aa_centralizer_certificate.py
-python3 global_lower_bound7_joint_aa_trace_moments.py
-python3 global_lower_bound7_joint_aa_family_trace.py
+python3 archive/legacy_root/global_lower_bound7_joint_aa_centralizer_gram.py
+python3 archive/legacy_root/global_lower_bound7_joint_aa_centralizer_certificate.py
+python3 archive/legacy_root/global_lower_bound7_joint_aa_trace_moments.py
+python3 archive/legacy_root/global_lower_bound7_joint_aa_family_trace.py
 ```
 
 Ledger runs 275, 277, 272, and 281 record these computations. The

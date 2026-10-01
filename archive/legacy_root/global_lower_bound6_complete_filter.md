@@ -1,1 +1,1 @@
-../../global_lower_bound6_complete_filter.md
+../../docs/research/lower_bounds/global_lower_bound6_complete_filter.md

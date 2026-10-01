@@ -1,6 +1,7 @@
 # Exact 15-CNOT diagonalizer of the four-qubit right shift
 
-The chronological gate list is [`topology16_15_exact_candidate.json`](topology16_15_exact_candidate.json). Qubit 0 is the most significant bit, and $V_4|x_0x_1x_2x_3\rangle=|x_3x_0x_1x_2\rangle$. Every one-qubit angle in this gate list is an exact rational multiple of $\pi$. The circuit uses no ancillas.
+The chronological gate list is `archive/legacy_root/topology16_15_exact_candidate.json`.
+Qubit 0 is the most significant bit, and $V_4|x_0x_1x_2x_3\rangle=|x_3x_0x_1x_2\rangle$. Every one-qubit angle in this gate list is an exact rational multiple of $\pi$. The circuit uses no ancillas.
 
 ## Six-CNOT parity prefix
 
@@ -41,14 +42,14 @@ R_{XX}(-\pi/2)R_{YY}(-\pi/4)
 \qquad K=R_{X,c}(\pi/2)R_{X,t}(\pi/2).
 \]
 
-The one-qubit Weyl factors used around this entangler are explicitly listed in `topology16_exact_block.py` (`exact_block`) and `topology16_15_exact.py` (`reverse_block`). They contain only rational-π rotations. `python3 topology16_15_block_identity.py` proves both 4×4 block identities over (\mathbb Q(\zeta_{32})). The product of their global phases is (i), which does not affect diagonalization.
+The one-qubit Weyl factors used around this entangler are explicitly listed in `topology16_exact_block.py` (`exact_block`) and `topology16_15_exact.py` (`reverse_block`). They contain only rational-π rotations. `python3 archive/legacy_root/topology16_15_block_identity.py` proves both 4×4 block identities over (\mathbb Q(\zeta_{32})). The product of their global phases is (i), which does not affect diagonalization.
 
 The count is (6+2+2+5=15) CNOTs: six in (P_6), two in each replacement, and five in (T).
 
 ## Exact and independent checks
 
-- `python3 exact_check.py topology16_15_exact_candidate.json` proves (U V_4=D U) over (\mathbb Q(\zeta_{32})), with eigenvalue multiplicities (6,3,4,3) for (1,i,-1,-i).
-- Converting every (R_Y(\theta)) to the chronological sequence (R_Z(-\pi/2),R_X(\theta),R_Z(\pi/2)) gives `topology16_15_rxrz_candidate.json`. `python3 delete_search_exact_audit.py topology16_15_rxrz_candidate.json` independently proves the same identity in the integer cyclotomic ring (\mathbb Z[z]/(z^{16}+1)), with a global dyadic denominator.
+- `python3 exact_check.py archive/legacy_root/topology16_15_exact_candidate.json` proves (U V_4=D U) over (\mathbb Q(\zeta_{32})), with eigenvalue multiplicities (6,3,4,3) for (1,i,-1,-i).
+- Converting every (R_Y(\theta)) to the chronological sequence (R_Z(-\pi/2),R_X(\theta),R_Z(\pi/2)) gives `topology16_15_rxrz_candidate.json`. `python3 archive/legacy_root/delete_search_exact_audit.py archive/legacy_root/topology16_15_rxrz_candidate.json` independently proves the same identity in the integer cyclotomic ring (\mathbb Z[z]/(z^{16}+1)), with a global dyadic denominator.
 - Qiskit `Operator` simulation of the original exact-angle candidate gives maximum off-diagonal entry (7.51\times10^{-16}); the local checker gives (5.99\times10^{-16}). Qiskit transpilation retains 15 CNOTs.
 
 The circuit diagonalizes $V_4$. Its transformed total-spin Casimir is not diagonal, so this certificate does not establish a strong Schur transform.

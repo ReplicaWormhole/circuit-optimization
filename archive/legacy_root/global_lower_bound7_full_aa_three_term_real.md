@@ -1,1 +1,1 @@
-../../global_lower_bound7_full_aa_three_term_real.md
+../../docs/research/lower_bounds/global_lower_bound7_full_aa_three_term_real.md

@@ -52,7 +52,7 @@ and none had input phase defects constant on every `V4` orbit. This closes
 the tested separate two-shear architecture at the 14-CNOT target. A joint
 synthesis or a different coordinate map is outside that conclusion.
 
-Reproduce the finite-field action with `python3 topology14_orbit_action.py`,
-the exact branch identities with `python3 topology14_orbit_branch_basis.py`,
+Reproduce the finite-field action with `python3 archive/legacy_root/topology14_orbit_action.py`,
+the exact branch identities with `python3 archive/legacy_root/topology14_orbit_branch_basis.py`,
 and the direct-sum rank certificate with
-`python3 topology14_orbit_block_rank.py` (ledger runs 112, 116, 119).
+`python3 archive/legacy_root/topology14_orbit_block_rank.py` (ledger runs 112, 116, 119).

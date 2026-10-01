@@ -21,6 +21,8 @@ and tracking remain intact; run Git commands from this directory.
 - Manuscripts: `writing/drafts/`. Local source materials in `writing/sources/`
   are ignored and must not be added to Git.
 - Historical search chronology: `docs/history/SEARCH_14_STATUS.md`.
+- Mathematical research notes: `docs/research/lower_bounds/` and
+  `docs/research/constructions/`.
 - Preserve archived search files, immutable snapshots, and previous ledger rows.
 
 ## Commands

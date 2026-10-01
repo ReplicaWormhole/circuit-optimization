@@ -1,1 +1,1 @@
-../../algebraic13_terminal_diagonal_gauge.md
+../../docs/research/constructions/algebraic13_terminal_diagonal_gauge.md

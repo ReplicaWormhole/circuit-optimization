@@ -55,7 +55,7 @@ occur in a diagonalizer with this schedule**.
 Reproduce the exact support classification with
 
 ```bash
-python3 global_lower_bound7_full_aa_three_term_real.py
+python3 archive/legacy_root/global_lower_bound7_full_aa_three_term_real.py
 ```
 
 The complete surviving support ideals and aggregate counts are in

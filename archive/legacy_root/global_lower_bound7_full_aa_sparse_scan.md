@@ -1,1 +1,1 @@
-../../global_lower_bound7_full_aa_sparse_scan.md
+../../docs/research/lower_bounds/global_lower_bound7_full_aa_sparse_scan.md

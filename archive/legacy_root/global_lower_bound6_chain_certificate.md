@@ -1,1 +1,1 @@
-../../global_lower_bound6_chain_certificate.md
+../../docs/research/lower_bounds/global_lower_bound6_chain_certificate.md

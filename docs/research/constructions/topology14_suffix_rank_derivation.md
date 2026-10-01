@@ -35,7 +35,7 @@ Passing the filter is necessary, not sufficient. The first viable cut in
 catalog circuits 2/3 is at gate 27, leaving nine CNOTs in the prefix.
 
 Reproduce the exact certificate with
-`python3 topology14_tail_cut_exact.py` (ledger run 102). Numeric checks and
+`python3 archive/legacy_root/topology14_tail_cut_exact.py` (ledger run 102). Numeric checks and
 topology enumeration are in `topology14_tail_cut_bound.py` (run 97),
 `topology14_alt_suffix_rank.py` (run 105), and
 `topology14_earlier_split_rank.py` (run 107). The actual suffix factorization

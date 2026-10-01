@@ -1,1 +1,1 @@
-../../search12_fresh_chain_delete_summary.md
+../../docs/history/search12/search12_fresh_chain_delete_summary.md

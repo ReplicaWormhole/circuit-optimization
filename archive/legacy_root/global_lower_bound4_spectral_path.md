@@ -1,1 +1,1 @@
-../../global_lower_bound4_spectral_path.md
+../../docs/research/lower_bounds/global_lower_bound4_spectral_path.md

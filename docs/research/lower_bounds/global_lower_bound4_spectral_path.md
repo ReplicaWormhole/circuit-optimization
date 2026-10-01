@@ -74,6 +74,6 @@ CNOTs. The stronger spectral Gram argument in
 `global_lower_bound5_spectral_gram.md` excludes those remaining schedules;
 raising the bound above five remains open.
 
-Run `python3 global_lower_bound4_spectral_path.py` for the rational Fourier
+Run `python3 archive/legacy_root/global_lower_bound4_spectral_path.py` for the rational Fourier
 matrix-element check and the four-cycle schedule count. The mathematical
 proof above does not rely on floating-point computation.

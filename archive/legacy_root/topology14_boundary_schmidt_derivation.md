@@ -1,1 +1,1 @@
-../../topology14_boundary_schmidt_derivation.md
+../../docs/research/constructions/topology14_boundary_schmidt_derivation.md

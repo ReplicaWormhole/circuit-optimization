@@ -60,7 +60,7 @@ the real-coefficient condition.
 Reproduce with
 
 ```bash
-python3 global_lower_bound7_full_aa_four_term.py
+python3 archive/legacy_root/global_lower_bound7_full_aa_four_term.py
 ```
 
 The exact per-survivor ideals, trace coefficient rows, and aggregate

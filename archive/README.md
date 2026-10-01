@@ -6,6 +6,8 @@ archive manifest records their SHA-256 hashes. Shared helper code is copied
 into the archive at its migration version, and links to the active ledger,
 snapshots, collaboration records, and accepted baseline preserve old relative
 paths.
+Links to research notes now point into `docs/research/` and
+`docs/history/search12/`; the manifest checks their targets.
 
 From the repository root, verify the move with:
 
@@ -21,9 +23,11 @@ with `archive/legacy_root/`. Reserve and bound any **new** computation in the
 live ledger and collaboration board before running it.
 
 The accepted native baseline records `topology14_exact_matchgate_candidate.py`
-as its generator. A root-level link keeps that recorded path resolvable while
-the generator and its companion inputs live in the archive. Qiskit is required
-to run that historical generator; it is optional for the active exact checks.
+as its generator and `topology14_exact_matchgate_derivation.md` as its
+derivation. Root-level links keep those immutable recorded paths resolvable
+while their contents live in the archive and research notes respectively.
+Qiskit is required to run the historical generator; it is optional for the
+active exact checks.
 
 The archive is a research record. The active commands, incumbent and current
 status remain at the repository root and in `collaboration/` and `docs/`.
