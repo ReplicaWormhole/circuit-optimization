@@ -1,0 +1,1 @@
+Independentpreflight408 completedpass in0.3439seconds with132 fullmatrixbuilds12AD24FD. All12 base/initial conversions, serializers andtopologycounts pass; maxphase1.78e-15 maxgradientdiscrepancy1.34e-9. Frozen60s1threadseed0 directionaudit. Nooptimizer/certificate. Closedcomplete; inputsandoutputsretained. Command: timeout 60s python3 experiments/runs/408/preflight.py.

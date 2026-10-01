@@ -1,0 +1,134 @@
+{
+  "run_id": 400,
+  "board_hypothesis_id": 102,
+  "status": "completed_single_invocation",
+  "command": "timeout --signal=TERM --kill-after=5s 30s env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 python3 experiments/runs/400/fd_check.py > experiments/runs/400/stdout.txt 2> experiments/runs/400/stderr.txt",
+  "exit_code": 0,
+  "termination": "normal_exit",
+  "observed_wall_seconds": 0.06669194,
+  "runtime_cap_seconds": 30,
+  "threads": 1,
+  "matrix_evaluation_cap": 10,
+  "matrix_evaluation_count": 10,
+  "fd_result_sha256": "0687bd63036fb928046c43b4cb28349bef779a4fedd8cbdacac58a8a742167f9",
+  "script_sha256": "d0c1f42c51cd46fc00f3671bf43daddc902dc57e867967acd2410369ea968706",
+  "manifest_sha256": "7b395a9e7b92e15b8a4a704d537b05fb78b896f895eb7a691ab17a951475aea1",
+  "config_sha256": "e09ee0e7480f86a4e3f298e2a2641dea3d3bcf812409698f0edaa2aac00addbe",
+  "source_point_sha256_f64le": "d98c9c14ca11d83a31f6682a5b742c9ab45ee2bbe5041ec9d0d98934cc7c1c49",
+  "matrix_evaluations": [
+    {
+      "index": 1,
+      "tag": "center_offdiagonal",
+      "matrix_unitarity_max_error": 1.7763568394002505e-15
+    },
+    {
+      "index": 2,
+      "tag": "center_fixed_label",
+      "matrix_unitarity_max_error": 1.7763568394002505e-15
+    },
+    {
+      "index": 3,
+      "tag": "offdiagonal_h0.01_minus",
+      "matrix_unitarity_max_error": 1.3322676295501878e-15
+    },
+    {
+      "index": 4,
+      "tag": "offdiagonal_h0.01_plus",
+      "matrix_unitarity_max_error": 8.881784197001252e-16
+    },
+    {
+      "index": 5,
+      "tag": "offdiagonal_h0.001_minus",
+      "matrix_unitarity_max_error": 8.881784197001252e-16
+    },
+    {
+      "index": 6,
+      "tag": "offdiagonal_h0.001_plus",
+      "matrix_unitarity_max_error": 1.1102230246251565e-15
+    },
+    {
+      "index": 7,
+      "tag": "fixed_label_branch_h0.01_minus",
+      "matrix_unitarity_max_error": 8.881784197001252e-16
+    },
+    {
+      "index": 8,
+      "tag": "fixed_label_branch_h0.01_plus",
+      "matrix_unitarity_max_error": 1.1102230246251565e-15
+    },
+    {
+      "index": 9,
+      "tag": "fixed_label_branch_h0.001_minus",
+      "matrix_unitarity_max_error": 2.220446049250313e-15
+    },
+    {
+      "index": 10,
+      "tag": "fixed_label_branch_h0.001_plus",
+      "matrix_unitarity_max_error": 1.1102230246251565e-15
+    }
+  ],
+  "center_values": {
+    "offdiagonal": 0.13572330470336316,
+    "fixed_label_branch": 0.1464466094067264
+  },
+  "finite_difference_samples": {
+    "offdiagonal|h=0.01": {
+      "direction_source": "offdiagonal",
+      "objective": "offdiagonal",
+      "step": 0.01,
+      "minus_value": 0.13572330481889097,
+      "center_value": 0.13572330470336316,
+      "plus_value": 0.13572330481885173,
+      "central_first_difference": -1.962319196024964e-12,
+      "autodiff_gradient_dot_direction": 5.761429171696314e-17,
+      "first_difference_abs_error": 1.962376810316681e-12,
+      "central_second_difference": 2.3101637269817843e-06,
+      "source_least_eigenvalue": -1.4609760401967298e-09,
+      "second_difference_abs_error_vs_source_eigenvalue": 2.311624703021981e-06
+    },
+    "offdiagonal|h=0.001": {
+      "direction_source": "offdiagonal",
+      "objective": "offdiagonal",
+      "step": 0.001,
+      "minus_value": 0.13572330470337435,
+      "center_value": 0.13572330470336316,
+      "plus_value": 0.13572330470337435,
+      "central_first_difference": 0.0,
+      "autodiff_gradient_dot_direction": 5.761429171696314e-17,
+      "first_difference_abs_error": 5.761429171696314e-17,
+      "central_second_difference": 2.2370993946196904e-08,
+      "source_least_eigenvalue": -1.4609760401967298e-09,
+      "second_difference_abs_error_vs_source_eigenvalue": 2.3831969986393635e-08
+    },
+    "fixed_label_branch|h=0.01": {
+      "direction_source": "fixed_label_branch",
+      "objective": "fixed_label_branch",
+      "step": 0.01,
+      "minus_value": 0.1464466096777583,
+      "center_value": 0.1464466094067264,
+      "plus_value": 0.14644660967855208,
+      "central_first_difference": 3.9689085351568565e-11,
+      "autodiff_gradient_dot_direction": -1.00539889418741e-17,
+      "first_difference_abs_error": 3.9689095405557505e-11,
+      "central_second_difference": 5.428575644561562e-06,
+      "source_least_eigenvalue": -1.5584236708767112e-09,
+      "second_difference_abs_error_vs_source_eigenvalue": 5.430134068232439e-06
+    },
+    "fixed_label_branch|h=0.001": {
+      "direction_source": "fixed_label_branch",
+      "objective": "fixed_label_branch",
+      "step": 0.001,
+      "minus_value": 0.14644660940675328,
+      "center_value": 0.1464466094067264,
+      "plus_value": 0.14644660940675297,
+      "central_first_difference": -1.5265566588595902e-13,
+      "autodiff_gradient_dot_direction": -1.00539889418741e-17,
+      "first_difference_abs_error": 1.5264561189701714e-13,
+      "central_second_difference": 5.342948306008566e-08,
+      "source_least_eigenvalue": -1.5584236708767112e-09,
+      "second_difference_abs_error_vs_source_eigenvalue": 5.498790673096237e-08
+    }
+  },
+  "interpretation": "All ten frozen matrix evaluations completed. Central first differences are near zero and consistent with the saved directional gradients at the displayed precision. The central second differences decrease by about two orders of magnitude when the step decreases by one order, consistent with an O(h^2) finite-step truncation contribution. Finite-step effects and cancellation limit resolution at the saved ~-1.5e-9 eigenvalues; the tiny AD eigenvalue signs are not independently resolved. No curvature below the frozen -1e-6 trigger; no escape fit is triggered. This is numerical evidence only and proves neither local minimality nor family exclusion.",
+  "scope": "No optimizer, AD evaluation, Hessian, assignment solve, candidate promotion, or rerun."
+}

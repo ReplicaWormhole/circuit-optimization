@@ -1,0 +1,1 @@
+{"best_loss": 2.279470641322442e-15, "best_maxoff": 5.058049457903065e-08, "case_count": 12, "pass": false, "run_id": 409, "seconds": 7.108003442001063}

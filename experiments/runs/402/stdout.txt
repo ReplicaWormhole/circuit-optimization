@@ -1,0 +1,7 @@
+{
+  "run_id": 402,
+  "evaluations": 127,
+  "best_loss": 0.3750000000000021,
+  "termination": "optimizer_returned",
+  "elapsed_seconds": 1.3648878270178102
+}

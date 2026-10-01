@@ -1,0 +1,24 @@
+{
+  "seed": 9261101,
+  "source_config_sha256": "8b3cbc0de26d3c9044dce965c8b1728eaf4289338124308751c92d4555107513",
+  "params116_sha256": "a4dcaad0d1044b74f25654bcdaad7f8a3b8da0ad179c59d12fe2258371dda779",
+  "params116_shape": [
+    116
+  ],
+  "full116_groups": "9 x 4 x 3 local-axis coordinates, then 4 x 2 F angles",
+  "98_layout_verified": "optimizer: seven free layers [L0prime,L1prime,L2..L6] (84), A1q1(3), B1q1(3), F(8); chronology inserts A1,B1 between CX01/CX21/CX31",
+  "random_nonzero_boundary_map_max_difference_up_to_phase": 5.36049202688126e-16,
+  "frozen_seed_zero_AB_embedding_max_difference": 0.0,
+  "native_gate_count": 44,
+  "native_F_count": 4,
+  "native_CX_count": 4,
+  "compiled_gate_count": 72,
+  "compiled_CX_count": 12,
+  "independent_native_to_compiled_max_difference_up_to_phase": 4.022763522469814e-16,
+  "compiled_cnot_count": 12,
+  "independent_native_unitarity_error": 1.2212453270876722e-15,
+  "independent_native_target_offdiagonal_frobenius": 3.0782436541125158,
+  "native_sha256": "ae93b27f0fd346f9104790cca3f584f98d405965f353108bdd1f4969fa80a1de",
+  "compiled_sha256": "025a844f57da3f886088e0972510d45cc099dce5db30fd005ecfa077dddee742",
+  "scope": "Structural boundary-map check, one frozen embedding and one saved gate-list audit; no optimization and no exact certificate."
+}

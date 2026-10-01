@@ -1,0 +1,28 @@
+{
+  "n": 3,
+  "gates": [
+    {"gate": "rz", "qubit": 2, "theta": "-3*pi/4"},
+    {"gate": "cx", "control": 0, "target": 2},
+    {"gate": "rz", "qubit": 2, "theta": "3*pi/4"},
+    {"gate": "rz", "qubit": 2, "theta": "-pi"},
+    {"gate": "cx", "control": 0, "target": 2},
+    {"gate": "rz", "qubit": 2, "theta": "pi"},
+    {"gate": "u3", "qubit": 0, "theta": "0*pi", "phi": "0*pi", "lam": "pi/4"},
+    {"gate": "ry", "qubit": 0, "theta": "-pi/4"},
+    {"gate": "h", "qubit": 0},
+    {"gate": "cx", "control": 1, "target": 0},
+    {"gate": "h", "qubit": 0},
+    {"gate": "ry", "qubit": 0, "theta": "pi/4"},
+    {"gate": "h", "qubit": 2},
+    {"gate": "cx", "control": 1, "target": 2},
+    {"gate": "h", "qubit": 2}
+  ],
+  "metadata": {
+    "description": "Literal phase-compatible v=0 restriction of accepted411 suffix, with inactive v reflection wrappers removed in exact inverse pairs",
+    "wire_order": "x=q0,u=q1,y=q2; q0 MSB; chronological gates",
+    "target": "Wv0=CZ_xy CX(u,x), with CX acting first",
+    "predicted_diagonal": ["1", "1", "1", "-i", "1", "-1", "-1", "i"],
+    "cnot_count": 4,
+    "evidence_scope": "By-hand reduced derivation; independent complete-list numerical and exact checks pending; not a fullV4 circuit"
+  }
+}

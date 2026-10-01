@@ -1,0 +1,8 @@
+{
+  "completed_points": 0,
+  "error": "literal base transplant provenance mismatch",
+  "error_type": "AssertionError",
+  "matrix_build_count": 0,
+  "run_id": 418,
+  "seconds": 0.5330449210014194
+}

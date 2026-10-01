@@ -1,0 +1,9 @@
+{
+  "files": {
+    "PLAN.md": "5918bd5bb20eff0759cf9843a4814b3ae1c8361a0133405d07384597683abd66",
+    "candidate.json": "557c55cddefb697bcd4e038db300117d0aaaf6f6af97e851e0831baf257dbe4a",
+    "certify.py": "f0c9c05f872139937e1f9fd5ad22006033ec1d3f7e3467788f4d1199b4b6eb09",
+    "config.json": "dd00ad8759bf193ed07fb92ce0b6c47674dae1f3c40d1563c2e43d4a5aadc7b5"
+  },
+  "preparation_scope": "AST, rawcandidatebytes, literalgatecount, runtimeversions/hashes; no checker import, ring multiplication or circuit matrix"
+}

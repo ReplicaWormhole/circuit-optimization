@@ -1,0 +1,36 @@
+{
+  "gates": [
+    {
+      "control": 0,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "h",
+      "qubit": 0
+    },
+    {
+      "control": 1,
+      "gate": "cx",
+      "target": 3
+    },
+    {
+      "gate": "h",
+      "qubit": 1
+    },
+    {
+      "control": 0,
+      "gate": "cx",
+      "target": 1
+    },
+    {
+      "control": 2,
+      "gate": "cx",
+      "target": 3
+    }
+  ],
+  "metadata": {
+    "description": "accepted411 exact Bell/router first six chronological gates"
+  },
+  "n": 4
+}

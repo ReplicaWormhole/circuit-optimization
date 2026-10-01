@@ -1,0 +1,51 @@
+{
+  "method": "single-reordered-bell-decoder-full98-offdiagonal-lbfgsb",
+  "seed": 9261801,
+  "initialization": {
+    "base": "family.py bell_decoder_point(): exact SO(3) prefix E02^dagger E13^dagger with L0 input locals, F02/F13=(-pi/4,0), L1 X0 and L2 X1; all other coordinates zero",
+    "perturbation": "rng=np.random.default_rng(9261801); noise=rng.normal(0.0,0.1,size=98); initial=base+noise",
+    "bit_generator": "NumPy default_rng default PCG64",
+    "noise_sigma": 0.1,
+    "coordinates_perturbed": "all98",
+    "restarts": 0
+  },
+  "native_word": [
+    ["layer", "L0"], ["xx_yy", 0, 2], ["layer", "L1"], ["xx_yy", 1, 3],
+    ["layer", "L2"], ["cx", 0, 1], ["A1", 1], ["cx", 2, 1], ["B1", 1],
+    ["cx", 3, 1], ["layer", "L3"], ["cx", 1, 2], ["layer", "L4"],
+    ["xx_yy", 0, 1], ["layer", "L5"], ["xx_yy", 2, 3], ["layer", "L6"]
+  ],
+  "native_schedule": [
+    ["xx_yy", 0, 2], ["xx_yy", 1, 3], ["cx", 0, 1], ["cx", 2, 1],
+    ["cx", 3, 1], ["cx", 1, 2], ["xx_yy", 0, 1], ["xx_yy", 2, 3]
+  ],
+  "native_entanglers": 8,
+  "compiled_cnot_cost": 12,
+  "parameter_order": "84 SO(3) rotation-vector coordinates for L0..L6, each qubit 0..3; then A1(q1), B1(q1), each rotation vector (3); then F(a,b) for pairs [(0,2),(1,3),(0,1),(2,3)] (8); total98; all coordinates free",
+  "objective": "||offdiag(U V4 U^dagger)||_F^2/16",
+  "optimizer": "scipy.optimize.minimize(method='L-BFGS-B', jac=True), PyTorch autograd gradient",
+  "maxiter": 1000,
+  "maxfun": 20000,
+  "maxls": 30,
+  "ftol": 1e-15,
+  "gtol": 1e-10,
+  "internal_seconds": 110,
+  "external_seconds": 120,
+  "threads": 1,
+  "final_recomputation_count_outside_optimizer_maxfun": "at most1, separately recorded",
+  "scipy_version": "1.16.3",
+  "family_sha256": "9936da7408d5202a00e784daa4b33d950efa68229bec06c006457862411303c8",
+  "code_sha256": "3f4777c2492e34e47fb5655df4c288f432f8dbad0e74230afeff872c257448ac",
+  "dependencies": {
+    "collaboration/work/algebraic98bellprefix/REPORT.md": "b621bd561657fe1f5535958c527133f92cd0dd47ba8310e9c3d6943d5ae5beac",
+    "delete14_search.py": "b12320ef0491d0fc953d76aa92c39025f5ea9c40dddfa1458894d18eef5fd044",
+    "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0",
+    "native_gate_check.py": "2e31378917baf44c938fae8ab88920a9cf63769051dcaca2ee874dd624707987",
+    "collaboration/work/verifier_label12/parity12/native_helpers.py": "992aa07290b35bcc0ad0860e1f7053f790b0d72e45c477e12ebd13a902f734b3"
+  },
+  "versions": {
+    "numpy": "from runtime, recorded in result.json",
+    "torch": "from runtime, recorded in result.json"
+  },
+  "scope": "One bounded, perturbed Bell-derived start in this reordered native family. No exact certificate, incumbent promotion, topology exclusion or lower bound from numerical failure."
+}

@@ -1,0 +1,1 @@
+timeout 115s python3 experiments/runs/416/fit.py > stdout.txt 2> stderr.txt

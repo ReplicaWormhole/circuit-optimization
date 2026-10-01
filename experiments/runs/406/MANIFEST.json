@@ -1,0 +1,61 @@
+{
+  "N3_literal": "Rz_y(-pi),CX(x->y),Rz_y(pi)",
+  "authoritative_candidate_pack": "collaboration/work/verifier_sol/candidate12",
+  "board_id": 127,
+  "candidate_sha256": "58a862a4acef4e768c4613e9b142504592f5237a68539941148653a7f083eea2",
+  "config_sha256": "98245eac648421862b5d3ee34dd54d1f826b8ebca18af39db61875de3bfa6b15",
+  "expected_exact_labels": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    3,
+    0,
+    2,
+    1,
+    0,
+    3,
+    2,
+    3,
+    1,
+    2
+  ],
+  "gate_count": 39,
+  "gate_counts": {
+    "cx": 12,
+    "h": 6,
+    "rx": 2,
+    "ry": 8,
+    "rz": 4,
+    "u3": 5,
+    "x": 2
+  },
+  "preparation_matrix_calls": 0,
+  "random_draws": 0,
+  "reservation_config_binding": [
+    "frozen_config",
+    "frozen_config_sha256"
+  ],
+  "runtime_module_paths": {
+    "numpy": "/home/lev/anaconda3/lib/python3.13/site-packages/numpy/__init__.py",
+    "sympy": "/home/lev/anaconda3/lib/python3.13/site-packages/sympy/__init__.py"
+  },
+  "runtime_versions": {
+    "numpy": "2.3.5",
+    "python": "3.13.9",
+    "sympy": "1.14.0"
+  },
+  "script_sha256": "bdccafc08432d507a766e94c509e463b09294b5666577742b9c95747ca181533",
+  "seed": 0,
+  "source_sha256": {
+    "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0",
+    "exact_check.py": "8a1fd3ca85e67fa1cf3aa4f039ec33c36a1cbe1cdc422185c73b424850004d5f",
+    "native_gate_check.py": "2e31378917baf44c938fae8ab88920a9cf63769051dcaca2ee874dd624707987"
+  },
+  "structural_reports": [
+    "../MERGE4_STATIC.md",
+    "../REPAIRED13_STATIC.md"
+  ]
+}

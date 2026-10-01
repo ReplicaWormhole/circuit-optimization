@@ -1,0 +1,38 @@
+{
+  "run_id": 397,
+  "board_hypothesis_id": 93,
+  "diagnostic_sha256": "2e518feeaa4a57bf6a3497a17696643049bf8123750f81628606478ac9f0ccda",
+  "config_sha256": "f70c638de7ac8fecd9ffc23750ae4b5b1ceecd92236855ecc3f31052f9933d1a",
+  "parent_run396_result_sha256": "bf7a4d1d32f3f26c53f353f729a2e35f72a6c636ac106800cb709c7087c286a4",
+  "run396_point_audit_sha256": "9ac0678de91ca3eeed3ab799a1a1267ed96cf498302259e4694f442338c9e7f4",
+  "point_f64le_sha256": "d98c9c14ca11d83a31f6682a5b742c9ab45ee2bbe5041ec9d0d98934cc7c1c49",
+  "seed": 9261703,
+  "code_hashes_match": true,
+  "all_dependencies_match": true,
+  "static_branch_review": {
+    "objective_names": [
+      "offdiagonal",
+      "fixed_label_branch"
+    ],
+    "point_source": "exact run396 seed9261703 best; no RNG or perturbation",
+    "same_frozen_98_coordinate_chart": true,
+    "fixed_label_d_from_pinned_assignment": true,
+    "assignment_gap_bans_selected_root_across_all_duplicate_slots_per_row": true,
+    "base_plus_16_row_bans": true,
+    "max_explicit_gradients": 2,
+    "max_hessians": 2,
+    "column_eigenvectors_canonicalized_by_largest_magnitude_entry": true,
+    "negative_trigger": -1e-06
+  },
+  "budget": {
+    "internal_seconds": 110,
+    "external_seconds": 120,
+    "threads": 1,
+    "max_assignments": 17,
+    "max_gradients": 2,
+    "max_hessians": 2
+  },
+  "scope": "static script/config/source binding only; no objectives, derivatives, Hessians, or gap computations",
+  "timeout_output_limitation": "BudgetStop during the 16-assignment-gap loop is outside the Hessian try/except, so a deadline there would prevent result and base gate-list serialization. This is before Hessians and the gap loop is small, but is retained as a run limitation; root has been notified.",
+  "preflight_script_sha256": "c11808e138a183c225335567917b1bda1f01524e9254dd7c2744fc393b7f3504"
+}

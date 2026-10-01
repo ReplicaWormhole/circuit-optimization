@@ -1,0 +1,15 @@
+{
+  "two_qubit_count": 12,
+  "native_family_gate_count": 0,
+  "cnot_count": 12,
+  "two_qubit_depth": 9,
+  "cnot_compilation_upper_bound": 12,
+  "minimum_cnot_cost": null,
+  "n": 4,
+  "tolerance": 1e-09,
+  "unitarity_error": 1.5543122344752192e-15,
+  "off_diagonal_error": 5.673584001061413e-16,
+  "eigenvalue_root_error": 7.105427357601002e-15,
+  "valid_diagonalizer": true,
+  "proof_status": "numerical matrix evidence; this checker supplies no exact certificate"
+}

@@ -1,0 +1,79 @@
+{
+  "family_module": "collaboration/work/numerical98/hessian98.py",
+  "dependencies": {
+    "collaboration/work/numerical98/hessian98.py": "739c8585bcb5b0146a3d735dd06dc2c0be65a7eaf9c923ffffa766303e741957",
+    "collaboration/work/numerical98/config.json": "7698988d1a8c6d8eee0ff63c0d98dbf9345217872a7a27340cdae8d7dbe6d4e6",
+    "delete14_search.py": "b12320ef0491d0fc953d76aa92c39025f5ea9c40dddfa1458894d18eef5fd044",
+    "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0",
+    "search13_adaptive_topology.py": "14973daa02e3f0e97a8a8c8cc4d2c05f906bc1f2dedec4b2893f2cf39cceb471",
+    "search13_multi_pair_block_rewire.py": "bc851ce9ace88a97e82425db6c311b7aa071b5e3fe7aef6094edcee108cd1111",
+    "search13_prefix_perturb.py": "ee86dbb064ef1bf8098315e9b66531a7c461e648f0a59ddae470a7ee7cb19bf4",
+    "native_gate_check.py": "2e31378917baf44c938fae8ab88920a9cf63769051dcaca2ee874dd624707987",
+    "collaboration/work/verifier_label12/parity12/native_helpers.py": "992aa07290b35bcc0ad0860e1f7053f790b0d72e45c477e12ebd13a902f734b3",
+    "experiments/runs/395/fit.py": "27a8ff0747dbf79f555fe4c4dec429cde1cc5530644e9b9715f6f2289e4ffa50",
+    "experiments/runs/396/result.json": "bf7a4d1d32f3f26c53f353f729a2e35f72a6c636ac106800cb709c7087c286a4"
+  },
+  "seed": 9261703,
+  "initialization": "exact run396 seed9261703 best98 vector; no perturbation/RNG/fits",
+  "native_schedule": [
+    [
+      "cx",
+      0,
+      1
+    ],
+    [
+      "cx",
+      2,
+      1
+    ],
+    [
+      "cx",
+      3,
+      1
+    ],
+    [
+      "xx_yy",
+      0,
+      2
+    ],
+    [
+      "xx_yy",
+      1,
+      3
+    ],
+    [
+      "cx",
+      1,
+      2
+    ],
+    [
+      "xx_yy",
+      0,
+      1
+    ],
+    [
+      "xx_yy",
+      2,
+      3
+    ]
+  ],
+  "parameter_order": "84 SO(3) rotation-vector coordinates for local layers L0..L6, each qubit 0..3, followed by A1(q1) rotation vector (3), B1(q1) rotation vector (3), then F(a,b) pairs [(0,2),(1,3),(0,1),(2,3)] (8); total 98; all coordinates free",
+  "method": "full98-two-objective-AD-Hessian-lowplateau",
+  "internal_seconds": 110,
+  "external_seconds": 120,
+  "threads": 1,
+  "code_sha256": "2e518feeaa4a57bf6a3497a17696643049bf8123750f81628606478ac9f0ccda",
+  "scipy_version": "1.16.3",
+  "assignment_module": "experiments/runs/395/fit.py",
+  "assignment": "Raw row costs sum|UVrow-lambda Urow|\u00b2, repeated slots[+1]*6+[-1]*4+[+i]*3+[-i]*3; SciPy linear_sum_assignment unperturbed costs fixed input/order/version tie rule. Gradient holds returned labels fixed. Every evaluation stores selected columns.",
+  "parent_result": "experiments/runs/396/result.json",
+  "negative_trigger": -1e-06,
+  "max_hessians": 2,
+  "max_gradients": 2,
+  "max_assignments": 17,
+  "objective_names": [
+    "offdiagonal",
+    "fixed_label_branch"
+  ],
+  "assignment_gap": "minimum of16 Hungarian optima banning selectedroot in each row minus basecost; normalized by16; detects distinctroot alternatives, ignoring duplicate-slot permutations"
+}

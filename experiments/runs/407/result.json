@@ -1,0 +1,84 @@
+{
+  "candidate_sha256": "58a862a4acef4e768c4613e9b142504592f5237a68539941148653a7f083eea2",
+  "config_sha256": "044ddc496be587abd767b1f8a14b3914f08441f1bb13410363f14509601334d2",
+  "cx_count": 12,
+  "dependency_sha256": {
+    "fractions": "0669c58fc593177e76f879e92598886747dc69747223bf7f54a9c405aa91286d",
+    "math_extension": "e78a4cc9028f8d2f16d356ad3bed13e77363f24498345db170f64354487af099",
+    "python_executable": "cb945b5ff988d263208e8daaf52499f0871e0bfd3b803ae09a5087ef9e5d8316"
+  },
+  "evidence_scope": "Exact certificate for the saved literal ancilla-free gate list only; no optimality, total-spin, strong Schur-transform, or family exclusion claim.",
+  "exact_row_eigenvector_identity": true,
+  "exact_unitarity": true,
+  "exact_valid_diagonalizer": true,
+  "gate_count": 39,
+  "multiplicities": [
+    6,
+    3,
+    4,
+    3
+  ],
+  "right_shift_column_permutation": [
+    0,
+    8,
+    1,
+    9,
+    2,
+    10,
+    3,
+    11,
+    4,
+    12,
+    5,
+    13,
+    6,
+    14,
+    7,
+    15
+  ],
+  "root_order": [
+    "1",
+    "i",
+    "-1",
+    "-i"
+  ],
+  "row_eigenvector_failures": [],
+  "row_root_labels": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    3,
+    0,
+    2,
+    1,
+    0,
+    3,
+    2,
+    3,
+    1,
+    2
+  ],
+  "run_id": 407,
+  "runtime_module_paths": {
+    "fractions": "/home/lev/anaconda3/lib/python3.13/fractions.py",
+    "math": "/home/lev/anaconda3/lib/python3.13/lib-dynload/math.cpython-313-x86_64-linux-gnu.so",
+    "python": "/home/lev/anaconda3/bin/python3"
+  },
+  "runtime_versions": {
+    "python": "3.13.9"
+  },
+  "script_sha256": "dcd3956ba7194ffc869dc03cee1f92db46ac249c0f57029398e1ad0a41094e6f",
+  "seconds": 0.1980706820031628,
+  "status": "completed",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "unitarity_failures": [],
+  "unitary_sha256": "2db88f4e63708ac41b0f22468216bd9bacedec2600b0010fe61cafbc5641dbff"
+}

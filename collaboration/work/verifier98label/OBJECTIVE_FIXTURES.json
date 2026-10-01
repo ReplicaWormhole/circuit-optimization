@@ -1,0 +1,297 @@
+{
+  "scipy_version": "1.16.3",
+  "multiplicity_audit": {
+    "eigenvalue_targets_real_imag": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        -0.0,
+        -1.0
+      ]
+    ],
+    "multiplicities": [
+      6,
+      4,
+      3,
+      3
+    ],
+    "sum": 16,
+    "eigenvalue_match_max_error": 6.684427777288335e-16
+  },
+  "tie_fixture": {
+    "cost_sha256_f64le": "9e6364f094d80f265fb44cb5d924426ecf8b284abd34395ad134c2152b407f79",
+    "assignment_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "assignment_columns": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      15,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      5
+    ],
+    "repeatable_on_identical_input": true
+  },
+  "random_unitary_fixture": {
+    "labels_by_row_real_imag": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        -1.0
+      ],
+      [
+        -0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "assignment_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "assignment_columns": [
+      9,
+      14,
+      15,
+      10,
+      2,
+      3,
+      4,
+      6,
+      13,
+      11,
+      8,
+      5,
+      0,
+      7,
+      12,
+      1
+    ],
+    "label_residual_direct": 1.6188017796275969,
+    "label_residual_conjugated": 1.6188017796275969,
+    "raw_assignment_cost_normalized": 1.6188017796275966,
+    "original_offdiagonal_loss": 0.9245117019878015,
+    "original_offdiagonal_max": 0.5666847582271469,
+    "identity_abs_difference": 0.0,
+    "cost_abs_difference": 2.220446049250313e-16,
+    "raw_cost_sha256_f64le": "d77e7e654eba1ffde8a792b4fd4ff733146cf02f95e7eea01c8c010cfb4fe300"
+  },
+  "eigenbasis_fixture": {
+    "labels_by_row_real_imag": [
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        -0.0,
+        -1.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        -0.0,
+        -1.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        -0.0,
+        -1.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "assignment_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "assignment_columns": [
+      6,
+      10,
+      13,
+      0,
+      7,
+      11,
+      14,
+      1,
+      8,
+      12,
+      15,
+      2,
+      3,
+      9,
+      4,
+      5
+    ],
+    "label_residual_direct": 3.249757473495331e-31,
+    "label_residual_conjugated": 3.305226321479287e-31,
+    "raw_assignment_cost_normalized": 3.2497574734953305e-31,
+    "original_offdiagonal_loss": 2.8275956952712515e-31,
+    "original_offdiagonal_max": 5.815109887317758e-16,
+    "identity_abs_difference": 5.546884798395594e-33,
+    "cost_abs_difference": 4.3790577010150533e-47,
+    "raw_cost_sha256_f64le": "7f5280b8bf8d6810274258a27edc41c8cefb11aa56692c1aff7f916f287b8da6",
+    "unitarity_max_error": 4.440892098500626e-16
+  },
+  "scope": "finite objective-identity, multiplicity, Hungarian raw-cost, and deterministic tie fixtures; no fit or derivatives"
+}

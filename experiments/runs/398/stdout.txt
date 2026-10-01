@@ -1,0 +1,24 @@
+{
+  "run_id": 398,
+  "gap": 0.2133883472436626,
+  "elapsed_seconds": 4.838967788993614,
+  "termination": "all_diagnostics_finished",
+  "diagnostics": [
+    {
+      "name": "offdiagonal",
+      "loss": 0.1357233047033634,
+      "gradient_norm": 1.7761200872361526e-08,
+      "complete": true,
+      "least_eigenvalue": -1.4609760401967298e-09,
+      "negative_trigger": false
+    },
+    {
+      "name": "fixed_label_branch",
+      "loss": 0.1464466094067266,
+      "gradient_norm": 1.9163996513043953e-08,
+      "complete": true,
+      "least_eigenvalue": -1.5584236708767112e-09,
+      "negative_trigger": false
+    }
+  ]
+}

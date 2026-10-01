@@ -1,0 +1,154 @@
+{
+  "schema": "reordered-full98-static-independent-preflight-v1",
+  "numeric_fit_workspace": "experiments/runs/402",
+  "board_hypothesis_id": 103,
+  "checker_sha256": "9422a752053361ede634b2dde88933def820c7525957724412684e33975cca92",
+  "numeric_config_sha256": "1fb2864e4f9750324080d95f8193d46dce75c3939373036b4187b8e080c4616a",
+  "family_sha256": "9936da7408d5202a00e784daa4b33d950efa68229bec06c006457862411303c8",
+  "search_sha256": "3f4777c2492e34e47fb5655df4c288f432f8dbad0e74230afeff872c257448ac",
+  "source_hashes": {
+    "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0",
+    "collaboration/work/algebraic98bellfitreview/REPORT.md": "49d90a5753a7559ef055a5896191e30d76168fa995f154f08568e5a930508227",
+    "collaboration/work/algebraic98bellprefix/REPORT.md": "b621bd561657fe1f5535958c527133f92cd0dd47ba8310e9c3d6943d5ae5beac",
+    "collaboration/work/verifier_label12/parity12/native_helpers.py": "992aa07290b35bcc0ad0860e1f7053f790b0d72e45c477e12ebd13a902f734b3",
+    "delete14_search.py": "b12320ef0491d0fc953d76aa92c39025f5ea9c40dddfa1458894d18eef5fd044",
+    "experiments/runs/402/PLAN.md": "51c2a158e9ed6c24944dc48e97c8dee2c3b9eea390201613b0d472fda7efb786",
+    "experiments/runs/402/config.json": "1fb2864e4f9750324080d95f8193d46dce75c3939373036b4187b8e080c4616a",
+    "experiments/runs/402/family.py": "9936da7408d5202a00e784daa4b33d950efa68229bec06c006457862411303c8",
+    "experiments/runs/402/search.py": "3f4777c2492e34e47fb5655df4c288f432f8dbad0e74230afeff872c257448ac",
+    "native_gate_check.py": "2e31378917baf44c938fae8ab88920a9cf63769051dcaca2ee874dd624707987"
+  },
+  "native_word": [
+    [
+      "layer",
+      "L0"
+    ],
+    [
+      "xx_yy",
+      0,
+      2
+    ],
+    [
+      "layer",
+      "L1"
+    ],
+    [
+      "xx_yy",
+      1,
+      3
+    ],
+    [
+      "layer",
+      "L2"
+    ],
+    [
+      "cx",
+      0,
+      1
+    ],
+    [
+      "A1",
+      1
+    ],
+    [
+      "cx",
+      2,
+      1
+    ],
+    [
+      "B1",
+      1
+    ],
+    [
+      "cx",
+      3,
+      1
+    ],
+    [
+      "layer",
+      "L3"
+    ],
+    [
+      "cx",
+      1,
+      2
+    ],
+    [
+      "layer",
+      "L4"
+    ],
+    [
+      "xx_yy",
+      0,
+      1
+    ],
+    [
+      "layer",
+      "L5"
+    ],
+    [
+      "xx_yy",
+      2,
+      3
+    ],
+    [
+      "layer",
+      "L6"
+    ]
+  ],
+  "native_schedule": [
+    [
+      "xx_yy",
+      0,
+      2
+    ],
+    [
+      "xx_yy",
+      1,
+      3
+    ],
+    [
+      "cx",
+      0,
+      1
+    ],
+    [
+      "cx",
+      2,
+      1
+    ],
+    [
+      "cx",
+      3,
+      1
+    ],
+    [
+      "cx",
+      1,
+      2
+    ],
+    [
+      "xx_yy",
+      0,
+      1
+    ],
+    [
+      "xx_yy",
+      2,
+      3
+    ]
+  ],
+  "seed": 9261801,
+  "noise_sigma": 0.1,
+  "scipy_version": "1.16.3",
+  "numpy_version": "2.3.5",
+  "torch_version": "2.11.0",
+  "tolerance": 2e-10,
+  "max_coordinate_points": 3,
+  "full_family_matrix_builds": 6,
+  "serialized_gate_list_matrix_builds": 6,
+  "extra_prefix_and_direct_decoder_matrix_builds": 2,
+  "external_seconds": 30,
+  "threads": 1,
+  "execution_gate": "Do not execute until the verifier preflight run is reserved and linked to board hypothesis 103; one invocation only."
+}

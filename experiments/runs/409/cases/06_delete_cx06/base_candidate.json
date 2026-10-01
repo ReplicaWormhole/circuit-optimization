@@ -1,0 +1,400 @@
+{
+  "gates": [
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 0,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 1,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 2,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 3,
+      "theta": 0.0
+    },
+    {
+      "control": 0,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "lam": 3.141592653589793,
+      "phi": 0.0,
+      "qubit": 0,
+      "theta": 1.5707963267948966
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 1,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 2,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 3,
+      "theta": 0.0
+    },
+    {
+      "control": 1,
+      "gate": "cx",
+      "target": 3
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 0,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 3.141592653589793,
+      "phi": 0.0,
+      "qubit": 1,
+      "theta": 1.5707963267948966
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 2,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 3,
+      "theta": 0.0
+    },
+    {
+      "control": 0,
+      "gate": "cx",
+      "target": 1
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 0,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 1,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 2,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 3,
+      "theta": 0.0
+    },
+    {
+      "control": 2,
+      "gate": "cx",
+      "target": 3
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 0,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 1,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": -2.356194490192345,
+      "phi": 0.0,
+      "qubit": 2,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 3,
+      "theta": 0.0
+    },
+    {
+      "control": 0,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 0,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 1,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 2.356194490192345,
+      "phi": 0.0,
+      "qubit": 2,
+      "theta": 2.356194490192345
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 3,
+      "theta": 0.0
+    },
+    {
+      "control": 3,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 0,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 1,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 2,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 3,
+      "theta": 0.0
+    },
+    {
+      "control": 3,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "lam": -2.356194490192345,
+      "phi": 0.0,
+      "qubit": 0,
+      "theta": 2.356194490192345
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 1,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": -3.141592653589793,
+      "phi": 3.141592653589793,
+      "qubit": 2,
+      "theta": 2.356194490192345
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 3,
+      "theta": 0.0
+    },
+    {
+      "control": 1,
+      "gate": "cx",
+      "target": 0
+    },
+    {
+      "gate": "u3",
+      "lam": 3.1415926535897936,
+      "phi": 4.440892098500626e-16,
+      "qubit": 0,
+      "theta": 2.356194490192345
+    },
+    {
+      "gate": "u3",
+      "lam": 3.141592653589793,
+      "phi": 0.0,
+      "qubit": 1,
+      "theta": 3.141592653589793
+    },
+    {
+      "gate": "u3",
+      "lam": 5.551115123125783e-17,
+      "phi": -0.7853981633974485,
+      "qubit": 2,
+      "theta": 0.7853981633974482
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 3,
+      "theta": 0.0
+    },
+    {
+      "control": 3,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 0,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 1,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": -0.7853981633974484,
+      "phi": 0.0,
+      "qubit": 2,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 3,
+      "theta": 0.0
+    },
+    {
+      "control": 1,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 0,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 1,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.7853981633974484,
+      "phi": 0.0,
+      "qubit": 2,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 3,
+      "theta": 0.0
+    },
+    {
+      "control": 3,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 0,
+      "theta": 0.0
+    },
+    {
+      "gate": "u3",
+      "lam": 3.141592653589793,
+      "phi": 0.0,
+      "qubit": 1,
+      "theta": 3.141592653589793
+    },
+    {
+      "gate": "u3",
+      "lam": -2.356194490192345,
+      "phi": 3.141592653589793,
+      "qubit": 2,
+      "theta": 0.7853981633974482
+    },
+    {
+      "gate": "u3",
+      "lam": 0.0,
+      "phi": 0.0,
+      "qubit": 3,
+      "theta": 0.0
+    }
+  ],
+  "metadata": {
+    "description": "eleven fixed CX with all144 SU2 rotation-vector coordinates free",
+    "evidence_scope": "bounded numerical refit; not an exact certificate"
+  },
+  "n": 4
+}

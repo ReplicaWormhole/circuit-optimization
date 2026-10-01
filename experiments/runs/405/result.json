@@ -1,0 +1,17 @@
+{
+  "candidate_sha256": "9b299133bd7979036beaf696950f8a1b1e5959fb4d3b8507a30af9f81a84c0c5",
+  "cnot_count": 19,
+  "config_sha256": "f42ac287926163c2f61058f9aa46af6ea3bccdf06eace6a812126d8fc29c0d93",
+  "evidence_scope": "Exact 19-CX comparator check only; no 12-CX incumbent promotion, topology exclusion, or optimum claim.",
+  "exact_returncode": 0,
+  "exact_seconds": 0.3931415510014631,
+  "exact_timed_out": false,
+  "native_entanglers": 0,
+  "numerical_returncode": 0,
+  "numerical_seconds": 0.07890978999785148,
+  "numerical_timed_out": false,
+  "purpose": "one bounded numerical and exact check of an explicit 19-CX parity-difference baseline",
+  "run_id": 405,
+  "script_sha256": "a6ae1b4cbd754e6f35f308ed667034011e9fb5eefc9ab89999d5edc433247bb9",
+  "status": "pass"
+}

@@ -1,4 +1,145 @@
+# Current handoff: stopped during round24 preparation, 2026-10-01
+
+Explicit user request: stop, make a handoff, and push to the existing remote.
+The continuing optimization goal is paused. All three active collaborators were
+interrupted; process inspection found no round24 scientific process. Ledger421
+is still the latest attempt, with zero running attempts. No round24 computation
+was reserved or executed. Boards155/157 retain completed structural reviews;
+156 and158–161 are closed inconclusive, including superseded/unexecuted drafts.
+Historical proposals86/88/94/152 remain untouched administrative history.
+
+The certified11-CX incumbent and interval6<=Cmin<=11 are unchanged. Runs411/412
+remain the authoritative full V4 exact certificates. Exact12/13/14 are preserved.
+
+New useful evidence: `work/algebraic_v0/new_source.json` is a24-primitive,
+four-CX rational-pi construction for the CUSTOM reduced n3 target
+W0=CZ02 CX10, with CX acting first; this is not V3. Raw SHA256 is
+46a3b51463e88207caf735114d8f8331b8a1ed2b2eec34debab4c015e565cd3c.
+Predicted diagonal is [1,1,1,i,1,-1,-1,-i]. By-hand derivation and independent
+complete-word/phase review passed, but exact computational certification remains
+pending. See `work/algebraic_v0/DERIVATION.md` and
+`work/verifier_v0/STRUCTURAL_REVIEW.md`. Do not promote this reduced result to
+a full V4 incumbent or ingest it with the default cyclic-shift checker.
+
+The obsolete30-coordinate reduced fit is retained in `work/numerical_v0/`
+and explicitly unexecuted. No frozen final config/PLAN or ledger run exists.
+The proposed replacement is a four-coordinate full V4 extension: prepend the
+accepted Bell/router prefix and insert two v-controlled Pauli reflections on y,
+after all8 primitives of the first complete CZxy wrapper and after all24 source
+primitives. Total44 primitives and10CX order
+02,13,01,23,02,32,10,02,12,32. See `ROUND_24.md` for the proposed finite budget.
+The particular earlier inside-wrapper bare-CX extension has a by-hand obstruction;
+general axes at these new cuts are untested. No next assignment is dispatched.
+
+On explicit resume: recheck live board/ledger/processes; claim fresh hypotheses;
+first certify the custom reduced word independently using exact arithmetic, then
+freeze and reserve a finite full-extension preflight and the sole bounded fit.
+Every complete full V4 candidate still requires independent validation and an
+exact certificate before incumbent promotion. Full98 membership, ten-CX existence,
+and optimality remain open. Entries below are historical snapshots.
+
+# Current handoff: round23 closed, exact11 retained, 2026-10-01
+
+Accepted exact11 and interval6<=Cmin<=11 remain unchanged. Round23 reordered
+the ten-CX suffix and tested two fully free132-coordinate starts. Failed418
+stopped before unitary/RNG/AD on metadata comparison; corrected419preflightPASS22U.
+Fit420 completed136iterations/152calls0.942s; both invalid, min-loss0=.125
+maxoff.7071 versus case1loss.26278/maxoff.6361. Independent421endpointPASS14U;
+43 frozen input files verified. Authoritative421runtime.173786s, correcting
+a clerical.095 figure in immutable finish notes via421/ERRATUM.md.
+All attempts terminal; unused proposal152 retained as administrative history.
+
+New by-hand restricted early-CH phase argument in
+algebraic10reorder/PHASE_OBSTRUCTION.md preserves W10=[[0,I],[Z,0]]. It leaves
+tilted controls and later x mixing open. Next hypothesis: solve W00=CZ and
+W10 jointly for v=0, then extend with two v-controlled reflections. No solving
+angles, ten-CNOT word, exclusion, optimality or original fixed98membership
+claim. No follow-up dispatched; use fresh finite board/ledger freezes.
+See ROUND_23.md. Entries below are historical.
+
+# Current handoff: round22 closed, exact11 retained, 2026-10-01
+
+Accepted source411/certificates411–412 and interval6<=Cmin<=11 remain unchanged.
+Round22 runs413/414 were unexecuted for ownership/target-guard errors, preserved
+and closed. Corrected preflight415 passed121U/11AD/22FD; sole diagnostic416
+completed11full-local132-coordinate tenCX deletions,834iterations/938calls6.171s.
+Best7 maxoff0.204459393 is invalid; independent417 endpointauditPASS77U.
+All runs terminal; no exact10 word or topology exclusion. See ROUND_22.md.
+
+The restricted target-suffix product-law obstruction is independently reviewed
+in algebraic10/SUFFIX_OBSTRUCTION.md; full earlier-block/sector-mixing changes
+remain open. Best next unexecuted hypothesis is `02,13,01,23 | 02,32,10,02,12,32`,
+moving CH earlier within a sixCX merge/selector suffix. Bare triangle absorption
+is valid; wrapped phase-compatible synthesis is unproved. See
+algebraic10/NEXT_HYPOTHESIS.md. Original fixed98membership remains open.
+No further computation dispatched; use a fresh finite budget/board/ledger freeze.
+Entries below are historical.
+
+# Current handoff: exact11 accepted, 2026-10-01
+
+Runs411/412 independently certify `experiments/runs/411/candidate.json`:
+30 gates,11 CNOTs, exact rational-pi angles, depth8. Exact Phi32 Fraction checks
+all256 UV4-DU and256 UUdag-I entries zero. Acceptance is EXACT11_ACCEPTANCE.json;
+see ROUND_21.md and algebraic11nearhit/EXACT11_PROPOSAL.md. Current interval
+6<=Cmin<=11, optimum open. Original fixed98-family membership unresolved.
+Runs408/410 validate the bounded409 deletion experiment that inspired this new
+by-hand candidate; no rounding or Newton refinement was needed. All runs closed,
+prepared136 Newton evidence preserved unexecuted. Exact12/13/14 preserved.
+Next hypothesis: combine the last merged reflection with two final selectors,
+using conditional target-basis freedom to seek10CX. No computation dispatched;
+fresh hypotheses/budgets/ledger freezes are required. Entries below are history.
+
+# Current handoff: exact12 accepted, 2026-10-01
+
+Runs406/407 independently certify the complete39gate12CNOT ancilla-free circuit
+at `experiments/runs/406/candidate.json`; see `EXACT12_ACCEPTANCE.json` and
+`ROUND_20.md`. Both certificates pass over conductor16; run407 explicitly
+checks all 256 diagonalization and256 unitarity identities. Current interval
+6<=Cmin<=12, optimum open. Original full98 fixed-word membership is unresolved.
+The exact13/exact14 records and all historical searches remain preserved.
+No further scientific computation is scheduled. Best next hypothesis: merge a
+difference-router CNOT into the controlled reflection block using output
+computational-permutation freedom, seeking 11 CNOTs under a newly frozen budget.
+
+The entries below are historical and their incumbent/goal statements apply to
+their recorded rounds.
+
 # Circuit research handoff
+
+## Latest reviewed round: run393
+
+One fresh coupled98 fit, seed9261501, nonidentity A1/B1, all98 coordinates free,
+one thread, max300 iterations/external120seconds. It returned at284 iterations
+and301 evaluations, loss0.9085 to0.4549; best12CX is invalid with maximum
+off-diagonal entry0.67436. All four initial/best native/compiled lists were
+independently checked. See `ROUND_15.md` and run393's workspace/conclusion.
+
+No restart, exact certificate or incumbent change. Exact13 and global6<=Cmin<=13
+remain; one failed fit is not a family exclusion or local-minimum proof.
+Another frozen nonzero-interior seed is a possible next bounded hypothesis,
+not dispatched. Preserve all inputs, outputs, candidates and database rows.
+
+## Latest reviewed round: runs389–392
+
+The full coupled98 Hessian at the frozen run385 seed9261101 point failed the
+-1e-6 curvature trigger (lambda_min -2.70e-9). Independent run392 finite
+differences along the exact least eigenvector column also fail the trigger;
+zero escape fits. Runs390/391 are preserved failed provenance checks (zero
+evaluations/wrong-row evaluations respectively), with corrections documented.
+Independent native/compiled gate-list checks confirm12CX but invalid
+diagonalization. No exact certificate or incumbent change; global6<=Cmin<=13
+remains open. See `ROUND_14.md` and its run workspaces.
+
+Next hypothesis, not dispatched: one fresh genuine98-coordinate initialization
+with nonzero A1/B1, one frozen seed and bounded fit without restarts. Proposed
+ceiling300 iterations/external120seconds/one thread. A new board claim and
+ledger reservation must precede computation. Do not repeat the same-point
+Hessian or interpret tiny near-flat signs as a minimum/exclusion proof.
+
+Boards66–72 and runs389–392 are terminal at closeout. All three owned
+collaborators completed; no scientific process remains. Scripts, gate lists,
+inputs, outputs and failed attempts are retained intentionally. Exact13 and
+exact14 baseline artifacts remain unchanged.
 
 ## Latest reviewed round: runs387–388
 
@@ -51,7 +192,7 @@ rows and snapshots; compare native hybrid counts separately from compiled CX.
 
 Initialcleand44ffdb, ownedhandles verifiedcompleted, no scientificprocess,
 380terminal ledger. Newboard46–50 andruns381/382 nowterminal. ExactencoderP
-found byboundedbeam:7CX+3CCX compiledCXupper25, all16rows independentlyverified.
+found byboundedbeam:7CX+3CCX compiledCXupper25, all 16rows independentlyverified.
 Native67CX completeorbit/Fourier circuit in
 `work/verifier_label12/encoder/orbit_encoder67.json`, newindependentexact382
 certificateconductor64 passes UV4=DU, roots6/3/4/3. No13certificate duplicated

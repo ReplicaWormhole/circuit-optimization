@@ -1,0 +1,23 @@
+{
+  "board_id": 134,
+  "config_sha256": "fddb8969e338bc636f1195dd7027320a947ca7ebd01e59e0f0e31d58d7e12896",
+  "dependency_sha256": {
+    "numpy_init": "93924ac4b793328947dfd9eb9355e54eccdfd26a92c8dd52188aed2e52c7eb38",
+    "numpy_multiarray": "36aaa2e181f47ba7a7a9ea9dd37f293e99cf289286f86250da3710e5b1430745",
+    "scipy_expm_source": "9188c381bc9f79fa9ea29fc2d7c702d81f6439b6cb3a9bf9d7f6e99dd009a862",
+    "scipy_init": "a72412a5c62442876e073a01da1910c84b7214d1382380b71a873b470420dd68"
+  },
+  "input_file_count": 93,
+  "input_manifest_sha256": "ea827e91b2f16cb940156c4d240ce69a7492a712460375cc1a1544e9a2f943ae",
+  "matrix_build_count": 84,
+  "preparation_matrix_calls": 0,
+  "preparation_random_draws": 0,
+  "reservation_config_binding": "raw config object exactly; method=config.method",
+  "runtime_versions": {
+    "numpy": "2.3.5",
+    "python": "3.13.9",
+    "scipy": "1.16.3"
+  },
+  "script_sha256": "eb40c1a36c65ad1c416457bc33718a1bac12b38f425acc62f1d5f00aee7e3278",
+  "source_result_sha256": "2d6b20c8c30b762614b3e6e073fc68306ceefed0384c9b0cda8427022f509c04"
+}

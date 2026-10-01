@@ -1,0 +1,41 @@
+{
+  "n": 4,
+  "gates": [
+    {"gate":"cx","control":0,"target":2},
+    {"gate":"h","qubit":0},
+    {"gate":"cx","control":1,"target":3},
+    {"gate":"h","qubit":1},
+    {"gate":"cx","control":0,"target":1},
+    {"gate":"cx","control":2,"target":3},
+    {"gate":"rz","qubit":2,"theta":"-3*pi/4"},
+    {"gate":"cx","control":0,"target":2},
+    {"gate":"rz","qubit":2,"theta":"3*pi/4"},
+    {"gate":"ry","qubit":2,"theta":"3*pi/4"},
+    {"gate":"cx","control":3,"target":2},
+    {"gate":"ry","qubit":2,"theta":"-3*pi/4"},
+    {"gate":"rz","qubit":2,"theta":"-pi"},
+    {"gate":"cx","control":0,"target":2},
+    {"gate":"rz","qubit":2,"theta":"pi"},
+    {"gate":"ry","qubit":2,"theta":"7*pi/8"},
+    {"gate":"cx","control":3,"target":2},
+    {"gate":"ry","qubit":2,"theta":"-7*pi/8"},
+    {"gate":"u3","qubit":0,"theta":"0*pi","phi":"0*pi","lam":"pi/4"},
+    {"gate":"ry","qubit":0,"theta":"-pi/4"},
+    {"gate":"h","qubit":0},
+    {"gate":"cx","control":1,"target":0},
+    {"gate":"h","qubit":0},
+    {"gate":"ry","qubit":0,"theta":"pi/4"},
+    {"gate":"h","qubit":2},
+    {"gate":"cx","control":1,"target":2},
+    {"gate":"h","qubit":2},
+    {"gate":"ry","qubit":2,"theta":"3*pi/8"},
+    {"gate":"cx","control":3,"target":2},
+    {"gate":"ry","qubit":2,"theta":"-3*pi/8"}
+  ],
+  "metadata": {
+    "description": "Joint four-CX merged-basis modification and two-CX final selector; structural eleven-CX proposal",
+    "evidence_scope": "by-hand candidate pending root-reserved numerical and independent exact checks",
+    "derivation": "collaboration/work/algebraic11nearhit/EXACT11_PROPOSAL.md",
+    "predicted_diagonal": ["1","1","1","-1","1","i","-i","1","1","i","-1","-i","-1","-i","i","-1"]
+  }
+}

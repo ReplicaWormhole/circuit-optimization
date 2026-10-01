@@ -1,0 +1,146 @@
+{
+  "gates": [
+    {
+      "control": 0,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "h",
+      "qubit": 0
+    },
+    {
+      "control": 1,
+      "gate": "cx",
+      "target": 3
+    },
+    {
+      "gate": "h",
+      "qubit": 1
+    },
+    {
+      "control": 0,
+      "gate": "cx",
+      "target": 1
+    },
+    {
+      "control": 2,
+      "gate": "cx",
+      "target": 3
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "-3*pi/4"
+    },
+    {
+      "control": 0,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "3*pi/4"
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": "3*pi/4"
+    },
+    {
+      "control": 3,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": "-3*pi/4"
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "-pi"
+    },
+    {
+      "control": 0,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "rz",
+      "qubit": 2,
+      "theta": "pi"
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": "7*pi/8"
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": "-7*pi/8"
+    },
+    {
+      "gate": "u3",
+      "lam": "pi/4",
+      "phi": "0*pi",
+      "qubit": 0,
+      "theta": "0*pi"
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": "-pi/4"
+    },
+    {
+      "gate": "h",
+      "qubit": 0
+    },
+    {
+      "control": 1,
+      "gate": "cx",
+      "target": 0
+    },
+    {
+      "gate": "h",
+      "qubit": 0
+    },
+    {
+      "gate": "ry",
+      "qubit": 0,
+      "theta": "pi/4"
+    },
+    {
+      "gate": "h",
+      "qubit": 2
+    },
+    {
+      "control": 1,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "h",
+      "qubit": 2
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": "3*pi/8"
+    },
+    {
+      "control": 3,
+      "gate": "cx",
+      "target": 2
+    },
+    {
+      "gate": "ry",
+      "qubit": 2,
+      "theta": "-3*pi/8"
+    }
+  ],
+  "n": 4
+}

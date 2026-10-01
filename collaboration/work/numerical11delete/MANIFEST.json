@@ -1,0 +1,11 @@
+{
+  "files": {
+    "PLAN.md": "4de6b6420ac8849fe9b2df79660d43bc2250d4c2b5aa8bed2752dd48f19876f7",
+    "config.json": "277e8509a1eb57531fe800f79c646b1c1e6564fbc3c66c6641576cf3cb7f9748",
+    "family.py": "b7361e44000a2a0221a61fdef1173c6d68f509995aa279c3b9446f9b3dd04e0b",
+    "fit.py": "f90819b38d17156c1f20bbf4b21274f4023a4f39829f52e524d8a7426cc5593c",
+    "source_candidate.json": "58a862a4acef4e768c4613e9b142504592f5237a68539941148653a7f083eea2",
+    "topologies.json": "ca847372a003684e96b480a29e4bea6e0e93ab28e5ffa840bc3bc5af96ce29d7"
+  },
+  "preparation_scope": "literal JSON, AST, module-version/hash metadata and syntax only; no family import/circuit matrices/RNG/optimizer"
+}

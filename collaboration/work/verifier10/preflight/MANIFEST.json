@@ -1,0 +1,12 @@
+{
+  "files": {
+    "PLAN.md": "edb503b5fdeb4ad54167da1d64bb85f5f03cbdfb8c97f33686d507d8b31ab154",
+    "config.json": "f16135162f2c38162d4c92d4e8da3e07245c863186e599c62443b0d0f4bf8fa1",
+    "fit_config.json": "878200dbdaedeea0139647f9c8b9e49e5bfa1ff470461713187ad12ee3d44be2",
+    "fit_family.py": "9a5f4929242590230925ba9f3a7cd428da6143c61d7e196eade4203f6fd37731",
+    "fit_source.py": "37528ea8ba197eeac28b874faacd0272a9d4c02d8b8e56f212f8b16c5dad4ec6",
+    "preflight.py": "0d6a435ea0c4cc11bfaf6bab0a2a5677438fabefae0ab1e239d8a4c5b3670241",
+    "source_candidate.json": "557c55cddefb697bcd4e038db300117d0aaaf6f6af97e851e0831baf257dbe4a"
+  },
+  "scope": "145 targetV4 metadata freeze; no family import, RNG, matrices or AD"
+}

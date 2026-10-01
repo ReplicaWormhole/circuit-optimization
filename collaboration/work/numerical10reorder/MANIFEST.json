@@ -1,0 +1,16 @@
+{
+  "files_sha256": {
+    "PLAN.md": "85567fa11e6bae84243a4de8ea357331214b59046021ba7c752b28650506b566",
+    "base_candidate.json": "772fac81882aa00ed46dcf02008af636a254c1b3bd159724d03834b5292d24a0",
+    "base_vector.json": "9da486203154bfa01a77be77f7ee11c1ac7bffae15ceaa84823a5319380a0463",
+    "config.json": "055292df8e3481f97abd697dc13190ba838b8afd0557e83c7b8fb5073d18d083",
+    "dependencies.json": "33d56f85b4d5fda62033b0a6ccdc0edee49809653d03948a844b737747e9228f",
+    "family.py": "9a5f4929242590230925ba9f3a7cd428da6143c61d7e196eade4203f6fd37731",
+    "fit.py": "6faca4de3809b39bdaf69e29f544ae25f157af4e09e8e37008a53e93f8205fce",
+    "input_manifest.json": "c23ad068340e6673b172833fad12497b6a976debcd9e8fc4a70560230a43274c",
+    "source_best_candidate.json": "26b9f34ab733deb77127dcd666929ae8c8a515746892f5ddced57fdf4d36985b",
+    "source_case_result.json": "853d53241573363a5baf9d86f833cdf9ec5c6304cc0b2b2fa168466015864ef7",
+    "topologies.json": "8e16c9e52ac8f9c8b43a3908a5bea6d43288dbea950de70edad00e435cda83ae"
+  },
+  "preparation_scope": "metadata-only import/AST/hashes; no family evaluation, matrix, RNG, AD, fitting or run reservation"
+}

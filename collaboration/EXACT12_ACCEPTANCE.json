@@ -1,0 +1,67 @@
+{
+  "accepted_on": "2026-10-01",
+  "candidate": "experiments/runs/406/candidate.json",
+  "sha256": "58a862a4acef4e768c4613e9b142504592f5237a68539941148653a7f083eea2",
+  "canonical_ledger_candidate": "candidates/2c4f47648585599b52d2324c11ae6442f342ad43ac782581a4af925ef96fab71.json",
+  "canonical_ledger_sha256": "2c4f47648585599b52d2324c11ae6442f342ad43ac782581a4af925ef96fab71",
+  "gate_model": "Arbitrary exact single-qubit unitaries and fixed directed CNOT on any ordered pair; ancilla-free four qubits",
+  "target": "UV4=DU; V4|x0x1x2x3>=|x3x0x1x2>; q0 most significant; chronological gates; arbitrary orthonormal eigenbasis",
+  "cnot_count": 12,
+  "gate_count": 39,
+  "two_qubit_depth": 9,
+  "exact_specification": "All rotation angles are exact rational-pi strings; U3(0,0,lambda) preserves its scalar phase",
+  "certificate_runs": [
+    406,
+    407
+  ],
+  "certificate_result": "Two independently implemented exact conductor16 certificates; Fraction implementation explicitly checks all256 UV4-DU and all256 UUdag-I entries equal zero",
+  "independent_implementations": [
+    "exact_check.py: SymPy QQ cyclotomic-field arithmetic",
+    "collaboration/work/numerical_sol/independent12/certify.py: standalone Fraction polynomial arithmetic modulo z^8+1; no repository checker/SymPy/NumPy imports"
+  ],
+  "output_labels": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    3,
+    0,
+    2,
+    1,
+    0,
+    3,
+    2,
+    3,
+    1,
+    2
+  ],
+  "root_order": [
+    "1",
+    "i",
+    "-1",
+    "-i"
+  ],
+  "eigenvalue_multiplicities": [
+    6,
+    3,
+    4,
+    3
+  ],
+  "review": "collaboration/work/verifier_sol/ACCEPTANCE_REVIEW.md",
+  "derivation": "collaboration/work/algebraic_sol/MERGED12.md",
+  "independent_branch_review": "collaboration/work/numerical_sol/MERGE4_STATIC.md",
+  "full_exact_unitary": "experiments/runs/407/unitary_exact.json",
+  "full_exact_unitary_sha256": "2db88f4e63708ac41b0f22468216bd9bacedec2600b0010fe61cafbc5641dbff",
+  "reproduction_command": "python3 exact_check.py experiments/runs/406/candidate.json",
+  "guarded_independent_certificate": "Run407 source/config/candidate frozen in experiments/runs/407; runner intentionally rejects repeat execution of closed runs. A fresh reserved finite run is needed to reproduce it.",
+  "limitations": [
+    "Exact circuit existence; no optimality, novelty, total-spin or strong Schur claim",
+    "Six-CNOT lower bound inherited from preserved proof; not re-proved this round",
+    "Membership in the original fixed coupled98-coordinate chronological word remains open",
+    "Certificates trust audited Python exact arithmetic; no proof-assistant formalization"
+  ],
+  "old_exact13_preserved": true,
+  "old_exact14_preserved": true
+}

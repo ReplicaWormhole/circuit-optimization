@@ -1,7 +1,38 @@
 {
   "target": "ancilla-free four-qubit right-cycle diagonalization; arbitrary single-qubit gates; all-to-all connectivity",
-  "reviewed_on": "2026-09-26",
+  "reviewed_on": "2026-10-01",
   "records": [
+    {
+      "gate_set": "cx",
+      "candidate": "experiments/runs/411/candidate.json",
+      "elementary_two_qubit_gate_definition": "Directed CNOT on any ordered pair; arbitrary one-qubit unitaries free",
+      "sha256": "557c55cddefb697bcd4e038db300117d0aaaf6f6af97e851e0831baf257dbe4a",
+      "two_qubit_count": 11,
+      "two_qubit_depth": 8,
+      "cnot_compilation_upper_bound": 11,
+      "evidence": "two independently implemented exact Phi32 certificates and full gate-list/sector review",
+      "acceptance_record": "collaboration/EXACT11_ACCEPTANCE.json",
+      "commands": [
+        "python3 exact_check.py experiments/runs/411/candidate.json"
+      ],
+      "limitations": "Not optimal; original full98-word membership open; exact rational-pi strings required."
+    },
+    {
+      "gate_set": "cx",
+      "candidate": "experiments/runs/406/candidate.json",
+      "elementary_two_qubit_gate_definition": "Fixed directed CNOT on any ordered pair; arbitrary one-qubit unitaries free",
+      "sha256": "58a862a4acef4e768c4613e9b142504592f5237a68539941148653a7f083eea2",
+      "two_qubit_count": 12,
+      "two_qubit_depth": 9,
+      "cnot_compilation_upper_bound": 12,
+      "evidence": "two independent exact conductor16 arithmetic implementations plus full gate-list review",
+      "acceptance_record": "collaboration/EXACT12_ACCEPTANCE.json",
+      "commands": [
+        "python3 exact_check.py experiments/runs/406/candidate.json"
+      ],
+      "limitations": "Not optimal; original full98-word membership open; exact rational-pi strings required.",
+      "role": "preserved exact12 construction; superseded in CX cost"
+    },
     {
       "gate_set": "cx",
       "candidate": "collaboration/work/algebraic13_new/canonical_algebraic_ansatz.json",
@@ -17,7 +48,8 @@
         "python3 collaboration/work/root/radical13_local_verify.py",
         "python3 check_circuit.py collaboration/work/algebraic13_new/canonical_algebraic_ansatz.json"
       ],
-      "limitations": "No optimality/strong Schur/novelty claim; same full-matrix implementation reproduced, not two implementations; exact radical metadata required."
+      "limitations": "No optimality/strong Schur/novelty claim; same full-matrix implementation reproduced, not two implementations; exact radical metadata required.",
+      "role": "preserved exact13 construction; superseded in CX cost"
     },
     {
       "gate_set": "cx",
@@ -48,5 +80,5 @@
       "limitations": "Separate elementary gate model; checker is numerical, no direct exact certificate of native JSON and no minimal native count claim."
     }
   ],
-  "acceptance_record": "collaboration/EXACT13_ACCEPTANCE.json"
+  "acceptance_record": "collaboration/EXACT11_ACCEPTANCE.json"
 }

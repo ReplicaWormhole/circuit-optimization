@@ -1,0 +1,19 @@
+{
+  "run_id": 393,
+  "stop_reason": "optimizer_returned",
+  "counts": {
+    "objective_gradient_evaluations": 301,
+    "starts": 1,
+    "restarts": 0,
+    "threads": 1
+  },
+  "initial_loss": 0.9085013606881812,
+  "best_loss": 0.4548985707311256,
+  "best_gradient_norm": 3.897285200643999e-08,
+  "runtime": {
+    "started_unix": 1790863008.1532347,
+    "elapsed_seconds": 3.439011747977929,
+    "internal_limit_seconds": 110,
+    "external_limit_seconds": 120
+  }
+}

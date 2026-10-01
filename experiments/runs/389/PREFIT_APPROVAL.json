@@ -1,0 +1,20 @@
+{
+  "hypothesis": 69,
+  "numerical_script": "collaboration/work/numerical98/hessian98.py",
+  "numerical_script_sha256": "739c8585bcb5b0146a3d735dd06dc2c0be65a7eaf9c923ffffa766303e741957",
+  "frozen_config": "collaboration/work/numerical98/FROZEN_CONFIG.json",
+  "frozen_config_sha256": "7698988d1a8c6d8eee0ff63c0d98dbf9345217872a7a27340cdae8d7dbe6d4e6",
+  "source_point": "run387_frozen_parent.json config.point116; source run385 seed9261101",
+  "source_point_shape": 116,
+  "mapped_point_shape": 98,
+  "random_nonzero_116_to_98_full_unitary_error_up_to_global_phase": 4.613190423717512e-16,
+  "frozen_base_family_vs_serialized_native_error_up_to_global_phase": 5.23691153334427e-16,
+  "native_vs_compiled_matrix_error_up_to_global_phase": 3.855927796350635e-16,
+  "native_gate_count": 38,
+  "native_cx_count": 4,
+  "native_xx_yy_count": 4,
+  "compiled_cx_count": 12,
+  "native_unitarity_max_error": 9.992007221626409e-16,
+  "independent_method": "NumPy/SciPy direct dense gate matrices, independently implemented from the Torch family and serializer",
+  "result": "PREFIT APPROVED for the exact script and config hashes above; no optimizer/Hessian was evaluated in this audit."
+}

@@ -1,0 +1,11 @@
+# Corrected reordered full98 preflight freeze
+
+This freeze replaces the run403 preflight that stopped before point generation. The checker is byte-identical to the run403 checker. The sole runtime compatibility correction is binding `torch_version` to the imported module string `2.11.0+cu130`, rather than package metadata's suffix-free `2.11.0`. The config also points its provenance fields and execution gate to newly claimed board hypothesis 107. It has no preflight run ID; the checker derives its ID from the reserved numeric workspace.
+
+The corrected fit source remains the frozen run402 workspace. Search, family, config and PLAN hashes are bound; all ten declared source/dependency hashes rechecked with no mismatch. Actual runtime module versions are NumPy 2.3.5, SciPy 1.16.3 and PyTorch 2.11.0+cu130. Checker AST and config JSON parsing pass.
+
+The bounded preflight accounts for three parameter points: the exact Bell decoder base, the run402 default_rng start, and a deterministic all-nonzero probe. Each point has a PyTorch family matrix and independent NumPy family matrix, plus native and compiled serialized gate-list products, for 6 full-family builds and 6 gate-list builds. The Bell-base point additionally constructs the serialized first-14-gate prefix and direct `E_pair^dagger` reference, for two additional matrix products. Total top-level builds: 14. No target objective, derivative, optimizer, or search is evaluated.
+
+Static source review found the chronological word and serializer match `L0 F02 L1 F13 L2 CX01 A1 CX21 B1 CX31 L3 CX12 L4 F01 L5 F23 L6`. The full circuit has four directed CX, four native XX/YY gates, and 30 U3 rotations; compilation declares twelve CX. Parameter slices cover 84 local, 6 A1/B1 and 8 F coordinates; all seven layers, four wires, both A/B rotations and all four F gates are used with no optimizer mask. The Bell initialization is reviewed by hand; the finite preflight checks only the first 14 serialized prefix gates against direct `E_pair^dagger`, since the full base circuit still includes the later CX suffix.
+
+No matrix or objective has been evaluated under this new freeze. The prior run403 invocation remains failed with zero matrix calls and was not retried; this replacement requires a new reservation and explicit authorization.

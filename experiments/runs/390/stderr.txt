@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/lev/Projects/current/circuit-optimization/experiments/runs/390/fd98.py", line 83, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/home/lev/Projects/current/circuit-optimization/experiments/runs/390/fd98.py", line 68, in main
+    if not np.array_equal(v,np.asarray(cfg['eigenvectors_columns'],float)[:,0]):raise RuntimeError('frozen least direction mismatch')
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: frozen least direction mismatch

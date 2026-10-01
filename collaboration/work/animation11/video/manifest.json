@@ -1,0 +1,116 @@
+{
+  "candidate": "/home/lev/Projects/current/circuit-optimization/experiments/runs/411/candidate.json",
+  "candidate_sha256": "557c55cddefb697bcd4e038db300117d0aaaf6f6af97e851e0831baf257dbe4a",
+  "gate_count": 30,
+  "matrix_states": 31,
+  "resolution": [
+    3840,
+    2160
+  ],
+  "seconds_per_state": 2,
+  "extra_final_hold_seconds": 3,
+  "checker": {
+    "n": 4,
+    "cnot_count": 11,
+    "valid_diagonalizer": true,
+    "beats_18_cnot_reference": true,
+    "unitarity_error": 2.220446049250313e-15,
+    "off_diagonal_error": 5.039344865125116e-16,
+    "eigenvalue_root_error": 8.43769498715119e-15,
+    "total_spin_off_diagonal_error": 1.999999999999998,
+    "diagonalizes_total_spin": false,
+    "diagonal_eigenvalues": [
+      [
+        0.9999999999999989,
+        0.0
+      ],
+      [
+        0.9999999999999986,
+        7.859072198679951e-33
+      ],
+      [
+        0.9999999999999987,
+        -9.020947061857661e-34
+      ],
+      [
+        -0.9999999999999986,
+        -5.083552714117572e-34
+      ],
+      [
+        0.9999999999999986,
+        0.0
+      ],
+      [
+        4.010104808476288e-33,
+        0.9999999999999979
+      ],
+      [
+        5.7483679257327205e-18,
+        -0.9999999999999987
+      ],
+      [
+        0.9999999999999986,
+        2.465190328815662e-32
+      ],
+      [
+        0.9999999999999983,
+        0.0
+      ],
+      [
+        9.673042049635434e-33,
+        0.9999999999999986
+      ],
+      [
+        -0.9999999999999987,
+        0.0
+      ],
+      [
+        -5.502579377124129e-34,
+        -0.9999999999999986
+      ],
+      [
+        -0.9999999999999986,
+        0.0
+      ],
+      [
+        5.295315616904659e-34,
+        -0.9999999999999986
+      ],
+      [
+        5.7483679257327174e-18,
+        0.9999999999999987
+      ],
+      [
+        -0.9999999999999984,
+        -2.465190328815662e-32
+      ]
+    ]
+  },
+  "render_script_sha256": "023390efdf9166aff2018bef6cbd57743184dda376e23fc43b2123b8b006f3ee",
+  "display_scope": "Floating-point visualization, 3 decimal labels, threshold 1e-10; no new exact proof.",
+  "numpy_version": "2.3.5",
+  "encoding_command": "ffmpeg -hide_banner -loglevel error -n -framerate 1/2 -i collaboration/work/animation11/video/frames/step_%03d.png -vf fps=10,tpad=stop_mode=clone:stop_duration=3 -c:v libx264 -preset veryfast -crf 18 -threads 2 -pix_fmt yuv420p -movflags +faststart collaboration/work/animation11/video/circuit_matrices.mp4",
+  "encoded_video": {
+    "duration_seconds": 65,
+    "frame_count": 650,
+    "fps": 10,
+    "codec": "h264",
+    "sha256": "b24c635cf88256e9ad2e94a552e4276cee93115e9c7a12437e70d269dc08120a"
+  },
+  "verification": {
+    "independent_prefix_recomposition": "pass",
+    "all_prefix_unitarities": "pass",
+    "all_shift_conjugations": "pass",
+    "acceptance_diagonal_error": 2.1094237467877974e-15,
+    "adversarial_review": "No outstanding defect for accepted 11-CNOT input; rounded numeric display and lossy encoding disclosed."
+  },
+  "faster_version": {
+    "file": "circuit_matrices_3.5x.mp4",
+    "speed_factor": 3.5,
+    "duration_seconds": 18.571428571428573,
+    "fps": 35,
+    "frames": 650,
+    "sha256": "4a42823550c69fa18497cf35a14937590907b1bb6fa0e91af639c2ff8491b9d7",
+    "review": "Timing, frame count and full decode checked. Original video preserved. Rounded labels and lossy encoding as before."
+  }
+}

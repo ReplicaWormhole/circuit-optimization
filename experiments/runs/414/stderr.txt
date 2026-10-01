@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/lev/Projects/current/circuit-optimization/experiments/runs/414/preflight.py", line 159, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+                                             ~~~~^^
+  File "/home/lev/Projects/current/circuit-optimization/experiments/runs/414/preflight.py", line 119, in main
+    started=time.monotonic();run,cfg=guard()
+                                     ~~~~~^^
+  File "/home/lev/Projects/current/circuit-optimization/experiments/runs/414/preflight.py", line 112, in guard
+    if row is None or row[0]!='running' or row[1]!=cfg['script_sha256'] or row[2].encode()!=config_raw or row[3]!=cfg['method'] or row[4]!=cfg['ledger_agent'] or row[5]!=cfg['parent_run'] or row[6]!=cfg['target']:raise RuntimeError('matching raw-config active ledger reservation required')
+                                                                                                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: matching raw-config active ledger reservation required

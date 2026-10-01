@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "purpose": "one bounded numerical and exact check of an explicit 19-CX parity-difference baseline",
+  "script_sha256": "a6ae1b4cbd754e6f35f308ed667034011e9fb5eefc9ab89999d5edc433247bb9",
+  "source_sha256": {
+    "native_gate_check.py": "2e31378917baf44c938fae8ab88920a9cf63769051dcaca2ee874dd624707987",
+    "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0",
+    "exact_check.py": "8a1fd3ca85e67fa1cf3aa4f039ec33c36a1cbe1cdc422185c73b424850004d5f"
+  },
+  "runtime_versions": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "sympy": "1.14.0"
+  },
+  "expected_cnot_count": 19,
+  "expected_native_entanglers": 0,
+  "numerical_timeout_seconds": 30,
+  "exact_timeout_seconds": 60,
+  "thread_count": 1,
+  "numerical_command": [
+    "native_gate_check.py",
+    "candidate.json",
+    "--tolerance",
+    "1e-9"
+  ],
+  "exact_command": [
+    "exact_check.py",
+    "candidate.json"
+  ],
+  "candidate_filename": "candidate.json",
+  "evidence_scope": "Exact 19-CX comparator check only; no 12-CX incumbent promotion, topology exclusion, or optimum claim."
+}

@@ -1,0 +1,45 @@
+{
+  "board_id": 137,
+  "candidate_sha256": "557c55cddefb697bcd4e038db300117d0aaaf6f6af97e851e0831baf257dbe4a",
+  "config_sha256": "d021c7a2c74289f7b2e48aa81ec730b5290fb624a71492c5b849233430a48c63",
+  "expected_conductor": 32,
+  "expected_exact_labels": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    3,
+    0,
+    0,
+    1,
+    2,
+    3,
+    2,
+    3,
+    1,
+    2
+  ],
+  "gate_count": 30,
+  "gate_counts": {
+    "cx": 11,
+    "h": 6,
+    "ry": 8,
+    "rz": 4,
+    "u3": 1
+  },
+  "preparation_matrix_calls": 0,
+  "preparation_random_draws": 0,
+  "runtime_versions": {
+    "numpy": "2.3.5",
+    "python": "3.13.9",
+    "sympy": "1.14.0"
+  },
+  "script_sha256": "dc3686e6ee071789c489c7b8f419c2fcbd65a6e5e97f7642b7445e232e1315ea",
+  "source_sha256": {
+    "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0",
+    "exact_check.py": "8a1fd3ca85e67fa1cf3aa4f039ec33c36a1cbe1cdc422185c73b424850004d5f",
+    "native_gate_check.py": "2e31378917baf44c938fae8ab88920a9cf63769051dcaca2ee874dd624707987"
+  }
+}

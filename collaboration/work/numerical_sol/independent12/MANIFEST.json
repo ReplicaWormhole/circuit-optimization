@@ -1,0 +1,9 @@
+{
+  "files": {
+    "PLAN.md": "937892f7b9eeeb8312f23ed0835c9f5da2f2107d439f0de710794c4d09188e35",
+    "candidate.json": "58a862a4acef4e768c4613e9b142504592f5237a68539941148653a7f083eea2",
+    "certify.py": "dcd3956ba7194ffc869dc03cee1f92db46ac249c0f57029398e1ad0a41094e6f",
+    "config.json": "044ddc496be587abd767b1f8a14b3914f08441f1bb13410363f14509601334d2"
+  },
+  "preparation_scope": "AST/config and literal-byte freezing only; no validator import or circuit arithmetic executed"
+}

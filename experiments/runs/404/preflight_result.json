@@ -1,0 +1,91 @@
+{
+  "run_id": 404,
+  "board_hypothesis_id": 107,
+  "schema": "reordered-full98-static-independent-preflight-v1",
+  "checker_sha256": "9422a752053361ede634b2dde88933def820c7525957724412684e33975cca92",
+  "config_sha256": "24f6cbf7d81b98e2ce6c4a9b5e64fbc2d92d9e9f2c649a3f46c432c62e41cd24",
+  "source_hashes": {
+    "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0",
+    "collaboration/work/algebraic98bellfitreview/REPORT.md": "49d90a5753a7559ef055a5896191e30d76168fa995f154f08568e5a930508227",
+    "collaboration/work/algebraic98bellprefix/REPORT.md": "b621bd561657fe1f5535958c527133f92cd0dd47ba8310e9c3d6943d5ae5beac",
+    "collaboration/work/verifier_label12/parity12/native_helpers.py": "992aa07290b35bcc0ad0860e1f7053f790b0d72e45c477e12ebd13a902f734b3",
+    "delete14_search.py": "b12320ef0491d0fc953d76aa92c39025f5ea9c40dddfa1458894d18eef5fd044",
+    "experiments/runs/402/PLAN.md": "51c2a158e9ed6c24944dc48e97c8dee2c3b9eea390201613b0d472fda7efb786",
+    "experiments/runs/402/config.json": "1fb2864e4f9750324080d95f8193d46dce75c3939373036b4187b8e080c4616a",
+    "experiments/runs/402/family.py": "9936da7408d5202a00e784daa4b33d950efa68229bec06c006457862411303c8",
+    "experiments/runs/402/search.py": "3f4777c2492e34e47fb5655df4c288f432f8dbad0e74230afeff872c257448ac",
+    "native_gate_check.py": "2e31378917baf44c938fae8ab88920a9cf63769051dcaca2ee874dd624707987"
+  },
+  "coordinate_point_evaluation_count": 3,
+  "full_family_matrix_builds": 6,
+  "serialized_gate_list_matrix_builds": 6,
+  "extra_prefix_and_direct_decoder_matrix_builds": 2,
+  "points": [
+    {
+      "name": "bell_decoder_base",
+      "point_sha256_f64le": "f10e86ac263206a9264d5c8d2dff8c1372e58881270b423314fafc8c1b64aa79",
+      "coordinate_point_evaluations": 1,
+      "native_gate_count": 38,
+      "native_cx_count": 4,
+      "native_xx_yy_count": 4,
+      "compiled_cx_count": 12,
+      "errors": {
+        "torch_vs_independent_numpy_up_to_phase": 0.0,
+        "native_serialization_vs_numpy_up_to_phase": 1.5479492310253573e-16,
+        "compiled_vs_native_up_to_phase": 2.7930158792418933e-16,
+        "torch_unitarity_max": 5.887846720064157e-17,
+        "numpy_unitarity_max": 5.887846720064157e-17
+      },
+      "decoder_prefix_direct_E_pair_dagger_phase_error": 1.8679420980235505e-16
+    },
+    {
+      "name": "seeded_initial",
+      "point_sha256_f64le": "64f7dbcfe448b5bee592a14ca2508d8a4f53314f69809809dcf6bb8c448c5d10",
+      "coordinate_point_evaluations": 1,
+      "native_gate_count": 38,
+      "native_cx_count": 4,
+      "native_xx_yy_count": 4,
+      "compiled_cx_count": 12,
+      "errors": {
+        "torch_vs_independent_numpy_up_to_phase": 3.925231146709438e-16,
+        "native_serialization_vs_numpy_up_to_phase": 8.054573476162427e-16,
+        "compiled_vs_native_up_to_phase": 4.441434166503682e-16,
+        "torch_unitarity_max": 1.1102230246251565e-15,
+        "numpy_unitarity_max": 8.881784197001252e-16
+      }
+    },
+    {
+      "name": "all_nonzero_probe",
+      "point_sha256_f64le": "003b0b02a72470f75617e22c99da092f95bf4cc15d02cf3bdf51d99c38ec974d",
+      "coordinate_point_evaluations": 1,
+      "native_gate_count": 38,
+      "native_cx_count": 4,
+      "native_xx_yy_count": 4,
+      "compiled_cx_count": 12,
+      "errors": {
+        "torch_vs_independent_numpy_up_to_phase": 4.311058334485492e-16,
+        "native_serialization_vs_numpy_up_to_phase": 7.71185559270127e-16,
+        "compiled_vs_native_up_to_phase": 4.311058334485492e-16,
+        "torch_unitarity_max": 1.1102230246251565e-15,
+        "numpy_unitarity_max": 1.4432899320127035e-15
+      }
+    }
+  ],
+  "seed": 9261801,
+  "sigma": 0.1,
+  "all98_coordinates_free_by_declared_slices": true,
+  "native_counts": {
+    "cx": 4,
+    "xx_yy": 4
+  },
+  "compiled_cx_count": 12,
+  "runtime_budget": {
+    "external_seconds": 30,
+    "threads": 1,
+    "max_coordinate_points": 3,
+    "full_family_matrix_builds": 6,
+    "serialized_gate_list_matrix_builds": 6,
+    "extra_prefix_and_direct_decoder_matrix_builds": 2
+  },
+  "scope": "Finite three-point matrix/serialization preflight only; no target objective, derivative, optimizer, or search."
+}

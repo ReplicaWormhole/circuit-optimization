@@ -1,0 +1,70 @@
+{
+  "accepted_on": "2026-10-01",
+  "candidate": "experiments/runs/411/candidate.json",
+  "sha256": "557c55cddefb697bcd4e038db300117d0aaaf6f6af97e851e0831baf257dbe4a",
+  "canonical_ledger_candidate": "candidates/8ce7cca9a51201abfda0c3b6963cd5c5c717edb69f8134eb0acaa0faca3634d7.json",
+  "canonical_ledger_sha256": "8ce7cca9a51201abfda0c3b6963cd5c5c717edb69f8134eb0acaa0faca3634d7",
+  "gate_model": "Arbitrary exact single-qubit unitaries and directed CNOT on any ordered pair; ancilla-free four qubits",
+  "target": "UV4=DU, V4|x0x1x2x3>=|x3x0x1x2>; q0 most significant; chronological gates; arbitrary eigenvalue order and orthonormal degenerate eigenbases",
+  "cnot_count": 11,
+  "gate_count": 30,
+  "two_qubit_depth": 8,
+  "exact_specification": "Exact rational-pi angle strings; U3(0,0,pi/4) retains the full phase",
+  "certificate_runs": [
+    411,
+    412
+  ],
+  "certificate_result": "Two independent exact conductor32 implementations; Fraction checks all256 UV4-DU and all256 UUdag-I entries equal zero",
+  "independent_implementations": [
+    "exact_check.py: SymPy QQ cyclotomic field arithmetic",
+    "collaboration/work/numerical11exact/certify.py: standalone Fraction polynomial arithmetic modulo z^16+1; no existing checker/NumPy/SymPy imports"
+  ],
+  "output_labels": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    3,
+    0,
+    0,
+    1,
+    2,
+    3,
+    2,
+    3,
+    1,
+    2
+  ],
+  "root_order": [
+    "1",
+    "i",
+    "-1",
+    "-i"
+  ],
+  "eigenvalue_multiplicities": [
+    6,
+    3,
+    4,
+    3
+  ],
+  "derivation": "collaboration/work/algebraic11nearhit/EXACT11_PROPOSAL.md",
+  "review": "collaboration/work/verifier11router/ACCEPTANCE_REVIEW11.md",
+  "independent_certificate_review": "collaboration/work/numerical11exact/REPORT.md",
+  "full_exact_unitary": "experiments/runs/412/unitary_exact.json",
+  "full_exact_unitary_sha256": "fbb007935825221f250efc5d86fb0dd3db1e438f92706ef7eac0ae457a81e965",
+  "reproduction_command": "python3 exact_check.py experiments/runs/411/candidate.json",
+  "guarded_independent_certificate": "Run412 preserves source/config/dependencies/candidate. Its runner rejects a closed or repeated run; use a fresh finite ledger reservation for reproduction.",
+  "numerical_origin": "409 newexact12-source singledeletion refit, independently audited410, identifies topology9; exact angles were subsequently derived by hand, not rounded from the invalid near-hit",
+  "limitations": [
+    "Upper bound only; optimality and novelty unclaimed",
+    "Six-CNOT lower bound inherited, not re-proved here",
+    "Original fixed98-coordinate word membership unresolved",
+    "Not total-spin diagonalization or a strong Schur transform",
+    "Audited exact Python arithmetic, not proof-assistant formalization"
+  ],
+  "old_exact12_preserved": true,
+  "old_exact13_preserved": true,
+  "old_exact14_preserved": true
+}

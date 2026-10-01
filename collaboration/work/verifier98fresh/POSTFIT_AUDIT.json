@@ -1,0 +1,133 @@
+{
+  "hypothesis": 76,
+  "script_sha256": "b19f1aaae55d705fb2487ecb04ca1f8e878688404c2e9a03133edb4e73b305aa",
+  "config_sha256": "d347c2aeff25828c476354e10baeb0df184022eb8c1ecfc859e7bcc2e7b89b52",
+  "seed": 9261501,
+  "initial_vector_shape": [
+    98
+  ],
+  "initial_vector_sha256_f64le": "166e8cf1acf1b38234a7e4d75350c3fadbe95f25344d41ccace391c3983260d8",
+  "initial_rng_match": true,
+  "A1_vector": [
+    -0.17648137830973776,
+    -0.05983960147615339,
+    -0.39299715570168553
+  ],
+  "A1_norm": 0.43494047774901856,
+  "B1_vector": [
+    -0.08638812830593445,
+    0.07896680625304561,
+    0.07678101461603291
+  ],
+  "B1_norm": 0.13997853195213936,
+  "all_98_coordinates_free": true,
+  "budget": {
+    "maxiter": 300,
+    "maxfun": 10000,
+    "maxls": 30,
+    "ftol": 1e-15,
+    "gtol": 1e-10,
+    "internal_timeout_seconds": 110,
+    "external_timeout_seconds": 120,
+    "threads": 1
+  },
+  "scope": "postfit independent complete-list validation; numerical evidence, not an exact certificate or family exclusion",
+  "native_gate_count": 38,
+  "native_cx_count": 4,
+  "native_xx_yy_count": 4,
+  "compiled_gate_count": 66,
+  "compiled_cx_count": 12,
+  "coordinate_vs_native_matrix_error_up_to_phase": 6.004449063730082e-16,
+  "native_vs_compiled_matrix_error_up_to_phase": 4.0029660424867215e-16,
+  "native_unitarity_max_error": 8.881784197001252e-16,
+  "native_schedule": [
+    [
+      "cx",
+      0,
+      1
+    ],
+    [
+      "cx",
+      2,
+      1
+    ],
+    [
+      "cx",
+      3,
+      1
+    ],
+    [
+      "xx_yy",
+      0,
+      2
+    ],
+    [
+      "xx_yy",
+      1,
+      3
+    ],
+    [
+      "cx",
+      1,
+      2
+    ],
+    [
+      "xx_yy",
+      0,
+      1
+    ],
+    [
+      "xx_yy",
+      2,
+      3
+    ]
+  ],
+  "chronology": "L0 CX01 A1 CX21 B1 CX31 L1 F02 L2 F13 L3 CX12 L4 F01 L5 F23 L6",
+  "board_hypothesis_id": 76,
+  "numerical_hypothesis_id": 75,
+  "run_id": 393,
+  "independent_auditor": "verifier98fresh",
+  "independent_audit_script": "collaboration/work/verifier98fresh/independent_audit.py",
+  "independent_audit_script_sha256": "b0058dae13fd7abcdfa6de7af26bc30aa62efe780c9a8f2b8e397799e629faad",
+  "numerical_code_sha256": "b19f1aaae55d705fb2487ecb04ca1f8e878688404c2e9a03133edb4e73b305aa",
+  "numerical_config_sha256": "d347c2aeff25828c476354e10baeb0df184022eb8c1ecfc859e7bcc2e7b89b52",
+  "prefit_approval": "APPROVED for exactly one execution of the hash-bound script/config after reservation; no optimizer or derivative was run by verifier.",
+  "gate_specification": "Chronological native family: 4 CX + 4 XX_YY blocks; compiler output: 12 CX.",
+  "objective_scope": "The PyTorch family objective is ||offdiag(U V4 U^dagger)||_F^2/16; all 98 entries flow into the full-family coordinate matrix, and L-BFGS-B is called without a mask or bounds.",
+  "initial": {
+    "native_sha256": "2211a27ccdec44fb4259fb82a46f59b639786da4711b956ebbf6ebceca17daa7",
+    "compiled_sha256": "14ebc2969ffd564eb662ad195d36dc88b7ab6d254516b01bc2299d43c5651c22",
+    "native_gate_count": 38,
+    "native_cx_count": 4,
+    "native_xx_yy_count": 4,
+    "compiled_gate_count": 66,
+    "compiled_cx_count": 12,
+    "coordinate_vs_native_matrix_error_up_to_phase": 6.004449063730082e-16,
+    "native_vs_compiled_matrix_error_up_to_phase": 4.0029660424867215e-16,
+    "native_unitarity_max_error": 8.881784197001252e-16,
+    "compiled_unitarity_max_error": 6.661338147750939e-16,
+    "target_offdiagonal_frobenius": 3.8126135092624986,
+    "target_offdiagonal_max_entry": 0.5295689783510398,
+    "normalized_loss": 0.9085013606881815
+  },
+  "best": {
+    "native_sha256": "ab6b4342fabe2bbf809de1a3c1df7afd02eea246d45d508327c15457e941e82d",
+    "compiled_sha256": "050d8304814eb48111370665cc8c46aad5e1a4f548d8a28d59c541e7694589b3",
+    "native_gate_count": 38,
+    "native_cx_count": 4,
+    "native_xx_yy_count": 4,
+    "compiled_gate_count": 66,
+    "compiled_cx_count": 12,
+    "coordinate_vs_native_matrix_error_up_to_phase": 1.071020016095422e-15,
+    "native_vs_compiled_matrix_error_up_to_phase": 7.447602459741819e-16,
+    "native_unitarity_max_error": 1.5543122344752192e-15,
+    "compiled_unitarity_max_error": 1.3322676295501878e-15,
+    "target_offdiagonal_frobenius": 2.6978467583793577,
+    "target_offdiagonal_max_entry": 0.6743630736338987,
+    "normalized_loss": 0.45489857073112555
+  },
+  "postfit_audit_script_sha256": "437e7385a7d70ed850e898a66a773818323a970d67011bd370ea786ac0e8360f",
+  "fit_result_sha256": "3bb3d697547d5906b982abe6ae9af49970f8a77db75ed26ddebe2cf2928f895c",
+  "saved_loss_initial_difference": 3.3306690738754696e-16,
+  "saved_loss_best_difference": 5.551115123125783e-17
+}

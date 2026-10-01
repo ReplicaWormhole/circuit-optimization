@@ -1,0 +1,1 @@
+Superseded unreserved preparation: root clarified no-ranking means no adaptive allocation/deepening/restarts; revised pack adds deterministic global minimum-loss summary and completeword after both fixed-budget case records. No matrices/RNG/AD/fit were executed.

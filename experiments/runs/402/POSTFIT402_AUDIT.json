@@ -1,0 +1,102 @@
+{
+  "run_id": 402,
+  "board_hypothesis_id": 108,
+  "schema": "independent-reordered-full98-postfit-audit-v1",
+  "fit_source_hashes": {
+    "config": "1fb2864e4f9750324080d95f8193d46dce75c3939373036b4187b8e080c4616a",
+    "family": "9936da7408d5202a00e784daa4b33d950efa68229bec06c006457862411303c8",
+    "search": "3f4777c2492e34e47fb5655df4c288f432f8dbad0e74230afeff872c257448ac"
+  },
+  "preflight_result_sha256": "8198022590ac07da32b0fca23f6b1e749e6a726c8ba012008f9e161680fd4c6c",
+  "initial_vector_sha256_f64le": "64f7dbcfe448b5bee592a14ca2508d8a4f53314f69809809dcf6bb8c448c5d10",
+  "evaluations": 127,
+  "history_count": 127,
+  "best_evaluation": 127,
+  "best_loss_recorded": 0.3750000000000021,
+  "best_loss_recomputed": 0.3750000000000021,
+  "best_gradient_norm_recorded": 3.9225722094591465e-08,
+  "fit_elapsed_seconds": 1.3648878270178102,
+  "fit_termination": "optimizer_returned",
+  "initial_endpoint": {
+    "coordinate": {
+      "normalized_offdiagonal_frobenius_loss": 0.8181143009791337,
+      "offdiagonal_frobenius_norm": 3.6179868457010924,
+      "offdiagonal_max_entry": 0.9018603550676626,
+      "unitarity_max_error": 8.881784197001252e-16
+    },
+    "native": {
+      "normalized_offdiagonal_frobenius_loss": 0.8181143009791347,
+      "offdiagonal_frobenius_norm": 3.6179868457010946,
+      "offdiagonal_max_entry": 0.9018603550676629,
+      "unitarity_max_error": 1.1102230246251565e-15
+    },
+    "compiled": {
+      "normalized_offdiagonal_frobenius_loss": 0.8181143009791337,
+      "offdiagonal_frobenius_norm": 3.6179868457010924,
+      "offdiagonal_max_entry": 0.9018603550676628,
+      "unitarity_max_error": 8.881784197001252e-16
+    },
+    "coordinate_vs_native_phase_error": 7.816041058999314e-16,
+    "coordinate_vs_compiled_phase_error": 7.447602459741819e-16,
+    "native_vs_compiled_phase_error": 4.441434166503682e-16,
+    "native_sha256": "8e9cc71f98054d45e4d83a8733dc47a119538bfe15af1f222860023a7e8a27c1",
+    "compiled_sha256": "3b25cf3ea9af4dff9753bb32b3ace5ccc53a355dbcc262b4330b89b4a9bd848d",
+    "native_gate_count": 38,
+    "compiled_gate_count": 66,
+    "native_cx_count": 4,
+    "native_xx_yy_count": 4,
+    "compiled_cx_count": 12,
+    "run_checker_loss": null,
+    "run_checker_offdiagonal_max": 0.901860355067663
+  },
+  "best_endpoint": {
+    "coordinate": {
+      "normalized_offdiagonal_frobenius_loss": 0.375000000000002,
+      "offdiagonal_frobenius_norm": 2.4494897427831845,
+      "offdiagonal_max_entry": 0.9999999999999974,
+      "unitarity_max_error": 8.881784197001252e-16
+    },
+    "native": {
+      "normalized_offdiagonal_frobenius_loss": 0.3750000000000013,
+      "offdiagonal_frobenius_norm": 2.4494897427831823,
+      "offdiagonal_max_entry": 0.9999999999999968,
+      "unitarity_max_error": 8.881784197001252e-16
+    },
+    "compiled": {
+      "normalized_offdiagonal_frobenius_loss": 0.37500000000000155,
+      "offdiagonal_frobenius_norm": 2.449489742783183,
+      "offdiagonal_max_entry": 0.9999999999999969,
+      "unitarity_max_error": 4.587533957577233e-16
+    },
+    "coordinate_vs_native_phase_error": 6.087272963323595e-16,
+    "coordinate_vs_compiled_phase_error": 7.021666937153402e-16,
+    "native_vs_compiled_phase_error": 3.5333894300643197e-16,
+    "native_sha256": "95ada300d1bc333bbf4220079198ade332c22ea44e47c322ab24ae61bb86f5f2",
+    "compiled_sha256": "1bd1555b1b7305a4ee645d62872de3522980ccaaca28a2477532a12ec9d44eb5",
+    "native_gate_count": 38,
+    "compiled_gate_count": 66,
+    "native_cx_count": 4,
+    "native_xx_yy_count": 4,
+    "compiled_cx_count": 12,
+    "run_checker_loss": null,
+    "run_checker_offdiagonal_max": 0.9999999999999968
+  },
+  "budget": {
+    "maxiter": 1000,
+    "maxfun": 20000,
+    "iterations": 113,
+    "evaluations": 127,
+    "internal_seconds": 110,
+    "elapsed_seconds": 1.3648878270178102,
+    "threads": 1
+  },
+  "scope": "Independent finite validation of initial/best saved full gate lists and histories only; no optimizer, AD, derivative, assignment or fit call.",
+  "optimizer": {
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "nit": 113,
+    "nfev": 127,
+    "njev": 127
+  },
+  "final_recomputation_count_outside_optimizer_maxfun": 1
+}

@@ -1,0 +1,9 @@
+{"seed": 9261700, "sigma": 0.3, "loss": 0.7939717828542348, "gradient_norm": 5.642906739796047e-08, "evaluations": 185, "nit": 134, "termination": "optimizer_returned"}
+{"seed": 9261701, "sigma": 1.0, "loss": 0.5329642289361857, "gradient_norm": 4.4727597878373394e-08, "evaluations": 277, "nit": 205, "termination": "optimizer_returned"}
+{"seed": 9261702, "sigma": 2.0, "loss": 0.7037866307650131, "gradient_norm": 6.258442337266918e-08, "evaluations": 395, "nit": 304, "termination": "optimizer_returned"}
+{"seed": 9261703, "sigma": 3.0, "loss": 0.1464466094067266, "gradient_norm": 1.9163996513043953e-08, "evaluations": 164, "nit": 150, "termination": "optimizer_returned"}
+{"seed": 9261704, "sigma": 0.3, "loss": 0.49463235022201724, "gradient_norm": 2.6126400580419242e-08, "evaluations": 617, "nit": 557, "termination": "optimizer_returned"}
+{"seed": 9261705, "sigma": 1.0, "loss": 0.768581840002565, "gradient_norm": 9.754921654447026e-08, "evaluations": 180, "nit": 168, "termination": "optimizer_returned"}
+{"seed": 9261706, "sigma": 2.0, "loss": 0.528726314635746, "gradient_norm": 3.582432929956559e-08, "evaluations": 288, "nit": 204, "termination": "optimizer_returned"}
+{"seed": 9261707, "sigma": 3.0, "loss": 0.6735567183918131, "gradient_norm": 2.3603978218183883e-07, "evaluations": 1041, "nit": 1000, "termination": "optimizer_returned"}
+{"run_id": 396, "completed_starts": 8, "best_loss": 0.1464466094067266, "stop_reason": "all_starts_finished"}

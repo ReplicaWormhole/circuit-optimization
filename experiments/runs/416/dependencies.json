@@ -1,0 +1,20 @@
+{
+  "dependency_sha256": {
+    "numpy_init": "93924ac4b793328947dfd9eb9355e54eccdfd26a92c8dd52188aed2e52c7eb38",
+    "numpy_multiarray": "36aaa2e181f47ba7a7a9ea9dd37f293e99cf289286f86250da3710e5b1430745",
+    "python": "cb945b5ff988d263208e8daaf52499f0871e0bfd3b803ae09a5087ef9e5d8316",
+    "scipy_init": "a72412a5c62442876e073a01da1910c84b7214d1382380b71a873b470420dd68",
+    "scipy_lbfgsb": "444cfa51139844e971c523a74b55b03f67751e517646a6bf78642134bf3b300a",
+    "threadpoolctl": "f07b9a0efe634d128c829b57ae5a8ccf14ac4b236203bbbd6dc6fce2c99b55a3",
+    "torch_C": "a1064cb98a2e7beffccae6b89ff79355a45061e56966cc28d89483e7593dff8a",
+    "torch_cpu": "ef36d91c2e63e14e998a3cf379bba954d155e9ef2dc6c65b100104d3c0f47427",
+    "torch_init": "0387d8b811b289287479c8bfdf4e1dac3a71b246f938d82da1331cf2dc8bf001"
+  },
+  "runtime_versions": {
+    "numpy": "2.3.5",
+    "python": "3.13.9",
+    "scipy": "1.16.3",
+    "threadpoolctl": "3.5.0",
+    "torch": "2.11.0+cu130"
+  }
+}

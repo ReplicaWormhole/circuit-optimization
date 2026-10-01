@@ -1,0 +1,1 @@
+Board142/run413 ownership mismatch prevented linking, so no matrix, RNG, AD or optimizer execution occurred. This packet is preserved metadata. A fresh owner-consistent board144 supersedes it at the same finite121U budget. Root owns run413/board142 closeout.

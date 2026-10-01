@@ -6,8 +6,8 @@
 
 The animation follows the 30-gate, 11-CNOT circuit, showing the full cumulative
 matrix and the conjugated shift after each gate. The active gate is highlighted;
-complex entries are rounded to three decimals. The research records below are
-an earlier published snapshot that predates this animation.
+complex entries are rounded to three decimals. The research records below include the certified eleven-CNOT construction
+and the stopped search handoff.
 
 This repository studies exact, ancilla-free diagonalizers of the four-qubit
 right shift
@@ -18,11 +18,12 @@ Qubit zero is the most significant bit. Gates are listed in chronological
 order. A valid diagonalizer satisfies `U V4 = D U`, with arbitrary eigenvalue
 order and arbitrary orthonormal bases within degenerate eigenspaces.
 
-## Published research snapshot
+## Current result
 
 For arbitrary one-qubit gates and all-to-all directed CNOTs, the established
-interval is **6 <= C_min <= 13**. The [accepted 13-CNOT circuit](collaboration/work/algebraic13_new/canonical_algebraic_ansatz.json)
-has an [exact acceptance record](collaboration/EXACT13_ACCEPTANCE.json).
+interval is **6 <= C_min <= 11**. The [accepted 11-CNOT circuit](experiments/runs/411/candidate.json)
+has an [exact acceptance record](collaboration/EXACT11_ACCEPTANCE.json) with two
+independent exact arithmetic certificates. The exact12 and exact13 constructions are preserved.
 Optimality is open. The [exact 14-CNOT circuit](topology14_exact_matchgate_rational.json)
 remains a preserved baseline. Native entangler counts use separate gate-set
 definitions.
@@ -42,7 +43,9 @@ python3 delete14_integer_audit.py topology14_exact_matchgate_rational.json
 ```
 
 The first check is numerical; the latter two are exact checks. The accepted
-13-CNOT construction uses signed-radical metadata in its JSON file. Its
+11-CNOT circuit uses exact rational-pi strings and can be checked with
+`python3 exact_check.py experiments/runs/411/candidate.json`. The preserved
+13-CNOT construction uses signed-radical metadata. All
 certificate commands and limitations are recorded in
 [the incumbent index](collaboration/incumbents.json).
 

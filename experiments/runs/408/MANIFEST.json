@@ -1,0 +1,30 @@
+{
+  "autograd_gradient_count": 12,
+  "board_id": 133,
+  "candidate_sha256": "58a862a4acef4e768c4613e9b142504592f5237a68539941148653a7f083eea2",
+  "config_sha256": "61b674d0478d8ef2afe2dcdef45bfddde2c523c8fe1220288af09d1f70616b16",
+  "dependency_sha256": {
+    "numpy_init": "93924ac4b793328947dfd9eb9355e54eccdfd26a92c8dd52188aed2e52c7eb38",
+    "numpy_multiarray": "36aaa2e181f47ba7a7a9ea9dd37f293e99cf289286f86250da3710e5b1430745",
+    "scipy_expm_source": "9188c381bc9f79fa9ea29fc2d7c702d81f6439b6cb3a9bf9d7f6e99dd009a862",
+    "scipy_init": "a72412a5c62442876e073a01da1910c84b7214d1382380b71a873b470420dd68",
+    "torch_C": "a1064cb98a2e7beffccae6b89ff79355a45061e56966cc28d89483e7593dff8a",
+    "torch_init": "0387d8b811b289287479c8bfdf4e1dac3a71b246f938d82da1331cf2dc8bf001"
+  },
+  "family_sha256": "b7361e44000a2a0221a61fdef1173c6d68f509995aa279c3b9446f9b3dd04e0b",
+  "finite_difference_loss_count": 24,
+  "fit_config_sha256": "277e8509a1eb57531fe800f79c646b1c1e6564fbc3c66c6641576cf3cb7f9748",
+  "fit_noise_normal_draw_count": 1728,
+  "fit_script_sha256": "f90819b38d17156c1f20bbf4b21274f4023a4f39829f52e524d8a7426cc5593c",
+  "matrix_build_count": 132,
+  "preparation_matrix_calls": 0,
+  "preparation_random_draws": 0,
+  "reservation_config_binding": "raw config object exactly; method exactly config.method",
+  "runtime_versions": {
+    "numpy": "2.3.5",
+    "python": "3.13.9",
+    "scipy": "1.16.3",
+    "torch": "2.11.0+cu130"
+  },
+  "script_sha256": "e9b8293e891a6a54a7b3bf3f42e8bcc160fe3dfa577e48a7f900fc6dbbf15f93"
+}

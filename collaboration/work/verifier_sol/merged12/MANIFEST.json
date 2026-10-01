@@ -1,0 +1,54 @@
+{
+  "candidate_sha256": "8f195d6814c122a51f37880269d0a43d405a6e147cbb0cfb4b386c1100862dec",
+  "config_sha256": "aac84669383b2314b46a5775482a38bc964147ded00810fc9e4dd7d01c9fc1e0",
+  "expected_exact_labels": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    3,
+    0,
+    2,
+    1,
+    0,
+    3,
+    2,
+    3,
+    1,
+    2
+  ],
+  "gate_count": 38,
+  "gate_counts": {
+    "cx": 12,
+    "h": 6,
+    "rx": 2,
+    "ry": 8,
+    "rz": 2,
+    "u3": 6,
+    "x": 2
+  },
+  "preparation_matrix_calls": 0,
+  "random_draws": 0,
+  "runtime_module_paths": {
+    "numpy": "/home/lev/anaconda3/lib/python3.13/site-packages/numpy/__init__.py",
+    "sympy": "/home/lev/anaconda3/lib/python3.13/site-packages/sympy/__init__.py"
+  },
+  "runtime_versions": {
+    "numpy": "2.3.5",
+    "python": "3.13.9",
+    "sympy": "1.14.0"
+  },
+  "script_sha256": "3ecb9665a9ce7c58eaf046644a097d0c2825b162d9693da0a6c17aefe01940c2",
+  "seed": 0,
+  "source_sha256": {
+    "check_circuit.py": "b5ee62d3b83d3d82bd7a47006ab7697ffcb57d892ff17decface1e7bcf1921b0",
+    "exact_check.py": "8a1fd3ca85e67fa1cf3aa4f039ec33c36a1cbe1cdc422185c73b424850004d5f",
+    "native_gate_check.py": "2e31378917baf44c938fae8ab88920a9cf63769051dcaca2ee874dd624707987"
+  },
+  "structural_reports": [
+    "../MERGE4_STATIC.md",
+    "../REPAIRED13_STATIC.md"
+  ]
+}

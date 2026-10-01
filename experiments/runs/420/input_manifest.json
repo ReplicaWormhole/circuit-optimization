@@ -1,0 +1,16 @@
+{
+  "files": {
+    "collaboration/EXACT11_ACCEPTANCE.json": "56cc72edc4b8ceeabfd643e3fbe0cc31a99872f7a546e21eaae2116279826c5e",
+    "experiments/runs/411/candidate.json": "557c55cddefb697bcd4e038db300117d0aaaf6f6af97e851e0831baf257dbe4a",
+    "experiments/runs/416/cases/07_delete_cx07/best_candidate.json": "26b9f34ab733deb77127dcd666929ae8c8a515746892f5ddced57fdf4d36985b",
+    "experiments/runs/416/cases/07_delete_cx07/result.json": "853d53241573363a5baf9d86f833cdf9ec5c6304cc0b2b2fa168466015864ef7",
+    "experiments/runs/416/config.json": "878200dbdaedeea0139647f9c8b9e49e5bfa1ff470461713187ad12ee3d44be2",
+    "experiments/runs/416/result.json": "c2c103540a00589c6b0bcfca8db637f6b9fbf5f5c1341a44ff7cc33c98fd3fa9",
+    "experiments/runs/416/topologies.json": "a65b58b218e1e03d9c8143979e2b144395972dbb1af6fb346cf99d0c89b2cd9f",
+    "experiments/runs/417/result.json": "cfbe6236e6546e32b83f2b8bc015911503c905a8ab71b7f75ceeb1647b0cbe53"
+  },
+  "source_best_candidate_sha256": "26b9f34ab733deb77127dcd666929ae8c8a515746892f5ddced57fdf4d36985b",
+  "source_case_ordinal": 7,
+  "source_case_result_sha256": "853d53241573363a5baf9d86f833cdf9ec5c6304cc0b2b2fa168466015864ef7",
+  "source_run": 416
+}

@@ -1,0 +1,32 @@
+{
+  "source_run": 389,
+  "source_result_sha256": "bd095f709735a600de28b420420bbab1526f2b14bdb64123bd66d088d0988210",
+  "source_script_sha256": "739c8585bcb5b0146a3d735dd06dc2c0be65a7eaf9c923ffffa766303e741957",
+  "fd_script_sha256": "9102abd85a61e062682361f455c3e27a183f3bf94cb6bda0c3b9d60921e86741",
+  "point_sha256": "503be3a45541459f6e8647469eaec9539c4389463989222b372591fa7fdc17b0",
+  "direction_sha256": "7404a43dfd1a7efca1ad9c14602ee1f07b5d81c75b97743eb3502d97ba60a019",
+  "objective_evaluations": 5,
+  "optimizer_starts": 0,
+  "optimizer_iterations": 0,
+  "threads": 1,
+  "elapsed_seconds": 0.02845636400161311,
+  "base_loss": 0.5922239996302496,
+  "saved_AD_least_eigenvalue": -2.6985205738843378e-09,
+  "steps": [
+    {
+      "h": 0.001,
+      "f_plus": 0.5922239996302598,
+      "f_minus": 0.5922239996302601,
+      "f0": 0.5922239996302496,
+      "centered_directional_curvature": 2.065014825802791e-08
+    },
+    {
+      "h": 0.0005,
+      "f_plus": 0.5922239996302496,
+      "f_minus": 0.5922239996302499,
+      "f0": 0.5922239996302496,
+      "centered_directional_curvature": 8.881784197001252e-10
+    }
+  ],
+  "interpretation": "Centered finite differences independently check one AD Hessian direction. This does not establish a full Hessian, minimum, diagonalizer, or topology exclusion."
+}

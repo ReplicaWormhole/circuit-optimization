@@ -1476,3 +1476,946 @@ messages. This export does not invent dialogue or claim every tool call is a cha
 2026-09-26T22:12:32.577706+00:00 · hypothesis 63 · handoff
 
 > Independentcorrectedtreeproof accepted ONLYSECONDedgefreshthirdwire sharedfactor, not firstedge(XcXt vsZcZt counterexample). Thirdedge touchsharedwire preservesoldproportionalfactor underrequiredspreading; otherwisecommonlocals only. Atmostone fullsupportcyclecommutingproductimage scope valid, no6CXexclusion.
+
+
+# Round 14: full coupled98 investigation
+
+Verbatim board exchanges, assignments and outcomes. Failed provenance checks are preserved.
+
+## Event 360 — algebraic98
+
+2026-10-01T12:40:31.252191+00:00 · hypothesis 66 · proposal
+
+> Derive and document the exact boundary absorption/remapping from the 116-coordinate relaxed composition to its equivalent coupled 98-coordinate family; identify which mixed interior directions the diagnostic covers, with no search or numerical evaluation.
+
+## Event 361 — algebraic98
+
+2026-10-01T12:40:33.578747+00:00 · hypothesis 66 · claim
+
+> claimed
+
+## Event 362 — root98
+
+2026-10-01T12:41:05.787529+00:00 · hypothesis 67 · proposal
+
+> One full coupled98 Hessian from frozen385 checkpoint; preflight independent family and serialization checks, independent conditional finite differences, no incumbent change absent exact certificate
+
+## Event 363 — root98
+
+2026-10-01T12:41:16.094908+00:00 · hypothesis 67 · claim
+
+> claimed
+
+## Event 364 — numerical98
+
+2026-10-01T12:41:17.659355+00:00 · hypothesis 68 · proposal
+
+> At the exact 98-coordinate boundary-remapped embedding of run385 seed9261101, evaluate one full AD gradient and symmetric 98x98 Hessian of normalized cycle-diagonalization loss for native CX+F family (4 CX, 4 F; compiled 12 CX). Save full spectrum/eigenvectors and base gate lists. Trigger is lambda_min < -1e-6; no fits unless a later separately reserved diagnostic is authorized. This probes mixed directions absent from projected24-coordinate run387.
+
+## Event 365 — numerical98
+
+2026-10-01T12:41:44.235201+00:00 · hypothesis 68 · claim
+
+> claimed
+
+## Event 366 — verifier98
+
+2026-10-01T12:41:47.067247+00:00 · hypothesis 69 · proposal
+
+> Independently verify the exact 116-to-98 boundary remapping, embed frozen run385 seed9261101 with A1=B1=I, and compare the compiled 12-CX chronology against direct NumPy/SciPy matrices before the full98 Hessian. Validate every complete gate list produced; require exact certificate for any candidate.
+
+## Event 367 — verifier98
+
+2026-10-01T12:41:50.425431+00:00 · hypothesis 69 · claim
+
+> claimed
+
+## Event 368 — algebraic98
+
+2026-10-01T12:42:23.650835+00:00 · hypothesis 66 · handoff · to numerical98
+
+> Exact 116-to-98 mapping/report in collaboration/work/algebraic98/REPORT.md. Retain A1,B1; absorb control factors with L1(0)=L1 B0 A0; L0(2)=A2 L0, L1(2)=L1 B2; L0(3)=B3 A3 L0. For source385/386 A=B=I, set six q1 interior coords zero and retain all other matrices. Freeze chosen Euler chart/order; compose SU2 matrices, never add Euler angles componentwise.
+
+## Event 369 — algebraic98
+
+2026-10-01T12:42:23.700324+00:00 · hypothesis 66 · handoff · to verifier98
+
+> Exact prefix map and proof in collaboration/work/algebraic98/REPORT.md. Please independently verify the implemented full-matrix remapping including same-wire products L1(0)B0A0, A2L0(2), L1(2)B2, B3A3L0(3), and zero-A/B source385/386 embedding; chart/global-phase conventions should be explicit.
+
+## Event 370 — algebraic98
+
+2026-10-01T12:42:43.860359+00:00 · hypothesis 66 · completed
+
+> Exact 116-to-98 family equality derived with preserved same-wire multiplication order and zero-A/B embedding; report collaboration/work/algebraic98/REPORT.md. Direct actionable mapping sent to numerical98 and verifier98 and persisted as board handoffs. No search, fitting, symbolic evaluation, or certification performed.
+
+## Event 371 — algebraic98
+
+2026-10-01T12:43:57.571229+00:00 · hypothesis 66 · handoff · to numerical98
+
+> Correction: verified relaxed12/search.py and delete14_search.py; source116 optimizer triples are rotation vectors (x,y,z) for exp[-i(xX+yY+zZ)/2], flattened layer [L0,A,B,L1..L6], q order 0..3, then four F pairs. U3(theta,phi,lam) is only JSON serialization via axis_to_u3. REPORT.md corrected; freeze a clearly named 98 rotation-vector chart.
+
+## Event 372 — algebraic98
+
+2026-10-01T12:43:57.611772+00:00 · hypothesis 66 · handoff · to verifier98
+
+> Coordinate chart correction: source116 optimizer uses rotation vectors (x,y,z) in exp[-i(xX+yY+zZ)/2], flattened local-layer then q, then F pairs. U3 angles only serialization via axis_to_u3. Matrix boundary formulas unchanged; REPORT.md corrected.
+
+## Event 373 — verifier98
+
+2026-10-01T12:50:44.473797+00:00 · hypothesis 69 · handoff · to numerical98
+
+> Prefit independent NumPy/SciPy matrix audit confirms arbitrary-nonzero 116-to-98 boundary map (phase-aligned max error 5.36e-16), source385 seed9261101 zero-A/B embedding (0 error), and existing relaxed native/compiler equivalence (4.02e-16, 4CX+4F to 12CX). Current hessian98 matrix chronology and 98 coordinate order are consistent. Blocker before run reservation: serialize currently places F01/F23 before L4/L5; required order is L3,CX12,L4,F01,L5,F23,L6. Fix serializer, freeze hash, then verifier compares actual base JSON to independent family matrices.
+
+## Event 374 — verifier98
+
+2026-10-01T12:50:44.517743+00:00 · hypothesis 69 · handoff · to root98
+
+> Prefit confirms map error5.36e-16 random nonzero; frozen source embedding exact; source compiler matrix error4.02e-16. Numerical98 serializer chronology defect found and handed back: F01/F23 before L4/L5. Waiting for correction and actual base serialization comparison.
+
+## Event 375 — numerical98
+
+2026-10-01T12:56:14.166497+00:00 · hypothesis 68 · run
+
+> 389
+
+## Event 376 — verifier98
+
+2026-10-01T12:56:14.652247+00:00 · hypothesis 69 · handoff · to numerical98
+
+> Hash-bound prefit approval saved at collaboration/work/verifier98/PREFIT_APPROVAL.json for script 739c8585...e741957 and config 7698988d...e6d4e6. Independent NumPy/SciPy verifies base family-vs-native serialization 5.24e-16, native-vs-compiled 3.86e-16, generic nonzero remap full matrix 4.61e-16; native 4CX+4F, compiled 12CX, unitary 1e-15. One run may proceed with frozen controls.
+
+## Event 377 — verifier98
+
+2026-10-01T12:56:14.701419+00:00 · hypothesis 69 · handoff · to root98
+
+> Prefit APPROVED hash-bound at verifier98/PREFIT_APPROVAL.json. Current corrected hessian98 script+config pass actual source point serialization and independent full matrix remap. Exact errors: base 5.24e-16, compile 3.86e-16, nonzero remap 4.61e-16. 4CX+4F native; compiled 12CX; unitary1e-15. No computation performed.
+
+## Event 378 — verifier98
+
+2026-10-01T12:59:19.041807+00:00 · hypothesis 69 · completed
+
+> Independent NumPy/SciPy review verifies the arbitrary nonzero 116-to-98 map at5.36e-16, frozen seed9261101 embedding exactly, and hash-frozen98 script base serialization/mapped input at5.24e-16. Actual run389 base gate lists independently evaluated: 4CX+4F native, compiled12CX, unitary1e-15, matrix compile equivalence3.86e-16; maxoff0.94386194, no diagonalizer/certificate. Recomputed Hessian lambda_min -2.69852055e-9, residual6.98e-16; threshold -1e-6 fails. Reports/PREFIT approval retained under verifier98.
+
+## Event 379 — verifier98
+
+2026-10-01T12:59:25.758336+00:00 · hypothesis 70 · proposal
+
+> Using run389 frozen point98, full Hessian least eigenvector, and independent NumPy/SciPy objective, estimate directional curvature by centered finite differences at h=1e-3 and 5e-4. Perform exactly five objective evaluations with no optimizer, external 120-second timeout, one compute thread. This independently checks the AD curvature even though the -1e-6 trigger did not fire; it does not license escape fits.
+
+## Event 380 — numerical98
+
+2026-10-01T12:59:37.945802+00:00 · hypothesis 68 · handoff · to algebraic98
+
+> Run389 full98 Hessian at frozen run385 seed9261101: loss .5922239996302492, gradient norm1.6047e-8, lambda_min -2.69852e-9, residual6.98e-16; no eigenvalue below frozen -1e-6 trigger, so no fit. 29 numerical negative eigenvalues lie near zero; 57 abs<1e-7. Base 12CX compiled gate list invalid maxoff .94386194, independently reviewed. Not a family exclusion. Next useful hypothesis: choose a materially different independently motivated base point or gauge-reduced chart; new reservation required.
+
+## Event 381 — numerical98
+
+2026-10-01T12:59:38.046260+00:00 · hypothesis 68 · handoff · to verifier98
+
+> Run389 outputs at experiments/runs/389; base native and compiled gate list hashes independently reviewed, compiled12CX invalid maxoff .94386194. Full Hessian least eigenvalue -2.69852e-9 above the frozen -1e-6 threshold; no fits. Post-run review copied into run workspace; please note any remaining discrepancy.
+
+## Event 382 — numerical98
+
+2026-10-01T12:59:38.151841+00:00 · hypothesis 68 · inconclusive
+
+> Run389 single full98 AD Hessian at frozen385 seed9261101 complete under external240s timeout (2.155s, one thread). lambda_min=-2.69852e-9 > -1e-6; no conditional fits. Source gate list invalid compiled12CX maxoff .94386194. Inconclusive at this point only; no local minimum/family exclusion/lower bound/exact certificate. Next hypothesis needs a materially different base point or gauge-reduced chart and a new reservation.
+
+## Event 383 — verifier98
+
+2026-10-01T12:59:46.993240+00:00 · hypothesis 70 · claim
+
+> claimed
+
+## Event 384 — verifier98
+
+2026-10-01T13:01:13.572544+00:00 · hypothesis 70 · run
+
+> 390
+
+## Event 385 — verifier98
+
+2026-10-01T13:01:54.387816+00:00 · hypothesis 70 · inconclusive
+
+> Run390 was reserved with frozen source and timeout but stopped before any objective evaluation: a direction-array orientation guard compared the saved column vector against the transposed layout. Zero numerical evidence; artifact and error preserved. Do not rerun this ledger reservation; corrected follow-up needs fresh hypothesis/run.
+
+## Event 386 — verifier98
+
+2026-10-01T13:01:54.424019+00:00 · hypothesis 71 · proposal
+
+> Correct only the pre-evaluation eigenvector layout guard from failed run390 (run389 saves eigenvectors as columns). Independently estimate the same frozen run389 least-direction curvature at h=1e-3 and 5e-4 using exactly five NumPy/SciPy matrix evaluations, one thread, externally enforced120-second limit, no optimizer or fit.
+
+## Event 387 — verifier98
+
+2026-10-01T13:02:06.684148+00:00 · hypothesis 71 · claim
+
+> claimed
+
+## Event 388 — verifier98
+
+2026-10-01T13:02:55.322546+00:00 · hypothesis 71 · run
+
+> 391
+
+## Event 389 — verifier98
+
+2026-10-01T13:04:01.695425+00:00 · hypothesis 71 · inconclusive
+
+> Run391 completed five evaluations but froze row Q[0,:], whereas saved eigvectors are matrix columns and least direction is Q[:,0]. Result curvature0.343 does not verify AD least eigenvalue. No fits. Preserve artifacts and replace with new bounded hypothesis/run.
+
+## Event 390 — verifier98
+
+2026-10-01T13:04:01.760170+00:00 · hypothesis 72 · proposal
+
+> Correct row/column serialization: use exactly np.asarray(run389.result.eigenvectors_columns)[:,0] as the normalized least direction. Freeze hashes for source result, exact point and Q[:,0]. Independently evaluate centered SciPy objective at h=1e-3 and5e-4 (five calls), one thread, external120s timeout; no optimizer or fits.
+
+## Event 391 — verifier98
+
+2026-10-01T13:04:11.064286+00:00 · hypothesis 72 · claim
+
+> claimed
+
+## Event 392 — verifier98
+
+2026-10-01T13:04:58.413346+00:00 · hypothesis 70 · handoff · to root98
+
+> Correction to run390 note: script guard correctly compared against result Q[:,0]. The frozen input was mistakenly populated from Q[0,:] and therefore guard rejected; zero objective evaluations. CONCLUSION.md corrected, no ledger row rewritten.
+
+## Event 393 — verifier98
+
+2026-10-01T13:04:58.448457+00:00 · hypothesis 71 · handoff · to root98
+
+> Run391 changed guard to accept the same wrong Q[0,:] input, then did five objective calls with curvature ~0.343. This is a non-least direction and does not validate run389 lambda. CONCLUSION preserves this limitation. Proposed corrected exact column input prepared under verifier98/fd98_392/FROZEN_INPUT.json but no reserve/compute pending your review.
+
+## Event 394 — root98
+
+2026-10-01T13:05:52.610881+00:00 · hypothesis 67 · handoff · to verifier98
+
+> Root verified proposed corrected FD input hash3e7cbe2460b990942d4463f053fd3377973cf22bc3855b03da64568f3a941118: exact Q[:,0], exact point, source/code hashes, unit norm and eigenpair residual6.98e-16. Authorize one newly reserved five-evaluation120s1thread diagnostic only; preserve390 zero-eval and391 wrong-row failed attempts. No fits.
+
+## Event 395 — verifier98
+
+2026-10-01T13:06:06.470693+00:00 · hypothesis 72 · run
+
+> 392
+
+## Event 396 — algebraic98
+
+2026-10-01T13:06:27.521861+00:00 · hypothesis 66 · handoff · to numerical98
+
+> Next distinct hypothesis (not run): freeze a reproducible genuine 98-vector with nonzero A1/B1, not a 385 embedding, then one separately reserved single-threaded hard-capped refinement, no restarts. This tests a fresh basin; failure is bounded optimizer evidence only. Run389 lambda_min=-2.70e-9 fails -1e-6 trigger, grad1.60e-8,57 modes within1e-6; do not interpret as a saddle/minimum or repeat same-point Hessian. See updated algebraic98/REPORT.md.
+
+## Event 397 — algebraic98
+
+2026-10-01T13:06:34.870280+00:00 · hypothesis 66 · handoff · to verifier98
+
+> Independent matrix-map validation is noted in updated algebraic98/REPORT.md (5.36e-16 up to global phase, exact zero-A/B embedding). Next unscheduled numerical idea: one frozen genuine98 random basin with nonzero A1/B1, one bounded single-threaded refinement; no same-point Hessian repeat. Run389 near-zero eigencluster is unresolved curvature, not local min/saddle.
+
+## Event 398 — algebraic98
+
+2026-10-01T13:06:34.926130+00:00 · hypothesis 66 · handoff · to root98
+
+> Updated algebraic98/REPORT.md with verifier’s 5.36e-16 generic map check and run389 interpretation. Recommended next distinct test: one frozen genuine98 start with nonzero A1/B1, not inherited 385 embedding, one separately reserved hard-capped refinement/no restarts. Run389 lambda_min -2.70e-9 is above -1e-6 trigger; near-zero cluster does not establish saddle/minimum. No search performed.
+
+## Event 399 — verifier98
+
+2026-10-01T13:06:37.752480+00:00 · hypothesis 72 · inconclusive
+
+> Corrected run392 used exact saved Q[:,0] and source point, hash-bound before reservation; five independent SciPy matrix evaluations completed under external120s/one thread. Curvatures2.07e-8 (h1e-3),8.88e-10 (h5e-4), roundoff-scale and fail -1e-6 trigger; sign is unresolved. No fits/candidate/certificate or topology exclusion. run390 guard stopped before eval; run391 evaluated wrong row and is explicitly invalid for least-direction check.
+
+## Event 400 — root98
+
+2026-10-01T13:08:43.304021+00:00 · hypothesis 67 · completed
+
+> Full coupled98 diagnostic389 and independent exact-column FD392 complete; triggerfails, zero fits; failed390 zeroeval and391 wrongrow preserved. All gate lists independentlyinvalid12CX; exact13 unchanged. Round14 report and fresh98 nonzeroA1B1 next hypothesis retained unscheduled.
+
+
+# Round 15: one fresh full98 fit
+
+Verbatim board records; a duplicate proposal was closed without computation.
+
+## Event 401 — algebraic98fresh
+
+2026-10-01T13:48:06.519838+00:00 · hypothesis 73 · proposal
+
+> Verify coordinate scope and cost of one fresh full98 initialization with nonzero A1/B1; distinguish coordinate novelty from basin novelty and state interpretation limits.
+
+## Event 402 — algebraic98fresh
+
+2026-10-01T13:48:08.968723+00:00 · hypothesis 73 · claim
+
+> claimed
+
+## Event 403 — numerical98fresh
+
+2026-10-01T13:48:40.488623+00:00 · hypothesis 74 · proposal
+
+> Use exact default_rng seed 9261501 normal(0,0.3,size=98) in all 98 free coordinates of the corrected full98 family, explicitly confirming nonzero interior A1/B1. Run one L-BFGS-B fit from this point, no restarts; this tests one coordinate-wise fresh initialization only, not a distinct gauge orbit or basin.
+
+## Event 404 — algebraic98fresh
+
+2026-10-01T13:48:53.810495+00:00 · hypothesis 73 · handoff · to numerical98fresh
+
+> REPORT.md records the 98-coordinate chart/order and structural distinction: both nonidentity A1/B1 make the frozen start coordinate-wise different from run385/389 zero embedding, but do not prove distinct gauge orbit/basin. Freeze full vector, seed/rule and chart before any reservation. Scope is 4 CX+4 F (12 compiled CX); fit success needs independent check and exact certificate, failure is bounded optimizer evidence only. No search performed.
+
+## Event 405 — algebraic98fresh
+
+2026-10-01T13:48:53.855829+00:00 · hypothesis 73 · handoff · to verifier98fresh
+
+> REPORT.md: verify frozen full98 parameter chart/order, serialized A1/B1 nonidentity and exact chronology. This ensures coordinate-wise difference from run385/389 (A1=B1=I), not distinct gauge orbit/basin. Family cost 4 CX+4 F /12 compiled CX; candidate exact certificate is separate. No search performed.
+
+## Event 406 — algebraic98fresh
+
+2026-10-01T13:48:53.895126+00:00 · hypothesis 73 · completed
+
+> Structural scope and cost of fresh full98 start documented; nonzero A1/B1 ensures coordinate-point difference from runs385/389 but not gauge-orbit/basin novelty. Direct actionable handoffs sent; no search/fit/certificate performed.
+
+## Event 407 — numerical98fresh
+
+2026-10-01T13:48:57.571465+00:00 · hypothesis 75 · proposal
+
+> Using the structural scope from hypothesis 73, use exact default_rng seed 9261501 normal(0,0.3,size=98) in all 98 free coordinates of the corrected full98 family, explicitly confirming nonzero interior A1/B1. Run one L-BFGS-B fit from this point, no restarts; this tests one coordinate-wise fresh initialization only, not a distinct gauge orbit or basin.
+
+## Event 408 — numerical98fresh
+
+2026-10-01T13:48:57.685365+00:00 · hypothesis 75 · claim
+
+> claimed
+
+## Event 409 — numerical98fresh
+
+2026-10-01T13:49:27.240499+00:00 · hypothesis 75 · handoff · to algebraic98fresh
+
+> Hypothesis 75 is claimed for exactly one seed-9261501 full98 fit. I will freeze the 98-vector in config and preserve it verbatim in the result; A1/B1 are indices 84:90 and must be explicitly nonzero. Scope remains coordinate-wise novelty, not a new gauge orbit/basin; 4 CX+4 XX/YY compiles to 12 CX. Please review the final config for that scope.
+
+## Event 410 — numerical98fresh
+
+2026-10-01T13:49:27.286882+00:00 · hypothesis 75 · handoff · to verifier98fresh
+
+> Hypothesis 75 is claimed, with preflight only until root reserves and executes. I am preparing one script that imports numerical98.matrix/objective/serialize and freezes all direct source/dependency hashes. Please review exact schedule/parameter layout, initialization reproduction, no-restart and timeout behavior, and native/compiled full gate-list serialization once prepared.
+
+## Event 411 — root98fresh
+
+2026-10-01T13:50:08.351245+00:00 · hypothesis 76 · proposal
+
+> User-authorized fresh coupled98 fit with one frozen RNG9261501 normal0,.3 start and nonidentity A1/B1; independent preflight and all gate-list checks, exact certificate required before incumbent change
+
+## Event 412 — verifier98fresh
+
+2026-10-01T13:50:18.392823+00:00 · hypothesis 76 · claim
+
+> claimed
+
+## Event 413 — root98fresh
+
+2026-10-01T13:51:24.420030+00:00 · hypothesis 74 · claim
+
+> claimed
+
+## Event 414 — root98fresh
+
+2026-10-01T13:51:24.461172+00:00 · hypothesis 74 · inconclusive
+
+> Duplicate proposal superseded by numerical-owned75 before any script reservation or computation; no scientific run attached.
+
+## Event 415 — root98fresh
+
+2026-10-01T13:51:24.501588+00:00 · hypothesis 77 · proposal
+
+> Coordinate numerical75 and verifier76; one fresh98 fit only, preserve duplicate74 no computation, freeze run before execution and independently review full lists
+
+## Event 416 — root98fresh
+
+2026-10-01T13:51:54.247134+00:00 · hypothesis 77 · claim
+
+> claimed
+
+## Event 417 — numerical98fresh
+
+2026-10-01T13:53:31.202420+00:00 · hypothesis 75 · handoff · to verifier98fresh
+
+> Preflight artifacts frozen: search.py SHA-256 b19f1aaae55d705fb2487ecb04ca1f8e878688404c2e9a03133edb4e73b305aa; config.json SHA-256 d347c2aeff25828c476354e10baeb0df184022eb8c1ecfc859e7bcc2e7b89b52. All98 initial vector is literal default_rng(9261501).normal(0,.3,98), A1/B1 nonzero. Static review requested only pre-reservation; defer objective/matrix checks to post-reservation.
+
+## Event 418 — numerical98fresh
+
+2026-10-01T13:53:31.246445+00:00 · hypothesis 75 · handoff · to root
+
+> Frozen preflight files: collaboration/work/numerical98fresh/search.py and config.json. SHA-256 script b19f1aaae55d705fb2487ecb04ca1f8e878688404c2e9a03133edb4e73b305aa; config d347c2aeff25828c476354e10baeb0df184022eb8c1ecfc859e7bcc2e7b89b52. Config self-hash omitted for external freeze. Workspace script infers the reserved ID from its numeric directory. Static AST parse only; no objective/matrix computation.
+
+## Event 419 — numerical98fresh
+
+2026-10-01T13:54:58.615744+00:00 · hypothesis 75 · run
+
+> 393
+
+## Event 420 — verifier98fresh
+
+2026-10-01T13:58:39.728874+00:00 · hypothesis 76 · inconclusive
+
+> Independent prefit verified the frozen RNG9261501 full98 point, nonzero A1/B1, all98 free coordinates, and coordinate/native/compiled matrix equality (errors below 7e-16); postfit checked all four complete lists and exact objective agreement. Run393 best compiled12CX remains invalid (max target offdiag0.6743631, normalized loss0.45489857). One bounded start only; no family exclusion, lower bound, or exact certificate.
+
+## Event 421 — numerical98fresh
+
+2026-10-01T13:58:39.756646+00:00 · hypothesis 75 · handoff · to verifier98fresh
+
+> Run393 post-fit snapshot for independent review: one start, 0 restarts, 284 iterations/301 evaluations, 3.439s; normalized Frobenius objective .908501360688 to .454898570731; optimizer success by relative-reduction ftol termination, while best gradient norm 3.8973e-8 exceeds gtol1e-10. Best compiled 12-CX checker says invalid, max offdiagonal .674363073634; initial max offdiagonal .529568978351 (so objective and max-entry diagnostic move differently). Both invalid. Please independently review all four gate lists/checkers before coordinator closes75; no exact/local-min/global claim.
+
+## Event 422 — verifier98fresh
+
+2026-10-01T13:58:39.875811+00:00 · hypothesis 76 · handoff · to numerical98fresh
+
+> Run393 initial and best native/compiled lists independently pass chronology, counts (4CX+4F; compiled12CX), coordinate-vs-native and native-vs-compiled matrix checks; best normalized loss 0.45489857/maxoff 0.67436 remains invalid. The single-start budget is consumed: do not repeat under this hypothesis. Any follow-up needs a new board hypothesis and ledger reservation; no family exclusion.
+
+## Event 423 — numerical98fresh
+
+2026-10-01T13:58:39.947660+00:00 · hypothesis 75 · handoff · to algebraic98fresh
+
+> Run393 bounded result: all98-coordinate single start from seed9261501, no restarts; 284 iterations/301 evaluations/3.439s; Frobenius objective .908501360688 -> .454898570731. Best gradient3.8973e-8, L-BFGS-B stopped by relative-reduction ftol rather than gtol. Best compiled12-CX list remains invalid maxoff .674363; initial maxoff .529569, despite lower Frobenius loss. No local minimum, basin/gauge-orbit novelty, exact certificate, family exclusion, or lower-bound claim. Report updated; verifier post-fit audit pending.
+
+## Event 424 — verifier98fresh
+
+2026-10-01T13:58:39.971401+00:00 · hypothesis 76 · handoff · to algebraic98fresh
+
+> Independent run393 audit confirms the 98-coordinate chronology and both initial/best serialized circuits represent the declared family; best point remains numerically invalid (loss .45489857, maxoff .67436). Its L0 q2 rotation components are near 1e-8 but this is floating optimizer output, not an exact identity or proof. If useful, inspect as a new structural gauge/cancellation question without treating it as a candidate or lower bound.
+
+## Event 425 — verifier98fresh
+
+2026-10-01T13:58:40.012467+00:00 · hypothesis 76 · handoff · to root
+
+> Run393 postfit audit is saved in collaboration/work/verifier98fresh/POSTFIT_AUDIT.json and REPORT.md. Initial/best coordinate-to-native errors 6.00e-16/1.07e-15; native-compiled 4.00e-16/7.45e-16; loss agrees within 5.6e-16. Best compiled12CX invalid: maxoff .6743631, loss .45489857. No exact certificate, family exclusion, or lower bound.
+
+## Event 426 — numerical98fresh
+
+2026-10-01T13:59:33.385189+00:00 · hypothesis 75 · handoff · to verifier98fresh
+
+> Thanks; independent audit now incorporated into collaboration/work/numerical98fresh/REPORT.md. Phase errors coordinate-to-native 6.00e-16 initial/1.07e-15 best; native-to-compiled 4.00e-16/7.45e-16; unitarity <=1.6e-15; independent losses within5.6e-16. Best remains invalid; ftol stop did not meet gtol.
+
+## Event 427 — numerical98fresh
+
+2026-10-01T13:59:33.421412+00:00 · hypothesis 75 · handoff · to algebraic98fresh
+
+> Independent post-fit review completed: coordinate-to-native phase errors 6.00e-16 initial/1.07e-15 best; native-to-compiled errors 4.00e-16/7.45e-16; all four unitarity errors <=1.6e-15; losses match within5.6e-16. Counts 4CX+4XX/YY native,12CX compiled. Best remains invalid maxoff .674363; fit is bounded numerical evidence only. Updated numerical98fresh/REPORT.md.
+
+## Event 428 — numerical98fresh
+
+2026-10-01T13:59:33.457396+00:00 · hypothesis 75 · handoff · to root
+
+> Report updated with run393 outcome and independent verifier metrics. One start,284 iter/301eval/3.439s; loss .908501360688 -> .454898570731; grad norm3.8973e-8; ftol convergence but not gtol. Best12CX invalid maxoff .674363; initial maxoff .529569 despite lower Frobenius. Independent review: coord/native phase 6.00e-16/1.07e-15, native/compiled 4.00e-16/7.45e-16, all unitarity <=1.6e-15, losses within5.6e-16. No local min, orbit/basin novelty, family exclusion, exact certificate, or lower-bound claim. Root can now close75 after ledger finalization.
+
+## Event 429 — numerical98fresh
+
+2026-10-01T14:01:40.961806+00:00 · hypothesis 75 · inconclusive
+
+> 393 onefresh98 seed9261501 fitcompleted284iterations301eval3.439sec; loss.9085->.45489857 butbest12CXinvalidmaxoff.674363. Independentlycheckedall4lists; no restart/exclusion/certificate. Frozen inputs,outputs,bestcandidate retained; exact13 unchanged.
+
+## Event 430 — root98fresh
+
+2026-10-01T14:03:33.347250+00:00 · hypothesis 77 · completed
+
+> Authorized onefresh98 run393 executed once underfrozenbudget, terminalfailedcandidate; independent4list/vectorchecks pass. Loss.9085->.4549 but12CXinvalid. Allreports/inputs/outputs retained; exact13 unchanged,noextrascheduled.
+
+
+# Round20 actual board exchanges after initial HEAD
+
+## Event 571 — algebraic98difference
+
+2026-10-01T16:20:33.281554+00:00 · hypothesis 112 · handoff · to numerical98fresh
+
+Board message: By-hand result in collaboration/work/algebraic98difference/REPORT.md: R stores d=a xor b and T_d=CZ_A X_A^d. W00=I; W10=H0 CS†(q2->q0); W01=H2 CS†(q0->q2); W11=H0 C_(q2=0)(S†0) CX(q0->q2) after changing (a0,a1)->(t=a0,r=a0 xor a1). Branchwise fixed-d costs 0/2/2/3 CX but selectors are uncounted; no ≤6 full controlled-C decomposition demonstrated. Also your Bell initializer matches round19/report by inspection: dec on L0 q0/q1, Rx(-π/2) q2/q3, F02/F13=-π/4, Rx(π) on L1 q0 and L2 q1.
+
+## Event 572 — algebraic98difference
+
+2026-10-01T16:20:33.317533+00:00 · hypothesis 112 · handoff · to verifier98fresh
+
+Board message: Please review branch formulas and scope in collaboration/work/algebraic98difference/REPORT.md. Exact d branches stated; six-CX budget is after prefix+R. Fixed-branch CX costs exclude branch selectors and are not a global lower bound.
+
+## Event 573 — algebraic98difference
+
+2026-10-01T16:20:33.420999+00:00 · hypothesis 112 · handoff · to root98
+
+Board message: By-hand branch diagonalizer and honest cost caveat saved in collaboration/work/algebraic98difference/REPORT.md. W00=I; W10=H0 CS†(q2->q0); W01=H2 CS†(q0->q2); W11=H0 C_(q2=0)(S†0) CX(q0->q2). Fixed branch costs 0/2/2/3 CX; selector cost unaccounted, so no six-CX realization shown and no lower bound. C R suffices without unrouter. Also static-checked numerical98fresh Bell point signs: all match round19.
+
+## Event 575 — verifier98difference
+
+2026-10-01T16:23:35.534552+00:00 · hypothesis 110 · handoff · to algebraic98
+
+Board message: By-hand parity router and branch basis derivation, including common CS† simplification, is saved in collaboration/work/verifier98difference/REPORT.md. Exact prefix+router cost is 4 CX with 8 CX remaining; generic prefix allocation leaves 6. Conditional P/H/B decomposition cost remains open.
+
+## Event 576 — verifier98difference
+
+2026-10-01T16:23:35.586772+00:00 · hypothesis 110 · handoff · to numerical98fresh
+
+Board message: By-hand parity router and branch basis derivation, including common CS† simplification, is saved in collaboration/work/verifier98difference/REPORT.md. Affine one-bit orientation obstruction proved; exact prefix+router cost is 4 CX with 8 CX remaining; generic allocation leaves 6. Conditional P/H/B decomposition cost remains open.
+
+## Event 577 — algebraic98difference
+
+2026-10-01T16:24:45.161782+00:00 · hypothesis 112 · handoff · to root98
+
+Board message: Important corrected account in REPORT.md: specialized exact Bell decoder is 2 CX total (each H_c CX(c->t), matrix product; chronological CX then H), not generic free-F cost4. Router2 + shared B=CS†2 leave6CX for C. Verifier found shared selector P=CX(q0->q2) controlled only on d1=q3, a Toffoli; then H0 controlled d0 and H2 controlled d=01. Standard exact Toffoli alone=6CX, so literal separate-control implementation exceeds remainder; possible relative-phase merged factorization remains open.
+
+## Event 578 — algebraic98difference
+
+2026-10-01T16:24:45.198863+00:00 · hypothesis 112 · handoff · to numerical98fresh
+
+Board message: Revised REPORT.md: shared B simplification plus verifier P selector. Prefix specialized decoder cost2CX, R2, B2, leaving6 for C. C can be P=Toffoli controls q3,q0 targetq2, then H0 controlled d0 and H2 controlled d=01. No six-CX full-selector circuit demonstrated; phase-aware merge open. Also your Bell decoder signs/order match by inspection.
+
+## Event 579 — algebraic98difference
+
+2026-10-01T16:24:45.256417+00:00 · hypothesis 112 · handoff · to verifier98fresh
+
+Board message: Updated report with your independently checked B signs and shared P=CX(q0->q2) controlled on d1, plus corrected exact-prefix cost2CX. Please confirm no issue in new selector ordering: apply P first; then controlled-H0 on d0=1 and controlled-H2 on d=01.
+
+## Event 588 — root98difference
+
+2026-10-01T16:28:02.118168+00:00 · hypothesis 111 · handoff · to verifier98selectorbaseline
+
+Board message: REPORT root98difference: literal19CX route with exact2CX Bellprefix, outputunroute omitted, sharedCSdg andselectors. Freezecompleteprimitivebaseline beforeoneboundedindependentcheck; goal remains12, compression separate.
+
+## Event 591 — numerical98selectorcompression
+
+2026-10-01T16:30:39.101680+00:00 · hypothesis 115 · handoff · to verifier98fresh
+
+Board message: Read-only phase audit: collaboration/work/numerical98selectorcompression/REPORT.md. Any finite screen should compare complete unitaries to the abstract diagonalizer and check diagonal/root multiplicities; RCCX-derived CCH residuals become V Delta V† and can be non-diagonal, while inactive branches retain q2-dependent roots. No evaluation was run.
+
+## Event 592 — numerical98selectorcompression
+
+2026-10-01T16:30:39.147802+00:00 · hypothesis 115 · handoff · to algebraic98
+
+Board message: Read-only phase audit: collaboration/work/numerical98selectorcompression/REPORT.md. Please check the V Delta V† CCH warning and inactive-branch q2 root dependence. No computation or circuit evaluation was run.
+
+## Event 593 — algebraic98selectorphases
+
+2026-10-01T16:31:33.474635+00:00 · hypothesis 114 · handoff · to numerical98fresh
+
+Board message: Phase conditions/report: collaboration/work/algebraic98selectorphases/REPORT.md. Before final CH, residual diagonal phase must be independent q0 across d0=1 pairs and independent q2 across d=01 pairs. After all selector H gates any output diagonal is safe. For saving B one CX, moved residual must be A-only and make δ(D_A B)=π, i.e. δ(D_A)=3π/2 mod2π; selector-dependent cross terms cannot merge into B. VΔV† from target-conjugated RCCX must be inspected, not assumed diagonal.
+
+## Event 594 — algebraic98selectorphases
+
+2026-10-01T16:31:33.524844+00:00 · hypothesis 114 · handoff · to verifier98fresh
+
+Board message: Please use algebraic98selectorphases/REPORT.md exact conditions against literal primitive relations: orient each relative-phase gate as D_out G or G D_in; test q0/q2 orbit constancy through final Hs and whether net moved phase is A-only with δ residual=3π/2 to save B. A conjugated RCCX residual VΔV† may not be diagonal. No variant certified in my read-only report.
+
+## Event 595 — algebraic98selectorphases
+
+2026-10-01T16:31:33.574119+00:00 · hypothesis 114 · handoff · to root98
+
+Board message: Selector-phase audit report at collaboration/work/algebraic98selectorphases/REPORT.md. Conditions: pre-H residual D constant across q0 in d0=1 pairs and q2 in d=01 pairs; post-H output diagonal arbitrary. To absorb one CX into B=CS†, moved residual must be A-only and δ(D_A)=3π/2 mod2π. `VΔV†` generally non-diagonal for target-conjugated RCCX, including inactive control branches with q2 labels; no relative variant assumed valid.
+
+## Event 597 — verifier98selectorbaseline
+
+2026-10-01T16:34:07.754991+00:00 · hypothesis 116 · handoff · to algebraic98
+
+Board message: Static 19-CX gate builder and decomposition are in collaboration/work/verifier98selectorbaseline/REPORT.md and check_baseline.py. CH/CCH basis orientations were checked by hand. Please review whether the exact phase polynomial and controlled branches match the parity derivation; numerical/exact checks remain reserved-only.
+
+## Event 598 — verifier98selectorbaseline
+
+2026-10-01T16:34:07.796497+00:00 · hypothesis 116 · handoff · to numerical98fresh
+
+Board message: Static 19-CX gate builder and decomposition are in collaboration/work/verifier98selectorbaseline/REPORT.md and check_baseline.py. CH/CCH basis orientations were checked by hand. Please review the full gate sequence against the parity derivation; numerical/exact checks remain reserved-only.
+
+## Event 611 — verifier_sol
+
+2026-10-01T18:18:11.253980+00:00 · hypothesis 121 · handoff · to root
+
+Board message: REPORT.md audits run405 hashes/logs/full50-gate word and exact metadata without matrix reexecution. Independently proved all16 literalCZ12variants fail at d10,a1=1 with ±iY block/maxoff1; root cancelled redundant numerical screen. Accepted13 unchanged.
+
+## Event 612 — verifier_sol
+
+2026-10-01T18:18:11.289806+00:00 · hypothesis 121 · handoff · to algebraic_sol
+
+Board message: Independent by-hand confirmation of d10,a1=1 obstruction saved in collaboration/work/verifier_sol/REPORT.md, including target-bit T-exponent derivation of RCCX I/I/Z/Y and Hermitian adjoint redundancy.
+
+## Event 613 — verifier_sol
+
+2026-10-01T18:18:11.352300+00:00 · hypothesis 121 · handoff · to numerical_sol
+
+Board message: Root skipped knownfailed12CZscreen; static proof and comparator audit complete. New16corrected13anchor prep requires fresh board static readiness review before root reservation; no matrices executed here.
+
+## Event 624 — numerical_sol
+
+2026-10-01T18:20:14.141617+00:00 · hypothesis 120 · handoff · to algebraic_sol
+
+Board message: Closedunexecuted at numerical_sol/REPORT.md using your d10 obstruction; preserved screen.py/PLAN.md. Freshboard124 static13anchor prep pending d11 review; no config/reservation/matrices.
+
+## Event 625 — numerical_sol
+
+2026-10-01T18:20:14.224527+00:00 · hypothesis 120 · handoff · to verifier_sol
+
+Board message: Closedunexecuted at numerical_sol/REPORT.md, sector d10 peerobstruction and Hermitianadjoint redundancy. Recorded double-Ubuild defect in unexecuted12script; new13prep pendingstaticd11review, no runtime.
+
+## Event 626 — verifier_sol
+
+2026-10-01T18:20:33.727042+00:00 · hypothesis 122 · handoff · to root
+
+Board message: ANCHOR13_STATIC.md independently proves all16 corrected13literal choices fail in d11 by preserving a nonzero Y_q0 tensor factor. No fresh config frozen, no matrices executed; numerical screen unnecessary for this restricted claim.
+
+## Event 627 — verifier_sol
+
+2026-10-01T18:20:33.764029+00:00 · hypothesis 122 · handoff · to algebraic_sol
+
+Board message: Independent by-hand K1 X K0/K0 X K1 derivation confirms13anchor d11 factor obstruction. Report collaboration/work/verifier_sol/ANCHOR13_STATIC.md; root informed before freeze/search.
+
+## Event 634 — verifier_sol
+
+2026-10-01T18:23:16.703669+00:00 · hypothesis 125 · handoff · to root
+
+Board message: REPAIRED13_STATIC.md independently derives all4 diagonal sector targets for bothCS signs and both firstPorders using chrono S,RCCX,Sdag and finalVprime Ry(-3pi/4)Rx(-pi/2). Final controls must be(c=1-u,v). Cost13, no saved-list exact certificate or12success yet.
+
+## Event 635 — verifier_sol
+
+2026-10-01T18:23:16.787215+00:00 · hypothesis 125 · handoff · to algebraic_sol
+
+Board message: Independent full4sector table and target-rotation signs confirm repaired13 route; saved collaboration/work/verifier_sol/REPAIRED13_STATIC.md. FirstPorders bothwork/Bsigns bothwork; finalcontrolorder(c,v) essential.
+
+## Event 636 — verifier_sol
+
+2026-10-01T18:23:16.919496+00:00 · hypothesis 125 · handoff · to numerical_sol
+
+Board message: REPAIRED13_STATIC.md confirms byhand13route; prepare literal2Bsignx2Porder variants with fixed finalcontrols(c,v), phase-conjugated firstP. Root owns frozen finite gate-list reservation. No matrices/exact checks performed here.
+
+## Event 637 — algebraic_sol
+
+2026-10-01T18:23:35.422973+00:00 · hypothesis 119 · handoff · to root
+
+Board message: Static proof saved in collaboration/work/algebraic_sol/LITERAL_OBSTRUCTIONS.md: all original16 CZ-anchor literals fail d10; adjoint duplicates. Independent verifier confirmed. No matrix evaluation or search; no family exclusion.
+
+## Event 639 — algebraic_sol
+
+2026-10-01T18:23:35.595506+00:00 · hypothesis 123 · handoff · to numerical_sol
+
+Board message: PHASE_REPAIR.md gives independently confirmed structural13: B=CSdg2CX; P chrono S_y,RCCX(v,x;y),Sdg_y3CX; final negativecontrol(c=1-u,v) RCCX wrapped Vprime=Ry(-3pi/4)Rx(-pi/2)3CX. InactiveY on d00 is harmless permutation. Fullgate candidate still requires root-reserved checks; one moreCXsave unresolved.
+
+## Event 640 — algebraic_sol
+
+2026-10-01T18:23:35.686717+00:00 · hypothesis 123 · handoff · to verifier_sol
+
+Board message: Independent by-hand confirmation received for corrected13 phase repair. Complete block chronology and cost in collaboration/work/algebraic_sol/PHASE_REPAIR.md. Please bind generated candidate to this table and do root-reserved finite numerical/exact checks; accepted13unchanged. No12claim.
+
+## Event 641 — algebraic_sol
+
+2026-10-01T18:28:15.365481+00:00 · hypothesis 123 · handoff · to root
+
+Board message: Explicit exact4CX merge found and saved MERGED12.md: choose correctedP controls(x,v), B=CSdg; mergedblocks I,I,S,XSdg. Chrono four controlled reflections N1_x,N2_v,N3_x,N4_v plusT_x gives exactblockproduct; full12CX chronology included. Static identity only pending independent gate-list/exact checks, no matrix or optimizer ran.
+
+## Event 642 — verifier_sol
+
+2026-10-01T18:28:24.924763+00:00 · hypothesis 125 · handoff · to root
+
+Board message: One13anchor pack is prepared in verifier_sol/repaired13 with script/config/full42gatecandidate hash manifest, zero matrices. Root can supersede unreserved check by new independentlyconfirmed4CX B/P merge direct12 proposal; no executionauthorized yet.
+
+## Event 643 — algebraic_sol
+
+2026-10-01T18:29:16.423606+00:00 · hypothesis 123 · handoff · to verifier_sol
+
+Board message: MERGED12.md completeexplicit12 chronology, independent by-hand4CXconfirmation received. Predicted D in q0q1q2q3order [1,1,1,-1,1,i,-i,1,-1,i,1,-i,-1,-i,i,-1], roots6/4/3/3. Pleasebindserializedcandidateandrootreservedexactchecktothisindependentprediction.
+
+## Event 645 — numerical_sol
+
+2026-10-01T18:29:20.633008+00:00 · hypothesis 126 · handoff · to verifier_sol
+
+Board message: MERGE4_STATIC.md independently checks all4blocks of fourcontrolledreflections plusT_x, exactprimitiveRz/Ry signs andscalarphases. 4CX exactlymatches correctedP(x,v)B_CSdg. Full12wordcertification remainsrootreserved; no matrices executed.
+
+## Event 646 — numerical_sol
+
+2026-10-01T18:29:20.714996+00:00 · hypothesis 126 · handoff · to algebraic_sol
+
+Board message: Your4CX merge passed independentPauli multiplication includingoutputT_x scalarphases. Exactprimitivechronology documented numerical_sol/MERGE4_STATIC.md. Nominalcomplete12 pendingfullcertification, no matrices orfit.
+
+## Event 653 — verifier_sol
+
+2026-10-01T18:34:02.684817+00:00 · hypothesis 127 · handoff · to root
+
+Board message: Authoritative candidate12 frozen39gates12CX with Rz-N3 wrapper, scriptbdccafc08432d507a766e94c509e463b09294b5666577742b9c95747ca181533,config98245eac648421862b5d3ee34dd54d1f826b8ebca18af39db61875de3bfa6b15,candidate58a862a4acef4e768c4613e9b142504592f5237a68539941148653a7f083eea2. Root reserve config wrapper/frozenhash then one NumPy30s+exact60s external100s. Zero computation.
+
+## Event 654 — verifier_sol
+
+2026-10-01T18:34:02.735444+00:00 · hypothesis 127 · handoff · to numerical_sol
+
+Board message: Prepare independent Fraction Phi16 checker against candidate12/candidate.json hash58a862a4acef4e768c4613e9b142504592f5237a68539941148653a7f083eea2. Standard Rx/Ry/Rz and U3 phases; exact expectedlabels frozen. No computation until root reserve.
+
+## Event 656 — verifier_sol
+
+2026-10-01T18:36:56.196512+00:00 · hypothesis 127 · handoff · to root
+
+Board message: ACCEPTANCE_REVIEW.md passes full39gate12CX literal/hash/ledger audit and exactcertificate coverage. Run406 numericalmaxoff5.673584e-16; exactconductor16/outputlabels match predicted16rows, counts6/3/4/3 rootorder1/i/-1/-i. No new matrix/checker invocation. Fraction independentcert pending; root owns acceptance.
+
+## Event 659 — numerical_sol
+
+2026-10-01T18:37:48.705407+00:00 · hypothesis 128 · handoff · to verifier_sol
+
+Board message: Frozen independent12 Fraction quotient-ring checker ready; noNumPy/SymPy orcheckerimports. ScriptSHA dcd3956ba7194ffc869dc03cee1f92db46ac249c0f57029398e1ad0a41094e6f, configSHA044ddc496be587abd767b1f8a14b3914f08441f1bb13410363f14509601334d2. Candidate identicalrun406SHA58a862a4...eea2; awaitingrootreservation/dispatch.
+
+## Event 661 — numerical_sol
+
+2026-10-01T18:39:37.435447+00:00 · hypothesis 128 · handoff · to verifier_sol
+
+Board message: Independent exact407PASS; savedinputs/outputshashesaudited, matchinglabels and12CX. REPORT numerical_sol/independent12/REPORT.md recordsall256 roweigenvector+unitarity identities andindependentFractionalgorithm. Noadditionalexecution, nofindingssource/outputaudit.
+
+
+# Round21 actual board exchanges
+
+## Event 672 — verifier11router
+
+2026-10-01T20:05:13.518866+00:00 · hypothesis 130 · to root
+
+Board message: ROUTER_REPORT.md independently proves literalrouterdeletions fail via preserved-u/v intersectorblocks and confirms algebraic explicitnonmonomialresidues. Doesnotexclude144localfree deletionrefits or changedtailabsorbedrouter. No matrices.
+
+## Event 673 — verifier11router
+
+2026-10-01T20:05:13.554434+00:00 · hypothesis 130 · to algebraic_sol
+
+Board message: Both explicit residues independently confirmed, including i/sqrt2 phase. ROUTER_REPORT.md gives stronger target-intersectorblock proof for fixedu/v-preservingtail and notes nonmonomialresidue alone is insufficient withdegeneracy.
+
+## Event 674 — root11
+
+2026-10-01T20:05:31.681823+00:00 · hypothesis 131 · to numerical_sol
+
+Board message: Coordinator phase/block review: unchanged tail commutes with Z_u and Z_v, so literal router omission cannot remove off-sector block rank; full-local144-coordinate refit remains distinct because controls may rotate. See work/root11/ROUTER_SCOPE.md. Keep structural failure separate from bounded optimizer evidence.
+
+## Event 675 — algebraic11router
+
+2026-10-01T20:10:10.733351+00:00 · hypothesis 129 · to numerical_sol
+
+Board message: REPORT.md records actualjointtargets beyonddeletion: R01commutesmerge and movesadjacentCH; R23conjugation makesmergedblockcontrolled-x J=SWAP CZ Sdg, finalFprimecontrolled-u0 evenY/oddH. Both2qubitblocksarematchgates bydirectdeterminants; costs4/3notproved. Changedmerge mustmix omittedregister; fullfree refitsnotexcluded. No11candidate/computation.
+
+## Event 676 — algebraic11router
+
+2026-10-01T20:10:10.810688+00:00 · hypothesis 129 · to verifier_sol
+
+Board message: REPORT.md retains independentlyconfirmedJ andFprimeparityblocktargets, explicitdeletionresidues, andfixedregisterobstruction. RootreportedoneCXpairbasiscontrolledlocalPauli template rankobstruction isnotedonlyaspeerfinding. No11costproof orcandidategateword. Pleaseinspectjointfuturehypotheses againstexacttargetratherthanfixedtailomission.
+
+## Event 678 — numerical_sol
+
+2026-10-01T20:13:45.073658+00:00 · hypothesis 132 · to verifier_sol
+
+Board message: Frozen numerical11delete packet ready;fitSHAf90819b38d17156c1f20bbf4b21274f4023a4f39829f52e524d8a7426cc5593c,familySHAb7361e44000a2a0221a61fdef1173c6d68f509995aa279c3b9446f9b3dd04e0b. Staticreviewonly; awaitreservedall12collapse/serializer/gradient preflight beforefit. Sharedcheckersunchanged.
+
+## Event 679 — numerical_sol
+
+2026-10-01T20:13:45.175121+00:00 · hypothesis 132 · to algebraic_sol
+
+Board message: Onefrozen12case11CXdeletionrefit fromnewsource406 prepared full144locals,PCG64seed10012101sigma.025,max80iterations8s/case110internal120external. Noliteralfailureexclusions claimed. RouterrewriteinsightrecordedPREPARATION_REVIEW.md; currentworddoesnotreorder. No matrix/optimizer untilrootpreflight/reservation.
+
+## Event 680 — verifier11router
+
+2026-10-01T20:15:35.188506+00:00 · hypothesis 130 · to root
+
+Board message: ROUTER_REPORT.md/JOINT_R23.md/FIT_STATIC_REVIEW.md complete byhand+staticreview. Fixedtailrouteromissionsinvalid; jointRMRtarget/Schmidtrank4 restrictedrouteobstruction confirmed. Frozen12case144local deletionfit staticready pending independentpreflight133. Zero matrices.
+
+## Event 682 — verifier11router
+
+2026-10-01T20:15:35.294856+00:00 · hypothesis 133 · to root
+
+Board message: Preflightpack frozen132totalfullwordbuilds including12ADloss and24FDloss builds; 12directionsseed0cos; reproducesall1728fitnoisevaluesPCG64seed10012101 beforecases. Script e9b8293e891a6a54a7b3bf3f42e8bcc160fe3dfa577e48a7f900fc6dbbf15f93 config61b674d0478d8ef2afe2dcdef45bfddde2c523c8fe1220288af09d1f70616b16. Rawconfig/methodexactledgerguard; boardownerverifier11router. Zero preparationmatrices/randomdraws; readyrootreserve.
+
+## Event 693 — verifier11router
+
+2026-10-01T20:23:34.593859+00:00 · hypothesis 134 · to root
+
+Board message: Allendpoint84matrixaudit pack frozen postfit/{audit.py,config.json,input_manifest.json,MANIFEST.json,PLAN.md}; 93source409artifact hashes. Script eb40c1a36c65ad1c416457bc33718a1bac12b38f425acc62f1d5f00aee7e3278 configfddb8969e338bc636f1195dd7027320a947ca7ebd01e59e0f0e31d58d7e12896 inputmanifest ea827e91b2f16cb940156c4d240ce69a7492a712460375cc1a1544e9a2f943ae. Rawconfig ledgerguard/source409closed required;60s1thread zerooptimizer/derivative. Preparation0matrices/RNG; readyrootreserve.
+
+## Event 698 — algebraic11nearhit
+
+2026-10-01T20:27:44.828271+00:00 · hypothesis 135 · to root
+
+Board message: Complete30gate11CX candidate.json and EXACT11_PROPOSAL.md saved. JointM4/F2 modification: lastmergedN4 Ryconjugation angle7pi8, finalH2 CX12 H2 thenRy2(3pi8)CX32Ry2(-3pi8). Independentverifierconfirmedallsectors/predictedD/conductor32. JSONsyntax/diffcheckpass; no matrices/search/optimizer. Rootreserve/fullgateacceptancepending.
+
+## Event 699 — algebraic11nearhit
+
+2026-10-01T20:27:44.914755+00:00 · hypothesis 135 · to numerical_sol
+
+Board message: Exact11 structuralcandidate matches409deletion9, savedalgebraic11nearhit/candidate.json. Modifiedlastmergedreflection absorbsvcontrolledRy(-pi4), final2CXcontrolledZ_u andNv_v. Allcontrolsremainpreserved; changedjointtargetbasisexplainsfixedoldselectorobstructionescape. Verifierconfirmedbranches. Precision409Newtonmaynotbeneeded; rootownsreservedcertification.
+
+## Event 700 — algebraic11nearhit
+
+2026-10-01T20:27:45.004677+00:00 · hypothesis 135 · to verifier_sol
+
+Board message: candidate.json full30gatechronology and EXACT11_PROPOSAL.md saved. Predictedroots[1,1,1,-1,1,i,-i,1,1,i,-1,-i,-1,-i,i,-1]; u0v0changedbecauseoldYpermutationremoved. Completephaseproofincludesf_i=(i+1)I/2+(i-1)Z/2. Root11packauthoritativeforreservedchecks; no incumbentpromotionyet.
+
+## Event 704 — verifier11router
+
+2026-10-01T20:28:34.613284+00:00 · hypothesis 137 · to root
+
+Board message: Analytic11pack candidate11 frozen30gates11CX; independentcompletephaseSECTOR_REVIEW passes. Script dc3686e6ee071789c489c7b8f419c2fcbd65a6e5e97f7642b7445e232e1315ea configd021c7a2c74289f7b2e48aa81ec730b5290fb624a71492c5b849233430a48c63 candidate557c55cddefb697bcd4e038db300117d0aaaf6f6af97e851e0831baf257dbe4a. Numerical60/exact90/external160 one-thread seed0. Root reservation frozen_config wrapper; zero matrices/checkers executed.
+
+## Event 708 — numerical_sol
+
+2026-10-01T20:31:01.954384+00:00 · hypothesis 138 · to verifier_sol
+
+Board message: IndependentPhi32 ready: numerical11exact/certify.py SHA f0c9c05f872139937e1f9fd5ad22006033ec1d3f7e3467788f4d1199b4b6eb09,configdd00ad8759bf193ed07fb92ce0b6c47674dae1f3c40d1563c2e43d4a5aadc7b5,candidate557c55cd...e4a. Degree16/period32/phase16f/half8f/Hcosz4/I=z8/rootsz8k. All256exactrow+unitaritychecks; zeroexecution untilrootreserve.
+
+## Event 710 — numerical_sol
+
+2026-10-01T20:32:50.735761+00:00 · hypothesis 138 · to verifier_sol
+
+Board message: Independent exact412PASS full256row-eigenvector+unitarity;labelsagree411/prediction. Source/candidate/config/matrixhashauditpassed. numerical11exact/REPORT.md; noadditional matrixcalls; rootacceptance afteryour11review.
+
+## Event 711 — verifier11router
+
+2026-10-01T20:33:56.763735+00:00 · hypothesis 137 · to root
+
+Board message: ACCEPTANCE_REVIEW11.md PASS: unchanged30gate11CXfullword;411numericmaxoff5.03934e-16/depth8 andexactconductor32labels;412independentFractionPhi32all256UV-DU/all256UUdag exactzero, discoveredlabels match. Hashes/sourcecoverage/phase/cost auditscomplete, zero newmatrices. Ready rootformal acceptance; noincumbent changed byreviewer.
+
+## Event 718 — algebraic10
+
+2026-10-01T20:45:01.622053+00:00 · hypothesis 139 · to numerical10
+
+Board message: Exact11 final N4prime(v;y) commutes through T_x and CH(u;x), so final three target reflections form F00=I,F10=Z,F01=-iY,F11=(Z-X)/sqrt2. Fixed two controlled-target factorization fails (F01 F10=X). Investigate output monomial or changed degenerate eigenbasis gauges. No matrices computed.
+
+## Event 719 — algebraic10
+
+2026-10-01T20:45:01.706215+00:00 · hypothesis 139 · to verifier10
+
+Board message: Independently check joint suffix products: B=sX+cZ, Nprime=-cX+sZ, s=sin(pi/8),c=cos(pi/8); B Nprime=-iY and B Z Nprime=(Z-X)/sqrt2. Nprime commutes through CH(u;x),T_x. Two-CX reduction must use gauge freedom beyond a fixed controlled-target product.
+
+## Event 723 — numerical10
+
+2026-10-01T20:47:53.005734+00:00 · hypothesis 140 · to verifier10
+
+Board message: Frozen preparation collaboration/work/numerical10delete: family SHA9a5f4929242590230925ba9f3a7cd428da6143c61d7e196eade4203f6fd37731, fit SHA11cd1f5b7f67ad16bb7a577b0f6f911a451a13641542232381f74aaffbc1e57c, config SHAad9cc02a89ad751803b3f8d8cf1f561034e7675160d043d5ae96ac0f276f4337. API collapse returnsbase132/topology10/deleted/layers11/sourceposition; TorchWord.unitary/loss; serialize/unitary_numpy. Root reservation and independent preflight required before fit; metadata-only preparation.
+
+## Event 724 — numerical10
+
+2026-10-01T20:47:53.039248+00:00 · hypothesis 140 · to algebraic10
+
+Board message: Exact11 source CX chronology ordinals0..10:02,13,01,23,02,32,02,32,10,12,32; positions0,2,4,5,7,10,13,16,21,25,28. Frozen topologies at numerical10delete/topologies.json. Delete each once, all132 local coordinates free, no reordering; if exact10 succeeds root must preserve fit preparation unexecuted.
+
+## Event 728 — algebraic10
+
+2026-10-01T20:49:58.557760+00:00 · hypothesis 139 · to root
+
+Board message: By-hand result at collaboration/work/algebraic10/SUFFIX_OBSTRUCTION.md: joint 3-CX suffix blocks I,Z,-iY,A. Fixed prefix plus sector-preserving two target interactions obey a corner product law, so monomial first3 blocks force monomial fourth, contradicting A full support. Includes conditional target basis and sectorwise y output permutations, excludes global control-label/degenerate-sector mixing and earlier-prefix changes. Independent verifier confirmed identities and obstruction; exact10 not found. Fresh full-local deletion fits can escape by changing prefix axes.
+
+## Event 730 — algebraic10
+
+2026-10-01T20:50:36.364825+00:00 · hypothesis 139 · to numerical10
+
+Board message: Final bounded report SUFFIX_OBSTRUCTION.md; board139 closed inconclusive. Fixed-prefix2 controlled-target suffix impossible up to y output monomial gauges; not a full10 topology exclusion. Most direct escape is ordinal7 deletion with earlier merge/CH axes refitted, or another deletion changing prefix. Scope and signs reviewed independently; no matrices computed.
+
+## Event 731 — algebraic10
+
+2026-10-01T20:50:36.503381+00:00 · hypothesis 139 · to verifier10
+
+Board message: Final report collaboration/work/algebraic10/SUFFIX_OBSTRUCTION.md; board139 inconclusive. Includes K pre-suffix operators from Fdag D F and explicit restriction to fixed x/u/v labels, target-y controlled architecture and output monomial target gauges. Broad10CX exclusion unclaimed; independent note review requested.
+
+## Event 735 — numerical10
+
+2026-10-01T20:55:41.088999+00:00 · hypothesis 140 · to verifier10
+
+Board message: Bounded static independent-preflight audit found no blocker.121U=11*(8comparisons+1AD+2FD),11AD22FD,132coords11cases10CX54gates; independent primitive/MSB permutations/SciPyexpm references; fixedPCG64fitseed10012201 and deterministicdirections consistent. AST/manifest/canonicalconfig/copiedfitfamily/config hashes passed; latestrefreeze board144 ownerverifier10. No matrix/RNG/AD evaluation, no frozenfile edit, no scientificrun. Runtimeconsistency pending reservedpreflight.
+
+## Event 738 — verifier10
+
+2026-10-01T20:56:54.556232+00:00 · hypothesis 141 · to algebraic10
+
+Board message: Independent Pauli signs and twointeraction factorlaw pass within explicit fixedprefix/target-only scope. Prefix K table also matches AZA=-X; x1 inuv00 supplies nondegenerate monomial condition. Review verifier10/STATIC_REVIEW.md; full10family remains open.
+
+## Event 739 — verifier10
+
+2026-10-01T20:56:54.753350+00:00 · hypothesis 141 · to numerical10
+
+Board message: Static full132-coordinate fit review passed; independent121U preflight now frozen with owner-consistent board144. Source matrices/RNG/gradients still unexecuted pending rootreservation. Review verifier10/STATIC_REVIEW.md; primitive/expm checker independent references, family audited as subject.
+
+## Event 741 — numerical10
+
+2026-10-01T20:57:28.627608+00:00 · hypothesis 140 · to verifier10
+
+Board message: Corrected metadata-only target guard to V4; ledger411 target read confirmsV4. Priorpack preserved superseded_target_cycle unexecuted. NewfitSHA37528ea8ba197eeac28b874faacd0272a9d4c02d8b8e56f212f8b16c5dad4ec6 config878200dbdaedeea0139647f9c8b9e49e5bfa1ff470461713187ad12ee3d44be2 PLANff7093d79b3a7dcd8012df5af041ec668d4bd6d97cadb1099d7c0ffceb2e17d6; otherhashesunchanged. AST/hash/diffchecks pass; verifier must freshcopy inputconfig/script andrefreeze. No matrices/RNG/AD/fit.
+
+## Event 747 — verifier10
+
+2026-10-01T21:00:11.890075+00:00 · hypothesis 145 · to numerical10
+
+Board message: Fresh same121U preflight corrected targetV4 and ownerverifier10, rawconfigf16135162f2c38162d4c92d4e8da3e07245c863186e599c62443b0d0f4bf8fa1, script0d6a435ea0c4cc11bfaf6bab0a2a5677438fabefae0ab1e239d8a4c5b3670241. Copies corrected mainfit37528ea8/config878200db. Old413/414 unexecuted metadata preserved; no new matrices.
+
+## Event 753 — algebraic10
+
+2026-10-01T21:05:05.865121+00:00 · hypothesis 147 · to verifier10
+
+Board message: NEXT_HYPOTHESIS.md proposes preserved exact4CX decoder/router plus new6CX suffix02,32,10,02,12,32, different order from416 ordinal7 suffix02,32,02,10,12,32. Bare chronological02,10,12=10,02 triangle identity motivates joint wrapper/axis absorption; identity does not apply directly to incumbent. Root and peer confirmed chronology/count and narrow-theorem escape. No free-family inequivalence or exact10 claimed; no angles/matrices evaluated.
+
+## Event 754 — algebraic10
+
+2026-10-01T21:05:05.946605+00:00 · hypothesis 147 · to root
+
+Board message: Retain NEXT_HYPOTHESIS.md unexecuted: derive jointly new6CX suffix02,32,10,02,12,32 after exact4CX decoder/router. Earlier u-to-x interaction bypasses fixed-prefix target-only corner law; different order from416 ordinal7. Bare triangle identity correct but wrapped absorption unproved. Run416 not nearhit; no computation requested/authorized and no angle evaluation.
+
+## Event 758 — verifier10
+
+2026-10-01T21:07:08.150941+00:00 · hypothesis 146 · to coordinator22
+
+Board message: Frozen independent postfit pack at collaboration/work/verifier10/postfit. Exactly77 U builds,11 cases,60seconds1thread; targetV4 agentverifier10 parent416 rawconfig. Scriptb5840560 config8f482617 PLAN306373c9 inputmanifest39709f59;114inputfiles. Syntax and static source audit passed; zero matrices/RNG/AD in preparation. Root reserves and executes.
+
+## Event 759 — coordinator22
+
+2026-10-01T21:08:45.497752+00:00 · hypothesis 143 · to algebraic10
+
+Board message: Round22 run416 failed all11 tenCXdeletions; independent417endpointPASS77U. Next distinct unexecuted topology02,13,01,23|02,32,10,02,12,32 bringsCH earlier forwrappedtriangleabsorption; no newfitbudget or exactcandidate. Restricted139 theorem doesnotexclude it.
+
+## Event 769 — verifier10reorder
+
+2026-10-01T21:18:22.794038+00:00 · hypothesis 150 · to coordinator23
+
+Board message: Final finite22U/3AD/6FD preflight frozen verifier10reorder scriptb041c30c config8dca1721 PLAN7be776bd manifest78fd4280.19inputfiles,targetV4,parent416,same-agent ownership. Structural byhand restricted earlyCH obstruction confirmed; full132freefamily not excluded. Zero preparation matrices/RNG/AD; root reserves snapshot and dispatch.
+
+## Event 770 — algebraic10reorder
+
+2026-10-01T21:18:33.973095+00:00 · hypothesis 149 · to verifier10reorder
+
+Board message: PHASE_OBSTRUCTION.md derives router uv10 W=[[0,I],[Z,0]], Q blocks Edag/EP. If firstx computational reflection has E²scalar, x-only earlyCH can diagonalizex only if EP=rhoEdag, forcing targetPscalar; contradiction. Later x-blockdiagonal gates preserve offendingblock. No fulltopology exclusion. Next: tilted firstx control and non-diagonal finalx readout, jointly solve W00/W10 thenv1. No matrices/search.
+
+## Event 771 — algebraic10reorder
+
+2026-10-01T21:18:34.066402+00:00 · hypothesis 149 · to numerical10reorder
+
+Board message: Static phase obstruction note algebraic10reorder/PHASE_OBSTRUCTION.md: earlyCH literal transplant fails if firstxcontrol computational,E²scalar, and later gates x-blockdiagonal. Full132fit can escape via non-diagonal x/control bases. Exactv0 W00=CZxy,W10=[[0,I],[Z,0]] specify phase-compatible algebraic constraints; retain lowerZ quarterphase. No complete10 list/no computation, current planned fullfreefit unexcluded.
+
+## Event 772 — algebraic10reorder
+
+2026-10-01T21:18:34.160391+00:00 · hypothesis 149 · to root
+
+Board message: Final PHASE_OBSTRUCTION.md: new earlyCH restricted obstruction phase-correct, independently reviewed. No10 rationalpi word. Next constructive subproblem uses tilted firstxcontrol plus late xreadout to jointly diagonalize v0 CZxy and W10 [[0,I],[Z,0]], thenextendv1. No matrices/angles/search; fullyfree132reordered family remains open and plannedtest unexcluded.
+
+## Event 775 — verifier10reorder
+
+2026-10-01T21:20:35.255748+00:00 · hypothesis 150 · to coordinator23
+
+Board message: Superseded first unreserved metadata after globalbestsummary clarification; preservedsuperseded_no_global_summary. Currentpreflight sourceb041c30c/config12fb2a0a/inputmanifest281c54ec with fit6faca4de/config055292df copied.22U3AD6FD60s1thread scope unchanged. Readyexactrawconfig reservation; targetV4,parent416,ownerverifier10reorder.
+
+## Event 776 — numerical10reorder
+
+2026-10-01T21:21:05.840715+00:00 · hypothesis 148 · to verifier10reorder
+
+Board message: Currentfreeze numerical10reorder/MANIFEST.json: fitSHA6faca4de3809b39bdaf69e29f544ae25f157af4e09e8e37008a53e93f8205fce config055292df8e3481f97abd697dc13190ba838b8afd0557e83c7b8fb5073d18d083. Rawimmutable416best132, newCXorder02,13,01,23,02,32,10,02,12,32;2PCG64draws sigma.025/.25. Staticpreparationcheckspass. Independentpreflight blocker: comparingwholeliteralJSON retainsoldmetadata while newbasemetadataupdated; compare n/gates semantics beforematrix. Sentlivefixrequest. No matrices/RNG/AD/fit.
+
+## Event 777 — numerical10reorder
+
+2026-10-01T21:21:05.879016+00:00 · hypothesis 148 · to algebraic10reorder
+
+Board message: All132free locals remainunfrozen, including x bases after earlyu-to-x. Preparationpreservesold416bestlocalcoordinatevalues only asinitialbase; noCHwrapper/sectoraxisrestriction. Literalnewbaseword+old/newtopologies at numerical10reorder. Byhandlimitedobstruction isoutside fullfamily; rootrequiresformalreviewbeforedispatch. No numericalevaluation.
+
+## Event 782 — verifier10reorder
+
+2026-10-01T21:23:35.536866+00:00 · hypothesis 153 · to coordinator23
+
+Board message: Corrected semantic n/gates preflight readypeerreview: scriptb9a63c8a config24599b50 PLANa7fab7bf inputmanifest281c54ec;22U3AD6FD60s scope unchanged,targetV4,parent416.418 oldpacket failedbeforefirstmatrixRNGAD,150closedinconclusive;152unuseddependencyproposal preserved. Rootwaitspeernumerical10 staticclearancebeforedispatch.
+
+## Event 789 — verifier10reorder
+
+2026-10-01T21:30:34.730712+00:00 · hypothesis 154 · to coordinator23
+
+Board message: Frozen14Uendpointpack verifier10reorder/postfit scriptfe6bb105 configb85d3eb2 PLANbbedfce8 manifeste951a7ac,43inputfiles incl420COMMAND/CONCLUSION/allcases;60s1thread264noise replay. Sourcepeerstaticpassed; finalhashcoveragereviewpending before rootdispatch. Parent420targetV4sameagent/ownerverifier10reorder. No extra calls.
+
+## Event 792 — coordinator23
+
+2026-10-01T21:34:48.493600+00:00 · hypothesis 151 · to algebraic10reorder
+
+Board message: Round23 two-start reordered fit420 failed; independent421 fourteen-unitary endpoint audit passed. The next distinct hypothesis is a phase-compatible v=0 initialization with tilted x controls and later x readout, preserving W10 lowerZ and then extending to v=1. No unchanged fit repetition or new computational budget is authorized in this closed round.
+# Explicit stop during round24 preparation, 2026-10-01
+
+Human requested stopping work, making a handoff, and pushing to the remote.
+Coordinator interrupted algebraic10, numerical10, and numerical_sol; live registry
+confirms all three interrupted. No scientific process or running ledger attempt
+remains. Boards158–161 closed inconclusive without any computation or reservation.
+Algebraic reduced construction and independent by-hand review are kept; numerical
+draft remains unexecuted. No next assignment dispatched. See HANDOFF.md and
+ROUND_24.md for the exact restart point and pending certification.

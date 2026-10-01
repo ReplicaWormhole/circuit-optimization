@@ -49,7 +49,8 @@ certificate commands, independent results and scope. Keep incumbents separate
 by elementary gate set; never compare an arbitrary two-qubit unitary with a
 fixed entangler merely by calling each one gate.
 
-The accepted exact13 CNOT incumbent is recorded in `EXACT13_ACCEPTANCE.json`.
+The accepted exact11 CNOT incumbent is recorded in `EXACT11_ACCEPTANCE.json`.
+The exact12 and exact13 circuits and acceptance records remain preserved.
 The exact14 certificates remain preserved baselines. First-round native work
 establishes a separate gate-model baseline; its ten entanglers are not ten CNOTs.
 There is no automatic search scheduler: the active coordinator enforces budgets
@@ -72,7 +73,7 @@ research artifacts; SQLite journals and Python caches are ignored.
 
 ## Current results
 
-See `incumbents.json` for separate gate-set records, `ROUND_13.md` for the latest
+See `incumbents.json` for separate gate-set records, `ROUND_21.md` for the latest
 bounded work, `CHATS.md` for actual recorded exchanges, and `ROUND_1.md` for the
 first team's historical outcomes. These
 files are reviewed records, not automatic promotions from submissions.

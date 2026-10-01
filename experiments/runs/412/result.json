@@ -1,0 +1,84 @@
+{
+  "candidate_sha256": "557c55cddefb697bcd4e038db300117d0aaaf6f6af97e851e0831baf257dbe4a",
+  "config_sha256": "dd00ad8759bf193ed07fb92ce0b6c47674dae1f3c40d1563c2e43d4a5aadc7b5",
+  "cx_count": 11,
+  "dependency_sha256": {
+    "fractions": "0669c58fc593177e76f879e92598886747dc69747223bf7f54a9c405aa91286d",
+    "math_extension": "e78a4cc9028f8d2f16d356ad3bed13e77363f24498345db170f64354487af099",
+    "python_executable": "cb945b5ff988d263208e8daaf52499f0871e0bfd3b803ae09a5087ef9e5d8316"
+  },
+  "evidence_scope": "Exact certificate for the saved literal ancilla-free gate list only; no optimality, total-spin, strong Schur-transform, or family exclusion claim.",
+  "exact_row_eigenvector_identity": true,
+  "exact_unitarity": true,
+  "exact_valid_diagonalizer": true,
+  "gate_count": 30,
+  "multiplicities": [
+    6,
+    3,
+    4,
+    3
+  ],
+  "right_shift_column_permutation": [
+    0,
+    8,
+    1,
+    9,
+    2,
+    10,
+    3,
+    11,
+    4,
+    12,
+    5,
+    13,
+    6,
+    14,
+    7,
+    15
+  ],
+  "root_order": [
+    "1",
+    "i",
+    "-1",
+    "-i"
+  ],
+  "row_eigenvector_failures": [],
+  "row_root_labels": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    3,
+    0,
+    0,
+    1,
+    2,
+    3,
+    2,
+    3,
+    1,
+    2
+  ],
+  "run_id": 412,
+  "runtime_module_paths": {
+    "fractions": "/home/lev/anaconda3/lib/python3.13/fractions.py",
+    "math": "/home/lev/anaconda3/lib/python3.13/lib-dynload/math.cpython-313-x86_64-linux-gnu.so",
+    "python": "/home/lev/anaconda3/bin/python3"
+  },
+  "runtime_versions": {
+    "python": "3.13.9"
+  },
+  "script_sha256": "f0c9c05f872139937e1f9fd5ad22006033ec1d3f7e3467788f4d1199b4b6eb09",
+  "seconds": 0.1763960880052764,
+  "status": "completed",
+  "thread_environment": {
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "unitarity_failures": [],
+  "unitary_sha256": "fbb007935825221f250efc5d86fb0dd3db1e438f92706ef7eac0ae457a81e965"
+}

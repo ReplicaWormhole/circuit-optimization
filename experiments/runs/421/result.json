@@ -1,0 +1,142 @@
+{
+  "both_best_endpoints_invalid": true,
+  "case_count": 2,
+  "config_sha256": "b85d3eb2ec429cfb5d050ec18196b20bfe10601735c5c68bfe7f487dd5767516",
+  "dependency_sha256": {
+    "numpy_init": "93924ac4b793328947dfd9eb9355e54eccdfd26a92c8dd52188aed2e52c7eb38",
+    "numpy_multiarray": "36aaa2e181f47ba7a7a9ea9dd37f293e99cf289286f86250da3710e5b1430745",
+    "python": "cb945b5ff988d263208e8daaf52499f0871e0bfd3b803ae09a5087ef9e5d8316",
+    "scipy_expm_core": "0a803805793b96e6137cb7ec9da9e84e29f1e3156f3f6b34b3d01ae4c8ae084c",
+    "scipy_expm_source": "9188c381bc9f79fa9ea29fc2d7c702d81f6439b6cb3a9bf9d7f6e99dd009a862",
+    "scipy_init": "a72412a5c62442876e073a01da1910c84b7214d1382380b71a873b470420dd68",
+    "threadpoolctl": "f07b9a0efe634d128c829b57ae5a8ccf14ac4b236203bbbd6dc6fce2c99b55a3"
+  },
+  "evidence_scope": "Finite savedendpoint validation only; no optimizer,AD,recognition,exactcertificate,exclusion or incumbentchange.",
+  "fit_noise_normal_draw_count": 264,
+  "input_manifest_sha256": "e951a7ac02c5812266a83cc5e3796b52fc51f5bc005c4545fb1235e4d74ae357",
+  "matrix_build_count": 14,
+  "minimum_loss_case_index": 0,
+  "minimum_loss_differs_minimum_maxoff": true,
+  "minimum_maxoff_case_index": 1,
+  "passed": true,
+  "records": [
+    {
+      "base_initial_best_metrics": [
+        {
+          "eigenvalue_root_error": 1.000299987540963,
+          "loss": 0.8144908421443571,
+          "off_diagonal_error": 0.9612189519756513,
+          "unitarity_error": 2.220446049250313e-15,
+          "valid_diagonalizer": false
+        },
+        {
+          "eigenvalue_root_error": 1.000447115175249,
+          "loss": 0.804009893040949,
+          "off_diagonal_error": 0.9575138831869555,
+          "unitarity_error": 1.5543122344752192e-15,
+          "valid_diagonalizer": false
+        },
+        {
+          "eigenvalue_root_error": 1.2499999999999984,
+          "loss": 0.12500000000000017,
+          "off_diagonal_error": 0.7071067811865467,
+          "unitarity_error": 1.7763568394002505e-15,
+          "valid_diagonalizer": false
+        }
+      ],
+      "case_index": 0,
+      "diagnostic_errors": {
+        "base_eigenvalue_root_error": 0.0,
+        "base_off_diagonal_error": 8.881784197001252e-16,
+        "base_unitarity_error": 1.2212453270876722e-15,
+        "best_eigenvalue_root_error": 1.5543122344752192e-15,
+        "best_off_diagonal_error": 8.881784197001252e-16,
+        "best_unitarity_error": 1.2212453270876722e-15,
+        "initial_eigenvalue_root_error": 0.0,
+        "initial_off_diagonal_error": 9.992007221626409e-16,
+        "initial_unitarity_error": 6.661338147750939e-16
+      },
+      "evaluations": 70,
+      "iterations": 63,
+      "loss_errors": {
+        "base": 6.661338147750939e-16,
+        "best": 3.0531133177191805e-16,
+        "initial": 3.3306690738754696e-16
+      },
+      "matrix_phase_errors": {
+        "base_serializer": 9.550751645343964e-16,
+        "best_serializer": 1.0214089537861736e-15,
+        "initial_serializer": 8.95090418262362e-16,
+        "literal_to_base": 9.627074516631455e-16
+      },
+      "noise_sigma": 0.025,
+      "passed": true,
+      "termination": "optimizer_returned: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "base_initial_best_metrics": [
+        {
+          "eigenvalue_root_error": 1.000299987540963,
+          "loss": 0.8144908421443571,
+          "off_diagonal_error": 0.9612189519756513,
+          "unitarity_error": 2.220446049250313e-15,
+          "valid_diagonalizer": false
+        },
+        {
+          "eigenvalue_root_error": 1.0123075425515256,
+          "loss": 0.8919066054116253,
+          "off_diagonal_error": 0.6165618158435583,
+          "unitarity_error": 1.2212453270876722e-15,
+          "valid_diagonalizer": false
+        },
+        {
+          "eigenvalue_root_error": 0.9508574626711572,
+          "loss": 0.26277605450650976,
+          "off_diagonal_error": 0.6361033566248391,
+          "unitarity_error": 1.5543122344752192e-15,
+          "valid_diagonalizer": false
+        }
+      ],
+      "case_index": 1,
+      "diagnostic_errors": {
+        "base_eigenvalue_root_error": 0.0,
+        "base_off_diagonal_error": 8.881784197001252e-16,
+        "base_unitarity_error": 1.2212453270876722e-15,
+        "best_eigenvalue_root_error": 3.3306690738754696e-16,
+        "best_off_diagonal_error": 2.220446049250313e-16,
+        "best_unitarity_error": 8.113643748905901e-16,
+        "initial_eigenvalue_root_error": 0.0,
+        "initial_off_diagonal_error": 5.551115123125783e-16,
+        "initial_unitarity_error": 1.1102230246251565e-16
+      },
+      "evaluations": 82,
+      "iterations": 73,
+      "loss_errors": {
+        "base": 6.661338147750939e-16,
+        "best": 1.6653345369377348e-16,
+        "initial": 2.220446049250313e-16
+      },
+      "matrix_phase_errors": {
+        "base_serializer": 9.550751645343964e-16,
+        "best_serializer": 9.155133597044475e-16,
+        "initial_serializer": 8.082545620880531e-16,
+        "literal_to_base": 9.627074516631455e-16
+      },
+      "noise_sigma": 0.25,
+      "passed": true,
+      "termination": "optimizer_returned: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  ],
+  "run_id": 421,
+  "runtime_versions": {
+    "numpy": "2.3.5",
+    "python": "3.13.9",
+    "scipy": "1.16.3",
+    "threadpoolctl": "3.5.0"
+  },
+  "script_sha256": "fe6bb105167414710df9b68226a4bb2047fdd2c25697cc603fa560e7179f5b9b",
+  "seconds": 0.17378618798102252,
+  "source_run": 420,
+  "source_total_evaluations": 152,
+  "source_total_iterations": 136
+}

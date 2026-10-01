@@ -1,0 +1,1 @@
+{"cx_count": 12, "exact_unitarity": true, "exact_valid_diagonalizer": true, "multiplicities": [6, 3, 4, 3], "row_root_labels": [0, 0, 0, 2, 0, 1, 3, 0, 2, 1, 0, 3, 2, 3, 1, 2], "run_id": 407, "seconds": 0.1980706820031628}

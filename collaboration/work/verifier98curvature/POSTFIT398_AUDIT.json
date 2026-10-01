@@ -1,0 +1,194 @@
+{
+  "run_id": 398,
+  "board_hypothesis_id": 96,
+  "diagnostic_sha256": "5e67087e57f9b7d3a8915ac41339db7877b22df958a1c60e67896456cac9b086",
+  "config_sha256": "a5e6ecbf165e548321c5b178edb0c4d2941cfa72dfbce2179fd89b95acaeae13",
+  "result_sha256": "8ff1a48ab94146837f3756eb86e36bad87fc9dd2a0bbc78748371eddb651d1c2",
+  "run396_parent_result_sha256": "bf7a4d1d32f3f26c53f353f729a2e35f72a6c636ac106800cb709c7087c286a4",
+  "point_sha256_f64le": "d98c9c14ca11d83a31f6682a5b742c9ab45ee2bbe5041ec9d0d98934cc7c1c49",
+  "independent_objective": {
+    "labels_by_row_real_imag": [
+      [
+        -0.0,
+        -1.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        -1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        -1.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        -0.0,
+        -1.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        -1.0,
+        0.0
+      ]
+    ],
+    "assignment_rows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "assignment_columns": [
+      13,
+      0,
+      10,
+      6,
+      1,
+      2,
+      3,
+      7,
+      11,
+      8,
+      14,
+      4,
+      15,
+      5,
+      12,
+      9
+    ],
+    "label_residual_direct": 0.1464466094067264,
+    "label_residual_conjugated": 0.1464466094067265,
+    "raw_assignment_cost_normalized": 0.14644660940672655,
+    "original_offdiagonal_loss": 0.13572330470336316,
+    "original_offdiagonal_max": 0.35355339341816655,
+    "identity_abs_difference": 8.326672684688674e-17,
+    "cost_abs_difference": 1.3877787807814457e-16,
+    "raw_cost_sha256_f64le": "b31de4a993644854b7ca7f5091590e5fc36647d07cb6843c7e13739e0a4df7e7"
+  },
+  "gate_list": {
+    "native_sha256": "8d09e6c2dbb6556ea8cc78b2b975e77fe674c7f7288061519a7d2bb0e3ebbc6f",
+    "compiled_sha256": "a35ff4773ac42f89272ae8c2c4d86d87b12cb77d9401bcbb02825d802f30fd75",
+    "matrix_errors_up_to_phase": {
+      "coordinate_native": 1.0007415106216803e-15,
+      "native_compiled": 4.910462595695867e-16
+    },
+    "unitarity_max_errors": {
+      "native": 6.661338147750939e-16,
+      "compiled": 7.771561172376096e-16
+    },
+    "counts": {
+      "native_cx": 4,
+      "native_xx_yy": 4,
+      "compiled_cx": 12
+    },
+    "checker_valid": false
+  },
+  "assignment_gap": {
+    "base_cost": 0.14644660940672663,
+    "saved_gap": 0.2133883472436626,
+    "checked_16_row_ban_feasible_costs": [
+      0.3598349567913682,
+      0.3598349567121263,
+      0.35983495665038895,
+      0.3598349567913682,
+      0.3781407830957966,
+      0.3781407830957965,
+      0.3781407830957966,
+      0.37814078306492793,
+      0.3598349567913682,
+      0.35983495665038895,
+      0.3598349567121263,
+      0.3598349567913682,
+      0.37814078302305587,
+      0.3781407830957966,
+      0.3781407829921872,
+      0.37814078306492793
+    ],
+    "computed_gap_from_saved_costs": 0.21338834724366232,
+    "independent_hungarian_reoptimization_per_ban": "not performed; outside frozen 17-assignment budget"
+  },
+  "eigensystems": [
+    {
+      "name": "offdiagonal",
+      "loss": 0.1357233047033634,
+      "gradient_norm": 1.7761200872361526e-08,
+      "hessian_symmetry_max": 4.440892098500626e-16,
+      "eigenvalue_recompute_max_error": 6.661338147750939e-15,
+      "eigenvector_column_orthogonality_max_error": 2.55351295663786e-15,
+      "max_eigenpair_residual": 5.1332970615709815e-15,
+      "least_eigenvalue": -1.4609760401967298e-09,
+      "least_eigenpair_residual_independent": 1.3254416664854247e-15,
+      "negative_trigger": false,
+      "canonical_sign_violations": 0
+    },
+    {
+      "name": "fixed_label_branch",
+      "loss": 0.1464466094067266,
+      "gradient_norm": 1.9163996513043953e-08,
+      "hessian_symmetry_max": 4.440892098500626e-16,
+      "eigenvalue_recompute_max_error": 5.329070518200751e-15,
+      "eigenvector_column_orthogonality_max_error": 2.3314683517128287e-15,
+      "max_eigenpair_residual": 7.262939059440224e-15,
+      "least_eigenvalue": -1.5584236708767112e-09,
+      "least_eigenpair_residual_independent": 7.776064976744464e-16,
+      "negative_trigger": false,
+      "canonical_sign_violations": 0
+    }
+  ],
+  "termination": "all_diagnostics_finished",
+  "elapsed_seconds": 4.838967788993614,
+  "scope": "Read-only output integrity/eigenpair audit; no AD/full-Hessian calculation, optimizer, finite differences, or new assignment solves"
+}

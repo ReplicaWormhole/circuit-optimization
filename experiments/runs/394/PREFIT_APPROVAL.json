@@ -1,0 +1,366 @@
+{
+  "batch_script_sha256": "c8e57295372068ad9ac01535c337d831c49bda0fdc64fcaf5ea31e1285cb7bcd",
+  "config_sha256": "cc6334176092ff9fd128aa1bb7710a064d297f74f07eb8ef8007204ffb8e3481",
+  "seeds": [
+    9261600,
+    9261601,
+    9261602,
+    9261603,
+    9261604,
+    9261605,
+    9261606,
+    9261607,
+    9261608,
+    9261609,
+    9261610,
+    9261611,
+    9261612,
+    9261613,
+    9261614,
+    9261615,
+    9261616,
+    9261617,
+    9261618,
+    9261619,
+    9261620,
+    9261621,
+    9261622,
+    9261623,
+    9261624,
+    9261625,
+    9261626,
+    9261627,
+    9261628,
+    9261629,
+    9261630,
+    9261631
+  ],
+  "sigma_by_seed": {
+    "9261600": 0.3,
+    "9261601": 1.0,
+    "9261602": 2.0,
+    "9261603": 3.0,
+    "9261604": 0.3,
+    "9261605": 1.0,
+    "9261606": 2.0,
+    "9261607": 3.0,
+    "9261608": 0.3,
+    "9261609": 1.0,
+    "9261610": 2.0,
+    "9261611": 3.0,
+    "9261612": 0.3,
+    "9261613": 1.0,
+    "9261614": 2.0,
+    "9261615": 3.0,
+    "9261616": 0.3,
+    "9261617": 1.0,
+    "9261618": 2.0,
+    "9261619": 3.0,
+    "9261620": 0.3,
+    "9261621": 1.0,
+    "9261622": 2.0,
+    "9261623": 3.0,
+    "9261624": 0.3,
+    "9261625": 1.0,
+    "9261626": 2.0,
+    "9261627": 3.0,
+    "9261628": 0.3,
+    "9261629": 1.0,
+    "9261630": 2.0,
+    "9261631": 3.0
+  },
+  "sampling_rule": "default_rng(seed): normal(0,sigma,90), then uniform(-pi/2,pi/2,8)",
+  "limits": {
+    "maxiter": 800,
+    "maxfun": 20000,
+    "internal_seconds": 285,
+    "external_seconds": 300,
+    "threads": 1,
+    "nearhit_loss": 1e-16
+  },
+  "family_module": "collaboration/work/numerical98/hessian98.py",
+  "prefit_starts": [
+    {
+      "seed": 9261600,
+      "sigma": 0.3,
+      "initial_vector_sha256_f64le": "e156b482dd26a840de359e93b5f0501f4928b63e9e91d87aa973bcffe023358c",
+      "A1_norm": 0.3880427166513661,
+      "B1_norm": 0.47661900913266125,
+      "native_cx_count": 4,
+      "native_xx_yy_count": 4,
+      "compiled_cx_count": 12,
+      "coordinate_vs_native_matrix_error_up_to_phase": 6.004449063730082e-16,
+      "native_vs_compiled_matrix_error_up_to_phase": 7.447602459741819e-16,
+      "native_unitarity_max_error": 8.881784197001252e-16
+    },
+    {
+      "seed": 9261601,
+      "sigma": 1.0,
+      "initial_vector_sha256_f64le": "14a75b492ad84102b58bda62118c610b32e54f0dc7be05b43568f61a3b939712",
+      "A1_norm": 1.1109137934476412,
+      "B1_norm": 1.302784545738106,
+      "native_cx_count": 4,
+      "native_xx_yy_count": 4,
+      "compiled_cx_count": 12,
+      "coordinate_vs_native_matrix_error_up_to_phase": 6.479604369685061e-16,
+      "native_vs_compiled_matrix_error_up_to_phase": 4.109793864937274e-16,
+      "native_unitarity_max_error": 1.5543122344752192e-15
+    },
+    {
+      "seed": 9261602,
+      "sigma": 2.0,
+      "initial_vector_sha256_f64le": "9e947ab783848335df80c79e3fed9eae70722f8d5b6e7eb703f45ae73aa93550",
+      "A1_norm": 2.5496723450138954,
+      "B1_norm": 2.55311555426532,
+      "native_cx_count": 4,
+      "native_xx_yy_count": 4,
+      "compiled_cx_count": 12,
+      "coordinate_vs_native_matrix_error_up_to_phase": 1.0329400704738531e-15,
+      "native_vs_compiled_matrix_error_up_to_phase": 3.9448084808579573e-16,
+      "native_unitarity_max_error": 8.881784197001252e-16
+    },
+    {
+      "seed": 9261603,
+      "sigma": 3.0,
+      "initial_vector_sha256_f64le": "166733a94b33f9c55156d50955f5697e2f597575180449a2a0231cd7ef51df00",
+      "A1_norm": 4.0403177014936915,
+      "B1_norm": 7.158986388680231,
+      "native_cx_count": 4,
+      "native_xx_yy_count": 4,
+      "compiled_cx_count": 12,
+      "coordinate_vs_native_matrix_error_up_to_phase": 8.593659722361818e-16,
+      "native_vs_compiled_matrix_error_up_to_phase": 6.473657049138937e-16,
+      "native_unitarity_max_error": 6.661338147750939e-16
+    }
+  ],
+  "all_32_initial_points_reproducible": true,
+  "all_32_initial_point_hashes_and_interior_norms": [
+    {
+      "seed": 9261600,
+      "sigma": 0.3,
+      "initial_vector_sha256_f64le": "e156b482dd26a840de359e93b5f0501f4928b63e9e91d87aa973bcffe023358c",
+      "A1_norm": 0.3880427166513661,
+      "B1_norm": 0.47661900913266125
+    },
+    {
+      "seed": 9261601,
+      "sigma": 1.0,
+      "initial_vector_sha256_f64le": "14a75b492ad84102b58bda62118c610b32e54f0dc7be05b43568f61a3b939712",
+      "A1_norm": 1.1109137934476412,
+      "B1_norm": 1.302784545738106
+    },
+    {
+      "seed": 9261602,
+      "sigma": 2.0,
+      "initial_vector_sha256_f64le": "9e947ab783848335df80c79e3fed9eae70722f8d5b6e7eb703f45ae73aa93550",
+      "A1_norm": 2.5496723450138954,
+      "B1_norm": 2.55311555426532
+    },
+    {
+      "seed": 9261603,
+      "sigma": 3.0,
+      "initial_vector_sha256_f64le": "166733a94b33f9c55156d50955f5697e2f597575180449a2a0231cd7ef51df00",
+      "A1_norm": 4.0403177014936915,
+      "B1_norm": 7.158986388680231
+    },
+    {
+      "seed": 9261604,
+      "sigma": 0.3,
+      "initial_vector_sha256_f64le": "7e0c2d1a364aa1099b15903b47b3d266c9714515f16807924f0552cfd6eb6aab",
+      "A1_norm": 0.31223067840908875,
+      "B1_norm": 0.26049625521834524
+    },
+    {
+      "seed": 9261605,
+      "sigma": 1.0,
+      "initial_vector_sha256_f64le": "20dc380e429148017ba553d6363f218eaf7b3fcf4c4afc098a0be08cdbd999f2",
+      "A1_norm": 2.567355146243815,
+      "B1_norm": 0.9184672100127631
+    },
+    {
+      "seed": 9261606,
+      "sigma": 2.0,
+      "initial_vector_sha256_f64le": "b1b03c9bd1e6199c5338112a7d1fa82cdbd80b124cb621e2f13cfd7e868490bc",
+      "A1_norm": 1.9919098208232393,
+      "B1_norm": 3.303995970095404
+    },
+    {
+      "seed": 9261607,
+      "sigma": 3.0,
+      "initial_vector_sha256_f64le": "654da0819f96a746a97695d14df0f3e41650409992b5627c55f72a2e2cd59745",
+      "A1_norm": 5.59092579925575,
+      "B1_norm": 3.2765485896896895
+    },
+    {
+      "seed": 9261608,
+      "sigma": 0.3,
+      "initial_vector_sha256_f64le": "fe054b13c7fca3326ff024c34e6475733a367a5ac65bfc75925c60cc8ab79381",
+      "A1_norm": 0.9073537032598404,
+      "B1_norm": 0.23756800950660253
+    },
+    {
+      "seed": 9261609,
+      "sigma": 1.0,
+      "initial_vector_sha256_f64le": "dfc147c675ae396a25c39781a7dfbdf8148fd3ea572ffb31a72a68abf546b957",
+      "A1_norm": 2.190481278659366,
+      "B1_norm": 2.795477501189452
+    },
+    {
+      "seed": 9261610,
+      "sigma": 2.0,
+      "initial_vector_sha256_f64le": "dac4d9d38aad4d4534f8b4de684fa6a45c0187afd8b2dfb81a33e1c3135291bc",
+      "A1_norm": 4.666128118080463,
+      "B1_norm": 0.24248711286837132
+    },
+    {
+      "seed": 9261611,
+      "sigma": 3.0,
+      "initial_vector_sha256_f64le": "b7736c3abf9f30731afeeed51a3b0e52462bd38bbd8ebbc54859e051dd8b30f1",
+      "A1_norm": 2.021746237599158,
+      "B1_norm": 1.5112267899450242
+    },
+    {
+      "seed": 9261612,
+      "sigma": 0.3,
+      "initial_vector_sha256_f64le": "814c1a9410ff312412fe12840ed8ba00d6b4dd919568c1021e2b01d0c5327bf3",
+      "A1_norm": 0.5968024498536767,
+      "B1_norm": 0.6612131683932011
+    },
+    {
+      "seed": 9261613,
+      "sigma": 1.0,
+      "initial_vector_sha256_f64le": "b5d33c19c24509a85f8e46cdea55b379b23d2f8ca5ced2567dcce18d16e559c5",
+      "A1_norm": 1.1206070870000981,
+      "B1_norm": 3.204344989070054
+    },
+    {
+      "seed": 9261614,
+      "sigma": 2.0,
+      "initial_vector_sha256_f64le": "23776ee9960a8845b68c292d152e446ff50d8ee86281037a9b39498ba0e3d0f8",
+      "A1_norm": 2.3742925641608577,
+      "B1_norm": 3.9783736403680634
+    },
+    {
+      "seed": 9261615,
+      "sigma": 3.0,
+      "initial_vector_sha256_f64le": "baaecf9a3c9806a4aa2c547e15e6536e7dbe057864cd83e5d41c3bd047cd2d6a",
+      "A1_norm": 3.3087977811018847,
+      "B1_norm": 2.6568337597462355
+    },
+    {
+      "seed": 9261616,
+      "sigma": 0.3,
+      "initial_vector_sha256_f64le": "a1057b7d8b25fa5991ce45ed266c44ad590bc225ae07912aac1070ba2e413828",
+      "A1_norm": 0.5501449633949607,
+      "B1_norm": 0.717080609087475
+    },
+    {
+      "seed": 9261617,
+      "sigma": 1.0,
+      "initial_vector_sha256_f64le": "72963993a6e4701704554994fce3be9fdce17439caa782757ea6ce88ab2cd3a6",
+      "A1_norm": 0.7065735265948706,
+      "B1_norm": 1.422437790805055
+    },
+    {
+      "seed": 9261618,
+      "sigma": 2.0,
+      "initial_vector_sha256_f64le": "315ca4686ddddde94bbcca468d66cc3dba4b9bf2fc96d8bff11228534905ced4",
+      "A1_norm": 4.553625161882292,
+      "B1_norm": 1.5255356482402107
+    },
+    {
+      "seed": 9261619,
+      "sigma": 3.0,
+      "initial_vector_sha256_f64le": "733f2a2bbdc13e0d89b88725b232934e52064c2411086d703d5b3cefe0b3a7dc",
+      "A1_norm": 4.766341353245193,
+      "B1_norm": 6.553854851656511
+    },
+    {
+      "seed": 9261620,
+      "sigma": 0.3,
+      "initial_vector_sha256_f64le": "73a41ca9f468743bad4df73f3b0715ebc8384a3629d345c40c25c1ee8e6d46a2",
+      "A1_norm": 0.38225074445322066,
+      "B1_norm": 0.4460114717521116
+    },
+    {
+      "seed": 9261621,
+      "sigma": 1.0,
+      "initial_vector_sha256_f64le": "70597b3004289d99340041d74ee749e5dab2b409a0be3aa08700c307cbe02a58",
+      "A1_norm": 0.9665381170340607,
+      "B1_norm": 0.8138409003892827
+    },
+    {
+      "seed": 9261622,
+      "sigma": 2.0,
+      "initial_vector_sha256_f64le": "e5a604324aa74251bdaadafac18fba8e9ff0bb03c59101ef4ce739a219b8784c",
+      "A1_norm": 1.838132420149576,
+      "B1_norm": 3.452798042454708
+    },
+    {
+      "seed": 9261623,
+      "sigma": 3.0,
+      "initial_vector_sha256_f64le": "d26e2ca3870b24dba0e64f3935abef95ed524a2845b77ecafe1bcbb05d8b5ddc",
+      "A1_norm": 6.859397745971147,
+      "B1_norm": 7.22059992215839
+    },
+    {
+      "seed": 9261624,
+      "sigma": 0.3,
+      "initial_vector_sha256_f64le": "31e6632f91d92eefe6ed0f5f4475b24d3833da9cfa766122fe486a9466e049da",
+      "A1_norm": 0.3856243675435467,
+      "B1_norm": 0.16896303381857727
+    },
+    {
+      "seed": 9261625,
+      "sigma": 1.0,
+      "initial_vector_sha256_f64le": "a108a7ef0aa0f66dd1ceb6c2d9d374e00302ea8bdc205c76cc9357a2c395b653",
+      "A1_norm": 0.7194655770676142,
+      "B1_norm": 1.151643069408185
+    },
+    {
+      "seed": 9261626,
+      "sigma": 2.0,
+      "initial_vector_sha256_f64le": "5d4d777c5623c4ceadb2c96cb9fb39d7c8dfaf1f4c1301e755278963a03ee074",
+      "A1_norm": 1.2289665274740917,
+      "B1_norm": 0.9622780532109113
+    },
+    {
+      "seed": 9261627,
+      "sigma": 3.0,
+      "initial_vector_sha256_f64le": "c59c89be4798c20f7366645fd28ae9de0eb9641969043d0f337b2b847cbed397",
+      "A1_norm": 2.2287518378760387,
+      "B1_norm": 4.6743052436132535
+    },
+    {
+      "seed": 9261628,
+      "sigma": 0.3,
+      "initial_vector_sha256_f64le": "252951348164490f90252afcc451f802ebcc4200f3d4e601c8f79bbaec72139f",
+      "A1_norm": 0.2720259306404838,
+      "B1_norm": 0.5900176433591909
+    },
+    {
+      "seed": 9261629,
+      "sigma": 1.0,
+      "initial_vector_sha256_f64le": "109cac6b2b93346651623f62cf8108156c85d7a081f795de58a51bc46ceb9d17",
+      "A1_norm": 1.8155838514743952,
+      "B1_norm": 1.0840732703214837
+    },
+    {
+      "seed": 9261630,
+      "sigma": 2.0,
+      "initial_vector_sha256_f64le": "2e5c30cd5eb80b2a43e904b29cd126078ba2ad0f739656fe5d2724a6e4002d24",
+      "A1_norm": 2.5158330404717177,
+      "B1_norm": 4.112864123044503
+    },
+    {
+      "seed": 9261631,
+      "sigma": 3.0,
+      "initial_vector_sha256_f64le": "5eb6bbd3b56d297c7faad98b972c13a524cb374f356a94d8b9001623035b5e59",
+      "A1_norm": 7.101270996148992,
+      "B1_norm": 5.649975520797593
+    }
+  ],
+  "dense_matrix_checks": "one seed per each of four sigma scales",
+  "scope": "32 deterministic initial points and serialization checks only; no objective, fit, derivative, or perturbation",
+  "auditor_script_sha256": "8ac526ba36c6fb987eff5c1f957edb309de70b5c08b0475a084df26766373825"
+}

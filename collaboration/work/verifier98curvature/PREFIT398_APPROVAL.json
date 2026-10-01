@@ -1,0 +1,37 @@
+{
+  "run_id": 398,
+  "board_hypothesis_id": 98,
+  "diagnostic_sha256": "5e67087e57f9b7d3a8915ac41339db7877b22df958a1c60e67896456cac9b086",
+  "config_sha256": "a5e6ecbf165e548321c5b178edb0c4d2941cfa72dfbce2179fd89b95acaeae13",
+  "parent_run396_result_sha256": "bf7a4d1d32f3f26c53f353f729a2e35f72a6c636ac106800cb709c7087c286a4",
+  "point_preflight_sha256": "9ac0678de91ca3eeed3ab799a1a1267ed96cf498302259e4694f442338c9e7f4",
+  "point_f64le_sha256": "d98c9c14ca11d83a31f6682a5b742c9ab45ee2bbe5041ec9d0d98934cc7c1c49",
+  "seed": 9261703,
+  "source_hashes_and_dependencies_match": true,
+  "branch_definition_review": {
+    "same_98_vector_and_chart": true,
+    "fixed_D_from_frozen_assignment": true,
+    "all_same_root_slots_banned_per_row": true,
+    "base_plus_16_assignment_alternatives": true,
+    "offdiagonal_and_fixed_label_branch": true,
+    "hessian_rows_are_manual_second_derivatives": true,
+    "eigenvectors_stored_as_columns_and_sign_canonicalized": true
+  },
+  "timeout_repair_review": {
+    "assignment_and_hessian_loops_inside_shared_catch": true,
+    "budget_checked_before_each_hessian_row": true,
+    "partial_rows_retained": true,
+    "base_lists_serialized_after_catch": true
+  },
+  "budget": {
+    "max_hessians": 2,
+    "max_first_gradients": 2,
+    "max_second_derivative_rows": 196,
+    "max_assignments": 17,
+    "internal_seconds": 110,
+    "external_seconds": 120,
+    "threads": 1
+  },
+  "scope": "hash/point/source preflight only; no objective, matrix, assignment gap, gradient, or Hessian evaluation",
+  "preflight_script_sha256": "0549628297680514260553d837a85a1f707b6226434f0b5f75bacbf4679d62d9"
+}

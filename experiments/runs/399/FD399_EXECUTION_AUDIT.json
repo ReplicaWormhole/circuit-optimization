@@ -1,0 +1,19 @@
+{
+  "run_id": 399,
+  "board_hypothesis_id": 101,
+  "command": "timeout --signal=TERM --kill-after=5s 30s env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 python3 experiments/runs/399/fd_check.py > experiments/runs/399/stdout.txt 2> experiments/runs/399/stderr.txt",
+  "exit_code": 1,
+  "termination": "frozen_source_hash_guard_failed_before_matrix_evaluation",
+  "matrix_evaluation_count": 0,
+  "fd_result_created": false,
+  "script_sha256": "9d7926acf863d64c4f405db04f9a4e437390d2f5ba1842d080a10e92afe70816",
+  "manifest_sha256": "ae2acd12cbcf4d374c8556e8e406f635b660178854819d29aac3e29563db9c9f",
+  "runtime_config_sha256": "f8a958aa44274ae2c02f1e52d2a70b46165fee27d3a18e3b0956abd34d88d8b0",
+  "guard_mismatch": {
+    "source": "collaboration/work/verifier98curvature/PREFIT_POINT_AUDIT.json",
+    "expected_sha256": "9ac0678de91ca3eeed3ab799a1a1267ed96cf498302259e4694f442338c9e7f4",
+    "actual_sha256": "6a992a55d733e1b43be2c9adbaf8a2125e98f48a9b7ef8842f9022ccd677750a"
+  },
+  "stderr": "frozen FD source changed: collaboration/work/verifier98curvature/PREFIT_POINT_AUDIT.json",
+  "scope": "No finite-difference values, matrix evaluations, AD derivatives, Hessians, assignment solves, optimizer, or reruns. Frozen run399 was not retried."
+}

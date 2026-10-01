@@ -11,8 +11,10 @@ and tracking remain intact; run Git commands from this directory.
 ## Important paths
 
 - Verification: `check_circuit.py`, `exact_check.py`, `delete14_integer_audit.py`.
-- CX incumbent: `collaboration/work/algebraic13_new/canonical_algebraic_ansatz.json`,
-  accepted in `collaboration/EXACT13_ACCEPTANCE.json`. Preserve the exact14
+- CX incumbent: `experiments/runs/411/candidate.json`, accepted in
+  `collaboration/EXACT11_ACCEPTANCE.json`. Preserve the exact12 gate list and
+  `collaboration/EXACT12_ACCEPTANCE.json`. Preserve the exact13 gate list and
+  `collaboration/EXACT13_ACCEPTANCE.json`. Preserve the exact14
   baseline `topology14_exact_matchgate_rational.json` and its derivation.
 - Scientific attempt ledger: `experiments.sqlite3`, managed by `experiment_log.py`.
 - Collaboration: `collaboration_board.py`, `collaboration/board.sqlite3`.

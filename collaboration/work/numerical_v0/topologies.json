@@ -1,0 +1,61 @@
+{
+  "full_bare_cx_edges": [
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      2
+    ]
+  ],
+  "full_bare_cx_placement": [
+    "after first new xy CX, before local layer1",
+    "at end after local layer4"
+  ],
+  "full_cx_count": 10,
+  "full_prefix_cx_count": 4,
+  "n": 3,
+  "new_topology": [
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "old_topology": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "rule": "swap old CX ordinals1 and2; transplant all five x/y local layers unchanged; u locals remain identity",
+  "wire_order": [
+    "x",
+    "u",
+    "y"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "run_id": 403,
+  "board_hypothesis_id": 103,
+  "command": "timeout --signal=TERM --kill-after=5s 30s env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1 python3 experiments/runs/403/preflight.py > experiments/runs/403/stdout.txt 2> experiments/runs/403/stderr.txt",
+  "exit_code": 1,
+  "observed_wall_seconds": 1.004407,
+  "external_timeout_seconds": 30,
+  "threads": 1,
+  "checker_sha256": "9422a752053361ede634b2dde88933def820c7525957724412684e33975cca92",
+  "config_sha256": "4cb144f1b4046a5e2138460127baf2c4a1d1bc011ae21174988ca82de6dc9432",
+  "termination": "runtime_version_guard_before_any_point_or_matrix",
+  "stderr": "pinned NumPy/SciPy/Torch runtime differs\n",
+  "frozen_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "torch": "2.11.0"
+  },
+  "runtime_module_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "torch": "2.11.0+cu130"
+  },
+  "version_metadata_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "torch": "2.11.0"
+  },
+  "coordinate_point_count": 0,
+  "full_family_matrix_builds": 0,
+  "serialized_gate_list_matrix_builds": 0,
+  "prefix_direct_decoder_matrix_builds": 0,
+  "preflight_result_created": false,
+  "source_inputs_edited": false,
+  "scope": "One authorized invocation only. Version check is before expected_base, RNG generation and matrix loop. No retry or fit."
+}

@@ -1,0 +1,29 @@
+{
+  "board_id": 154,
+  "config_sha256": "b85d3eb2ec429cfb5d050ec18196b20bfe10601735c5c68bfe7f487dd5767516",
+  "dependency_sha256": {
+    "numpy_init": "93924ac4b793328947dfd9eb9355e54eccdfd26a92c8dd52188aed2e52c7eb38",
+    "numpy_multiarray": "36aaa2e181f47ba7a7a9ea9dd37f293e99cf289286f86250da3710e5b1430745",
+    "python": "cb945b5ff988d263208e8daaf52499f0871e0bfd3b803ae09a5087ef9e5d8316",
+    "scipy_expm_core": "0a803805793b96e6137cb7ec9da9e84e29f1e3156f3f6b34b3d01ae4c8ae084c",
+    "scipy_expm_source": "9188c381bc9f79fa9ea29fc2d7c702d81f6439b6cb3a9bf9d7f6e99dd009a862",
+    "scipy_init": "a72412a5c62442876e073a01da1910c84b7214d1382380b71a873b470420dd68",
+    "threadpoolctl": "f07b9a0efe634d128c829b57ae5a8ccf14ac4b236203bbbd6dc6fce2c99b55a3"
+  },
+  "input_file_count": 43,
+  "input_manifest_sha256": "e951a7ac02c5812266a83cc5e3796b52fc51f5bc005c4545fb1235e4d74ae357",
+  "matrix_build_count": 14,
+  "owner": "verifier10reorder",
+  "parent_run": 420,
+  "plan_sha256": "bbedfce8ab3db6f2f6e60024b3188819a54522499da0810fdcb92f8e2f0fa3b9",
+  "preparation_matrix_calls": 0,
+  "preparation_random_draws": 0,
+  "runtime_versions": {
+    "numpy": "2.3.5",
+    "python": "3.13.9",
+    "scipy": "1.16.3",
+    "threadpoolctl": "3.5.0"
+  },
+  "script_sha256": "fe6bb105167414710df9b68226a4bb2047fdd2c25697cc603fa560e7179f5b9b",
+  "target": "V4"
+}

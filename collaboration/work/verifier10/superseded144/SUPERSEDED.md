@@ -1,0 +1,1 @@
+Board144/run414 preflight failed the ledger target guard before execution marker, RNG, matrices or AD. The actual CLI target is V4, not the historical cycle string. This is unexecuted metadata, superseded by fresh145 at the same finite121U/60s scope.

@@ -1,0 +1,30 @@
+{
+  "board_id": 146,
+  "board_owner": "verifier10",
+  "config_sha256": "8f4826174b8c8ba33ee59bc65bc1ab9d8ca9d30a82d0c75fb767a31104fdf9b8",
+  "dependency_sha256": {
+    "numpy_init": "93924ac4b793328947dfd9eb9355e54eccdfd26a92c8dd52188aed2e52c7eb38",
+    "numpy_multiarray": "36aaa2e181f47ba7a7a9ea9dd37f293e99cf289286f86250da3710e5b1430745",
+    "python": "cb945b5ff988d263208e8daaf52499f0871e0bfd3b803ae09a5087ef9e5d8316",
+    "scipy_expm_core": "0a803805793b96e6137cb7ec9da9e84e29f1e3156f3f6b34b3d01ae4c8ae084c",
+    "scipy_expm_source": "9188c381bc9f79fa9ea29fc2d7c702d81f6439b6cb3a9bf9d7f6e99dd009a862",
+    "scipy_init": "a72412a5c62442876e073a01da1910c84b7214d1382380b71a873b470420dd68",
+    "threadpoolctl": "f07b9a0efe634d128c829b57ae5a8ccf14ac4b236203bbbd6dc6fce2c99b55a3"
+  },
+  "input_file_count": 114,
+  "input_manifest_sha256": "39709f59124458aac1b71af0661bf7a5ae3c4220bf2cc483f650ce9a6b0db2fb",
+  "matrix_build_count": 77,
+  "parent_run": 416,
+  "plan_sha256": "306373c97ba25c79ff840a5aa9b7e81f7addfe6c5d35aa395e31101912cbe313",
+  "preparation_matrix_calls": 0,
+  "preparation_random_draws": 0,
+  "reservation_config_binding": "raw canonical config bytes exactly; method=config.method",
+  "runtime_versions": {
+    "numpy": "2.3.5",
+    "python": "3.13.9",
+    "scipy": "1.16.3",
+    "threadpoolctl": "3.5.0"
+  },
+  "script_sha256": "b5840560f4440eeef1ee283dca3a1cef90e728cad93c6103facbec0b586b7594",
+  "target": "V4"
+}

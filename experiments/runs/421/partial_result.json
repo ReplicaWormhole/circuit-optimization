@@ -1,0 +1,111 @@
+{
+  "matrix_build_count": 14,
+  "records": [
+    {
+      "base_initial_best_metrics": [
+        {
+          "eigenvalue_root_error": 1.000299987540963,
+          "loss": 0.8144908421443571,
+          "off_diagonal_error": 0.9612189519756513,
+          "unitarity_error": 2.220446049250313e-15,
+          "valid_diagonalizer": false
+        },
+        {
+          "eigenvalue_root_error": 1.000447115175249,
+          "loss": 0.804009893040949,
+          "off_diagonal_error": 0.9575138831869555,
+          "unitarity_error": 1.5543122344752192e-15,
+          "valid_diagonalizer": false
+        },
+        {
+          "eigenvalue_root_error": 1.2499999999999984,
+          "loss": 0.12500000000000017,
+          "off_diagonal_error": 0.7071067811865467,
+          "unitarity_error": 1.7763568394002505e-15,
+          "valid_diagonalizer": false
+        }
+      ],
+      "case_index": 0,
+      "diagnostic_errors": {
+        "base_eigenvalue_root_error": 0.0,
+        "base_off_diagonal_error": 8.881784197001252e-16,
+        "base_unitarity_error": 1.2212453270876722e-15,
+        "best_eigenvalue_root_error": 1.5543122344752192e-15,
+        "best_off_diagonal_error": 8.881784197001252e-16,
+        "best_unitarity_error": 1.2212453270876722e-15,
+        "initial_eigenvalue_root_error": 0.0,
+        "initial_off_diagonal_error": 9.992007221626409e-16,
+        "initial_unitarity_error": 6.661338147750939e-16
+      },
+      "evaluations": 70,
+      "iterations": 63,
+      "loss_errors": {
+        "base": 6.661338147750939e-16,
+        "best": 3.0531133177191805e-16,
+        "initial": 3.3306690738754696e-16
+      },
+      "matrix_phase_errors": {
+        "base_serializer": 9.550751645343964e-16,
+        "best_serializer": 1.0214089537861736e-15,
+        "initial_serializer": 8.95090418262362e-16,
+        "literal_to_base": 9.627074516631455e-16
+      },
+      "noise_sigma": 0.025,
+      "passed": true,
+      "termination": "optimizer_returned: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "base_initial_best_metrics": [
+        {
+          "eigenvalue_root_error": 1.000299987540963,
+          "loss": 0.8144908421443571,
+          "off_diagonal_error": 0.9612189519756513,
+          "unitarity_error": 2.220446049250313e-15,
+          "valid_diagonalizer": false
+        },
+        {
+          "eigenvalue_root_error": 1.0123075425515256,
+          "loss": 0.8919066054116253,
+          "off_diagonal_error": 0.6165618158435583,
+          "unitarity_error": 1.2212453270876722e-15,
+          "valid_diagonalizer": false
+        },
+        {
+          "eigenvalue_root_error": 0.9508574626711572,
+          "loss": 0.26277605450650976,
+          "off_diagonal_error": 0.6361033566248391,
+          "unitarity_error": 1.5543122344752192e-15,
+          "valid_diagonalizer": false
+        }
+      ],
+      "case_index": 1,
+      "diagnostic_errors": {
+        "base_eigenvalue_root_error": 0.0,
+        "base_off_diagonal_error": 8.881784197001252e-16,
+        "base_unitarity_error": 1.2212453270876722e-15,
+        "best_eigenvalue_root_error": 3.3306690738754696e-16,
+        "best_off_diagonal_error": 2.220446049250313e-16,
+        "best_unitarity_error": 8.113643748905901e-16,
+        "initial_eigenvalue_root_error": 0.0,
+        "initial_off_diagonal_error": 5.551115123125783e-16,
+        "initial_unitarity_error": 1.1102230246251565e-16
+      },
+      "evaluations": 82,
+      "iterations": 73,
+      "loss_errors": {
+        "base": 6.661338147750939e-16,
+        "best": 1.6653345369377348e-16,
+        "initial": 2.220446049250313e-16
+      },
+      "matrix_phase_errors": {
+        "base_serializer": 9.550751645343964e-16,
+        "best_serializer": 9.155133597044475e-16,
+        "initial_serializer": 8.082545620880531e-16,
+        "literal_to_base": 9.627074516631455e-16
+      },
+      "noise_sigma": 0.25,
+      "passed": true,
+      "termination": "optimizer_returned: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  ]
+}
